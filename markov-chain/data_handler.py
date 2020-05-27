@@ -37,11 +37,11 @@ class DataHandler:
     def get_all_component_failure_pairs(self) -> List[Tuple]:
         return self.component_failure_pairs
 
-    def get_sample_component_failure_pairs(self, sample_size: int) -> List[Tuple]:
+    def get_sample_component_failure_pairs(self, sample_size: int) -> Tuple[Tuple]:
         if sample_size > len(self.component_failure_pairs):
             print('Error: Sample size exceeds number of (component, failure) pairs.')
         else:
-            return random.sample(self.component_failure_pairs, sample_size)
+            return tuple(random.sample(self.component_failure_pairs, sample_size))
 
     def get_reward(self, component_failure_pair: Tuple) -> float:
         component = component_failure_pair[0]
