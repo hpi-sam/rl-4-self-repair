@@ -33,7 +33,7 @@ class DataHandler:
         for index, row in self.data.iterrows():
             np.seterr(divide='ignore')  # to turn off divided by zero warning
             untransformed = row['Optimal_Utility_Increase']
-            self.data.loc[index, 'cube'] = np.power(untransformed, (1/3))
+            self.data.loc[index, 'cube'] = np.power(untransformed, (1 / 3))
             self.data.loc[index, 'sqt'] = np.sqrt(untransformed)
             self.data.loc[index, 'log10'] = np.where(untransformed > 0, np.log10(untransformed), 0)
 
@@ -46,11 +46,11 @@ class DataHandler:
     def get_all_component_failure_pairs(self) -> List[Tuple]:
         return self.component_failure_pairs
 
-    def get_sample_component_failure_pairs(self, sample_size: int) -> Tuple[Tuple]:
+    def get_sample_component_failure_pairs(self, sample_size: int) -> List[Tuple]:
         if sample_size > len(self.component_failure_pairs):
             print('Error: Sample size exceeds number of (component, failure) pairs.')
         else:
-            return tuple(random.sample(self.component_failure_pairs, sample_size))
+            return list(random.sample(self.component_failure_pairs, sample_size))
 
     def _get_sample_row(self, component_failure_pair: Tuple) -> pd.DataFrame:
         component = component_failure_pair[0]
@@ -70,9 +70,9 @@ class DataHandler:
 
     def get_reward_log10(self, component_failure_pair: Tuple) -> float:
         return self._get_sample_row(component_failure_pair)['log10'].values[0]
-    
-    def get_repair_failure_rate(self, component_failure_pair: Tuple) -> float:
-        return 0.1 # static failure rate
+
+    def get_repair_failure_probability(self, component_failure_pair: Tuple) -> float:
+        return 0.1  # static failure rate
 
 
 if __name__ == '__main__':
