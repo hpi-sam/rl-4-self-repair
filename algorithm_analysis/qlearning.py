@@ -29,12 +29,8 @@ def run(env, num_states, num_actions, episodes=1000,
             # Explore or exploit the env.
             if random.uniform(0, 1) < explore_rate:
                 action = env.action_space.sample()
-                print(f'Random action: {action}')
             else:
                 action = np.argmax(q_table[state, :])
-                print(f'State: {state}')
-                print(f'Length of action_space for state {state} = : {q_table[state, :]}')
-                print(f'optimal action: {action}')
 
             new_state, reward, done, info = env.step(action)
 
