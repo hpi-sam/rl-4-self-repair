@@ -1,10 +1,11 @@
 import itertools
-import random
-import numpy as np
-import gym
-from gym import spaces
 from typing import Tuple, List, Dict
-from data_handler import DataHandler
+
+import gym
+import numpy as np
+from gym import spaces
+
+from envs.data_handler import DataHandler
 
 DATA_HANDLER = DataHandler()
 
@@ -44,7 +45,7 @@ class BrokenComponentsEnv(gym.Env):
 
         return observation_name_dict
 
-    def reset(self, reward_modus: str = 'raw') -> None:
+    def reset(self, reward_modus: str = 'raw') -> int:
         self.current_state = 0
         self.current_state_name = list(self.observation_space_names[self.current_state])
         self.last_action = None
@@ -52,6 +53,8 @@ class BrokenComponentsEnv(gym.Env):
         self.successful_action = None
         self.steps = 0
         self.reward_modus = reward_modus
+
+        return self.current_state
 
     def step(self, action: int) -> Tuple[int, float, bool, dict]:
         self.steps += 1
