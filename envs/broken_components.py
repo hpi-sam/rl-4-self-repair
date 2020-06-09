@@ -1,8 +1,10 @@
 import itertools
-import numpy as np
-import gym
-from gym import spaces
 from typing import Tuple, List, Dict
+
+import gym
+import numpy as np
+from gym import spaces
+
 from envs.data_handler import DataHandler
 
 DATA_HANDLER = DataHandler()
