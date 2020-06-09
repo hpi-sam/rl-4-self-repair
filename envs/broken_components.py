@@ -1,10 +1,9 @@
 import itertools
-import random
 import numpy as np
 import gym
 from gym import spaces
 from typing import Tuple, List, Dict
-from data_handler import DataHandler
+from envs.data_handler import DataHandler
 
 DATA_HANDLER = DataHandler()
 
