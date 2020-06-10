@@ -5,7 +5,7 @@ import numpy as np
 from scipy import stats
 from typing import Tuple, List
 
-PREPARED_DATA_FILE = '../prepared_data.csv'
+PREPARED_DATA_FILE = 'prepared_data.csv'
 
 
 class DataHandler:
@@ -20,7 +20,7 @@ class DataHandler:
         frames = []
 
         # searching for all csv files in the data directory and loading the data in multiple dataframes
-        for root, dirs, files in os.walk('../data'):
+        for root, dirs, files in os.walk('data'):
             for f in files:
                 if f.endswith(".csv"):
                     file_path = os.path.join(root, f)
