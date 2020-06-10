@@ -30,7 +30,7 @@ class DataHandler:
 
         # combining all df to one df
         self.data = pd.concat(frames, sort=False)[
-            ['Optimal_Affected_Component', 'Optimal_Failure', 'Optimal_Utility_Increase']].rename(columns={'Optimal_Utility_Increase': 'raw'})
+            ['Optimal_Affected_Component', 'Optimal_Affected_Component_Uid', 'Optimal_Failure', 'Optimal_Utility_Increase']].rename(columns={'Optimal_Utility_Increase': 'raw'})
 
         # transform data
         for index, row in self.data.iterrows():
@@ -52,21 +52,21 @@ class DataHandler:
             self.__load_transform_data()
 
     def shift_data(self, data_type: str = 'raq', times: int = 1):
-        mean_values = self.data.groupby(['Optimal_Affected_Component', 'Optimal_Failure'])[data_type].mean().reset_index().sort_values(by=[data_type], ascending=True)
-        stdev_values = self.data.groupby(['Optimal_Affected_Component', 'Optimal_Failure'])[data_type].std().reset_index()
+        mean_values = self.data.groupby(['Optimal_Affected_Component_Uid', 'Optimal_Failure'])[data_type].mean().reset_index().sort_values(by=[data_type], ascending=True)
+        stdev_values = self.data.groupby(['Optimal_Affected_Component_Uid', 'Optimal_Failure'])[data_type].std().reset_index()
 
-        data_new = self.data[['Optimal_Affected_Component', 'Optimal_Failure', data_type]].copy()
+        data_new = self.data[['Optimal_Affected_Component_Uid', 'Optimal_Failure', data_type]].copy()
         previous = None
         for _, name in mean_values.iterrows():
             if previous is not None:
-                pre_std = stdev_values.loc[(stdev_values['Optimal_Affected_Component'] == previous[0]) & (stdev_values['Optimal_Failure'] == previous[1])][data_type].tolist()[0]
-                cur_std = stdev_values.loc[(stdev_values['Optimal_Affected_Component'] == name[0]) & (stdev_values['Optimal_Failure'] == name[1])][data_type].tolist()[0]
-                data_new.loc[(data_new['Optimal_Affected_Component'] == name[0]) & (data_new['Optimal_Failure'] == name[1]), data_type] += (cur_std + pre_std) * times
+                pre_std = stdev_values.loc[(stdev_values['Optimal_Affected_Component_Uid'] == previous[0]) & (stdev_values['Optimal_Failure'] == previous[1])][data_type].tolist()[0]
+                cur_std = stdev_values.loc[(stdev_values['Optimal_Affected_Component_Uid'] == name[0]) & (stdev_values['Optimal_Failure'] == name[1])][data_type].tolist()[0]
+                data_new.loc[(data_new['Optimal_Affected_Component_Uid'] == name[0]) & (data_new['Optimal_Failure'] == name[1]), data_type] += (cur_std + pre_std) * times
             previous = name
         return (mean_values, data_new)
 
     def __create_component_failure_pairs(self) -> None:
-        combinations = self.data.groupby(['Optimal_Affected_Component', 'Optimal_Failure']).size().reset_index().rename(
+        combinations = self.data.groupby(['Optimal_Affected_Component_Uid', 'Optimal_Failure']).size().reset_index().rename(
             columns={0: 'count'})
         del combinations['count']
         self.component_failure_pairs = [tuple(val) for val in combinations.values]
@@ -84,7 +84,7 @@ class DataHandler:
         component = component_failure_pair[0]
         failure = component_failure_pair[1]
         filtered = self.data[
-            (self.data['Optimal_Affected_Component'] == component) & (self.data['Optimal_Failure'] == failure)]
+            (self.data['Optimal_Affected_Component_Uid'] == component) & (self.data['Optimal_Failure'] == failure)]
         return filtered.sample()[type].values[0]
 
     def get_repair_failure_probability(self, component_failure_pair: Tuple) -> float:
@@ -93,13 +93,13 @@ class DataHandler:
 
 def perform_ttest(ordering: [Tuple], shifted_data: pd.DataFrame, type: str) -> pd.DataFrame:
     ttest_results = pd.DataFrame(columns=['a', 'b', 'statistic', 'pvalue', 'significant'])
-    data_new_grouped = shifted_data.groupby(['Optimal_Affected_Component', 'Optimal_Failure'])[type].apply(list).reset_index()
+    data_new_grouped = shifted_data.groupby(['Optimal_Affected_Component_Uid', 'Optimal_Failure'])[type].apply(list).reset_index()
 
     previous = None
     for index, name in ordering.iterrows():
         if previous is not None:
-            pre = data_new_grouped.loc[(data_new_grouped['Optimal_Affected_Component'] == previous[0]) & (data_new_grouped['Optimal_Failure'] == previous[1])][type].tolist()[0]
-            cur = data_new_grouped.loc[(data_new_grouped['Optimal_Affected_Component'] == name[0]) & (data_new_grouped['Optimal_Failure'] == name[1])][type].tolist()[0]
+            pre = data_new_grouped.loc[(data_new_grouped['Optimal_Affected_Component_Uid'] == previous[0]) & (data_new_grouped['Optimal_Failure'] == previous[1])][type].tolist()[0]
+            cur = data_new_grouped.loc[(data_new_grouped['Optimal_Affected_Component_Uid'] == name[0]) & (data_new_grouped['Optimal_Failure'] == name[1])][type].tolist()[0]
             result = stats.ttest_ind(pre, cur)
             new_row = pd.DataFrame({'a': str(previous), 'b': str(name), 'statistic': result[0], 'pvalue': result[1], 'significant': result[1]<0.025}, index=[0])
             ttest_results = ttest_results.append(new_row, ignore_index=True)
