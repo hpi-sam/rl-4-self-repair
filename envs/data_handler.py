@@ -5,7 +5,7 @@ import numpy as np
 from scipy import stats
 from typing import Tuple, List
 
-PREPARED_DATA_FILE = '../prepared_data.csv'
+PREPARED_DATA_FILE = 'prepared_data.csv'
 
 
 class DataHandler:
@@ -20,7 +20,7 @@ class DataHandler:
         frames = []
 
         # searching for all csv files in the data directory and loading the data in multiple dataframes
-        for root, dirs, files in os.walk('../data'):
+        for root, dirs, files in os.walk('data'):
             for f in files:
                 if f.endswith(".csv"):
                     file_path = os.path.join(root, f)
@@ -111,16 +111,16 @@ def perform_ttest(ordering: [Tuple], shifted_data: pd.DataFrame, type: str) -> p
 
 
 if __name__ == '__main__':
-    dataHandler = DataHandler()
-    component_failure_pairs = dataHandler.get_all_component_failure_pairs()
-    print('All <component,failure> pairs:', component_failure_pairs)
-    print('Get two samples:', dataHandler.get_sample_component_failure_pairs(2))
-    print('untransformed sampled:', dataHandler.get_reward(component_failure_pairs[0]))
-    print('Square Root Transformation sampled:', dataHandler.get_reward(component_failure_pairs[0], type='sqt'))
-    print('Cube Root Transformation sampled:', dataHandler.get_reward(component_failure_pairs[0], type='cube'))
-    print('Log10 Transformation sampled:', dataHandler.get_reward(component_failure_pairs[0], type='log10'))
-    print('Ln Transformation sampled:', dataHandler.get_reward(component_failure_pairs[0], type='ln'))
-    print('Log2 Transformation sampled:', dataHandler.get_reward(component_failure_pairs[0], type='log2'))
-    ordering, shiftedData = dataHandler.shift_data('cube', times=2)
+    dh = DataHandler()
+    component_failure_pairs = dh.get_all_component_failure_pairs()
+    print('Number of <component,failure> pairs:', len(component_failure_pairs))
+    print('Get two samples:', dh.get_sample_component_failure_pairs(2))
+    print('untransformed sampled:', dh.get_reward(component_failure_pairs[0]))
+    print('Square Root Transformation sampled:', dh.get_reward(component_failure_pairs[0], type='sqt'))
+    print('Cube Root Transformation sampled:', dh.get_reward(component_failure_pairs[0], type='cube'))
+    print('Log10 Transformation sampled:', dh.get_reward(component_failure_pairs[0], type='log10'))
+    print('Ln Transformation sampled:', dh.get_reward(component_failure_pairs[0], type='ln'))
+    print('Log2 Transformation sampled:', dh.get_reward(component_failure_pairs[0], type='log2'))
+    ordering, shiftedData = dh.shift_data('cube', times=2)
     result = perform_ttest(ordering, shiftedData, 'cube')
     print('Perform T-Test on shifted data:', (len(result[result['pvalue']<0.025])))
