@@ -8,8 +8,9 @@ verify_ssl = true
 [packages]
 jupyter = "*"
 numpy = "*"
-gym = {extras = ["all"],version = "*"}
+gym = "*"
 seaborn = "*"
+jupyterlab = "*"
 
 [requires]
 python_version = "3.8"

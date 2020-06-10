@@ -53,7 +53,6 @@ class BrokenComponentsEnv(gym.Env):
         self.successful_action = None
         self.steps = 0
         self.reward_modus = reward_modus
-
         return self.current_state
 
     def step(self, action: int) -> Tuple[int, float, bool, dict]:
@@ -80,14 +79,7 @@ class BrokenComponentsEnv(gym.Env):
         return self.current_state, reward, done, {}
 
     def __get_reward(self, action_name: Tuple) -> float:
-        if self.reward_modus == 'sqt':
-            return self.data_handler.get_reward_sqt(action_name)
-        elif self.reward_modus == 'cube':
-            return self.data_handler.get_reward_cube(action_name)
-        elif self.reward_modus == 'log10':
-            return self.data_handler.get_reward_log10(action_name)
-        else:
-            return self.data_handler.get_reward(action_name)
+        return self.data_handler.get_reward(action_name, type=self.reward_modus)
 
     def render(self) -> None:
         print('Steps: ', self.steps)

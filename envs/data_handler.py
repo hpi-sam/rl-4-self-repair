@@ -20,7 +20,7 @@ class DataHandler:
         frames = []
 
         # searching for all csv files in the data directory and loading the data in multiple dataframes
-        for root, dirs, files in os.walk('data'):
+        for root, dirs, files in os.walk('../data'):
             for f in files:
                 if f.endswith(".csv"):
                     file_path = os.path.join(root, f)
@@ -30,11 +30,11 @@ class DataHandler:
 
         # combining all df to one df
         self.data = pd.concat(frames, sort=False)[
-            ['Optimal_Affected_Component', 'Optimal_Failure', 'Optimal_Utility_Increase']].rename(columns={'Optimal_Utility_Increase': 'untransformed'})
+            ['Optimal_Affected_Component', 'Optimal_Failure', 'Optimal_Utility_Increase']].rename(columns={'Optimal_Utility_Increase': 'raw'})
 
         # transform data
         for index, row in self.data.iterrows():
-            untransformed = row['untransformed']
+            untransformed = row['raw']
             self.data.loc[index, 'cube'] = np.power(untransformed, (1 / 3))
             self.data.loc[index, 'sqt'] = np.sqrt(untransformed)
             np.seterr(divide = 'ignore')
@@ -48,10 +48,10 @@ class DataHandler:
     def __load_data(self):
         try:
             self.data = pd.read_csv(PREPARED_DATA_FILE, index_col=0)
-        except IOError:
+        except FileNotFoundError:
             self.__load_transform_data()
 
-    def shift_data(self, data_type: str = 'untransformed', times: int = 1):
+    def shift_data(self, data_type: str = 'raq', times: int = 1):
         mean_values = self.data.groupby(['Optimal_Affected_Component', 'Optimal_Failure'])[data_type].mean().reset_index().sort_values(by=[data_type], ascending=True)
         stdev_values = self.data.groupby(['Optimal_Affected_Component', 'Optimal_Failure'])[data_type].std().reset_index()
 
@@ -80,7 +80,7 @@ class DataHandler:
         else:
             return list(random.sample(self.component_failure_pairs, sample_size))
 
-    def get_reward(self, component_failure_pair: Tuple, type: str ='untransformed') -> float:
+    def get_reward(self, component_failure_pair: Tuple, type: str ='raw') -> float:
         component = component_failure_pair[0]
         failure = component_failure_pair[1]
         filtered = self.data[
@@ -121,6 +121,6 @@ if __name__ == '__main__':
     print('Log10 Transformation sampled:', dataHandler.get_reward(component_failure_pairs[0], type='log10'))
     print('Ln Transformation sampled:', dataHandler.get_reward(component_failure_pairs[0], type='ln'))
     print('Log2 Transformation sampled:', dataHandler.get_reward(component_failure_pairs[0], type='log2'))
-    ordering, shiftedData = dataHandler.shift_data('cube')
+    ordering, shiftedData = dataHandler.shift_data('cube', times=2)
     result = perform_ttest(ordering, shiftedData, 'cube')
     print('Perform T-Test on shifted data:', (len(result[result['pvalue']<0.025])))
