@@ -37,7 +37,7 @@ def run(alg, env, num_states, num_actions, episodes=1000,
 
     # init Q-table
     Q = np.zeros((num_states, num_actions))
-    print(f'Run q-learning with {num_states} states and {num_actions} actions.')
+    print(f'Run {alg} with {num_states} states and {num_actions} actions.')
 
     # init episode metrics
     explore_rate = max_explore_rate
