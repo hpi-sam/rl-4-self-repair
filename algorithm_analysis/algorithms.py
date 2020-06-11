@@ -10,6 +10,7 @@ from envs.data_handler import DataHandler
 
 # epsilon greedy strategy to choose next state
 # i.e. choose whether to exploit or explore the env
+# epsilon == explore probability
 def epsilon_greedy(Q, epsilon, state):
     """
     @param Q Q-table
@@ -19,9 +20,10 @@ def epsilon_greedy(Q, epsilon, state):
     # contains q_values for the state
     q_slice = Q[state, :]
     if np.random.rand() < epsilon:
-        action = np.argmax(q_slice)
-    else:
         action = np.random.randint(0, len(q_slice))
+    else:
+        action = np.argmax(q_slice)
+
     return action
 
 
@@ -90,10 +92,10 @@ def run(alg, env, num_states, num_actions, episodes=1000,
 
 
 if __name__ == '__main__':
-    # dataHandler = DataHandler()
-    # broken_components = dataHandler.get_sample_component_failure_pairs(3)
-    # env = BrokenComponentsEnv(broken_components, reward_modus='raw')
-    env = gym.make('Taxi-v3')
+    dataHandler = DataHandler()
+    broken_components = dataHandler.get_sample_component_failure_pairs(3)
+    env = BrokenComponentsEnv(broken_components, reward_modus='raw')
+    # env = gym.make('Taxi-v3')
 
     learning_rate = 0.06
     discount_rate = 0.06
