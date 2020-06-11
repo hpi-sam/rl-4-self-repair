@@ -11,6 +11,7 @@ numpy = "*"
 gym = "*"
 seaborn = "*"
 jupyterlab = "*"
+tqdm = "*"
 
 [requires]
 python_version = "3.8"
