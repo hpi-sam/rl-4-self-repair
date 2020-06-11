@@ -22,7 +22,7 @@ class DataHandler:
         # searching for all csv files in the data directory and loading the data in multiple dataframes
         for root, dirs, files in os.walk('data'):
             for f in files:
-                if f.endswith(".csv"):
+                if f.endswith("Linear.csv"):
                     file_path = os.path.join(root, f)
                     df = pd.read_csv(file_path)
                     df.columns = df.columns.str.replace('\t', '')
