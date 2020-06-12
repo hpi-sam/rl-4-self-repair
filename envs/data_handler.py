@@ -5,16 +5,25 @@ import numpy as np
 from scipy import stats
 from typing import Tuple, List
 
-PREPARED_DATA_FILE = 'prepared_data.csv'
-
 
 class DataHandler:
 
-    def __init__(self):
+    def __init__(self, environment: str = 'Linear'):
+        '''
+        Initializes the Data Handler by loading data into the environment.
+
+        :param data_function:
+            Choose between the version of the mRubis environment and its function for computing the utility_increase
+            'Linear' (default) | 'Saturating' | 'Combined' | 'Discontinuous'
+        '''
+        self.environment = environment
         self.data: pd.DataFrame = pd.DataFrame()
         self.component_failure_pairs: List = []
         self.__load_data()
         self.__create_component_failure_pairs()
+
+    def __prepared_data_file(self) -> str:
+        return 'prepared_data_' + self.environment + '.csv'
 
     def __load_transform_data(self) -> None:
         frames = []
@@ -22,7 +31,7 @@ class DataHandler:
         # searching for all csv files in the data directory and loading the data in multiple dataframes
         for root, dirs, files in os.walk('data'):
             for f in files:
-                if f.endswith("Linear.csv"):
+                if f.endswith(self.environment + '.csv'):
                     file_path = os.path.join(root, f)
                     df = pd.read_csv(file_path)
                     df.columns = df.columns.str.replace('\t', '')
@@ -37,17 +46,17 @@ class DataHandler:
             untransformed = row['raw']
             self.data.loc[index, 'cube'] = np.power(untransformed, (1 / 3))
             self.data.loc[index, 'sqt'] = np.sqrt(untransformed)
-            np.seterr(divide = 'ignore')
+            np.seterr(divide='ignore')
             self.data.loc[index, 'log10'] = np.where(untransformed > 0, np.log10(untransformed), 0)
             self.data.loc[index, 'ln'] = np.where(untransformed > 0, np.log(untransformed), 0)
             self.data.loc[index, 'log2'] = np.where(untransformed > 0, np.log2(untransformed), 0)
 
         # save transformed data this to environment as a csv file for quick reload in future
-        self.data.to_csv(PREPARED_DATA_FILE)
+        self.data.to_csv(self.__prepared_data_file())
 
     def __load_data(self):
         try:
-            self.data = pd.read_csv(PREPARED_DATA_FILE, index_col=0)
+            self.data = pd.read_csv(self.__prepared_data_file(), index_col=0)
         except FileNotFoundError:
             self.__load_transform_data()
 
@@ -113,6 +122,7 @@ def perform_ttest(ordering: [Tuple], shifted_data: pd.DataFrame, type: str) -> p
 if __name__ == '__main__':
     dh = DataHandler()
     component_failure_pairs = dh.get_all_component_failure_pairs()
+    print('Selected mRubis environment:', dh.environment)
     print('Number of <component,failure> pairs:', len(component_failure_pairs))
     print('Get two samples:', dh.get_sample_component_failure_pairs(2))
     print('untransformed sampled:', dh.get_reward(component_failure_pairs[0]))
