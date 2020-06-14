@@ -13,10 +13,13 @@ DATA_HANDLER = DataHandler()
 class BrokenComponentsEnv(gym.Env):
     metadata = {'render.modes': ['human']}
 
-    def __init__(self, broken_components: List[Tuple], reward_modus: str = 'raw'):
+    def __init__(self, broken_components: List[Tuple], reward_modus: str = 'raw', reward_decrease: bool = False, reward_decrease_factor: float = 0.99):
         super(BrokenComponentsEnv, self).__init__()
         self.data_handler = DATA_HANDLER
         self.reward_modus = reward_modus
+        self.reward_decrease = reward_decrease
+        self.reward_decrease_factor = reward_decrease_factor
+        self.punishment = self.data_handler.data.max()*-1
         self.action_space, self.action_space_names = self.__create_action_space(broken_components)
         self.observation_space, self.observation_space_names = self.__create_observation_space(broken_components)
         self.observation_name_dict = self.__create_map(self.observation_space_names)
@@ -54,6 +57,9 @@ class BrokenComponentsEnv(gym.Env):
         self.steps = 0
         self.reward_modus = reward_modus
         return self.current_state
+    
+    def set_reward_decrease_factor(factor: float) -> None:
+        self.reward_decrease_factor = factor
 
     def step(self, action: int) -> Tuple[int, float, bool, dict]:
         self.steps += 1
@@ -67,6 +73,11 @@ class BrokenComponentsEnv(gym.Env):
                 self.current_state_name.remove(action_name)
                 self.current_state = self.observation_name_dict[str(self.current_state_name)]
                 reward = self.__get_reward(action_name)
+        else:
+            if self.reward_decrease:
+                reward = np.power(self.reward_decrease_factor, self.steps) * self.punishment[self.reward_modus]
+            else:
+                reward = self.punishment[self.reward_modus]
 
         if len(self.current_state_name) == 0:
             done = True
@@ -79,7 +90,10 @@ class BrokenComponentsEnv(gym.Env):
         return self.current_state, reward, done, {}
 
     def __get_reward(self, action_name: Tuple) -> float:
-        return self.data_handler.get_reward(action_name, type=self.reward_modus)
+        if self.reward_decrease:
+            return np.power(self.reward_decrease_factor, self.steps)*self.data_handler.get_reward(action_name, type=self.reward_modus)
+        else:
+            return self.data_handler.get_reward(action_name, type=self.reward_modus)
 
     def render(self) -> None:
         print('Steps: ', self.steps)
