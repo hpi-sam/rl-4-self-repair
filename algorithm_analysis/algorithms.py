@@ -57,9 +57,9 @@ def run(alg, env, num_states, num_actions, episodes=1000,
             s_next, reward, done, info = env.step(a)
 
             if alg == 'qlearning':
-                a_next = epsilon_greedy(Q, 0, s)
+                a_next = epsilon_greedy(Q, 0, s_next)
             elif alg == 'sarsa':
-                a_next = epsilon_greedy(Q, explore_rate, s)
+                a_next = epsilon_greedy(Q, explore_rate, s_next)
             else:
                 raise NotImplementedError(alg)
 
