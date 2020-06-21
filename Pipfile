@@ -12,6 +12,8 @@ gym = "*"
 seaborn = "*"
 jupyterlab = "*"
 tqdm = "*"
+ipywidgets = "*"
+widgetsnbextension = "*"
 
 [requires]
 python_version = "3.8"
