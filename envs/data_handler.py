@@ -14,6 +14,8 @@ class DataHandler:
         :param data_function:
             Choose between the version of the mRubis environment and its function for computing the utility_increase
             'Linear' (default) | 'Saturating' | 'Combined' | 'Discontinuous'
+            or shifted data
+            'Linear_Shifted'
         '''
         self.environment = environment
         self.data: pd.DataFrame = pd.DataFrame()
