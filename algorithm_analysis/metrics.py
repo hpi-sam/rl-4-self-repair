@@ -10,3 +10,4 @@ class Metric:
     explore_rates: List[float]
     learning_rate: float
     discount_rate: float
+    trace_decay: float
