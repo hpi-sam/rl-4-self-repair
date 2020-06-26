@@ -33,11 +33,12 @@ def epsilon_greedy(Q, epsilon, state):
 
 
 def run_single_estimator(alg, env, num_states, num_actions, episodes=1000,
-                         min_explore_rate=0.01, max_explore_rate=1, explore_rate_decay=0.005,
+                         min_explore_rate=0.0001, max_explore_rate=1,
                          learning_rate=0.2, discount_rate=0.90, trace_decay=0.9):
     """
 
     :param alg: Choose from 'qlearning' and 'sarsa'
+    :param min_explore_rate: Choose value > 0
     """
 
     # init Q-table
@@ -99,11 +100,12 @@ def run_single_estimator(alg, env, num_states, num_actions, episodes=1000,
 
 
 def run_double_estimator(alg, env, num_states, num_actions, episodes=1000,
-                         min_explore_rate=0.01, max_explore_rate=1,
+                         min_explore_rate=0.0001, max_explore_rate=1,
                          learning_rate=0.2, discount_rate=0.90, trace_decay=0.9):
     """
 
     :param alg: Choose from 'qlearning' and 'sarsa'
+    :param min_explore_rate: Choose value > 0
     """
 
     print(f'Run {alg} with {num_states} states and {num_actions} actions.')
@@ -173,6 +175,8 @@ def run_double_estimator(alg, env, num_states, num_actions, episodes=1000,
 
     metrics = Metric(episodes, episode_lengths, episode_rewards, episode_explore_rates, learning_rate, discount_rate, trace_decay)
     return metrics
+
+
 if __name__ == '__main__':
     random.seed(1)
     dataHandler = DataHandler()
@@ -180,11 +184,14 @@ if __name__ == '__main__':
     env = BrokenComponentsEnv(broken_components, reward_modus='raw')
     # env = gym.make('Taxi-v3')
 
-    learning_rate = 0.01
+    learning_rate = 0.2
     discount_rate = 0.9
 
-    metric = run_double_estimator('qlearning', env, env.observation_space.n, env.action_space.n, episodes=500,
+    metric = run_single_estimator('sarsa', env, env.observation_space.n, env.action_space.n, episodes=200,
                                   learning_rate=learning_rate, discount_rate=discount_rate, trace_decay=0.9)
+
+    for r in metric.rewards:
+        print(r)
 
 
     fig, axs = plt.subplots(1, 2, figsize=(10, 5), constrained_layout=True, sharex=True,
