@@ -13,7 +13,7 @@ DATA_HANDLER = DataHandler()
 class BrokenComponentsEnv(gym.Env):
     metadata = {'render.modes': ['human']}
 
-    def __init__(self, broken_components: List[Tuple], reward_modus: str = 'raw', reward_decrease: bool = False, reward_decrease_factor: float = 0.99):
+    def __init__(self, broken_components: List[Tuple], reward_modus: str = 'raw', reward_decrease: bool = False, reward_decrease_factor: float = 0.99, state_as_vec=False):
         super(BrokenComponentsEnv, self).__init__()
         self.data_handler = DATA_HANDLER
         self.reward_modus = reward_modus
@@ -23,6 +23,7 @@ class BrokenComponentsEnv(gym.Env):
         self.action_space, self.action_space_names = self.__create_action_space(broken_components)
         self.observation_space, self.observation_space_names = self.__create_observation_space(broken_components)
         self.observation_name_dict = self.__create_map(self.observation_space_names)
+        self.state_as_vec = state_as_vec
 
         # inital state and action
         self.reset()
@@ -36,8 +37,8 @@ class BrokenComponentsEnv(gym.Env):
     def __create_observation_space(self, broken_components: List[Tuple]) -> Tuple[gym.spaces.Discrete, np.array]:
         broken_components_names = np.empty(len(broken_components), dtype=object)
         broken_components_names[:] = broken_components
-        masks = [np.array(l) for l in itertools.product([True, False], repeat=len(broken_components_names))]
-        observation_names = [broken_components_names[mask] for mask in masks]
+        self.masks = [np.array(l) for l in itertools.product([True, False], repeat=len(broken_components_names))]
+        observation_names = [broken_components_names[mask] for mask in self.masks]
         observation_space = spaces.Discrete(len(observation_names))
         return observation_space, observation_names
 
@@ -56,7 +57,11 @@ class BrokenComponentsEnv(gym.Env):
         self.successful_action = None
         self.steps = 0
         self.reward_modus = reward_modus
-        return self.current_state
+        
+        if self.state_as_vec:
+            return self.masks[self.current_state].astype(float)
+        else:
+            return self.current_state
     
     def set_reward_decrease_factor(factor: float) -> None:
         self.reward_decrease_factor = factor
@@ -86,8 +91,11 @@ class BrokenComponentsEnv(gym.Env):
 
         self.last_action = action
         self.last_action_name = action_name
-
-        return self.current_state, reward, done, {}
+        
+        if self.state_as_vec:
+            return self.masks[self.current_state].astype(float), reward, done, {}
+        else:
+            return self.current_state, reward, done, {}
 
     def __get_reward(self, action_name: Tuple) -> float:
         if self.reward_decrease:

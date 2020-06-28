@@ -14,6 +14,8 @@ jupyterlab = "*"
 tqdm = "*"
 ipywidgets = "*"
 widgetsnbextension = "*"
+tensorflow = "*"
+keras = "*"
 
 [requires]
 python_version = "3.8"
