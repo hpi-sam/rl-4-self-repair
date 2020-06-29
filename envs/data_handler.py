@@ -2,6 +2,7 @@ import os
 import sys
 import random
 import pandas as pd
+import numpy as np
 from envs.environments import check_environment
 import envs.data_utils as du
 
@@ -83,23 +84,11 @@ class DataHandler:
         failure = component_failure_pair[1]
         filtered = self.data[
             (self.data[self.environment[1]] == component) & (self.data['Optimal_Failure'] == failure)]
-        return filtered.sample()[self.environment[2]].values[0]
-
-
-if __name__ == '__main__':
-
-    dh = DataHandler()
-    component_failure_pairs = dh.get_all_component_failure_pairs()
-    print('Selected mRubis environment:', dh.environment)
-    print('Number of <component,failure> pairs:', len(component_failure_pairs))
-    print('Get two samples:', dh.get_sample_component_failure_pairs(2))
-    print('untransformed sampled:', dh.get_reward(component_failure_pairs[0]))
-
-    # Shifting
-    ordering, shiftedData = du.shift_data(dh.data, 'Optimal_Affected_Component_Uid', 'cube', times=2)
-    result = du.perform_ttest('Optimal_Affected_Component_Uid', ordering, shiftedData, 'cube')
-    print('Perform T-Test on shifted data:', (len(result[result['pvalue']<0.025])))
-
-    # Non-stationary series
-    max_min_std_values = dh.data[['Optimal_Affected_Component_Uid', 'Optimal_Failure', 'raw']].groupby(['Optimal_Affected_Component_Uid', 'Optimal_Failure'])['raw'].agg([max, min, 'std']).reset_index()
-    print('Create AR non-stationary time series', du.create_non_stationary_data('Optimal_Affected_Component_Uid', 'raw', max_min_std_values, du.ARCH, N=100))
+        sample_value = 0
+        if self.environment[0] == 'nonStationary':
+            sample_value = filtered.iloc[0][self.environment[2]]
+            index = filtered.index[0]
+            self.data = self.data.drop(index)
+        else:
+            sample_value = filtered.sample()[self.environment[2]].values[0]
+        return sample_value
