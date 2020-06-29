@@ -7,17 +7,20 @@ import envs.data_utils as du
 
 class DataHandler:
 
-    def __init__(self, environment: str = 'Linear'):
+    def __init__(self, environment: str = 'Linear', take_component_id: bool = True):
         '''
-        Initializes the Data Handler by loading data into the environment.
+        Initializes the Data Handler by loading data into the environment and select between using the componenent id or name.
 
-        :param data_function:
+        :param environment:
             Choose between the version of the mRubis environment and its function for computing the utility_increase
             'Linear' (default) | 'Saturating' | 'Combined' | 'Discontinuous'
-            or shifted data
-            'Linear_Shifted'
+            or shifted data based on the component id
+            'Linear_Id_Shifted'
+        :param take_component_id:
+            Choose compononent id or name. When take_component_id is false, you will take name.
         '''
         self.environment = environment
+        self.component_selector = 'Optimal_Affected_Component_Uid' if take_component_id else 'Optimal_Affected_Component'
         self.data: pd.DataFrame = pd.DataFrame()
         self.component_failure_pairs = []
         self.__load_data()
@@ -54,17 +57,17 @@ class DataHandler:
         except FileNotFoundError:
             self.__load_transform_data()
 
+    def __create_component_failure_pairs(self) -> None:
+        combinations = self.data.groupby([self.component_selector, 'Optimal_Failure']).size().reset_index().rename(
+            columns={0: 'count'})
+        del combinations['count']
+        self.component_failure_pairs = [tuple(val) for val in combinations.values]
+
     def get_all_component_failure_pairs(self):
         return self.component_failure_pairs
 
     def get_repair_failure_probability(self, component_failure_pair) -> float:
         return 0.1  # static failure rate
-
-    def __create_component_failure_pairs(self) -> None:
-        combinations = self.data.groupby(['Optimal_Affected_Component_Uid', 'Optimal_Failure']).size().reset_index().rename(
-            columns={0: 'count'})
-        del combinations['count']
-        self.component_failure_pairs = [tuple(val) for val in combinations.values]
 
     def get_sample_component_failure_pairs(self, sample_size: int):
         if sample_size > len(self.component_failure_pairs):
@@ -76,7 +79,7 @@ class DataHandler:
         component = component_failure_pair[0]
         failure = component_failure_pair[1]
         filtered = self.data[
-            (self.data['Optimal_Affected_Component_Uid'] == component) & (self.data['Optimal_Failure'] == failure)]
+            (self.data[self.component_selector] == component) & (self.data['Optimal_Failure'] == failure)]
         return filtered.sample()[type].values[0]
 
 
