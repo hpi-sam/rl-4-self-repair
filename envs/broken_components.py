@@ -63,7 +63,7 @@ class BrokenComponentsEnv(gym.Env):
         else:
             return self.current_state
     
-    def set_reward_decrease_factor(factor: float) -> None:
+    def set_reward_decrease_factor(self, factor: float) -> None:
         self.reward_decrease_factor = factor
 
     def step(self, action: int) -> Tuple[int, float, bool, dict]:
