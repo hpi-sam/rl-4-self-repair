@@ -7,14 +7,14 @@ import envs.data_utils as du
 
 class DataHandler:
 
-    def __init__(self, environment: str = 'Linear', take_component_id: bool = True, type: str = 'raw'):
+    def __init__(self, data_generation: str = 'Linear', take_component_id: bool = True, type: str = 'raw'):
         '''
         Initializes the Data Handler by loading data into the environment and select between using the componenent id or name.
 
-        :param environment:
+        :param data_generation:
             Choose between the version of the mRubis environment 'Linear' (default) | 'Saturating' | 'Combined' | 'Discontinuous'
             or shifted data 'LinearShifted'
-            or non_stationary_data 'nonStationary'
+            or non_stationary_data choose model like 'ARCH'
         :param take_component_id:
             Choose compononent id or name. When take_component_id is false, you will take name.
         :param type:
@@ -23,8 +23,7 @@ class DataHandler:
         For all possible combinations of environment, id and type please have a look on the file 'environments.py'.
         '''
 
-        self.environment, self.filename = check_environment(environment, take_component_id, type)
-        print(self.filename)
+        self.environment, self.filename = check_environment(data_generation, take_component_id, type)
         self.data: pd.DataFrame = pd.DataFrame()
         self.component_failure_pairs = []
         self.__load_data()
@@ -60,7 +59,7 @@ class DataHandler:
             sys.exit(0)
 
     def __create_component_failure_pairs(self) -> None:
-        combinations = self.data.groupby([self.environment[1], 'Optimal_Failure']).size().reset_index().rename(
+        combinations = self.data.groupby([self.data.columns[0], self.data.columns[1]]).size().reset_index().rename(
             columns={0: 'count'})
         del combinations['count']
         self.component_failure_pairs = [tuple(val) for val in combinations.values]
@@ -81,12 +80,12 @@ class DataHandler:
         component = component_failure_pair[0]
         failure = component_failure_pair[1]
         filtered = self.data[
-            (self.data[self.environment[1]] == component) & (self.data['Optimal_Failure'] == failure)]
+            (self.data[self.data.columns[0]] == component) & (self.data[self.data.columns[1]] == failure)]
         sample_value = 0
-        if self.environment[0] == 'nonStationary':
-            sample_value = filtered.iloc[0][self.environment[2]]
+        if self.environment[0] in ['ARCH', 'GARCH']:
+            sample_value = filtered.iloc[0][self.data.columns[2]]
             index = filtered.index[0]
             self.data = self.data.drop(index)
         else:
-            sample_value = filtered.sample()[self.environment[2]].values[0]
+            sample_value = filtered.sample()[self.data.columns[2]].values[0]
         return sample_value
