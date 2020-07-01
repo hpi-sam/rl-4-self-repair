@@ -99,9 +99,9 @@ class BrokenComponentsEnv(gym.Env):
 
     def __get_reward(self, action_name: Tuple) -> float:
         if self.reward_decrease:
-            return np.power(self.reward_decrease_factor, self.steps)*self.data_handler.get_reward(action_name, type=self.reward_modus)
+            return np.power(self.reward_decrease_factor, self.steps)*self.data_handler.get_reward(action_name)
         else:
-            return self.data_handler.get_reward(action_name, type=self.reward_modus)
+            return self.data_handler.get_reward(action_name)
 
     def render(self) -> None:
         print('Steps: ', self.steps)

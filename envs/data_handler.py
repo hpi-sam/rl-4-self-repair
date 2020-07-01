@@ -1,6 +1,5 @@
 import os
 import sys
-import random
 import pandas as pd
 from envs.environments import check_environment
 import envs.data_utils as du
@@ -71,11 +70,11 @@ class DataHandler:
     def get_repair_failure_probability(self, component_failure_pair) -> float:
         return 0.1  # static failure rate
 
-    def get_sample_component_failure_pairs(self, sample_size: int):
+    def get_sample_component_failure_pairs(self, sample_size: int, seed=None):
         if sample_size > len(self.component_failure_pairs):
             print('Error: Sample size exceeds number of (component, failure) pairs.')
         else:
-            return list(random.sample(self.component_failure_pairs, sample_size))
+            return pd.Series(self.get_all_component_failure_pairs()).sample(sample_size, random_state=seed).tolist()
 
     def get_reward(self, component_failure_pair) -> float:
         component = component_failure_pair[0]
