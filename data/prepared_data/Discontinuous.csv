@@ -1,0 +1,2733 @@
+,Optimal_Affected_Component,Optimal_Affected_Component_Uid,Optimal_Failure,raw,cube,sqt,log10,ln,log2
+0,Authentication Service,_SEx_HucdEeet0YmmfbMwkw,CF3,491.04499730000003,,,0.0,0.0,0.0
+1,Query Service,_SEwwu-cdEeet0YmmfbMwkw,CF1,347.23380380000003,,,0.0,0.0,0.0
+2,Bid and Buy Service,_SEymDucdEeet0YmmfbMwkw,CF3,75.86396034,,,0.0,0.0,0.0
+3,Item Management Service,_SExYKucdEeet0YmmfbMwkw,CF3,45.17630238,,,0.0,0.0,0.0
+4,User Management Service,_SExXgOcdEeet0YmmfbMwkw,CF2,7.298271466,,,0.0,0.0,0.0
+5,Query Service,_SE_a_OcdEeet0YmmfbMwkw,CF2,1158.369822,,,0.0,0.0,0.0
+6,Authentication Service,_SFDFXucdEeet0YmmfbMwkw,CF3,544.3636732000001,,,0.0,0.0,0.0
+7,Authentication Service,_SE-L4ucdEeet0YmmfbMwkw,CF1,443.1578342,,,0.0,0.0,0.0
+8,Bid and Buy Service,_SE7Io-cdEeet0YmmfbMwkw,CF1,378.6002514,,,0.0,0.0,0.0
+9,Bid and Buy Service,_SFDryecdEeet0YmmfbMwkw,CF3,348.58596769999997,,,0.0,0.0,0.0
+10,Query Service,_SE8-O-cdEeet0YmmfbMwkw,CF1,345.08453510000004,,,0.0,0.0,0.0
+11,Item Management Service,_SE9lYOcdEeet0YmmfbMwkw,CF1,288.4933418,,,0.0,0.0,0.0
+12,Reputation Service,_SE8W8-cdEeet0YmmfbMwkw,CF1,287.5439111,,,0.0,0.0,0.0
+13,Bid and Buy Service,_SFApFecdEeet0YmmfbMwkw,CF3,286.40822710000003,,,0.0,0.0,0.0
+14,Item Management Service,_SFACAucdEeet0YmmfbMwkw,CF2,268.5784523,,,0.0,0.0,0.0
+15,Reputation Service,_SFB2oOcdEeet0YmmfbMwkw,CF3,267.1020377,,,0.0,0.0,0.0
+16,Query Service,_SFCdtucdEeet0YmmfbMwkw,CF3,258.0738438,,,0.0,0.0,0.0
+17,Authentication Service,_SFAocucdEeet0YmmfbMwkw,CF2,240.1949858,,,0.0,0.0,0.0
+18,User Management Service,_SFABWOcdEeet0YmmfbMwkw,CF2,226.7944437,,,0.0,0.0,0.0
+19,Inventory Service,_SE-zLOcdEeet0YmmfbMwkw,CF2,202.0410033,,,0.0,0.0,0.0
+20,Persistence Service,_SE_aWucdEeet0YmmfbMwkw,CF2,197.3084797,,,0.0,0.0,0.0
+21,Inventory Service,_SE7wFecdEeet0YmmfbMwkw,CF1,123.56443349999999,,,0.0,0.0,0.0
+22,Bid and Buy Service,_SE-MhecdEeet0YmmfbMwkw,CF2,109.4517581,,,0.0,0.0,0.0
+23,User Management Service,_SE8-s-cdEeet0YmmfbMwkw,CF1,108.889505,,,0.0,0.0,0.0
+24,Persistence Service,_SE8XmecdEeet0YmmfbMwkw,CF1,107.8309902,,,0.0,0.0,0.0
+25,Reputation Service,_SE-z0OcdEeet0YmmfbMwkw,CF2,106.87447379999999,,,0.0,0.0,0.0
+26,User Management Service,_SFCeLucdEeet0YmmfbMwkw,CF3,89.81520115,,,0.0,0.0,0.0
+27,Item Management Service,_SFDEt-cdEeet0YmmfbMwkw,CF3,86.15815401,,,0.0,0.0,0.0
+28,Inventory Service,_SFBPfOcdEeet0YmmfbMwkw,CF3,42.54631905,,,0.0,0.0,0.0
+29,Persistence Service,_SFB3RucdEeet0YmmfbMwkw,CF3,38.86979979,,,0.0,0.0,0.0
+30,Query Service,_SFMO7ecdEeet0YmmfbMwkw,CF2,1337.506631,,,0.0,0.0,0.0
+31,Query Service,_SFE57ucdEeet0YmmfbMwkw,CF1,1155.987941,,,0.0,0.0,0.0
+32,Query Service,_SFKaeecdEeet0YmmfbMwkw,CF2,1155.952219,,,0.0,0.0,0.0
+33,Authentication Service,_SFFhr-cdEeet0YmmfbMwkw,CF1,490.25135240000003,,,0.0,0.0,0.0
+34,Query Service,_SFODcucdEeet0YmmfbMwkw,CF3,437.6418666,,,0.0,0.0,0.0
+35,Query Service,_SFSVqecdEeet0YmmfbMwkw,CF3,435.2803486,,,0.0,0.0,0.0
+36,Bid and Buy Service,_SFJytecdEeet0YmmfbMwkw,CF1,407.88740110000003,,,0.0,0.0,0.0
+37,Bid and Buy Service,_SFM2T-cdEeet0YmmfbMwkw,CF2,405.3852207,,,0.0,0.0,0.0
+38,Authentication Service,_SFLBrucdEeet0YmmfbMwkw,CF2,389.1656133,,,0.0,0.0,0.0
+39,Inventory Service,_SFGIpOcdEeet0YmmfbMwkw,CF1,364.5622204,,,0.0,0.0,0.0
+40,Bid and Buy Service,_SFOq0-cdEeet0YmmfbMwkw,CF3,348.5624685,,,0.0,0.0,0.0
+41,Authentication Service,_SFM1rOcdEeet0YmmfbMwkw,CF2,342.7869642,,,0.0,0.0,0.0
+42,Inventory Service,_SFOre-cdEeet0YmmfbMwkw,CF3,336.7987662,,,0.0,0.0,0.0
+43,Authentication Service,_SFJyEucdEeet0YmmfbMwkw,CF1,289.05791600000003,,,0.0,0.0,0.0
+44,User Management Service,_SFSWIecdEeet0YmmfbMwkw,CF3,268.7507104,,,0.0,0.0,0.0
+45,Reputation Service,_SFKZMecdEeet0YmmfbMwkw,CF2,266.8873344,,,0.0,0.0,0.0
+46,Item Management Service,_SFLBB-cdEeet0YmmfbMwkw,CF2,265.4098715,,,0.0,0.0,0.0
+47,Persistence Service,_SFGvd-cdEeet0YmmfbMwkw,CF1,250.4039759,,,0.0,0.0,0.0
+48,Item Management Service,_SFOElOcdEeet0YmmfbMwkw,CF3,246.3204921,,,0.0,0.0,0.0
+49,Authentication Service,_SFS8ZecdEeet0YmmfbMwkw,CF3,239.3378991,,,0.0,0.0,0.0
+50,Bid and Buy Service,_SFS9COcdEeet0YmmfbMwkw,CF3,227.4573835,,,0.0,0.0,0.0
+51,Inventory Service,_SFM29-cdEeet0YmmfbMwkw,CF2,202.8291479,,,0.0,0.0,0.0
+52,Item Management Service,_SFJK--cdEeet0YmmfbMwkw,CF1,188.6240535,,,0.0,0.0,0.0
+53,Item Management Service,_SFMQD-cdEeet0YmmfbMwkw,CF2,167.2312004,,,0.0,0.0,0.0
+54,Bid and Buy Service,_SFGH_OcdEeet0YmmfbMwkw,CF1,167.0054036,,,0.0,0.0,0.0
+55,Reputation Service,_SFGu0ecdEeet0YmmfbMwkw,CF1,165.9984097,,,0.0,0.0,0.0
+56,Persistence Service,_SFKZ1-cdEeet0YmmfbMwkw,CF2,164.1223993,,,0.0,0.0,0.0
+57,Inventory Service,_SFJzXecdEeet0YmmfbMwkw,CF1,149.3546632,,,0.0,0.0,0.0
+58,User Management Service,_SFE6ZucdEeet0YmmfbMwkw,CF1,148.713642,,,0.0,0.0,0.0
+59,Item Management Service,_SFFhCOcdEeet0YmmfbMwkw,CF1,146.4490209,,,0.0,0.0,0.0
+60,Authentication Service,_SFOFO-cdEeet0YmmfbMwkw,CF3,138.9438713,,,0.0,0.0,0.0
+61,Persistence Service,_SEtGF-cdEeet0YmmfbMwkw,CF3,128.82874099999998,,,0.0,0.0,0.0
+62,User Management Service,_SFOD6ucdEeet0YmmfbMwkw,CF3,126.60249840000002,,,0.0,0.0,0.0
+63,Inventory Service,_SFS9sOcdEeet0YmmfbMwkw,CF3,94.76445224,,,0.0,0.0,0.0
+64,Persistence Service,_SFETG-cdEeet0YmmfbMwkw,CF1,94.02890905,,,0.0,0.0,0.0
+65,Reputation Service,_SFNc_OcdEeet0YmmfbMwkw,CF3,85.94290147,,,0.0,0.0,0.0
+66,Query Service,_SFGwGecdEeet0YmmfbMwkw,CF1,77.19026526,,,0.0,0.0,0.0
+67,Persistence Service,_SFNdoucdEeet0YmmfbMwkw,CF3,76.99358098,,,0.0,0.0,0.0
+68,Bid and Buy Service,_SFLnRecdEeet0YmmfbMwkw,CF2,76.82548068,,,0.0,0.0,0.0
+69,Reputation Service,_SFS-VOcdEeet0YmmfbMwkw,CF3,69.0216543,,,0.0,0.0,0.0
+70,Reputation Service,_SFESdecdEeet0YmmfbMwkw,CF1,66.24827054,,,0.0,0.0,0.0
+71,Persistence Service,_SFMOS-cdEeet0YmmfbMwkw,CF2,57.4807098,,,0.0,0.0,0.0
+72,Reputation Service,_SFOsH-cdEeet0YmmfbMwkw,CF3,47.738783500000004,,,0.0,0.0,0.0
+73,Reputation Service,_SFLokecdEeet0YmmfbMwkw,CF2,47.46536096,,,0.0,0.0,0.0
+74,User Management Service,_SFGwkecdEeet0YmmfbMwkw,CF1,27.58111825,,,0.0,0.0,0.0
+75,User Management Service,_SFLAXecdEeet0YmmfbMwkw,CF2,26.59665534,,,0.0,0.0,0.0
+76,Item Management Service,_SFSWy-cdEeet0YmmfbMwkw,CF3,26.36020964,,,0.0,0.0,0.0
+77,Persistence Service,_SFSVB-cdEeet0YmmfbMwkw,CF3,23.10171795,,,0.0,0.0,0.0
+78,Inventory Service,_SFLn7ecdEeet0YmmfbMwkw,CF2,12.87649072,,,0.0,0.0,0.0
+79,User Management Service,_SFMPZecdEeet0YmmfbMwkw,CF2,6.51238038,,,0.0,0.0,0.0
+80,Bid and Buy Service,_SEx_IecdEeet0YmmfbMwkw,CF3,287.1689003,,,0.0,0.0,0.0
+81,Authentication Service,_SExYMecdEeet0YmmfbMwkw,CF2,176.12116819999997,,,0.0,0.0,0.0
+82,Inventory Service,_SEymFucdEeet0YmmfbMwkw,CF3,70.06232372,,,0.0,0.0,0.0
+83,Inventory Service,_SEzNCecdEeet0YmmfbMwkw,CF3,15.28936603,,,0.0,0.0,0.0
+84,User Management Service,_SExXgOcdEeet0YmmfbMwkw,CF1,7.298271466,,,0.0,0.0,0.0
+85,Query Service,_SE_a_OcdEeet0YmmfbMwkw,CF2,1158.369822,,,0.0,0.0,0.0
+86,Query Service,_SE8-O-cdEeet0YmmfbMwkw,CF1,345.08453510000004,,,0.0,0.0,0.0
+87,Bid and Buy Service,_SFDFYecdEeet0YmmfbMwkw,CF3,319.9059549,,,0.0,0.0,0.0
+88,Inventory Service,_SFDr0ecdEeet0YmmfbMwkw,CF3,313.9455373,,,0.0,0.0,0.0
+89,Authentication Service,_SFDEvucdEeet0YmmfbMwkw,CF3,303.6252809,,,0.0,0.0,0.0
+90,Item Management Service,_SE9lYOcdEeet0YmmfbMwkw,CF1,288.4933418,,,0.0,0.0,0.0
+91,Reputation Service,_SE8W8-cdEeet0YmmfbMwkw,CF1,287.5439111,,,0.0,0.0,0.0
+92,Persistence Service,_SFB2pucdEeet0YmmfbMwkw,CF3,280.17620510000006,,,0.0,0.0,0.0
+93,Item Management Service,_SFACAucdEeet0YmmfbMwkw,CF2,268.5784523,,,0.0,0.0,0.0
+94,Inventory Service,_SFApHecdEeet0YmmfbMwkw,CF2,259.7735053,,,0.0,0.0,0.0
+95,Bid and Buy Service,_SE-L5ecdEeet0YmmfbMwkw,CF1,258.1170391,,,0.0,0.0,0.0
+96,Query Service,_SFB3SOcdEeet0YmmfbMwkw,CF3,257.11407230000003,,,0.0,0.0,0.0
+97,User Management Service,_SFABWOcdEeet0YmmfbMwkw,CF2,226.7944437,,,0.0,0.0,0.0
+98,Inventory Service,_SE-zLOcdEeet0YmmfbMwkw,CF2,202.0410033,,,0.0,0.0,0.0
+99,Persistence Service,_SE_aWucdEeet0YmmfbMwkw,CF2,197.3084797,,,0.0,0.0,0.0
+100,Inventory Service,_SFDscecdEeet0YmmfbMwkw,CF3,151.8691146,,,0.0,0.0,0.0
+101,Bid and Buy Service,_SFAodecdEeet0YmmfbMwkw,CF2,135.4164676,,,0.0,0.0,0.0
+102,Inventory Service,_SE7wFecdEeet0YmmfbMwkw,CF1,123.56443349999999,,,0.0,0.0,0.0
+103,Bid and Buy Service,_SE-MhecdEeet0YmmfbMwkw,CF1,109.4517581,,,0.0,0.0,0.0
+104,User Management Service,_SE8-s-cdEeet0YmmfbMwkw,CF1,108.889505,,,0.0,0.0,0.0
+105,Persistence Service,_SE8XmecdEeet0YmmfbMwkw,CF1,107.8309902,,,0.0,0.0,0.0
+106,Reputation Service,_SE-z0OcdEeet0YmmfbMwkw,CF2,106.87447379999999,,,0.0,0.0,0.0
+107,Item Management Service,_SFCeOOcdEeet0YmmfbMwkw,CF3,86.64550877,,,0.0,0.0,0.0
+108,Last Second Sales Item Filter,_SFCduucdEeet0YmmfbMwkw,CF3,48.62148558,,,0.0,0.0,0.0
+109,Reputation Service,_SFBPgOcdEeet0YmmfbMwkw,CF3,29.65284005,,,0.0,0.0,0.0
+110,Query Service,_SFMO7ecdEeet0YmmfbMwkw,CF2,1337.506631,,,0.0,0.0,0.0
+111,Query Service,_SFE57ucdEeet0YmmfbMwkw,CF1,1155.987941,,,0.0,0.0,0.0
+112,Query Service,_SFKaeecdEeet0YmmfbMwkw,CF2,1155.952219,,,0.0,0.0,0.0
+113,Authentication Service,_SFOEm-cdEeet0YmmfbMwkw,CF3,808.6844652999999,,,0.0,0.0,0.0
+114,Query Service,_SEtGGecdEeet0YmmfbMwkw,CF3,708.0253263,,,0.0,0.0,0.0
+115,Query Service,_SEuUWecdEeet0YmmfbMwkw,CF3,617.2332375,,,0.0,0.0,0.0
+116,Query Service,_SFNdpOcdEeet0YmmfbMwkw,CF3,439.02775379999997,,,0.0,0.0,0.0
+117,Bid and Buy Service,_SFJytecdEeet0YmmfbMwkw,CF1,407.88740110000003,,,0.0,0.0,0.0
+118,Bid and Buy Service,_SFM2T-cdEeet0YmmfbMwkw,CF2,405.3852207,,,0.0,0.0,0.0
+119,Inventory Service,_SFGIpOcdEeet0YmmfbMwkw,CF1,364.5622204,,,0.0,0.0,0.0
+120,Inventory Service,_SFOq2-cdEeet0YmmfbMwkw,CF3,311.5458647,,,0.0,0.0,0.0
+121,Bid and Buy Service,_SFFhsucdEeet0YmmfbMwkw,CF1,285.0625506,,,0.0,0.0,0.0
+122,Item Management Service,_SFSWK-cdEeet0YmmfbMwkw,CF3,268.88645,,,0.0,0.0,0.0
+123,Reputation Service,_SFKZMecdEeet0YmmfbMwkw,CF1,266.8873344,,,0.0,0.0,0.0
+124,Item Management Service,_SFLBB-cdEeet0YmmfbMwkw,CF2,265.4098715,,,0.0,0.0,0.0
+125,Persistence Service,_SFGvd-cdEeet0YmmfbMwkw,CF1,250.4039759,,,0.0,0.0,0.0
+126,Reputation Service,_SFOrf-cdEeet0YmmfbMwkw,CF3,246.19744590000002,,,0.0,0.0,0.0
+127,Bid and Buy Service,_SFLBsecdEeet0YmmfbMwkw,CF2,228.53071769999997,,,0.0,0.0,0.0
+128,Inventory Service,_SFM29-cdEeet0YmmfbMwkw,CF2,202.8291479,,,0.0,0.0,0.0
+129,Inventory Service,_SFS9EOcdEeet0YmmfbMwkw,CF3,201.8100921,,,0.0,0.0,0.0
+130,Bid and Buy Service,_SFM1r-cdEeet0YmmfbMwkw,CF2,199.19440669999997,,,0.0,0.0,0.0
+131,Item Management Service,_SFJK--cdEeet0YmmfbMwkw,CF1,188.6240535,,,0.0,0.0,0.0
+132,Bid and Buy Service,_SFJyFecdEeet0YmmfbMwkw,CF1,167.3697583,,,0.0,0.0,0.0
+133,Item Management Service,_SFMQD-cdEeet0YmmfbMwkw,CF2,167.2312004,,,0.0,0.0,0.0
+134,Query Service,_SFSVCecdEeet0YmmfbMwkw,CF3,167.09453359999998,,,0.0,0.0,0.0
+135,Bid and Buy Service,_SFGH_OcdEeet0YmmfbMwkw,CF1,167.0054036,,,0.0,0.0,0.0
+136,Reputation Service,_SFGu0ecdEeet0YmmfbMwkw,CF1,165.9984097,,,0.0,0.0,0.0
+137,Persistence Service,_SFKZ1-cdEeet0YmmfbMwkw,CF2,164.1223993,,,0.0,0.0,0.0
+138,Inventory Service,_SFJzXecdEeet0YmmfbMwkw,CF1,149.3546632,,,0.0,0.0,0.0
+139,User Management Service,_SFE6ZucdEeet0YmmfbMwkw,CF1,148.713642,,,0.0,0.0,0.0
+140,Item Management Service,_SFFhCOcdEeet0YmmfbMwkw,CF1,146.4490209,,,0.0,0.0,0.0
+141,Bid and Buy Service,_SFS8aOcdEeet0YmmfbMwkw,CF3,138.5881535,,,0.0,0.0,0.0
+142,Item Management Service,_SFOD9OcdEeet0YmmfbMwkw,CF3,126.8538643,,,0.0,0.0,0.0
+143,Authentication Service,_SFSW0ucdEeet0YmmfbMwkw,CF3,112.352737,,,0.0,0.0,0.0
+144,Persistence Service,_SFETG-cdEeet0YmmfbMwkw,CF1,94.02890905,,,0.0,0.0,0.0
+145,Persistence Service,_SFNdAucdEeet0YmmfbMwkw,CF2,93.94732152,,,0.0,0.0,0.0
+146,Last Second Sales Item Filter,_SFODducdEeet0YmmfbMwkw,CF3,89.82413363,,,0.0,0.0,0.0
+147,Last Second Sales Item Filter,_SFSVrecdEeet0YmmfbMwkw,CF3,88.31809584,,,0.0,0.0,0.0
+148,Query Service,_SFGwGecdEeet0YmmfbMwkw,CF1,77.19026526,,,0.0,0.0,0.0
+149,Bid and Buy Service,_SFLnRecdEeet0YmmfbMwkw,CF2,76.82548068,,,0.0,0.0,0.0
+150,Bid and Buy Service,_SFOFPucdEeet0YmmfbMwkw,CF3,75.27965865,,,0.0,0.0,0.0
+151,Persistence Service,_SFS-WucdEeet0YmmfbMwkw,CF3,72.16732845,,,0.0,0.0,0.0
+152,Reputation Service,_SFS9tOcdEeet0YmmfbMwkw,CF3,67.50096939,,,0.0,0.0,0.0
+153,Persistence Service,_SFMOS-cdEeet0YmmfbMwkw,CF2,57.4807098,,,0.0,0.0,0.0
+154,Persistence Service,_SFOsJecdEeet0YmmfbMwkw,CF3,51.66931897,,,0.0,0.0,0.0
+155,Reputation Service,_SFLokecdEeet0YmmfbMwkw,CF2,47.46536096,,,0.0,0.0,0.0
+156,User Management Service,_SFGwkecdEeet0YmmfbMwkw,CF1,27.58111825,,,0.0,0.0,0.0
+157,User Management Service,_SFLAXecdEeet0YmmfbMwkw,CF2,26.59665534,,,0.0,0.0,0.0
+158,Inventory Service,_SFLn7ecdEeet0YmmfbMwkw,CF2,12.87649072,,,0.0,0.0,0.0
+159,User Management Service,_SFMPZecdEeet0YmmfbMwkw,CF2,6.51238038,,,0.0,0.0,0.0
+160,Inventory Service,_SEx_KecdEeet0YmmfbMwkw,CF2,259.6222042,,,0.0,0.0,0.0
+161,Bid and Buy Service,_SExYNOcdEeet0YmmfbMwkw,CF1,75.32432656,,,0.0,0.0,0.0
+162,Reputation Service,_SEz0VucdEeet0YmmfbMwkw,CF3,49.23475056,,,0.0,0.0,0.0
+163,Reputation Service,_SEymGucdEeet0YmmfbMwkw,CF3,48.71335868,,,0.0,0.0,0.0
+164,Reputation Service,_SEzNDecdEeet0YmmfbMwkw,CF3,6.571758161,,,0.0,0.0,0.0
+165,Query Service,_SFB2qOcdEeet0YmmfbMwkw,CF3,1501.714826,,,0.0,0.0,0.0
+166,Query Service,_SE_a_OcdEeet0YmmfbMwkw,CF2,1158.369822,,,0.0,0.0,0.0
+167,Authentication Service,_SFCeP-cdEeet0YmmfbMwkw,CF3,366.11452099999997,,,0.0,0.0,0.0
+168,Query Service,_SE8-O-cdEeet0YmmfbMwkw,CF1,345.08453510000004,,,0.0,0.0,0.0
+169,Item Management Service,_SE9lYOcdEeet0YmmfbMwkw,CF1,288.4933418,,,0.0,0.0,0.0
+170,Reputation Service,_SE8W8-cdEeet0YmmfbMwkw,CF1,287.5439111,,,0.0,0.0,0.0
+171,Inventory Service,_SFDFaecdEeet0YmmfbMwkw,CF3,286.48947979999997,,,0.0,0.0,0.0
+172,Item Management Service,_SFACAucdEeet0YmmfbMwkw,CF2,268.5784523,,,0.0,0.0,0.0
+173,Inventory Service,_SFApHecdEeet0YmmfbMwkw,CF2,259.7735053,,,0.0,0.0,0.0
+174,Bid and Buy Service,_SE-L5ecdEeet0YmmfbMwkw,CF1,258.1170391,,,0.0,0.0,0.0
+175,Reputation Service,_SFDr1ecdEeet0YmmfbMwkw,CF3,229.47133419999997,,,0.0,0.0,0.0
+176,User Management Service,_SFABWOcdEeet0YmmfbMwkw,CF2,226.7944437,,,0.0,0.0,0.0
+177,Inventory Service,_SE-zLOcdEeet0YmmfbMwkw,CF1,202.0410033,,,0.0,0.0,0.0
+178,Persistence Service,_SE_aWucdEeet0YmmfbMwkw,CF2,197.3084797,,,0.0,0.0,0.0
+179,Bid and Buy Service,_SFAodecdEeet0YmmfbMwkw,CF2,135.4164676,,,0.0,0.0,0.0
+180,Bid and Buy Service,_SFDEwecdEeet0YmmfbMwkw,CF3,135.0279543,,,0.0,0.0,0.0
+181,Bid and Buy Service,_SE-MhecdEeet0YmmfbMwkw,CF1,109.4517581,,,0.0,0.0,0.0
+182,User Management Service,_SE8-s-cdEeet0YmmfbMwkw,CF1,108.889505,,,0.0,0.0,0.0
+183,Reputation Service,_SFDsdecdEeet0YmmfbMwkw,CF3,107.83317790000001,,,0.0,0.0,0.0
+184,Persistence Service,_SE8XmecdEeet0YmmfbMwkw,CF1,107.8309902,,,0.0,0.0,0.0
+185,Reputation Service,_SE-z0OcdEeet0YmmfbMwkw,CF2,106.87447379999999,,,0.0,0.0,0.0
+186,Reputation Service,_SFESdecdEeet0YmmfbMwkw,CF3,66.24827054,,,0.0,0.0,0.0
+187,Last Second Sales Item Filter,_SFB3TOcdEeet0YmmfbMwkw,CF3,46.09275383,,,0.0,0.0,0.0
+188,Persistence Service,_SFBPhucdEeet0YmmfbMwkw,CF2,38.47123259,,,0.0,0.0,0.0
+189,Past Sales Item Filter,_SFCdwOcdEeet0YmmfbMwkw,CF3,17.96151721,,,0.0,0.0,0.0
+190,Query Service,_SFMO7ecdEeet0YmmfbMwkw,CF2,1337.506631,,,0.0,0.0,0.0
+191,Query Service,_SFE57ucdEeet0YmmfbMwkw,CF1,1155.987941,,,0.0,0.0,0.0
+192,Query Service,_SFKaeecdEeet0YmmfbMwkw,CF2,1155.952219,,,0.0,0.0,0.0
+193,Authentication Service,_SFSWMucdEeet0YmmfbMwkw,CF3,1047.834928,,,0.0,0.0,0.0
+194,Authentication Service,_SFOD--cdEeet0YmmfbMwkw,CF3,514.5058281,,,0.0,0.0,0.0
+195,Query Service,_SFS-XOcdEeet0YmmfbMwkw,CF3,420.88989339999995,,,0.0,0.0,0.0
+196,Bid and Buy Service,_SFJytecdEeet0YmmfbMwkw,CF1,407.88740110000003,,,0.0,0.0,0.0
+197,Bid and Buy Service,_SFM2T-cdEeet0YmmfbMwkw,CF2,405.3852207,,,0.0,0.0,0.0
+198,Bid and Buy Service,_SFOEnucdEeet0YmmfbMwkw,CF3,378.0555495,,,0.0,0.0,0.0
+199,Inventory Service,_SFGIpOcdEeet0YmmfbMwkw,CF1,364.5622204,,,0.0,0.0,0.0
+200,Query Service,_SFOsJ-cdEeet0YmmfbMwkw,CF3,313.7492166,,,0.0,0.0,0.0
+201,Persistence Service,_SFOrhecdEeet0YmmfbMwkw,CF3,306.2782063,,,0.0,0.0,0.0
+202,User Management Service,_SEu7eecdEeet0YmmfbMwkw,CF3,285.6503991,,,0.0,0.0,0.0
+203,Bid and Buy Service,_SFFhsucdEeet0YmmfbMwkw,CF1,285.0625506,,,0.0,0.0,0.0
+204,Reputation Service,_SFKZMecdEeet0YmmfbMwkw,CF1,266.8873344,,,0.0,0.0,0.0
+205,Item Management Service,_SFLBB-cdEeet0YmmfbMwkw,CF2,265.4098715,,,0.0,0.0,0.0
+206,Persistence Service,_SFGvd-cdEeet0YmmfbMwkw,CF1,250.4039759,,,0.0,0.0,0.0
+207,Bid and Buy Service,_SFLBsecdEeet0YmmfbMwkw,CF2,228.53071769999997,,,0.0,0.0,0.0
+208,Reputation Service,_SFOq3-cdEeet0YmmfbMwkw,CF3,227.88147489999997,,,0.0,0.0,0.0
+209,Inventory Service,_SFM29-cdEeet0YmmfbMwkw,CF2,202.8291479,,,0.0,0.0,0.0
+210,Bid and Buy Service,_SFM1r-cdEeet0YmmfbMwkw,CF2,199.19440669999997,,,0.0,0.0,0.0
+211,Item Management Service,_SFJK--cdEeet0YmmfbMwkw,CF1,188.6240535,,,0.0,0.0,0.0
+212,Bid and Buy Service,_SFJyFecdEeet0YmmfbMwkw,CF1,167.3697583,,,0.0,0.0,0.0
+213,Item Management Service,_SFMQD-cdEeet0YmmfbMwkw,CF2,167.2312004,,,0.0,0.0,0.0
+214,Bid and Buy Service,_SFGH_OcdEeet0YmmfbMwkw,CF1,167.0054036,,,0.0,0.0,0.0
+215,Reputation Service,_SFGu0ecdEeet0YmmfbMwkw,CF1,165.9984097,,,0.0,0.0,0.0
+216,Persistence Service,_SFKZ1-cdEeet0YmmfbMwkw,CF1,164.1223993,,,0.0,0.0,0.0
+217,Inventory Service,_SFJzXecdEeet0YmmfbMwkw,CF1,149.3546632,,,0.0,0.0,0.0
+218,User Management Service,_SFE6ZucdEeet0YmmfbMwkw,CF1,148.713642,,,0.0,0.0,0.0
+219,Reputation Service,_SFS9FOcdEeet0YmmfbMwkw,CF3,147.2948489,,,0.0,0.0,0.0
+220,Item Management Service,_SFFhCOcdEeet0YmmfbMwkw,CF1,146.4490209,,,0.0,0.0,0.0
+221,Last Second Sales Item Filter,_SEtGHecdEeet0YmmfbMwkw,CF3,145.6902458,,,0.0,0.0,0.0
+222,Last Second Sales Item Filter,_SEuUXecdEeet0YmmfbMwkw,CF3,129.0511662,,,0.0,0.0,0.0
+223,Inventory Service,_SFS8cOcdEeet0YmmfbMwkw,CF3,121.6465462,,,0.0,0.0,0.0
+224,Persistence Service,_SFNdAucdEeet0YmmfbMwkw,CF2,93.94732152,,,0.0,0.0,0.0
+225,Persistence Service,_SFS9uucdEeet0YmmfbMwkw,CF3,86.82508359999999,,,0.0,0.0,0.0
+226,Last Second Sales Item Filter,_SFNdqOcdEeet0YmmfbMwkw,CF2,86.45850928,,,0.0,0.0,0.0
+227,Query Service,_SFGwGecdEeet0YmmfbMwkw,CF1,77.19026526,,,0.0,0.0,0.0
+228,Bid and Buy Service,_SFLnRecdEeet0YmmfbMwkw,CF2,76.82548068,,,0.0,0.0,0.0
+229,Inventory Service,_SFOFRucdEeet0YmmfbMwkw,CF3,69.16528576,,,0.0,0.0,0.0
+230,Persistence Service,_SFMOS-cdEeet0YmmfbMwkw,CF2,57.4807098,,,0.0,0.0,0.0
+231,Bid and Buy Service,_SFSW1ecdEeet0YmmfbMwkw,CF3,48.85350969,,,0.0,0.0,0.0
+232,Reputation Service,_SFLokecdEeet0YmmfbMwkw,CF2,47.46536096,,,0.0,0.0,0.0
+233,Past Sales Item Filter,_SFSVs-cdEeet0YmmfbMwkw,CF3,39.63968473,,,0.0,0.0,0.0
+234,Past Sales Item Filter,_SFODfOcdEeet0YmmfbMwkw,CF3,38.97559733,,,0.0,0.0,0.0
+235,Last Second Sales Item Filter,_SFSVDecdEeet0YmmfbMwkw,CF3,27.67826127,,,0.0,0.0,0.0
+236,User Management Service,_SFGwkecdEeet0YmmfbMwkw,CF1,27.58111825,,,0.0,0.0,0.0
+237,User Management Service,_SFLAXecdEeet0YmmfbMwkw,CF2,26.59665534,,,0.0,0.0,0.0
+238,Inventory Service,_SFLn7ecdEeet0YmmfbMwkw,CF2,12.87649072,,,0.0,0.0,0.0
+239,User Management Service,_SFMPZecdEeet0YmmfbMwkw,CF2,6.51238038,,,0.0,0.0,0.0
+240,Inventory Service,_SEx_KecdEeet0YmmfbMwkw,CF1,259.6222042,,,0.0,0.0,0.0
+241,Persistence Service,_SE0bSucdEeet0YmmfbMwkw,CF3,231.42417149999997,,,0.0,0.0,0.0
+242,Persistence Service,_SEymIOcdEeet0YmmfbMwkw,CF2,73.60358578,,,0.0,0.0,0.0
+243,Persistence Service,_SEz0XOcdEeet0YmmfbMwkw,CF3,51.44403211,,,0.0,0.0,0.0
+244,Persistence Service,_SEzNE-cdEeet0YmmfbMwkw,CF3,9.93856969,,,0.0,0.0,0.0
+245,Query Service,_SE_a_OcdEeet0YmmfbMwkw,CF2,1158.369822,,,0.0,0.0,0.0
+246,Query Service,_SE8-O-cdEeet0YmmfbMwkw,CF1,345.08453510000004,,,0.0,0.0,0.0
+247,Persistence Service,_SFDr2-cdEeet0YmmfbMwkw,CF3,321.93618230000004,,,0.0,0.0,0.0
+248,Item Management Service,_SE9lYOcdEeet0YmmfbMwkw,CF1,288.4933418,,,0.0,0.0,0.0
+249,Item Management Service,_SFACAucdEeet0YmmfbMwkw,CF2,268.5784523,,,0.0,0.0,0.0
+250,Last Second Sales Item Filter,_SFB2rOcdEeet0YmmfbMwkw,CF2,265.89246119999996,,,0.0,0.0,0.0
+251,Inventory Service,_SFApHecdEeet0YmmfbMwkw,CF2,259.7735053,,,0.0,0.0,0.0
+252,Bid and Buy Service,_SE-L5ecdEeet0YmmfbMwkw,CF1,258.1170391,,,0.0,0.0,0.0
+253,User Management Service,_SFABWOcdEeet0YmmfbMwkw,CF2,226.7944437,,,0.0,0.0,0.0
+254,Reputation Service,_SFDFbecdEeet0YmmfbMwkw,CF3,205.1855069,,,0.0,0.0,0.0
+255,Inventory Service,_SE-zLOcdEeet0YmmfbMwkw,CF1,202.0410033,,,0.0,0.0,0.0
+256,Persistence Service,_SE_aWucdEeet0YmmfbMwkw,CF2,197.3084797,,,0.0,0.0,0.0
+257,Bid and Buy Service,_SFCeQucdEeet0YmmfbMwkw,CF3,138.3257414,,,0.0,0.0,0.0
+258,Bid and Buy Service,_SFAodecdEeet0YmmfbMwkw,CF2,135.4164676,,,0.0,0.0,0.0
+259,Persistence Service,_SFDse-cdEeet0YmmfbMwkw,CF3,132.4903949,,,0.0,0.0,0.0
+260,Inventory Service,_SFDEyecdEeet0YmmfbMwkw,CF3,121.225016,,,0.0,0.0,0.0
+261,Bid and Buy Service,_SE-MhecdEeet0YmmfbMwkw,CF1,109.4517581,,,0.0,0.0,0.0
+262,User Management Service,_SE8-s-cdEeet0YmmfbMwkw,CF1,108.889505,,,0.0,0.0,0.0
+263,Persistence Service,_SE8XmecdEeet0YmmfbMwkw,CF1,107.8309902,,,0.0,0.0,0.0
+264,Reputation Service,_SE-z0OcdEeet0YmmfbMwkw,CF1,106.87447379999999,,,0.0,0.0,0.0
+265,Persistence Service,_SFETG-cdEeet0YmmfbMwkw,CF3,94.02890905,,,0.0,0.0,0.0
+266,Persistence Service,_SFESe-cdEeet0YmmfbMwkw,CF3,69.0367609,,,0.0,0.0,0.0
+267,Persistence Service,_SFBPhucdEeet0YmmfbMwkw,CF2,38.47123259,,,0.0,0.0,0.0
+268,Buy Now Item Filter,_SFCdxecdEeet0YmmfbMwkw,CF3,33.5172464,,,0.0,0.0,0.0
+269,Past Sales Item Filter,_SFB3UucdEeet0YmmfbMwkw,CF3,18.22228104,,,0.0,0.0,0.0
+270,Query Service,_SFOrh-cdEeet0YmmfbMwkw,CF3,1508.4447910000001,,,0.0,0.0,0.0
+271,Query Service,_SFMO7ecdEeet0YmmfbMwkw,CF2,1337.506631,,,0.0,0.0,0.0
+272,Query Service,_SFKaeecdEeet0YmmfbMwkw,CF1,1155.952219,,,0.0,0.0,0.0
+273,Query Service,_SFS9vOcdEeet0YmmfbMwkw,CF3,454.99160430000006,,,0.0,0.0,0.0
+274,Bid and Buy Service,_SFJytecdEeet0YmmfbMwkw,CF1,407.88740110000003,,,0.0,0.0,0.0
+275,Bid and Buy Service,_SFSWNecdEeet0YmmfbMwkw,CF3,407.0980977,,,0.0,0.0,0.0
+276,Bid and Buy Service,_SFM2T-cdEeet0YmmfbMwkw,CF2,405.3852207,,,0.0,0.0,0.0
+277,Inventory Service,_SFGIpOcdEeet0YmmfbMwkw,CF1,364.5622204,,,0.0,0.0,0.0
+278,Inventory Service,_SFOEpucdEeet0YmmfbMwkw,CF3,339.92739,,,0.0,0.0,0.0
+279,Persistence Service,_SFOq5ecdEeet0YmmfbMwkw,CF3,325.3978955,,,0.0,0.0,0.0
+280,Item Management Service,_SEu7g-cdEeet0YmmfbMwkw,CF3,289.7406914,,,0.0,0.0,0.0
+281,Bid and Buy Service,_SFFhsucdEeet0YmmfbMwkw,CF1,285.0625506,,,0.0,0.0,0.0
+282,Reputation Service,_SFKZMecdEeet0YmmfbMwkw,CF1,266.8873344,,,0.0,0.0,0.0
+283,Item Management Service,_SFLBB-cdEeet0YmmfbMwkw,CF2,265.4098715,,,0.0,0.0,0.0
+284,Persistence Service,_SFGvd-cdEeet0YmmfbMwkw,CF1,250.4039759,,,0.0,0.0,0.0
+285,Bid and Buy Service,_SFLBsecdEeet0YmmfbMwkw,CF2,228.53071769999997,,,0.0,0.0,0.0
+286,Persistence Service,_SFS9GucdEeet0YmmfbMwkw,CF3,212.6784074,,,0.0,0.0,0.0
+287,Inventory Service,_SFM29-cdEeet0YmmfbMwkw,CF2,202.8291479,,,0.0,0.0,0.0
+288,Bid and Buy Service,_SFM1r-cdEeet0YmmfbMwkw,CF2,199.19440669999997,,,0.0,0.0,0.0
+289,Bid and Buy Service,_SFOD_ucdEeet0YmmfbMwkw,CF3,197.35432590000002,,,0.0,0.0,0.0
+290,Item Management Service,_SFJK--cdEeet0YmmfbMwkw,CF1,188.6240535,,,0.0,0.0,0.0
+291,Bid and Buy Service,_SFJyFecdEeet0YmmfbMwkw,CF1,167.3697583,,,0.0,0.0,0.0
+292,Item Management Service,_SFMQD-cdEeet0YmmfbMwkw,CF2,167.2312004,,,0.0,0.0,0.0
+293,Bid and Buy Service,_SFGH_OcdEeet0YmmfbMwkw,CF1,167.0054036,,,0.0,0.0,0.0
+294,Reputation Service,_SFGu0ecdEeet0YmmfbMwkw,CF1,165.9984097,,,0.0,0.0,0.0
+295,Persistence Service,_SFKZ1-cdEeet0YmmfbMwkw,CF1,164.1223993,,,0.0,0.0,0.0
+296,Inventory Service,_SFJzXecdEeet0YmmfbMwkw,CF1,149.3546632,,,0.0,0.0,0.0
+297,User Management Service,_SFE6ZucdEeet0YmmfbMwkw,CF1,148.713642,,,0.0,0.0,0.0
+298,Item Management Service,_SFFhCOcdEeet0YmmfbMwkw,CF1,146.4490209,,,0.0,0.0,0.0
+299,Item Management Service,_SEvinOcdEeet0YmmfbMwkw,CF3,129.2850671,,,0.0,0.0,0.0
+300,Persistence Service,_SFNdAucdEeet0YmmfbMwkw,CF2,93.94732152,,,0.0,0.0,0.0
+301,Reputation Service,_SFS8dOcdEeet0YmmfbMwkw,CF3,87.49644665,,,0.0,0.0,0.0
+302,Last Second Sales Item Filter,_SFNdqOcdEeet0YmmfbMwkw,CF2,86.45850928,,,0.0,0.0,0.0
+303,Query Service,_SFGwGecdEeet0YmmfbMwkw,CF1,77.19026526,,,0.0,0.0,0.0
+304,Bid and Buy Service,_SFLnRecdEeet0YmmfbMwkw,CF2,76.82548068,,,0.0,0.0,0.0
+305,Buy Now Item Filter,_SFSVuOcdEeet0YmmfbMwkw,CF3,69.14508277,,,0.0,0.0,0.0
+306,Buy Now Item Filter,_SFODgecdEeet0YmmfbMwkw,CF2,68.07971099,,,0.0,0.0,0.0
+307,Past Sales Item Filter,_SEtGI-cdEeet0YmmfbMwkw,CF3,67.17237544,,,0.0,0.0,0.0
+308,Last Second Sales Item Filter,_SFTjAecdEeet0YmmfbMwkw,CF3,66.80155481,,,0.0,0.0,0.0
+309,Past Sales Item Filter,_SEuUY-cdEeet0YmmfbMwkw,CF3,57.67621111,,,0.0,0.0,0.0
+310,Persistence Service,_SFMOS-cdEeet0YmmfbMwkw,CF2,57.4807098,,,0.0,0.0,0.0
+311,Last Second Sales Item Filter,_SFOsK-cdEeet0YmmfbMwkw,CF3,49.88316235,,,0.0,0.0,0.0
+312,Reputation Service,_SFOFSucdEeet0YmmfbMwkw,CF3,48.92827493,,,0.0,0.0,0.0
+313,Reputation Service,_SFLokecdEeet0YmmfbMwkw,CF2,47.46536096,,,0.0,0.0,0.0
+314,Inventory Service,_SFSW3ecdEeet0YmmfbMwkw,CF3,40.96998925,,,0.0,0.0,0.0
+315,User Management Service,_SFGwkecdEeet0YmmfbMwkw,CF1,27.58111825,,,0.0,0.0,0.0
+316,User Management Service,_SFLAXecdEeet0YmmfbMwkw,CF2,26.59665534,,,0.0,0.0,0.0
+317,Inventory Service,_SFLn7ecdEeet0YmmfbMwkw,CF2,12.87649072,,,0.0,0.0,0.0
+318,Past Sales Item Filter,_SFSVE-cdEeet0YmmfbMwkw,CF3,7.614668075,,,0.0,0.0,0.0
+319,User Management Service,_SFMPZecdEeet0YmmfbMwkw,CF2,6.51238038,,,0.0,0.0,0.0
+320,Query Service,_SE0bTOcdEeet0YmmfbMwkw,CF3,1245.940397,,,0.0,0.0,0.0
+321,Query Service,_SE1CCecdEeet0YmmfbMwkw,CF3,977.2414441,,,0.0,0.0,0.0
+322,Query Service,_SEz0XucdEeet0YmmfbMwkw,CF3,309.5494837,,,0.0,0.0,0.0
+323,Query Service,_SEzNFecdEeet0YmmfbMwkw,CF2,105.7856659,,,0.0,0.0,0.0
+324,Persistence Service,_SEymIOcdEeet0YmmfbMwkw,CF1,73.60358578,,,0.0,0.0,0.0
+325,Query Service,_SFDr3ecdEeet0YmmfbMwkw,CF3,1606.218846,,,0.0,0.0,0.0
+326,Query Service,_SE_a_OcdEeet0YmmfbMwkw,CF2,1158.369822,,,0.0,0.0,0.0
+327,Query Service,_SFE57ucdEeet0YmmfbMwkw,CF3,1155.987941,,,0.0,0.0,0.0
+328,Query Service,_SFDsfecdEeet0YmmfbMwkw,CF3,688.2603511,,,0.0,0.0,0.0
+329,Query Service,_SFETHecdEeet0YmmfbMwkw,CF3,525.1136673000001,,,0.0,0.0,0.0
+330,Query Service,_SFESfecdEeet0YmmfbMwkw,CF3,421.7501672,,,0.0,0.0,0.0
+331,Query Service,_SE8-O-cdEeet0YmmfbMwkw,CF1,345.08453510000004,,,0.0,0.0,0.0
+332,Persistence Service,_SFDFc-cdEeet0YmmfbMwkw,CF3,293.9783851,,,0.0,0.0,0.0
+333,Item Management Service,_SE9lYOcdEeet0YmmfbMwkw,CF1,288.4933418,,,0.0,0.0,0.0
+334,Item Management Service,_SFACAucdEeet0YmmfbMwkw,CF2,268.5784523,,,0.0,0.0,0.0
+335,Last Second Sales Item Filter,_SFB2rOcdEeet0YmmfbMwkw,CF2,265.89246119999996,,,0.0,0.0,0.0
+336,Inventory Service,_SFApHecdEeet0YmmfbMwkw,CF2,259.7735053,,,0.0,0.0,0.0
+337,Bid and Buy Service,_SE-L5ecdEeet0YmmfbMwkw,CF1,258.1170391,,,0.0,0.0,0.0
+338,User Management Service,_SFABWOcdEeet0YmmfbMwkw,CF2,226.7944437,,,0.0,0.0,0.0
+339,Inventory Service,_SE-zLOcdEeet0YmmfbMwkw,CF1,202.0410033,,,0.0,0.0,0.0
+340,Persistence Service,_SE_aWucdEeet0YmmfbMwkw,CF1,197.3084797,,,0.0,0.0,0.0
+341,Bid and Buy Service,_SFAodecdEeet0YmmfbMwkw,CF2,135.4164676,,,0.0,0.0,0.0
+342,Inventory Service,_SFCeSucdEeet0YmmfbMwkw,CF3,123.9591811,,,0.0,0.0,0.0
+343,Bid and Buy Service,_SE-MhecdEeet0YmmfbMwkw,CF1,109.4517581,,,0.0,0.0,0.0
+344,User Management Service,_SE8-s-cdEeet0YmmfbMwkw,CF1,108.889505,,,0.0,0.0,0.0
+345,Reputation Service,_SE-z0OcdEeet0YmmfbMwkw,CF1,106.87447379999999,,,0.0,0.0,0.0
+346,Reputation Service,_SFDEzecdEeet0YmmfbMwkw,CF3,87.52330209,,,0.0,0.0,0.0
+347,Persistence Service,_SFBPhucdEeet0YmmfbMwkw,CF2,38.47123259,,,0.0,0.0,0.0
+348,Buy Now Item Filter,_SFB3V-cdEeet0YmmfbMwkw,CF2,36.07792119,,,0.0,0.0,0.0
+349,Availability Item Filter,_SFCdyucdEeet0YmmfbMwkw,CF3,33.82577363,,,0.0,0.0,0.0
+350,Query Service,_SFOq5-cdEeet0YmmfbMwkw,CF3,1609.900232,,,0.0,0.0,0.0
+351,Query Service,_SFMO7ecdEeet0YmmfbMwkw,CF2,1337.506631,,,0.0,0.0,0.0
+352,Query Service,_SFKaeecdEeet0YmmfbMwkw,CF1,1155.952219,,,0.0,0.0,0.0
+353,Authentication Service,_SEu7iucdEeet0YmmfbMwkw,CF3,1122.1626310000001,,,0.0,0.0,0.0
+354,Query Service,_SFS9HOcdEeet0YmmfbMwkw,CF3,1067.739075,,,0.0,0.0,0.0
+355,Authentication Service,_SEvio-cdEeet0YmmfbMwkw,CF3,429.0182392,,,0.0,0.0,0.0
+356,Bid and Buy Service,_SFJytecdEeet0YmmfbMwkw,CF1,407.88740110000003,,,0.0,0.0,0.0
+357,Bid and Buy Service,_SFM2T-cdEeet0YmmfbMwkw,CF2,405.3852207,,,0.0,0.0,0.0
+358,Inventory Service,_SFSWPecdEeet0YmmfbMwkw,CF3,367.6096708,,,0.0,0.0,0.0
+359,Inventory Service,_SFGIpOcdEeet0YmmfbMwkw,CF1,364.5622204,,,0.0,0.0,0.0
+360,Bid and Buy Service,_SFFhsucdEeet0YmmfbMwkw,CF1,285.0625506,,,0.0,0.0,0.0
+361,Reputation Service,_SFKZMecdEeet0YmmfbMwkw,CF1,266.8873344,,,0.0,0.0,0.0
+362,Item Management Service,_SFLBB-cdEeet0YmmfbMwkw,CF2,265.4098715,,,0.0,0.0,0.0
+363,Persistence Service,_SFGvd-cdEeet0YmmfbMwkw,CF1,250.4039759,,,0.0,0.0,0.0
+364,Last Second Sales Item Filter,_SFOri-cdEeet0YmmfbMwkw,CF3,245.6630058,,,0.0,0.0,0.0
+365,Reputation Service,_SFOEqucdEeet0YmmfbMwkw,CF3,245.46367510000002,,,0.0,0.0,0.0
+366,Bid and Buy Service,_SFLBsecdEeet0YmmfbMwkw,CF2,228.53071769999997,,,0.0,0.0,0.0
+367,Inventory Service,_SFM29-cdEeet0YmmfbMwkw,CF2,202.8291479,,,0.0,0.0,0.0
+368,Bid and Buy Service,_SFM1r-cdEeet0YmmfbMwkw,CF2,199.19440669999997,,,0.0,0.0,0.0
+369,Item Management Service,_SFJK--cdEeet0YmmfbMwkw,CF1,188.6240535,,,0.0,0.0,0.0
+370,Inventory Service,_SFOEBucdEeet0YmmfbMwkw,CF2,177.01565569999997,,,0.0,0.0,0.0
+371,Bid and Buy Service,_SFJyFecdEeet0YmmfbMwkw,CF1,167.3697583,,,0.0,0.0,0.0
+372,Item Management Service,_SFMQD-cdEeet0YmmfbMwkw,CF2,167.2312004,,,0.0,0.0,0.0
+373,Bid and Buy Service,_SFGH_OcdEeet0YmmfbMwkw,CF1,167.0054036,,,0.0,0.0,0.0
+374,Reputation Service,_SFGu0ecdEeet0YmmfbMwkw,CF1,165.9984097,,,0.0,0.0,0.0
+375,Persistence Service,_SFKZ1-cdEeet0YmmfbMwkw,CF1,164.1223993,,,0.0,0.0,0.0
+376,Inventory Service,_SFJzXecdEeet0YmmfbMwkw,CF1,149.3546632,,,0.0,0.0,0.0
+377,Item Management Service,_SFFhCOcdEeet0YmmfbMwkw,CF1,146.4490209,,,0.0,0.0,0.0
+378,Persistence Service,_SFS8eucdEeet0YmmfbMwkw,CF3,128.1978706,,,0.0,0.0,0.0
+379,Buy Now Item Filter,_SEtGKOcdEeet0YmmfbMwkw,CF3,115.9349749,,,0.0,0.0,0.0
+380,Buy Now Item Filter,_SEuUaOcdEeet0YmmfbMwkw,CF3,97.07323515,,,0.0,0.0,0.0
+381,Persistence Service,_SFNdAucdEeet0YmmfbMwkw,CF2,93.94732152,,,0.0,0.0,0.0
+382,Last Second Sales Item Filter,_SFNdqOcdEeet0YmmfbMwkw,CF2,86.45850928,,,0.0,0.0,0.0
+383,Query Service,_SFGwGecdEeet0YmmfbMwkw,CF1,77.19026526,,,0.0,0.0,0.0
+384,Bid and Buy Service,_SFLnRecdEeet0YmmfbMwkw,CF2,76.82548068,,,0.0,0.0,0.0
+385,Persistence Service,_SFOFUOcdEeet0YmmfbMwkw,CF3,71.33769188,,,0.0,0.0,0.0
+386,Last Second Sales Item Filter,_SFS9wOcdEeet0YmmfbMwkw,CF3,69.42749609999998,,,0.0,0.0,0.0
+387,Availability Item Filter,_SFSVvecdEeet0YmmfbMwkw,CF3,69.14071247,,,0.0,0.0,0.0
+388,Buy Now Item Filter,_SFODgecdEeet0YmmfbMwkw,CF2,68.07971099,,,0.0,0.0,0.0
+389,Persistence Service,_SFMOS-cdEeet0YmmfbMwkw,CF2,57.4807098,,,0.0,0.0,0.0
+390,Reputation Service,_SFLokecdEeet0YmmfbMwkw,CF2,47.46536096,,,0.0,0.0,0.0
+391,Authentication Service,_SEwJrOcdEeet0YmmfbMwkw,CF3,36.38832583,,,0.0,0.0,0.0
+392,Reputation Service,_SFSW4ecdEeet0YmmfbMwkw,CF3,29.05611145,,,0.0,0.0,0.0
+393,User Management Service,_SFGwkecdEeet0YmmfbMwkw,CF1,27.58111825,,,0.0,0.0,0.0
+394,Past Sales Item Filter,_SFTjB-cdEeet0YmmfbMwkw,CF3,26.99938529,,,0.0,0.0,0.0
+395,User Management Service,_SFLAXecdEeet0YmmfbMwkw,CF1,26.59665534,,,0.0,0.0,0.0
+396,Buy Now Item Filter,_SFSVGOcdEeet0YmmfbMwkw,CF3,17.76138456,,,0.0,0.0,0.0
+397,Past Sales Item Filter,_SFOsMecdEeet0YmmfbMwkw,CF3,17.07772139,,,0.0,0.0,0.0
+398,Inventory Service,_SFLn7ecdEeet0YmmfbMwkw,CF2,12.87649072,,,0.0,0.0,0.0
+399,User Management Service,_SFMPZecdEeet0YmmfbMwkw,CF2,6.51238038,,,0.0,0.0,0.0
+400,User Management Service,_SE1CgecdEeet0YmmfbMwkw,CF3,266.52797030000005,,,0.0,0.0,0.0
+401,Last Second Sales Item Filter,_SE0bUOcdEeet0YmmfbMwkw,CF3,265.86422769999996,,,0.0,0.0,0.0
+402,Last Second Sales Item Filter,_SE1CDecdEeet0YmmfbMwkw,CF3,206.1398961,,,0.0,0.0,0.0
+403,Query Service,_SEzNFecdEeet0YmmfbMwkw,CF1,105.7856659,,,0.0,0.0,0.0
+404,Last Second Sales Item Filter,_SEz0YucdEeet0YmmfbMwkw,CF2,45.80933052,,,0.0,0.0,0.0
+405,Query Service,_SFDFdecdEeet0YmmfbMwkw,CF3,1569.904816,,,0.0,0.0,0.0
+406,Query Service,_SE_a_OcdEeet0YmmfbMwkw,CF1,1158.369822,,,0.0,0.0,0.0
+407,Item Management Service,_SE9lYOcdEeet0YmmfbMwkw,CF1,288.4933418,,,0.0,0.0,0.0
+408,Item Management Service,_SFACAucdEeet0YmmfbMwkw,CF2,268.5784523,,,0.0,0.0,0.0
+409,Last Second Sales Item Filter,_SFB2rOcdEeet0YmmfbMwkw,CF2,265.89246119999996,,,0.0,0.0,0.0
+410,Inventory Service,_SFApHecdEeet0YmmfbMwkw,CF2,259.7735053,,,0.0,0.0,0.0
+411,Bid and Buy Service,_SE-L5ecdEeet0YmmfbMwkw,CF1,258.1170391,,,0.0,0.0,0.0
+412,Last Second Sales Item Filter,_SFE58ucdEeet0YmmfbMwkw,CF3,245.3624889,,,0.0,0.0,0.0
+413,Last Second Sales Item Filter,_SFDr4ecdEeet0YmmfbMwkw,CF3,228.054087,,,0.0,0.0,0.0
+414,User Management Service,_SFABWOcdEeet0YmmfbMwkw,CF2,226.7944437,,,0.0,0.0,0.0
+415,Inventory Service,_SE-zLOcdEeet0YmmfbMwkw,CF1,202.0410033,,,0.0,0.0,0.0
+416,Persistence Service,_SE_aWucdEeet0YmmfbMwkw,CF1,197.3084797,,,0.0,0.0,0.0
+417,User Management Service,_SFE6ZucdEeet0YmmfbMwkw,CF3,148.713642,,,0.0,0.0,0.0
+418,Persistence Service,_SFDE0-cdEeet0YmmfbMwkw,CF3,145.8814289,,,0.0,0.0,0.0
+419,Bid and Buy Service,_SFAodecdEeet0YmmfbMwkw,CF2,135.4164676,,,0.0,0.0,0.0
+420,Bid and Buy Service,_SE-MhecdEeet0YmmfbMwkw,CF1,109.4517581,,,0.0,0.0,0.0
+421,User Management Service,_SE8-s-cdEeet0YmmfbMwkw,CF1,108.889505,,,0.0,0.0,0.0
+422,Last Second Sales Item Filter,_SFETIecdEeet0YmmfbMwkw,CF3,107.4698031,,,0.0,0.0,0.0
+423,Reputation Service,_SE-z0OcdEeet0YmmfbMwkw,CF1,106.87447379999999,,,0.0,0.0,0.0
+424,Last Second Sales Item Filter,_SFDsgecdEeet0YmmfbMwkw,CF3,105.8027273,,,0.0,0.0,0.0
+425,Reputation Service,_SFCeTucdEeet0YmmfbMwkw,CF3,86.54117695,,,0.0,0.0,0.0
+426,Last Second Sales Item Filter,_SFESgecdEeet0YmmfbMwkw,CF3,65.12381472,,,0.0,0.0,0.0
+427,Persistence Service,_SFBPhucdEeet0YmmfbMwkw,CF2,38.47123259,,,0.0,0.0,0.0
+428,Buy Now Item Filter,_SFB3V-cdEeet0YmmfbMwkw,CF2,36.07792119,,,0.0,0.0,0.0
+429,Region Item Filter,_SFCdz-cdEeet0YmmfbMwkw,CF2,25.73200765,,,0.0,0.0,0.0
+430,Query Service,_SFMO7ecdEeet0YmmfbMwkw,CF2,1337.506631,,,0.0,0.0,0.0
+431,Query Service,_SFKaeecdEeet0YmmfbMwkw,CF1,1155.952219,,,0.0,0.0,0.0
+432,Query Service,_SFS8fOcdEeet0YmmfbMwkw,CF3,708.3784383999999,,,0.0,0.0,0.0
+433,Bid and Buy Service,_SEu7jecdEeet0YmmfbMwkw,CF3,437.4540423,,,0.0,0.0,0.0
+434,Query Service,_SFOFUucdEeet0YmmfbMwkw,CF3,418.94949110000005,,,0.0,0.0,0.0
+435,Bid and Buy Service,_SFJytecdEeet0YmmfbMwkw,CF1,407.88740110000003,,,0.0,0.0,0.0
+436,Bid and Buy Service,_SFM2T-cdEeet0YmmfbMwkw,CF2,405.3852207,,,0.0,0.0,0.0
+437,Persistence Service,_SFOEsOcdEeet0YmmfbMwkw,CF2,397.08250919999995,,,0.0,0.0,0.0
+438,Inventory Service,_SFGIpOcdEeet0YmmfbMwkw,CF1,364.5622204,,,0.0,0.0,0.0
+439,Bid and Buy Service,_SFFhsucdEeet0YmmfbMwkw,CF1,285.0625506,,,0.0,0.0,0.0
+440,Reputation Service,_SFKZMecdEeet0YmmfbMwkw,CF1,266.8873344,,,0.0,0.0,0.0
+441,Reputation Service,_SFSWQecdEeet0YmmfbMwkw,CF3,266.1407752,,,0.0,0.0,0.0
+442,Item Management Service,_SFLBB-cdEeet0YmmfbMwkw,CF1,265.4098715,,,0.0,0.0,0.0
+443,Persistence Service,_SFGvd-cdEeet0YmmfbMwkw,CF1,250.4039759,,,0.0,0.0,0.0
+444,Bid and Buy Service,_SFLBsecdEeet0YmmfbMwkw,CF2,228.53071769999997,,,0.0,0.0,0.0
+445,Last Second Sales Item Filter,_SFOq6-cdEeet0YmmfbMwkw,CF3,227.0086031,,,0.0,0.0,0.0
+446,Inventory Service,_SFM29-cdEeet0YmmfbMwkw,CF2,202.8291479,,,0.0,0.0,0.0
+447,Bid and Buy Service,_SFM1r-cdEeet0YmmfbMwkw,CF2,199.19440669999997,,,0.0,0.0,0.0
+448,Bid and Buy Service,_SEvipucdEeet0YmmfbMwkw,CF3,195.7676128,,,0.0,0.0,0.0
+449,Item Management Service,_SFJK--cdEeet0YmmfbMwkw,CF1,188.6240535,,,0.0,0.0,0.0
+450,Inventory Service,_SFOEBucdEeet0YmmfbMwkw,CF2,177.01565569999997,,,0.0,0.0,0.0
+451,Bid and Buy Service,_SFJyFecdEeet0YmmfbMwkw,CF1,167.3697583,,,0.0,0.0,0.0
+452,Item Management Service,_SFMQD-cdEeet0YmmfbMwkw,CF2,167.2312004,,,0.0,0.0,0.0
+453,Bid and Buy Service,_SFGH_OcdEeet0YmmfbMwkw,CF1,167.0054036,,,0.0,0.0,0.0
+454,Reputation Service,_SFGu0ecdEeet0YmmfbMwkw,CF1,165.9984097,,,0.0,0.0,0.0
+455,Persistence Service,_SFKZ1-cdEeet0YmmfbMwkw,CF1,164.1223993,,,0.0,0.0,0.0
+456,Inventory Service,_SFJzXecdEeet0YmmfbMwkw,CF1,149.3546632,,,0.0,0.0,0.0
+457,Last Second Sales Item Filter,_SFS9IOcdEeet0YmmfbMwkw,CF3,145.4298948,,,0.0,0.0,0.0
+458,Past Sales Item Filter,_SFOrkecdEeet0YmmfbMwkw,CF3,119.65420320000001,,,0.0,0.0,0.0
+459,Availability Item Filter,_SEtGLecdEeet0YmmfbMwkw,CF3,116.0981148,,,0.0,0.0,0.0
+460,Bid and Buy Service,_SEwwp-cdEeet0YmmfbMwkw,CF3,106.48745819999999,,,0.0,0.0,0.0
+461,Availability Item Filter,_SEuUbecdEeet0YmmfbMwkw,CF3,101.33794209999999,,,0.0,0.0,0.0
+462,Persistence Service,_SFNdAucdEeet0YmmfbMwkw,CF2,93.94732152,,,0.0,0.0,0.0
+463,Last Second Sales Item Filter,_SFNdqOcdEeet0YmmfbMwkw,CF2,86.45850928,,,0.0,0.0,0.0
+464,Query Service,_SFGwGecdEeet0YmmfbMwkw,CF1,77.19026526,,,0.0,0.0,0.0
+465,Bid and Buy Service,_SFLnRecdEeet0YmmfbMwkw,CF2,76.82548068,,,0.0,0.0,0.0
+466,Buy Now Item Filter,_SFODgecdEeet0YmmfbMwkw,CF2,68.07971099,,,0.0,0.0,0.0
+467,Persistence Service,_SFMOS-cdEeet0YmmfbMwkw,CF2,57.4807098,,,0.0,0.0,0.0
+468,Buy Now Item Filter,_SFTjDOcdEeet0YmmfbMwkw,CF3,51.9075932,,,0.0,0.0,0.0
+469,Persistence Service,_SFSW5-cdEeet0YmmfbMwkw,CF3,50.50077961,,,0.0,0.0,0.0
+470,Region Item Filter,_SFSVwucdEeet0YmmfbMwkw,CF3,48.49739351,,,0.0,0.0,0.0
+471,Reputation Service,_SFLokecdEeet0YmmfbMwkw,CF2,47.46536096,,,0.0,0.0,0.0
+472,Buy Now Item Filter,_SFOsNucdEeet0YmmfbMwkw,CF3,33.35624967,,,0.0,0.0,0.0
+473,Past Sales Item Filter,_SFS9xucdEeet0YmmfbMwkw,CF3,28.33178703,,,0.0,0.0,0.0
+474,User Management Service,_SFGwkecdEeet0YmmfbMwkw,CF1,27.58111825,,,0.0,0.0,0.0
+475,User Management Service,_SFLAXecdEeet0YmmfbMwkw,CF1,26.59665534,,,0.0,0.0,0.0
+476,Availability Item Filter,_SFSVHecdEeet0YmmfbMwkw,CF3,19.62393194,,,0.0,0.0,0.0
+477,Bid and Buy Service,_SEwJr-cdEeet0YmmfbMwkw,CF3,17.7341225,,,0.0,0.0,0.0
+478,Inventory Service,_SFLn7ecdEeet0YmmfbMwkw,CF2,12.87649072,,,0.0,0.0,0.0
+479,User Management Service,_SFMPZecdEeet0YmmfbMwkw,CF2,6.51238038,,,0.0,0.0,0.0
+480,Bid and Buy Service,_SEx_IecdEeet0YmmfbMwkw,CF3,287.1689003,,,0.0,0.0,0.0
+481,Authentication Service,_SExYMecdEeet0YmmfbMwkw,CF3,138.3211682,,,0.0,0.0,0.0
+482,Inventory Service,_SEymFucdEeet0YmmfbMwkw,CF3,70.06232372,,,0.0,0.0,0.0
+483,User Management Service,_SEwwk-cdEeet0YmmfbMwkw,CF1,66.32339801,,,0.0,0.0,0.0
+484,Item Management Service,_SExXiucdEeet0YmmfbMwkw,CF2,7.272244248,,,0.0,0.0,0.0
+485,Query Service,_SE_aXOcdEeet0YmmfbMwkw,CF2,1065.39267,,,0.0,0.0,0.0
+486,Authentication Service,_SE9lZ-cdEeet0YmmfbMwkw,CF1,745.5299014999999,,,0.0,0.0,0.0
+487,Authentication Service,_SFACCecdEeet0YmmfbMwkw,CF2,690.6900452000001,,,0.0,0.0,0.0
+488,Query Service,_SE8Xm-cdEeet0YmmfbMwkw,CF1,619.4443956,,,0.0,0.0,0.0
+489,Inventory Service,_SE7Iq-cdEeet0YmmfbMwkw,CF1,337.16702480000004,,,0.0,0.0,0.0
+490,Bid and Buy Service,_SFDFYecdEeet0YmmfbMwkw,CF3,319.9059549,,,0.0,0.0,0.0
+491,Inventory Service,_SFDr0ecdEeet0YmmfbMwkw,CF3,313.9455373,,,0.0,0.0,0.0
+492,Inventory Service,_SFApHecdEeet0YmmfbMwkw,CF3,259.7735053,,,0.0,0.0,0.0
+493,Bid and Buy Service,_SE-L5ecdEeet0YmmfbMwkw,CF1,258.1170391,,,0.0,0.0,0.0
+494,Query Service,_SFB3SOcdEeet0YmmfbMwkw,CF3,257.11407230000003,,,0.0,0.0,0.0
+495,Persistence Service,_SE8W-ecdEeet0YmmfbMwkw,CF1,250.8198892,,,0.0,0.0,0.0
+496,User Management Service,_SE_a1OcdEeet0YmmfbMwkw,CF2,247.52643590000002,,,0.0,0.0,0.0
+497,Authentication Service,_SFDEvucdEeet0YmmfbMwkw,CF3,240.62528089999998,,,0.0,0.0,0.0
+498,Persistence Service,_SFB2pucdEeet0YmmfbMwkw,CF3,231.1762051,,,0.0,0.0,0.0
+499,Item Management Service,_SFABYucdEeet0YmmfbMwkw,CF2,228.1975591,,,0.0,0.0,0.0
+500,Reputation Service,_SE-zMOcdEeet0YmmfbMwkw,CF2,147.16251440000002,,,0.0,0.0,0.0
+501,Bid and Buy Service,_SFAodecdEeet0YmmfbMwkw,CF2,135.4164676,,,0.0,0.0,0.0
+502,Item Management Service,_SE9kwOcdEeet0YmmfbMwkw,CF1,108.28576540000002,,,0.0,0.0,0.0
+503,Inventory Service,_SE-MjecdEeet0YmmfbMwkw,CF2,97.48318073,,,0.0,0.0,0.0
+504,Persistence Service,_SE-z1ucdEeet0YmmfbMwkw,CF2,92.74534653,,,0.0,0.0,0.0
+505,Item Management Service,_SFCeOOcdEeet0YmmfbMwkw,CF3,86.64550877,,,0.0,0.0,0.0
+506,Reputation Service,_SE7wGecdEeet0YmmfbMwkw,CF1,85.06436996,,,0.0,0.0,0.0
+507,User Management Service,_SE8-E-cdEeet0YmmfbMwkw,CF1,67.65118954,,,0.0,0.0,0.0
+508,User Management Service,_SFCdjucdEeet0YmmfbMwkw,CF3,46.13986127,,,0.0,0.0,0.0
+509,Reputation Service,_SFBPgOcdEeet0YmmfbMwkw,CF3,29.65284005,,,0.0,0.0,0.0
+510,Query Service,_SFGveecdEeet0YmmfbMwkw,CF1,1336.133114,,,0.0,0.0,0.0
+511,Query Service,_SFKZ2ecdEeet0YmmfbMwkw,CF2,888.5478648,,,0.0,0.0,0.0
+512,Query Service,_SEtGGecdEeet0YmmfbMwkw,CF3,708.0253263,,,0.0,0.0,0.0
+513,Authentication Service,_SFLBDucdEeet0YmmfbMwkw,CF2,695.0150778,,,0.0,0.0,0.0
+514,Authentication Service,_SFOEm-cdEeet0YmmfbMwkw,CF3,644.8844653,,,0.0,0.0,0.0
+515,Query Service,_SFETHecdEeet0YmmfbMwkw,CF1,525.1136673000001,,,0.0,0.0,0.0
+516,Authentication Service,_SFJLAucdEeet0YmmfbMwkw,CF1,489.03575650000005,,,0.0,0.0,0.0
+517,Authentication Service,_SFMQFucdEeet0YmmfbMwkw,CF2,439.51165310000005,,,0.0,0.0,0.0
+518,Query Service,_SFNdpOcdEeet0YmmfbMwkw,CF3,439.02775379999997,,,0.0,0.0,0.0
+519,Authentication Service,_SFFhD-cdEeet0YmmfbMwkw,CF1,389.3140069,,,0.0,0.0,0.0
+520,Inventory Service,_SFJyvecdEeet0YmmfbMwkw,CF1,367.4647798,,,0.0,0.0,0.0
+521,Inventory Service,_SFM2V-cdEeet0YmmfbMwkw,CF2,366.2156329,,,0.0,0.0,0.0
+522,Query Service,_SFMOTecdEeet0YmmfbMwkw,CF2,348.7712608,,,0.0,0.0,0.0
+523,Inventory Service,_SFOq2-cdEeet0YmmfbMwkw,CF3,311.5458647,,,0.0,0.0,0.0
+524,User Management Service,_SFMOxecdEeet0YmmfbMwkw,CF2,286.74184610000003,,,0.0,0.0,0.0
+525,Bid and Buy Service,_SFFhsucdEeet0YmmfbMwkw,CF1,285.0625506,,,0.0,0.0,0.0
+526,Item Management Service,_SFSWK-cdEeet0YmmfbMwkw,CF3,268.88645,,,0.0,0.0,0.0
+527,Reputation Service,_SFGIqOcdEeet0YmmfbMwkw,CF1,268.1706871,,,0.0,0.0,0.0
+528,User Management Service,_SFKaUecdEeet0YmmfbMwkw,CF2,249.2540483,,,0.0,0.0,0.0
+529,User Management Service,_SFE5xucdEeet0YmmfbMwkw,CF1,246.7460904,,,0.0,0.0,0.0
+530,Reputation Service,_SFOrf-cdEeet0YmmfbMwkw,CF3,246.19744590000002,,,0.0,0.0,0.0
+531,Persistence Service,_SFKZN-cdEeet0YmmfbMwkw,CF2,234.6980955,,,0.0,0.0,0.0
+532,Bid and Buy Service,_SFLBsecdEeet0YmmfbMwkw,CF2,228.53071769999997,,,0.0,0.0,0.0
+533,Inventory Service,_SFS9EOcdEeet0YmmfbMwkw,CF3,201.8100921,,,0.0,0.0,0.0
+534,Bid and Buy Service,_SFM1r-cdEeet0YmmfbMwkw,CF2,199.19440669999997,,,0.0,0.0,0.0
+535,Bid and Buy Service,_SFJyFecdEeet0YmmfbMwkw,CF1,167.3697583,,,0.0,0.0,0.0
+536,Query Service,_SFSVCecdEeet0YmmfbMwkw,CF3,167.09453359999998,,,0.0,0.0,0.0
+537,Inventory Service,_SFGIBOcdEeet0YmmfbMwkw,CF1,150.4850744,,,0.0,0.0,0.0
+538,Item Management Service,_SFE6cOcdEeet0YmmfbMwkw,CF1,148.51788159999998,,,0.0,0.0,0.0
+539,Reputation Service,_SFM2--cdEeet0YmmfbMwkw,CF2,146.0626895,,,0.0,0.0,0.0
+540,Persistence Service,_SFGu1-cdEeet0YmmfbMwkw,CF1,142.50197340000003,,,0.0,0.0,0.0
+541,Bid and Buy Service,_SFS8aOcdEeet0YmmfbMwkw,CF3,138.5881535,,,0.0,0.0,0.0
+542,Item Management Service,_SFOD9OcdEeet0YmmfbMwkw,CF3,126.8538643,,,0.0,0.0,0.0
+543,Reputation Service,_SFJzYecdEeet0YmmfbMwkw,CF1,106.9250375,,,0.0,0.0,0.0
+544,Authentication Service,_SFSW0ucdEeet0YmmfbMwkw,CF3,87.15273703,,,0.0,0.0,0.0
+545,User Management Service,_SFNeHOcdEeet0YmmfbMwkw,CF3,86.55472182,,,0.0,0.0,0.0
+546,User Management Service,_SFSVgecdEeet0YmmfbMwkw,CF3,85.63073353,,,0.0,0.0,0.0
+547,Persistence Service,_SFNdAucdEeet0YmmfbMwkw,CF3,76.44732152,,,0.0,0.0,0.0
+548,Bid and Buy Service,_SFOFPucdEeet0YmmfbMwkw,CF3,75.27965865,,,0.0,0.0,0.0
+549,Reputation Service,_SFS9tOcdEeet0YmmfbMwkw,CF3,67.50096939,,,0.0,0.0,0.0
+550,Inventory Service,_SFLnTecdEeet0YmmfbMwkw,CF2,66.92218408,,,0.0,0.0,0.0
+551,Persistence Service,_SFS-WucdEeet0YmmfbMwkw,CF3,58.16732845,,,0.0,0.0,0.0
+552,Persistence Service,_SFESe-cdEeet0YmmfbMwkw,CF1,55.0367609,,,0.0,0.0,0.0
+553,Persistence Service,_SFOsJecdEeet0YmmfbMwkw,CF3,41.16931897,,,0.0,0.0,0.0
+554,Persistence Service,_SFLol-cdEeet0YmmfbMwkw,CF2,38.01153239999999,,,0.0,0.0,0.0
+555,Item Management Service,_SFLAZ-cdEeet0YmmfbMwkw,CF2,27.96511216,,,0.0,0.0,0.0
+556,Item Management Service,_SFGwm-cdEeet0YmmfbMwkw,CF1,25.494251600000002,,,0.0,0.0,0.0
+557,User Management Service,_SFGv8ecdEeet0YmmfbMwkw,CF1,9.366973318,,,0.0,0.0,0.0
+558,Reputation Service,_SFLn8ecdEeet0YmmfbMwkw,CF2,6.772568092999999,,,0.0,0.0,0.0
+559,Item Management Service,_SFMPb-cdEeet0YmmfbMwkw,CF2,6.542362689,,,0.0,0.0,0.0
+560,Inventory Service,_SEx_KecdEeet0YmmfbMwkw,CF3,259.6222042,,,0.0,0.0,0.0
+561,Bid and Buy Service,_SExYNOcdEeet0YmmfbMwkw,CF2,75.32432656,,,0.0,0.0,0.0
+562,Reputation Service,_SEymGucdEeet0YmmfbMwkw,CF3,48.71335868,,,0.0,0.0,0.0
+563,Item Management Service,_SExXiucdEeet0YmmfbMwkw,CF1,7.272244248,,,0.0,0.0,0.0
+564,Reputation Service,_SEzNDecdEeet0YmmfbMwkw,CF3,6.571758161,,,0.0,0.0,0.0
+565,Query Service,_SFB2qOcdEeet0YmmfbMwkw,CF3,1249.714826,,,0.0,0.0,0.0
+566,Query Service,_SE_aXOcdEeet0YmmfbMwkw,CF2,1065.39267,,,0.0,0.0,0.0
+567,Query Service,_SE8Xm-cdEeet0YmmfbMwkw,CF1,619.4443956,,,0.0,0.0,0.0
+568,Bid and Buy Service,_SE9laucdEeet0YmmfbMwkw,CF1,439.97863269999993,,,0.0,0.0,0.0
+569,Bid and Buy Service,_SFACDOcdEeet0YmmfbMwkw,CF2,406.0870974,,,0.0,0.0,0.0
+570,Authentication Service,_SFCeP-cdEeet0YmmfbMwkw,CF3,303.11452099999997,,,0.0,0.0,0.0
+571,Inventory Service,_SFDFaecdEeet0YmmfbMwkw,CF3,286.48947979999997,,,0.0,0.0,0.0
+572,Bid and Buy Service,_SE-L5ecdEeet0YmmfbMwkw,CF1,258.1170391,,,0.0,0.0,0.0
+573,Persistence Service,_SE8W-ecdEeet0YmmfbMwkw,CF1,250.8198892,,,0.0,0.0,0.0
+574,User Management Service,_SE_a1OcdEeet0YmmfbMwkw,CF2,247.52643590000002,,,0.0,0.0,0.0
+575,Reputation Service,_SFDr1ecdEeet0YmmfbMwkw,CF3,229.47133419999997,,,0.0,0.0,0.0
+576,Item Management Service,_SFABYucdEeet0YmmfbMwkw,CF2,228.1975591,,,0.0,0.0,0.0
+577,Reputation Service,_SFApIecdEeet0YmmfbMwkw,CF2,188.8889892,,,0.0,0.0,0.0
+578,Reputation Service,_SE-zMOcdEeet0YmmfbMwkw,CF2,147.16251440000002,,,0.0,0.0,0.0
+579,Bid and Buy Service,_SFAodecdEeet0YmmfbMwkw,CF2,135.4164676,,,0.0,0.0,0.0
+580,Bid and Buy Service,_SFDEwecdEeet0YmmfbMwkw,CF3,135.0279543,,,0.0,0.0,0.0
+581,Item Management Service,_SE9kwOcdEeet0YmmfbMwkw,CF1,108.28576540000002,,,0.0,0.0,0.0
+582,Reputation Service,_SFDsdecdEeet0YmmfbMwkw,CF3,107.83317790000001,,,0.0,0.0,0.0
+583,Inventory Service,_SE-MjecdEeet0YmmfbMwkw,CF1,97.48318073,,,0.0,0.0,0.0
+584,Persistence Service,_SE-z1ucdEeet0YmmfbMwkw,CF2,92.74534653,,,0.0,0.0,0.0
+585,Reputation Service,_SE7wGecdEeet0YmmfbMwkw,CF1,85.06436996,,,0.0,0.0,0.0
+586,User Management Service,_SE8-E-cdEeet0YmmfbMwkw,CF1,67.65118954,,,0.0,0.0,0.0
+587,Last Second Sales Item Filter,_SFB3TOcdEeet0YmmfbMwkw,CF3,46.09275383,,,0.0,0.0,0.0
+588,Item Management Service,_SFCdmOcdEeet0YmmfbMwkw,CF3,45.93051566,,,0.0,0.0,0.0
+589,Persistence Service,_SFBPhucdEeet0YmmfbMwkw,CF3,31.47123259,,,0.0,0.0,0.0
+590,Query Service,_SFGveecdEeet0YmmfbMwkw,CF1,1336.133114,,,0.0,0.0,0.0
+591,Query Service,_SFKZ2ecdEeet0YmmfbMwkw,CF2,888.5478648,,,0.0,0.0,0.0
+592,Authentication Service,_SFSWMucdEeet0YmmfbMwkw,CF3,871.4349277999999,,,0.0,0.0,0.0
+593,Query Service,_SFETHecdEeet0YmmfbMwkw,CF1,525.1136673000001,,,0.0,0.0,0.0
+594,Query Service,_SFNdBOcdEeet0YmmfbMwkw,CF2,439.9834327,,,0.0,0.0,0.0
+595,Authentication Service,_SFOD--cdEeet0YmmfbMwkw,CF3,426.30582810000004,,,0.0,0.0,0.0
+596,Bid and Buy Service,_SFLBEecdEeet0YmmfbMwkw,CF2,407.3678365,,,0.0,0.0,0.0
+597,Bid and Buy Service,_SFOEnucdEeet0YmmfbMwkw,CF3,378.0555495,,,0.0,0.0,0.0
+598,Inventory Service,_SFJyvecdEeet0YmmfbMwkw,CF1,367.4647798,,,0.0,0.0,0.0
+599,Inventory Service,_SFM2V-cdEeet0YmmfbMwkw,CF2,366.2156329,,,0.0,0.0,0.0
+600,Query Service,_SFS-XOcdEeet0YmmfbMwkw,CF3,348.8898934,,,0.0,0.0,0.0
+601,Query Service,_SFMOTecdEeet0YmmfbMwkw,CF2,348.7712608,,,0.0,0.0,0.0
+602,User Management Service,_SFMOxecdEeet0YmmfbMwkw,CF2,286.74184610000003,,,0.0,0.0,0.0
+603,Bid and Buy Service,_SFJLBecdEeet0YmmfbMwkw,CF1,286.1890588,,,0.0,0.0,0.0
+604,Bid and Buy Service,_SFFhsucdEeet0YmmfbMwkw,CF1,285.0625506,,,0.0,0.0,0.0
+605,Reputation Service,_SFGIqOcdEeet0YmmfbMwkw,CF1,268.1706871,,,0.0,0.0,0.0
+606,Persistence Service,_SFOrhecdEeet0YmmfbMwkw,CF3,260.7782063,,,0.0,0.0,0.0
+607,Query Service,_SFOsJ-cdEeet0YmmfbMwkw,CF3,259.74921659999995,,,0.0,0.0,0.0
+608,Bid and Buy Service,_SFMQGecdEeet0YmmfbMwkw,CF2,255.54599419999997,,,0.0,0.0,0.0
+609,User Management Service,_SFKaUecdEeet0YmmfbMwkw,CF2,249.2540483,,,0.0,0.0,0.0
+610,User Management Service,_SFE5xucdEeet0YmmfbMwkw,CF1,246.7460904,,,0.0,0.0,0.0
+611,Persistence Service,_SFKZN-cdEeet0YmmfbMwkw,CF1,234.6980955,,,0.0,0.0,0.0
+612,Bid and Buy Service,_SFLBsecdEeet0YmmfbMwkw,CF2,228.53071769999997,,,0.0,0.0,0.0
+613,Reputation Service,_SFOq3-cdEeet0YmmfbMwkw,CF3,227.88147489999997,,,0.0,0.0,0.0
+614,Bid and Buy Service,_SFFhEucdEeet0YmmfbMwkw,CF1,225.2097076,,,0.0,0.0,0.0
+615,Bid and Buy Service,_SFM1r-cdEeet0YmmfbMwkw,CF2,199.19440669999997,,,0.0,0.0,0.0
+616,Bid and Buy Service,_SFJyFecdEeet0YmmfbMwkw,CF1,167.3697583,,,0.0,0.0,0.0
+617,Inventory Service,_SFGIBOcdEeet0YmmfbMwkw,CF1,150.4850744,,,0.0,0.0,0.0
+618,Item Management Service,_SFE6cOcdEeet0YmmfbMwkw,CF1,148.51788159999998,,,0.0,0.0,0.0
+619,Reputation Service,_SFS9FOcdEeet0YmmfbMwkw,CF3,147.2948489,,,0.0,0.0,0.0
+620,Reputation Service,_SFM2--cdEeet0YmmfbMwkw,CF2,146.0626895,,,0.0,0.0,0.0
+621,Last Second Sales Item Filter,_SEtGHecdEeet0YmmfbMwkw,CF3,145.6902458,,,0.0,0.0,0.0
+622,Persistence Service,_SFGu1-cdEeet0YmmfbMwkw,CF1,142.50197340000003,,,0.0,0.0,0.0
+623,User Management Service,_SEuUMecdEeet0YmmfbMwkw,CF3,125.3173075,,,0.0,0.0,0.0
+624,Inventory Service,_SFS8cOcdEeet0YmmfbMwkw,CF3,121.6465462,,,0.0,0.0,0.0
+625,Reputation Service,_SFJzYecdEeet0YmmfbMwkw,CF1,106.9250375,,,0.0,0.0,0.0
+626,Last Second Sales Item Filter,_SFNdqOcdEeet0YmmfbMwkw,CF3,86.45850928,,,0.0,0.0,0.0
+627,Item Management Service,_SFSVi-cdEeet0YmmfbMwkw,CF3,86.21181956,,,0.0,0.0,0.0
+628,Item Management Service,_SFNeJucdEeet0YmmfbMwkw,CF3,85.12184157,,,0.0,0.0,0.0
+629,Persistence Service,_SFS9uucdEeet0YmmfbMwkw,CF3,72.82508359999999,,,0.0,0.0,0.0
+630,Inventory Service,_SFOFRucdEeet0YmmfbMwkw,CF3,69.16528576,,,0.0,0.0,0.0
+631,Inventory Service,_SFLnTecdEeet0YmmfbMwkw,CF2,66.92218408,,,0.0,0.0,0.0
+632,Bid and Buy Service,_SFSW1ecdEeet0YmmfbMwkw,CF3,48.85350969,,,0.0,0.0,0.0
+633,Persistence Service,_SFLol-cdEeet0YmmfbMwkw,CF2,38.01153239999999,,,0.0,0.0,0.0
+634,Item Management Service,_SFLAZ-cdEeet0YmmfbMwkw,CF2,27.96511216,,,0.0,0.0,0.0
+635,Last Second Sales Item Filter,_SFSVDecdEeet0YmmfbMwkw,CF3,27.67826127,,,0.0,0.0,0.0
+636,Item Management Service,_SFGwm-cdEeet0YmmfbMwkw,CF1,25.494251600000002,,,0.0,0.0,0.0
+637,User Management Service,_SFGv8ecdEeet0YmmfbMwkw,CF1,9.366973318,,,0.0,0.0,0.0
+638,Reputation Service,_SFLn8ecdEeet0YmmfbMwkw,CF2,6.772568092999999,,,0.0,0.0,0.0
+639,Item Management Service,_SFMPb-cdEeet0YmmfbMwkw,CF2,6.542362689,,,0.0,0.0,0.0
+640,Reputation Service,_SEx_LecdEeet0YmmfbMwkw,CF2,188.58754380000002,,,0.0,0.0,0.0
+641,Bid and Buy Service,_SExYNOcdEeet0YmmfbMwkw,CF1,75.32432656,,,0.0,0.0,0.0
+642,Persistence Service,_SEymIOcdEeet0YmmfbMwkw,CF3,63.10358578,,,0.0,0.0,0.0
+643,Persistence Service,_SEz0XOcdEeet0YmmfbMwkw,CF3,40.94403211,,,0.0,0.0,0.0
+644,Persistence Service,_SEzNE-cdEeet0YmmfbMwkw,CF3,6.43856969,1.8603577461568688,2.5374336818920016,0.8087894007865951,1.8623064176228006,2.6867402333201054
+645,Query Service,_SE_aXOcdEeet0YmmfbMwkw,CF2,1065.39267,10.213389662750101,32.640353398822135,3.02750970447293,6.971098714414177,10.057169544832762
+646,Query Service,_SE8Xm-cdEeet0YmmfbMwkw,CF1,619.4443956,8.524471098784895,24.888639890520334,2.792002328035876,6.428822940140079,9.274830974493298
+647,Bid and Buy Service,_SE9laucdEeet0YmmfbMwkw,CF1,439.97863269999993,7.605781800096244,20.975667634189858,2.6434315857457076,6.086726163687678,8.781289651601318
+648,Bid and Buy Service,_SFACDOcdEeet0YmmfbMwkw,CF2,406.0870974,7.40525009341377,20.151602849401336,2.6086191908763907,6.006567662210166,8.665645379034622
+649,Persistence Service,_SFDr2-cdEeet0YmmfbMwkw,CF3,279.93618230000004,6.5416355542103295,16.731293503492193,2.447059035506787,5.634561656834315,8.128954159897967
+650,Last Second Sales Item Filter,_SFB2rOcdEeet0YmmfbMwkw,CF3,265.89246119999996,6.430360799750788,16.306209283582742,2.424706024034635,5.5830919458350134,8.054699063083287
+651,Bid and Buy Service,_SE-L5ecdEeet0YmmfbMwkw,CF1,258.1170391,6.367059253436774,16.066021259166813,2.411816674605292,5.553413121980616,8.01188157108913
+652,Persistence Service,_SE8W-ecdEeet0YmmfbMwkw,CF1,250.8198892,6.306484372532158,15.837294251228649,2.3993619716615773,5.52473510864475,7.970507943466929
+653,User Management Service,_SE_a1OcdEeet0YmmfbMwkw,CF2,247.52643590000002,6.278759710671189,15.732972888173425,2.393621588531757,5.511517388021952,7.951438803472562
+654,Item Management Service,_SFABYucdEeet0YmmfbMwkw,CF2,228.1975591,6.1108787249728165,15.10620928956037,2.3583109947050254,5.4302117410517505,7.8341395497923845
+655,Authentication Service,_SFCdn-cdEeet0YmmfbMwkw,CF3,216.011073,6.000102526025836,14.6973151629813,2.334476014204356,5.375329670259106,7.754961458426119
+656,Query Service,_SFBPiOcdEeet0YmmfbMwkw,CF2,205.2420176,5.898687993240981,14.326270191504836,2.3122662752692555,5.3241898564678545,7.681182302677495
+657,Reputation Service,_SFDFbecdEeet0YmmfbMwkw,CF3,205.1855069,5.898146568066179,14.324297780345116,2.3121466815097316,5.323914481659959,7.680785020807759
+658,Reputation Service,_SFApIecdEeet0YmmfbMwkw,CF2,188.8889892,5.737669751434075,13.743689068077755,2.2762066425748047,5.24115948376677,7.5613947957384795
+659,Reputation Service,_SE-zMOcdEeet0YmmfbMwkw,CF1,147.16251440000002,5.279576249662544,12.131055782577212,2.167797199522751,4.991537516255326,7.201266421112772
+660,Bid and Buy Service,_SFCeQucdEeet0YmmfbMwkw,CF3,138.3257414,5.171712041197013,11.761196427234774,2.140903006629302,4.929611348610764,7.111925846150704
+661,Bid and Buy Service,_SFAodecdEeet0YmmfbMwkw,CF2,135.4164676,5.135197606822237,11.636858149861586,2.1316714808405477,4.908354974943988,7.081259381274363
+662,Inventory Service,_SFDEyecdEeet0YmmfbMwkw,CF3,121.225016,4.949151519366159,11.010223249326055,2.0835922501083393,4.7976484549773835,6.921543633924469
+663,Persistence Service,_SFDse-cdEeet0YmmfbMwkw,CF3,111.4903949,4.812962573987979,10.558901216509225,2.0472374537374387,4.713938442794913,6.800775614476064
+664,Item Management Service,_SE9kwOcdEeet0YmmfbMwkw,CF1,108.28576540000002,4.766399681744252,10.406044656832874,2.0345713706184947,4.684773708618609,6.758699797111065
+665,Inventory Service,_SE-MjecdEeet0YmmfbMwkw,CF1,97.48318073,4.602317369388517,9.873357115490151,1.9889296911215408,4.579679857789712,6.607081419692291
+666,Persistence Service,_SE-z1ucdEeet0YmmfbMwkw,CF2,92.74534653,4.526515822024428,9.630438542974042,1.9672921282381046,4.52985752804559,6.535202991644911
+667,User Management Service,_SE8-E-cdEeet0YmmfbMwkw,CF1,67.65118954,4.074664095463001,8.225034318469438,1.830275437387686,4.214364938202042,6.080043396840409
+668,Persistence Service,_SFESe-cdEeet0YmmfbMwkw,CF3,55.0367609,3.80379954452004,7.418676492474921,1.7406528662766785,4.008001341966038,5.782323659930713
+669,Past Sales Item Filter,_SFB3UucdEeet0YmmfbMwkw,CF3,18.22228104,2.631485088956748,4.268756380961555,1.2606027404239577,2.9026450782876476,4.187631659906346
+670,Query Service,_SFOrh-cdEeet0YmmfbMwkw,CF3,1391.4447910000001,11.164055661116064,37.30207488867074,3.143465979308425,7.238097904289509,10.442367951987272
+671,Query Service,_SFGveecdEeet0YmmfbMwkw,CF1,1336.133114,11.014122670356038,36.55315463814307,3.125849727447788,7.197534985360777,10.38384803000481
+672,Query Service,_SFKZ2ecdEeet0YmmfbMwkw,CF1,888.5478648,9.613767373488239,29.808520003515774,2.9486808275927703,6.789588517612458,9.795305684036142
+673,Query Service,_SFNdBOcdEeet0YmmfbMwkw,CF2,439.9834327,7.605809458727191,20.975782052166732,2.6434363237079337,6.086737073248871,8.78130539077115
+674,Query Service,_SFS9vOcdEeet0YmmfbMwkw,CF3,418.9916043,7.482874134395851,20.469284411038895,2.6222053207163847,6.037850882251218,8.710777525450885
+675,Bid and Buy Service,_SFLBEecdEeet0YmmfbMwkw,CF2,407.3678365,7.413026947401681,20.183355432137642,2.6099867365394793,6.0097165524679825,8.670188267393875
+676,Bid and Buy Service,_SFSWNecdEeet0YmmfbMwkw,CF3,407.0980977,7.411390406403971,20.176672116580573,2.6096990730000744,6.009054182690352,8.669232669800452
+677,Inventory Service,_SFJyvecdEeet0YmmfbMwkw,CF1,367.4647798,7.162619926701691,19.169370876478965,2.565215719824244,5.906627476781294,8.521462169130864
+678,Authentication Service,_SFNeLecdEeet0YmmfbMwkw,CF3,366.21741339999994,7.154506187755755,19.136807816352235,2.5637389908770136,5.903227182721009,8.516556581752527
+679,Inventory Service,_SFM2V-cdEeet0YmmfbMwkw,CF2,366.2156329,7.1544945929867785,19.136761295997815,2.5637368793902944,5.903222320843166,8.516549567545473
+680,Authentication Service,_SFSVkucdEeet0YmmfbMwkw,CF3,364.11818619999997,7.140809658227109,19.081881096998796,2.561242370691876,5.897478502299843,8.508262989017254
+681,Query Service,_SFMOTecdEeet0YmmfbMwkw,CF2,348.7712608,7.039042117435373,18.675418624491392,2.542540691311571,5.854416294144799,8.446137354862245
+682,Inventory Service,_SFOEpucdEeet0YmmfbMwkw,CF3,339.92739,6.97903516465177,18.437119894386974,2.5313861597187097,5.828732035979745,8.40908280297861
+683,Item Management Service,_SEu7g-cdEeet0YmmfbMwkw,CF3,289.7406914,6.617132496381003,17.021771100564123,2.4620094921298397,5.668986355388011,8.17861850178548
+684,User Management Service,_SFMOxecdEeet0YmmfbMwkw,CF2,286.74184610000003,6.594223949418814,16.933453460531908,2.457491076986122,5.658582320034126,8.163608651575199
+685,Bid and Buy Service,_SFJLBecdEeet0YmmfbMwkw,CF1,286.1890588,6.589983726318246,16.917123242442848,2.4566530263712956,5.656652637181253,8.160824707692871
+686,Bid and Buy Service,_SFFhsucdEeet0YmmfbMwkw,CF1,285.0625506,6.581325775361311,16.883795503381343,2.4549401666744197,5.652708631976837,8.15513471094322
+687,Persistence Service,_SFOq5ecdEeet0YmmfbMwkw,CF3,283.3978955,6.568489957968707,16.834425903487176,2.452396620872166,5.64685190132922,8.14668523468208
+688,Reputation Service,_SFGIqOcdEeet0YmmfbMwkw,CF1,268.1706871,6.448674182954371,16.375917900991077,2.4284113047368514,5.591623669945295,8.067007739147423
+689,Bid and Buy Service,_SFMQGecdEeet0YmmfbMwkw,CF2,255.54599419999997,6.345848396712989,15.98580602284414,2.4074690775805503,5.5434024098811,7.997439166387393
+690,User Management Service,_SFKaUecdEeet0YmmfbMwkw,CF2,249.2540483,6.293333405681685,15.787781614273742,2.396642220705151,5.518472650635826,7.96147312635368
+691,User Management Service,_SFE5xucdEeet0YmmfbMwkw,CF1,246.7460904,6.272154679184129,15.708153627972958,2.3922502801617034,5.508359833811168,7.946883415671326
+692,Persistence Service,_SFKZN-cdEeet0YmmfbMwkw,CF1,234.6980955,6.168362029925255,15.319859513063427,2.3705095654520365,5.458299988209653,7.874662324674354
+693,Bid and Buy Service,_SFLBsecdEeet0YmmfbMwkw,CF2,228.53071769999997,6.113851152081156,15.117232474894337,2.3589445835349303,5.431670633246578,7.836244286327054
+694,Bid and Buy Service,_SFFhEucdEeet0YmmfbMwkw,CF1,225.2097076,6.084091014719393,15.00698862530388,2.3525871067221478,5.41703200190841,7.815125205490077
+695,Bid and Buy Service,_SFM1r-cdEeet0YmmfbMwkw,CF2,199.19440669999997,5.840173013381552,14.113624860396424,2.2992771394419473,5.294281265941019,7.638033327444452
+696,Bid and Buy Service,_SFOD_ucdEeet0YmmfbMwkw,CF3,197.35432590000002,5.822134268196913,14.04828551460996,2.2952466503358355,5.285000721807812,7.624644332446723
+697,Persistence Service,_SFS9GucdEeet0YmmfbMwkw,CF3,184.6784074,5.694715605139932,13.58964338752125,2.266416120696224,5.21861597403652,7.528871386046414
+698,Bid and Buy Service,_SFJyFecdEeet0YmmfbMwkw,CF1,167.3697583,5.510939749880422,12.937146451207855,2.223676988962367,5.120205486418631,7.3868950635886215
+699,Inventory Service,_SFGIBOcdEeet0YmmfbMwkw,CF1,150.4850744,5.319014110560583,12.267235809260374,2.177493427324104,5.013863905848995,7.233476592660513
+700,Item Management Service,_SFE6cOcdEeet0YmmfbMwkw,CF1,148.51788159999998,5.295735047578664,12.186791275803486,2.1717787459945215,5.000705365808287,7.214492832198445
+701,Reputation Service,_SFM2--cdEeet0YmmfbMwkw,CF2,146.0626895,5.266390973702641,12.085639805157193,2.164539293185175,4.9840359096880515,7.1904438905194645
+702,Persistence Service,_SFGu1-cdEeet0YmmfbMwkw,CF1,142.50197340000003,5.223243745115209,11.937419042657421,2.1538208785957313,4.959355848033869,7.154838087962143
+703,Item Management Service,_SEuUO-cdEeet0YmmfbMwkw,CF3,125.5866217,5.007809418911609,11.206543699999568,2.0989433780053,4.832995733233571,6.972538976973592
+704,Reputation Service,_SFJzYecdEeet0YmmfbMwkw,CF1,106.9250375,4.746350474642358,10.340456348730456,2.029079411241593,4.672128004826027,6.7404559029609565
+705,Reputation Service,_SFS8dOcdEeet0YmmfbMwkw,CF3,87.49644665,4.439459912019786,9.353953530459727,1.9419904160893695,4.471598182824686,6.4511525232092755
+706,Past Sales Item Filter,_SEtGI-cdEeet0YmmfbMwkw,CF3,67.17237544,4.065028257608901,8.195875513939923,1.827190706676581,4.207262083250751,6.069796143226028
+707,Inventory Service,_SFLnTecdEeet0YmmfbMwkw,CF2,66.92218408,4.05997508781336,8.180598027039343,1.8255701062056833,4.203530512764763,6.0644126249911645
+708,Last Second Sales Item Filter,_SFTjAecdEeet0YmmfbMwkw,CF3,66.80155481,4.057534211159301,8.173221813336525,1.82478657082203,4.20172635587053,6.06180977678687
+709,Last Second Sales Item Filter,_SFOsK-cdEeet0YmmfbMwkw,CF3,49.88316235,3.681159703366536,7.062801310386694,1.6979539778381965,3.909683517960173,5.640481022806458
+710,Reputation Service,_SFOFSucdEeet0YmmfbMwkw,CF3,48.92827493,3.657519369034244,6.994874904528315,1.689559904057734,3.8903554488037884,5.612596513284583
+711,Inventory Service,_SFSW3ecdEeet0YmmfbMwkw,CF3,40.96998925,3.4473757050594576,6.4007803625808,1.6124658499998523,3.712839829171633,5.35649560916094
+712,Past Sales Item Filter,_SFNdrucdEeet0YmmfbMwkw,CF2,38.926296799999996,3.389073829762963,6.239094229132943,1.5902430896718305,3.66167003251515,5.282673197281336
+713,Persistence Service,_SFLol-cdEeet0YmmfbMwkw,CF2,38.01153239999999,3.3623154745502655,6.165349333168397,1.579915378138992,3.637889597894894,5.248365282184508
+714,Item Management Service,_SFLAZ-cdEeet0YmmfbMwkw,CF2,27.96511216,3.0353272568649032,5.288205003590538,1.4466165654976806,3.3309577389932037,4.805556211456209
+715,Item Management Service,_SFGwm-cdEeet0YmmfbMwkw,CF1,25.494251600000002,2.943161468736774,5.049183260686822,1.4064422674993786,3.2384529993008133,4.672100082243273
+716,User Management Service,_SFGv8ecdEeet0YmmfbMwkw,CF1,9.366973318,2.107979716693119,3.060551146117313,0.9715992831358057,2.2371900257122075,3.227582955621254
+717,Past Sales Item Filter,_SFSVE-cdEeet0YmmfbMwkw,CF3,7.614668075,1.967359193133781,2.7594688030488768,0.8816509770958704,2.030076397084586,2.9287811506996664
+718,Reputation Service,_SFLn8ecdEeet0YmmfbMwkw,CF2,6.772568092999999,1.8919854552270121,2.602415818619307,0.8307533802265039,1.9128803492639623,2.7597029936970667
+719,Item Management Service,_SFMPb-cdEeet0YmmfbMwkw,CF2,6.542362689,1.8703011410320258,2.557804271049683,0.8157346164421604,1.8782983676589342,2.709811740331379
+720,Query Service,_SE0bTOcdEeet0YmmfbMwkw,CF3,1245.940397,10.760499270306209,35.297880913731916,3.0954972671440646,7.1276458627297306,10.283019339372919
+721,Query Service,_SEymIucdEeet0YmmfbMwkw,CF2,338.8135317,6.971403963843327,18.40688815905611,2.5299607470697825,5.82544990206296,8.404347684653331
+722,Query Service,_SEz0XucdEeet0YmmfbMwkw,CF3,255.5494837,6.345877280929127,15.9859151661705,2.407475007864265,5.54341606486398,7.997458866363475
+723,Reputation Service,_SEx_LecdEeet0YmmfbMwkw,CF1,188.58754380000002,5.734615902970096,13.732718004823372,2.2755130042148015,5.239562322419099,7.559090578982694
+724,Query Service,_SEzNFecdEeet0YmmfbMwkw,CF3,96.78566586,4.591314199750243,9.837970616951445,1.9858110422374553,4.572498903358934,6.596721492346158
+725,Query Service,_SFDr3ecdEeet0YmmfbMwkw,CF3,1390.218846,11.160775967036418,37.28563860255045,3.143083171569914,7.237216456897331,10.441096292205774
+726,Query Service,_SE_aXOcdEeet0YmmfbMwkw,CF2,1065.39267,10.213389662750101,32.640353398822135,3.02750970447293,6.971098714414177,10.057169544832762
+727,Query Service,_SFDsfecdEeet0YmmfbMwkw,CF3,634.2603511,8.591899489273803,25.184526024922526,2.8022675636177397,6.452459518566951,9.308931348973328
+728,Query Service,_SE8Xm-cdEeet0YmmfbMwkw,CF1,619.4443956,8.524471098784895,24.888639890520334,2.792002328035876,6.428822940140079,9.274830974493298
+729,Query Service,_SFETHecdEeet0YmmfbMwkw,CF3,525.1136673000001,8.067725391532337,22.915358764374606,2.720253321954411,6.2636147482997595,9.036485935411035
+730,Bid and Buy Service,_SE9laucdEeet0YmmfbMwkw,CF1,439.97863269999993,7.605781800096244,20.975667634189858,2.6434315857457076,6.086726163687678,8.781289651601318
+731,Bid and Buy Service,_SFACDOcdEeet0YmmfbMwkw,CF2,406.0870974,7.40525009341377,20.151602849401336,2.6086191908763907,6.006567662210166,8.665645379034622
+732,Query Service,_SFESfecdEeet0YmmfbMwkw,CF3,349.75016719999996,7.045621526862957,18.70160867946926,2.543757930780792,5.85721909160123,8.450180936853254
+733,Persistence Service,_SFDFc-cdEeet0YmmfbMwkw,CF3,293.9783851,6.64923680238307,17.14579788461301,2.468315399878522,5.683506244567922,8.199566273899597
+734,Bid and Buy Service,_SE-L5ecdEeet0YmmfbMwkw,CF1,258.1170391,6.367059253436774,16.066021259166813,2.411816674605292,5.553413121980616,8.01188157108913
+735,User Management Service,_SE_a1OcdEeet0YmmfbMwkw,CF2,247.52643590000002,6.278759710671189,15.732972888173425,2.393621588531757,5.511517388021952,7.951438803472562
+736,Item Management Service,_SFABYucdEeet0YmmfbMwkw,CF2,228.1975591,6.1108787249728165,15.10620928956037,2.3583109947050254,5.4302117410517505,7.8341395497923845
+737,Query Service,_SFBPiOcdEeet0YmmfbMwkw,CF2,205.2420176,5.898687993240981,14.326270191504836,2.3122662752692555,5.3241898564678545,7.681182302677495
+738,Reputation Service,_SFApIecdEeet0YmmfbMwkw,CF2,188.8889892,5.737669751434075,13.743689068077755,2.2762066425748047,5.24115948376677,7.5613947957384795
+739,Reputation Service,_SE-zMOcdEeet0YmmfbMwkw,CF1,147.16251440000002,5.279576249662544,12.131055782577212,2.167797199522751,4.991537516255326,7.201266421112772
+740,Bid and Buy Service,_SFAodecdEeet0YmmfbMwkw,CF2,135.4164676,5.135197606822237,11.636858149861586,2.1316714808405477,4.908354974943988,7.081259381274363
+741,Past Sales Item Filter,_SFB2sucdEeet0YmmfbMwkw,CF2,125.41049109999999,5.00546723435744,11.19868256090867,2.0983338685222916,4.831592285783956,6.970514230297885
+742,Inventory Service,_SFCeSucdEeet0YmmfbMwkw,CF3,123.9591811,4.986083718020072,11.133695752085199,2.0932786985375103,4.819952326734448,6.953721319101009
+743,Item Management Service,_SE9kwOcdEeet0YmmfbMwkw,CF1,108.28576540000002,4.766399681744252,10.406044656832874,2.0345713706184947,4.684773708618609,6.758699797111065
+744,Inventory Service,_SE-MjecdEeet0YmmfbMwkw,CF1,97.48318073,4.602317369388517,9.873357115490151,1.9889296911215408,4.579679857789712,6.607081419692291
+745,Persistence Service,_SE-z1ucdEeet0YmmfbMwkw,CF1,92.74534653,4.526515822024428,9.630438542974042,1.9672921282381046,4.52985752804559,6.535202991644911
+746,Reputation Service,_SFDEzecdEeet0YmmfbMwkw,CF3,87.52330209,4.439914069333602,9.355388933122985,1.942123694414548,4.471905067509462,6.451595264222125
+747,Bid and Buy Service,_SFCdoucdEeet0YmmfbMwkw,CF3,75.48311149999999,4.226198887155936,8.688101720168795,1.8778497939760528,4.323908942491199,6.238081988587495
+748,User Management Service,_SE8-E-cdEeet0YmmfbMwkw,CF1,67.65118954,4.074664095463001,8.225034318469438,1.830275437387686,4.214364938202042,6.080043396840409
+749,Buy Now Item Filter,_SFB3V-cdEeet0YmmfbMwkw,CF3,36.07792119,3.3043078478811916,6.006489922575414,1.5572415055405928,3.5856810768493736,5.17304430777999
+750,Query Service,_SFOq5-cdEeet0YmmfbMwkw,CF3,1393.900232,11.170618760417526,37.33497330921772,3.1442316903742915,7.239861019175313,10.444911589089541
+751,Query Service,_SFGveecdEeet0YmmfbMwkw,CF1,1336.133114,11.014122670356038,36.55315463814307,3.125849727447788,7.197534985360777,10.38384803000481
+752,Authentication Service,_SEu7iucdEeet0YmmfbMwkw,CF3,933.1626308,9.77205223151164,30.54771072928379,2.969957338820488,6.838579495196322,9.865984724444685
+753,Query Service,_SFS9HOcdEeet0YmmfbMwkw,CF3,923.739075,9.739046476119753,30.393076102954765,2.9655493150615864,6.828429645399511,9.851341586477057
+754,Query Service,_SFKZ2ecdEeet0YmmfbMwkw,CF1,888.5478648,9.613767373488239,29.808520003515774,2.9486808275927703,6.789588517612458,9.795305684036142
+755,Authentication Service,_SEuUQucdEeet0YmmfbMwkw,CF3,514.7844331,8.014476045443017,22.68886143242979,2.7116254055186957,6.2437482365312835,9.007824617402893
+756,Query Service,_SFNdBOcdEeet0YmmfbMwkw,CF2,439.9834327,7.605809458727191,20.975782052166732,2.6434363237079337,6.086737073248871,8.78130539077115
+757,Bid and Buy Service,_SFLBEecdEeet0YmmfbMwkw,CF2,407.3678365,7.413026947401681,20.183355432137642,2.6099867365394793,6.0097165524679825,8.670188267393875
+758,Inventory Service,_SFSWPecdEeet0YmmfbMwkw,CF3,367.6096708,7.163561207653092,19.173149736024072,2.565386927958443,5.907021698078901,8.522030910241934
+759,Inventory Service,_SFJyvecdEeet0YmmfbMwkw,CF1,367.4647798,7.162619926701691,19.169370876478965,2.565215719824244,5.906627476781294,8.521462169130864
+760,Inventory Service,_SFM2V-cdEeet0YmmfbMwkw,CF2,366.2156329,7.1544945929867785,19.136761295997815,2.5637368793902944,5.903222320843166,8.516549567545473
+761,Query Service,_SFMOTecdEeet0YmmfbMwkw,CF2,348.7712608,7.039042117435373,18.675418624491392,2.542540691311571,5.854416294144799,8.446137354862245
+762,Authentication Service,_SEvio-cdEeet0YmmfbMwkw,CF3,340.8182392,6.9851265092179275,18.461263207050596,2.5325228283832653,5.831349312302424,8.412858734549975
+763,User Management Service,_SFMOxecdEeet0YmmfbMwkw,CF2,286.74184610000003,6.594223949418814,16.933453460531908,2.457491076986122,5.658582320034126,8.163608651575199
+764,Bid and Buy Service,_SFJLBecdEeet0YmmfbMwkw,CF1,286.1890588,6.589983726318246,16.917123242442848,2.4566530263712956,5.656652637181253,8.160824707692871
+765,Bid and Buy Service,_SFFhsucdEeet0YmmfbMwkw,CF1,285.0625506,6.581325775361311,16.883795503381343,2.4549401666744197,5.652708631976837,8.15513471094322
+766,Reputation Service,_SFGIqOcdEeet0YmmfbMwkw,CF1,268.1706871,6.448674182954371,16.375917900991077,2.4284113047368514,5.591623669945295,8.067007739147423
+767,Bid and Buy Service,_SFMQGecdEeet0YmmfbMwkw,CF2,255.54599419999997,6.345848396712989,15.98580602284414,2.4074690775805503,5.5434024098811,7.997439166387393
+768,User Management Service,_SFKaUecdEeet0YmmfbMwkw,CF1,249.2540483,6.293333405681685,15.787781614273742,2.396642220705151,5.518472650635826,7.96147312635368
+769,Last Second Sales Item Filter,_SFOri-cdEeet0YmmfbMwkw,CF3,245.6630058,6.262964073481737,15.673640476928135,2.3903397613373327,5.503960701646287,7.940536809512838
+770,Reputation Service,_SFOEqucdEeet0YmmfbMwkw,CF3,245.46367510000002,6.26126969434438,15.66728039897161,2.3899872322192706,5.5031489733541905,7.939365733131281
+771,Persistence Service,_SFKZN-cdEeet0YmmfbMwkw,CF1,234.6980955,6.168362029925255,15.319859513063427,2.3705095654520365,5.458299988209653,7.874662324674354
+772,Bid and Buy Service,_SFLBsecdEeet0YmmfbMwkw,CF2,228.53071769999997,6.113851152081156,15.117232474894337,2.3589445835349303,5.431670633246578,7.836244286327054
+773,Bid and Buy Service,_SFFhEucdEeet0YmmfbMwkw,CF1,225.2097076,6.084091014719393,15.00698862530388,2.3525871067221478,5.41703200190841,7.815125205490077
+774,Bid and Buy Service,_SFM1r-cdEeet0YmmfbMwkw,CF2,199.19440669999997,5.840173013381552,14.113624860396424,2.2992771394419473,5.294281265941019,7.638033327444452
+775,Inventory Service,_SFOEBucdEeet0YmmfbMwkw,CF3,177.01565569999997,5.614837942907901,13.304723059876142,2.248011678132672,5.1762381789448195,7.467733151223809
+776,Bid and Buy Service,_SFJyFecdEeet0YmmfbMwkw,CF1,167.3697583,5.510939749880422,12.937146451207855,2.223676988962367,5.120205486418631,7.3868950635886215
+777,Inventory Service,_SFGIBOcdEeet0YmmfbMwkw,CF1,150.4850744,5.319014110560583,12.267235809260374,2.177493427324104,5.013863905848995,7.233476592660513
+778,Item Management Service,_SFE6cOcdEeet0YmmfbMwkw,CF1,148.51788159999998,5.295735047578664,12.186791275803486,2.1717787459945215,5.000705365808287,7.214492832198445
+779,Reputation Service,_SFM2--cdEeet0YmmfbMwkw,CF2,146.0626895,5.266390973702641,12.085639805157193,2.164539293185175,4.9840359096880515,7.1904438905194645
+780,Persistence Service,_SFGu1-cdEeet0YmmfbMwkw,CF1,142.50197340000003,5.223243745115209,11.937419042657421,2.1538208785957313,4.959355848033869,7.154838087962143
+781,Bid and Buy Service,_SFSVlecdEeet0YmmfbMwkw,CF3,136.6701964,5.150996714115396,11.690602910029918,2.1356738185165147,4.917570698013797,7.094554859245384
+782,Bid and Buy Service,_SFNeMOcdEeet0YmmfbMwkw,CF2,135.35013940000002,5.134359047952456,11.634007882067126,2.1314587073959204,4.907865045982203,7.0805525631908095
+783,Persistence Service,_SFS8eucdEeet0YmmfbMwkw,CF3,128.1978706,5.042279751478612,11.322449849745416,2.10788081149832,4.8535749343642225,7.002228488390241
+784,Buy Now Item Filter,_SEtGKOcdEeet0YmmfbMwkw,CF3,115.9349749,4.876087505268619,10.767310476623212,2.0642144723285525,4.753029472726295,6.857172049501311
+785,Reputation Service,_SFJzYecdEeet0YmmfbMwkw,CF1,106.9250375,4.746350474642358,10.340456348730456,2.029079411241593,4.672128004826027,6.7404559029609565
+786,Persistence Service,_SFOFUOcdEeet0YmmfbMwkw,CF3,71.33769188,4.147372253936807,8.446164329445644,1.853319053698779,4.267424825608639,6.156592633272034
+787,Last Second Sales Item Filter,_SFS9wOcdEeet0YmmfbMwkw,CF3,69.42749609999998,4.110019044317127,8.332316370613876,1.841531502725053,4.24028298645363,6.117435236522497
+788,Inventory Service,_SFLnTecdEeet0YmmfbMwkw,CF2,66.92218408,4.05997508781336,8.180598027039343,1.8255701062056833,4.203530512764763,6.0644126249911645
+789,Past Sales Item Filter,_SFNdrucdEeet0YmmfbMwkw,CF2,38.926296799999996,3.389073829762963,6.239094229132943,1.5902430896718305,3.66167003251515,5.282673197281336
+790,Persistence Service,_SFLol-cdEeet0YmmfbMwkw,CF2,38.01153239999999,3.3623154745502655,6.165349333168397,1.579915378138992,3.637889597894894,5.248365282184508
+791,Reputation Service,_SFSW4ecdEeet0YmmfbMwkw,CF3,29.05611145,3.0742970680468624,5.390372106821569,1.4632374926596579,3.3692288381081124,4.860769736358658
+792,Item Management Service,_SFLAZ-cdEeet0YmmfbMwkw,CF2,27.96511216,3.0353272568649032,5.288205003590538,1.4466165654976806,3.3309577389932037,4.805556211456209
+793,Past Sales Item Filter,_SFTjB-cdEeet0YmmfbMwkw,CF3,26.99938529,2.9999772327901812,5.196093271872629,1.4313538764478755,3.295814098708119,4.754854655898132
+794,Item Management Service,_SFGwm-cdEeet0YmmfbMwkw,CF1,25.494251600000002,2.943161468736774,5.049183260686822,1.4064422674993786,3.2384529993008133,4.672100082243273
+795,Buy Now Item Filter,_SFSVGOcdEeet0YmmfbMwkw,CF3,17.76138456,2.6091092981007877,4.21442576871393,1.2494768174859554,2.877026693984803,4.150672143917044
+796,Past Sales Item Filter,_SFOsMecdEeet0YmmfbMwkw,CF3,17.07772139,2.575194135738717,4.1325199805929556,1.232429924095095,2.837774771381149,4.094043589831395
+797,User Management Service,_SFGv8ecdEeet0YmmfbMwkw,CF1,9.366973318,2.107979716693119,3.060551146117313,0.9715992831358057,2.2371900257122075,3.227582955621254
+798,Reputation Service,_SFLn8ecdEeet0YmmfbMwkw,CF2,6.772568092999999,1.8919854552270121,2.602415818619307,0.8307533802265039,1.9128803492639623,2.7597029936970667
+799,Item Management Service,_SFMPb-cdEeet0YmmfbMwkw,CF2,6.542362689,1.8703011410320258,2.557804271049683,0.8157346164421604,1.8782983676589342,2.709811740331379
+0,,,,,,,0.0,0.0,0.0
+1,,,,,,,0.0,0.0,0.0
+2,,,,,,,0.0,0.0,0.0
+3,,,,,,,0.0,0.0,0.0
+4,,,,,,,0.0,0.0,0.0
+5,,,,,,,0.0,0.0,0.0
+6,,,,,,,0.0,0.0,0.0
+7,,,,,,,0.0,0.0,0.0
+8,,,,,,,0.0,0.0,0.0
+9,,,,,,,0.0,0.0,0.0
+10,,,,,,,0.0,0.0,0.0
+11,,,,,,,0.0,0.0,0.0
+12,,,,,,,0.0,0.0,0.0
+13,,,,,,,0.0,0.0,0.0
+14,,,,,,,0.0,0.0,0.0
+15,,,,,,,0.0,0.0,0.0
+16,,,,,,,0.0,0.0,0.0
+17,,,,,,,0.0,0.0,0.0
+18,,,,,,,0.0,0.0,0.0
+19,,,,,,,0.0,0.0,0.0
+20,,,,,,,0.0,0.0,0.0
+21,,,,,,,0.0,0.0,0.0
+22,,,,,,,0.0,0.0,0.0
+23,,,,,,,0.0,0.0,0.0
+24,,,,,,,0.0,0.0,0.0
+25,,,,,,,0.0,0.0,0.0
+26,,,,,,,0.0,0.0,0.0
+27,,,,,,,0.0,0.0,0.0
+28,,,,,,,0.0,0.0,0.0
+29,,,,,,,0.0,0.0,0.0
+30,,,,,,,0.0,0.0,0.0
+31,,,,,,,0.0,0.0,0.0
+32,,,,,,,0.0,0.0,0.0
+33,,,,,,,0.0,0.0,0.0
+34,,,,,,,0.0,0.0,0.0
+35,,,,,,,0.0,0.0,0.0
+36,,,,,,,0.0,0.0,0.0
+37,,,,,,,0.0,0.0,0.0
+38,,,,,,,0.0,0.0,0.0
+39,,,,,,,0.0,0.0,0.0
+40,,,,,,,0.0,0.0,0.0
+41,,,,,,,0.0,0.0,0.0
+42,,,,,,,0.0,0.0,0.0
+43,,,,,,,0.0,0.0,0.0
+44,,,,,,,0.0,0.0,0.0
+45,,,,,,,0.0,0.0,0.0
+46,,,,,,,0.0,0.0,0.0
+47,,,,,,,0.0,0.0,0.0
+48,,,,,,,0.0,0.0,0.0
+49,,,,,,,0.0,0.0,0.0
+50,,,,,,,0.0,0.0,0.0
+51,,,,,,,0.0,0.0,0.0
+52,,,,,,,0.0,0.0,0.0
+53,,,,,,,0.0,0.0,0.0
+54,,,,,,,0.0,0.0,0.0
+55,,,,,,,0.0,0.0,0.0
+56,,,,,,,0.0,0.0,0.0
+57,,,,,,,0.0,0.0,0.0
+58,,,,,,,0.0,0.0,0.0
+59,,,,,,,0.0,0.0,0.0
+60,,,,,,,0.0,0.0,0.0
+61,,,,,,,0.0,0.0,0.0
+62,,,,,,,0.0,0.0,0.0
+63,,,,,,,0.0,0.0,0.0
+64,,,,,,,0.0,0.0,0.0
+65,,,,,,,0.0,0.0,0.0
+66,,,,,,,0.0,0.0,0.0
+67,,,,,,,0.0,0.0,0.0
+68,,,,,,,0.0,0.0,0.0
+69,,,,,,,0.0,0.0,0.0
+70,,,,,,,0.0,0.0,0.0
+71,,,,,,,0.0,0.0,0.0
+72,,,,,,,0.0,0.0,0.0
+73,,,,,,,0.0,0.0,0.0
+74,,,,,,,0.0,0.0,0.0
+75,,,,,,,0.0,0.0,0.0
+76,,,,,,,0.0,0.0,0.0
+77,,,,,,,0.0,0.0,0.0
+78,,,,,,,0.0,0.0,0.0
+79,,,,,,,0.0,0.0,0.0
+80,,,,,,,0.0,0.0,0.0
+81,,,,,,,0.0,0.0,0.0
+82,,,,,,,0.0,0.0,0.0
+83,,,,,,,0.0,0.0,0.0
+84,,,,,,,0.0,0.0,0.0
+85,,,,,,,0.0,0.0,0.0
+86,,,,,,,0.0,0.0,0.0
+87,,,,,,,0.0,0.0,0.0
+88,,,,,,,0.0,0.0,0.0
+89,,,,,,,0.0,0.0,0.0
+90,,,,,,,0.0,0.0,0.0
+91,,,,,,,0.0,0.0,0.0
+92,,,,,,,0.0,0.0,0.0
+93,,,,,,,0.0,0.0,0.0
+94,,,,,,,0.0,0.0,0.0
+95,,,,,,,0.0,0.0,0.0
+96,,,,,,,0.0,0.0,0.0
+97,,,,,,,0.0,0.0,0.0
+98,,,,,,,0.0,0.0,0.0
+99,,,,,,,0.0,0.0,0.0
+100,,,,,,,0.0,0.0,0.0
+101,,,,,,,0.0,0.0,0.0
+102,,,,,,,0.0,0.0,0.0
+103,,,,,,,0.0,0.0,0.0
+104,,,,,,,0.0,0.0,0.0
+105,,,,,,,0.0,0.0,0.0
+106,,,,,,,0.0,0.0,0.0
+107,,,,,,,0.0,0.0,0.0
+108,,,,,,,0.0,0.0,0.0
+109,,,,,,,0.0,0.0,0.0
+110,,,,,,,0.0,0.0,0.0
+111,,,,,,,0.0,0.0,0.0
+112,,,,,,,0.0,0.0,0.0
+113,,,,,,,0.0,0.0,0.0
+114,,,,,,,0.0,0.0,0.0
+115,,,,,,,0.0,0.0,0.0
+116,,,,,,,0.0,0.0,0.0
+117,,,,,,,0.0,0.0,0.0
+118,,,,,,,0.0,0.0,0.0
+119,,,,,,,0.0,0.0,0.0
+120,,,,,,,0.0,0.0,0.0
+121,,,,,,,0.0,0.0,0.0
+122,,,,,,,0.0,0.0,0.0
+123,,,,,,,0.0,0.0,0.0
+124,,,,,,,0.0,0.0,0.0
+125,,,,,,,0.0,0.0,0.0
+126,,,,,,,0.0,0.0,0.0
+127,,,,,,,0.0,0.0,0.0
+128,,,,,,,0.0,0.0,0.0
+129,,,,,,,0.0,0.0,0.0
+130,,,,,,,0.0,0.0,0.0
+131,,,,,,,0.0,0.0,0.0
+132,,,,,,,0.0,0.0,0.0
+133,,,,,,,0.0,0.0,0.0
+134,,,,,,,0.0,0.0,0.0
+135,,,,,,,0.0,0.0,0.0
+136,,,,,,,0.0,0.0,0.0
+137,,,,,,,0.0,0.0,0.0
+138,,,,,,,0.0,0.0,0.0
+139,,,,,,,0.0,0.0,0.0
+140,,,,,,,0.0,0.0,0.0
+141,,,,,,,0.0,0.0,0.0
+142,,,,,,,0.0,0.0,0.0
+143,,,,,,,0.0,0.0,0.0
+144,,,,,,,0.0,0.0,0.0
+145,,,,,,,0.0,0.0,0.0
+146,,,,,,,0.0,0.0,0.0
+147,,,,,,,0.0,0.0,0.0
+148,,,,,,,0.0,0.0,0.0
+149,,,,,,,0.0,0.0,0.0
+150,,,,,,,0.0,0.0,0.0
+151,,,,,,,0.0,0.0,0.0
+152,,,,,,,0.0,0.0,0.0
+153,,,,,,,0.0,0.0,0.0
+154,,,,,,,0.0,0.0,0.0
+155,,,,,,,0.0,0.0,0.0
+156,,,,,,,0.0,0.0,0.0
+157,,,,,,,0.0,0.0,0.0
+158,,,,,,,0.0,0.0,0.0
+159,,,,,,,0.0,0.0,0.0
+160,,,,,,,0.0,0.0,0.0
+161,,,,,,,0.0,0.0,0.0
+162,,,,,,,0.0,0.0,0.0
+163,,,,,,,0.0,0.0,0.0
+164,,,,,,,0.0,0.0,0.0
+165,,,,,,,0.0,0.0,0.0
+166,,,,,,,0.0,0.0,0.0
+167,,,,,,,0.0,0.0,0.0
+168,,,,,,,0.0,0.0,0.0
+169,,,,,,,0.0,0.0,0.0
+170,,,,,,,0.0,0.0,0.0
+171,,,,,,,0.0,0.0,0.0
+172,,,,,,,0.0,0.0,0.0
+173,,,,,,,0.0,0.0,0.0
+174,,,,,,,0.0,0.0,0.0
+175,,,,,,,0.0,0.0,0.0
+176,,,,,,,0.0,0.0,0.0
+177,,,,,,,0.0,0.0,0.0
+178,,,,,,,0.0,0.0,0.0
+179,,,,,,,0.0,0.0,0.0
+180,,,,,,,0.0,0.0,0.0
+181,,,,,,,0.0,0.0,0.0
+182,,,,,,,0.0,0.0,0.0
+183,,,,,,,0.0,0.0,0.0
+184,,,,,,,0.0,0.0,0.0
+185,,,,,,,0.0,0.0,0.0
+186,,,,,,,0.0,0.0,0.0
+187,,,,,,,0.0,0.0,0.0
+188,,,,,,,0.0,0.0,0.0
+189,,,,,,,0.0,0.0,0.0
+190,,,,,,,0.0,0.0,0.0
+191,,,,,,,0.0,0.0,0.0
+192,,,,,,,0.0,0.0,0.0
+193,,,,,,,0.0,0.0,0.0
+194,,,,,,,0.0,0.0,0.0
+195,,,,,,,0.0,0.0,0.0
+196,,,,,,,0.0,0.0,0.0
+197,,,,,,,0.0,0.0,0.0
+198,,,,,,,0.0,0.0,0.0
+199,,,,,,,0.0,0.0,0.0
+200,,,,,,,0.0,0.0,0.0
+201,,,,,,,0.0,0.0,0.0
+202,,,,,,,0.0,0.0,0.0
+203,,,,,,,0.0,0.0,0.0
+204,,,,,,,0.0,0.0,0.0
+205,,,,,,,0.0,0.0,0.0
+206,,,,,,,0.0,0.0,0.0
+207,,,,,,,0.0,0.0,0.0
+208,,,,,,,0.0,0.0,0.0
+209,,,,,,,0.0,0.0,0.0
+210,,,,,,,0.0,0.0,0.0
+211,,,,,,,0.0,0.0,0.0
+212,,,,,,,0.0,0.0,0.0
+213,,,,,,,0.0,0.0,0.0
+214,,,,,,,0.0,0.0,0.0
+215,,,,,,,0.0,0.0,0.0
+216,,,,,,,0.0,0.0,0.0
+217,,,,,,,0.0,0.0,0.0
+218,,,,,,,0.0,0.0,0.0
+219,,,,,,,0.0,0.0,0.0
+220,,,,,,,0.0,0.0,0.0
+221,,,,,,,0.0,0.0,0.0
+222,,,,,,,0.0,0.0,0.0
+223,,,,,,,0.0,0.0,0.0
+224,,,,,,,0.0,0.0,0.0
+225,,,,,,,0.0,0.0,0.0
+226,,,,,,,0.0,0.0,0.0
+227,,,,,,,0.0,0.0,0.0
+228,,,,,,,0.0,0.0,0.0
+229,,,,,,,0.0,0.0,0.0
+230,,,,,,,0.0,0.0,0.0
+231,,,,,,,0.0,0.0,0.0
+232,,,,,,,0.0,0.0,0.0
+233,,,,,,,0.0,0.0,0.0
+234,,,,,,,0.0,0.0,0.0
+235,,,,,,,0.0,0.0,0.0
+236,,,,,,,0.0,0.0,0.0
+237,,,,,,,0.0,0.0,0.0
+238,,,,,,,0.0,0.0,0.0
+239,,,,,,,0.0,0.0,0.0
+240,,,,,,,0.0,0.0,0.0
+241,,,,,,,0.0,0.0,0.0
+242,,,,,,,0.0,0.0,0.0
+243,,,,,,,0.0,0.0,0.0
+244,,,,,,,0.0,0.0,0.0
+245,,,,,,,0.0,0.0,0.0
+246,,,,,,,0.0,0.0,0.0
+247,,,,,,,0.0,0.0,0.0
+248,,,,,,,0.0,0.0,0.0
+249,,,,,,,0.0,0.0,0.0
+250,,,,,,,0.0,0.0,0.0
+251,,,,,,,0.0,0.0,0.0
+252,,,,,,,0.0,0.0,0.0
+253,,,,,,,0.0,0.0,0.0
+254,,,,,,,0.0,0.0,0.0
+255,,,,,,,0.0,0.0,0.0
+256,,,,,,,0.0,0.0,0.0
+257,,,,,,,0.0,0.0,0.0
+258,,,,,,,0.0,0.0,0.0
+259,,,,,,,0.0,0.0,0.0
+260,,,,,,,0.0,0.0,0.0
+261,,,,,,,0.0,0.0,0.0
+262,,,,,,,0.0,0.0,0.0
+263,,,,,,,0.0,0.0,0.0
+264,,,,,,,0.0,0.0,0.0
+265,,,,,,,0.0,0.0,0.0
+266,,,,,,,0.0,0.0,0.0
+267,,,,,,,0.0,0.0,0.0
+268,,,,,,,0.0,0.0,0.0
+269,,,,,,,0.0,0.0,0.0
+270,,,,,,,0.0,0.0,0.0
+271,,,,,,,0.0,0.0,0.0
+272,,,,,,,0.0,0.0,0.0
+273,,,,,,,0.0,0.0,0.0
+274,,,,,,,0.0,0.0,0.0
+275,,,,,,,0.0,0.0,0.0
+276,,,,,,,0.0,0.0,0.0
+277,,,,,,,0.0,0.0,0.0
+278,,,,,,,0.0,0.0,0.0
+279,,,,,,,0.0,0.0,0.0
+280,,,,,,,0.0,0.0,0.0
+281,,,,,,,0.0,0.0,0.0
+282,,,,,,,0.0,0.0,0.0
+283,,,,,,,0.0,0.0,0.0
+284,,,,,,,0.0,0.0,0.0
+285,,,,,,,0.0,0.0,0.0
+286,,,,,,,0.0,0.0,0.0
+287,,,,,,,0.0,0.0,0.0
+288,,,,,,,0.0,0.0,0.0
+289,,,,,,,0.0,0.0,0.0
+290,,,,,,,0.0,0.0,0.0
+291,,,,,,,0.0,0.0,0.0
+292,,,,,,,0.0,0.0,0.0
+293,,,,,,,0.0,0.0,0.0
+294,,,,,,,0.0,0.0,0.0
+295,,,,,,,0.0,0.0,0.0
+296,,,,,,,0.0,0.0,0.0
+297,,,,,,,0.0,0.0,0.0
+298,,,,,,,0.0,0.0,0.0
+299,,,,,,,0.0,0.0,0.0
+300,,,,,,,0.0,0.0,0.0
+301,,,,,,,0.0,0.0,0.0
+302,,,,,,,0.0,0.0,0.0
+303,,,,,,,0.0,0.0,0.0
+304,,,,,,,0.0,0.0,0.0
+305,,,,,,,0.0,0.0,0.0
+306,,,,,,,0.0,0.0,0.0
+307,,,,,,,0.0,0.0,0.0
+308,,,,,,,0.0,0.0,0.0
+309,,,,,,,0.0,0.0,0.0
+310,,,,,,,0.0,0.0,0.0
+311,,,,,,,0.0,0.0,0.0
+312,,,,,,,0.0,0.0,0.0
+313,,,,,,,0.0,0.0,0.0
+314,,,,,,,0.0,0.0,0.0
+315,,,,,,,0.0,0.0,0.0
+316,,,,,,,0.0,0.0,0.0
+317,,,,,,,0.0,0.0,0.0
+318,,,,,,,0.0,0.0,0.0
+319,,,,,,,0.0,0.0,0.0
+320,,,,,,,0.0,0.0,0.0
+321,,,,,,,0.0,0.0,0.0
+322,,,,,,,0.0,0.0,0.0
+323,,,,,,,0.0,0.0,0.0
+324,,,,,,,0.0,0.0,0.0
+325,,,,,,,0.0,0.0,0.0
+326,,,,,,,0.0,0.0,0.0
+327,,,,,,,0.0,0.0,0.0
+328,,,,,,,0.0,0.0,0.0
+329,,,,,,,0.0,0.0,0.0
+330,,,,,,,0.0,0.0,0.0
+331,,,,,,,0.0,0.0,0.0
+332,,,,,,,0.0,0.0,0.0
+333,,,,,,,0.0,0.0,0.0
+334,,,,,,,0.0,0.0,0.0
+335,,,,,,,0.0,0.0,0.0
+336,,,,,,,0.0,0.0,0.0
+337,,,,,,,0.0,0.0,0.0
+338,,,,,,,0.0,0.0,0.0
+339,,,,,,,0.0,0.0,0.0
+340,,,,,,,0.0,0.0,0.0
+341,,,,,,,0.0,0.0,0.0
+342,,,,,,,0.0,0.0,0.0
+343,,,,,,,0.0,0.0,0.0
+344,,,,,,,0.0,0.0,0.0
+345,,,,,,,0.0,0.0,0.0
+346,,,,,,,0.0,0.0,0.0
+347,,,,,,,0.0,0.0,0.0
+348,,,,,,,0.0,0.0,0.0
+349,,,,,,,0.0,0.0,0.0
+350,,,,,,,0.0,0.0,0.0
+351,,,,,,,0.0,0.0,0.0
+352,,,,,,,0.0,0.0,0.0
+353,,,,,,,0.0,0.0,0.0
+354,,,,,,,0.0,0.0,0.0
+355,,,,,,,0.0,0.0,0.0
+356,,,,,,,0.0,0.0,0.0
+357,,,,,,,0.0,0.0,0.0
+358,,,,,,,0.0,0.0,0.0
+359,,,,,,,0.0,0.0,0.0
+360,,,,,,,0.0,0.0,0.0
+361,,,,,,,0.0,0.0,0.0
+362,,,,,,,0.0,0.0,0.0
+363,,,,,,,0.0,0.0,0.0
+364,,,,,,,0.0,0.0,0.0
+365,,,,,,,0.0,0.0,0.0
+366,,,,,,,0.0,0.0,0.0
+367,,,,,,,0.0,0.0,0.0
+368,,,,,,,0.0,0.0,0.0
+369,,,,,,,0.0,0.0,0.0
+370,,,,,,,0.0,0.0,0.0
+371,,,,,,,0.0,0.0,0.0
+372,,,,,,,0.0,0.0,0.0
+373,,,,,,,0.0,0.0,0.0
+374,,,,,,,0.0,0.0,0.0
+375,,,,,,,0.0,0.0,0.0
+376,,,,,,,0.0,0.0,0.0
+377,,,,,,,0.0,0.0,0.0
+378,,,,,,,0.0,0.0,0.0
+379,,,,,,,0.0,0.0,0.0
+380,,,,,,,0.0,0.0,0.0
+381,,,,,,,0.0,0.0,0.0
+382,,,,,,,0.0,0.0,0.0
+383,,,,,,,0.0,0.0,0.0
+384,,,,,,,0.0,0.0,0.0
+385,,,,,,,0.0,0.0,0.0
+386,,,,,,,0.0,0.0,0.0
+387,,,,,,,0.0,0.0,0.0
+388,,,,,,,0.0,0.0,0.0
+389,,,,,,,0.0,0.0,0.0
+390,,,,,,,0.0,0.0,0.0
+391,,,,,,,0.0,0.0,0.0
+392,,,,,,,0.0,0.0,0.0
+393,,,,,,,0.0,0.0,0.0
+394,,,,,,,0.0,0.0,0.0
+395,,,,,,,0.0,0.0,0.0
+396,,,,,,,0.0,0.0,0.0
+397,,,,,,,0.0,0.0,0.0
+398,,,,,,,0.0,0.0,0.0
+399,,,,,,,0.0,0.0,0.0
+400,,,,,,,0.0,0.0,0.0
+401,,,,,,,0.0,0.0,0.0
+402,,,,,,,0.0,0.0,0.0
+403,,,,,,,0.0,0.0,0.0
+404,,,,,,,0.0,0.0,0.0
+405,,,,,,,0.0,0.0,0.0
+406,,,,,,,0.0,0.0,0.0
+407,,,,,,,0.0,0.0,0.0
+408,,,,,,,0.0,0.0,0.0
+409,,,,,,,0.0,0.0,0.0
+410,,,,,,,0.0,0.0,0.0
+411,,,,,,,0.0,0.0,0.0
+412,,,,,,,0.0,0.0,0.0
+413,,,,,,,0.0,0.0,0.0
+414,,,,,,,0.0,0.0,0.0
+415,,,,,,,0.0,0.0,0.0
+416,,,,,,,0.0,0.0,0.0
+417,,,,,,,0.0,0.0,0.0
+418,,,,,,,0.0,0.0,0.0
+419,,,,,,,0.0,0.0,0.0
+420,,,,,,,0.0,0.0,0.0
+421,,,,,,,0.0,0.0,0.0
+422,,,,,,,0.0,0.0,0.0
+423,,,,,,,0.0,0.0,0.0
+424,,,,,,,0.0,0.0,0.0
+425,,,,,,,0.0,0.0,0.0
+426,,,,,,,0.0,0.0,0.0
+427,,,,,,,0.0,0.0,0.0
+428,,,,,,,0.0,0.0,0.0
+429,,,,,,,0.0,0.0,0.0
+430,,,,,,,0.0,0.0,0.0
+431,,,,,,,0.0,0.0,0.0
+432,,,,,,,0.0,0.0,0.0
+433,,,,,,,0.0,0.0,0.0
+434,,,,,,,0.0,0.0,0.0
+435,,,,,,,0.0,0.0,0.0
+436,,,,,,,0.0,0.0,0.0
+437,,,,,,,0.0,0.0,0.0
+438,,,,,,,0.0,0.0,0.0
+439,,,,,,,0.0,0.0,0.0
+440,,,,,,,0.0,0.0,0.0
+441,,,,,,,0.0,0.0,0.0
+442,,,,,,,0.0,0.0,0.0
+443,,,,,,,0.0,0.0,0.0
+444,,,,,,,0.0,0.0,0.0
+445,,,,,,,0.0,0.0,0.0
+446,,,,,,,0.0,0.0,0.0
+447,,,,,,,0.0,0.0,0.0
+448,,,,,,,0.0,0.0,0.0
+449,,,,,,,0.0,0.0,0.0
+450,,,,,,,0.0,0.0,0.0
+451,,,,,,,0.0,0.0,0.0
+452,,,,,,,0.0,0.0,0.0
+453,,,,,,,0.0,0.0,0.0
+454,,,,,,,0.0,0.0,0.0
+455,,,,,,,0.0,0.0,0.0
+456,,,,,,,0.0,0.0,0.0
+457,,,,,,,0.0,0.0,0.0
+458,,,,,,,0.0,0.0,0.0
+459,,,,,,,0.0,0.0,0.0
+460,,,,,,,0.0,0.0,0.0
+461,,,,,,,0.0,0.0,0.0
+462,,,,,,,0.0,0.0,0.0
+463,,,,,,,0.0,0.0,0.0
+464,,,,,,,0.0,0.0,0.0
+465,,,,,,,0.0,0.0,0.0
+466,,,,,,,0.0,0.0,0.0
+467,,,,,,,0.0,0.0,0.0
+468,,,,,,,0.0,0.0,0.0
+469,,,,,,,0.0,0.0,0.0
+470,,,,,,,0.0,0.0,0.0
+471,,,,,,,0.0,0.0,0.0
+472,,,,,,,0.0,0.0,0.0
+473,,,,,,,0.0,0.0,0.0
+474,,,,,,,0.0,0.0,0.0
+475,,,,,,,0.0,0.0,0.0
+476,,,,,,,0.0,0.0,0.0
+477,,,,,,,0.0,0.0,0.0
+478,,,,,,,0.0,0.0,0.0
+479,,,,,,,0.0,0.0,0.0
+480,,,,,,,0.0,0.0,0.0
+481,,,,,,,0.0,0.0,0.0
+482,,,,,,,0.0,0.0,0.0
+483,,,,,,,0.0,0.0,0.0
+484,,,,,,,0.0,0.0,0.0
+485,,,,,,,0.0,0.0,0.0
+486,,,,,,,0.0,0.0,0.0
+487,,,,,,,0.0,0.0,0.0
+488,,,,,,,0.0,0.0,0.0
+489,,,,,,,0.0,0.0,0.0
+490,,,,,,,0.0,0.0,0.0
+491,,,,,,,0.0,0.0,0.0
+492,,,,,,,0.0,0.0,0.0
+493,,,,,,,0.0,0.0,0.0
+494,,,,,,,0.0,0.0,0.0
+495,,,,,,,0.0,0.0,0.0
+496,,,,,,,0.0,0.0,0.0
+497,,,,,,,0.0,0.0,0.0
+498,,,,,,,0.0,0.0,0.0
+499,,,,,,,0.0,0.0,0.0
+500,,,,,,,0.0,0.0,0.0
+501,,,,,,,0.0,0.0,0.0
+502,,,,,,,0.0,0.0,0.0
+503,,,,,,,0.0,0.0,0.0
+504,,,,,,,0.0,0.0,0.0
+505,,,,,,,0.0,0.0,0.0
+506,,,,,,,0.0,0.0,0.0
+507,,,,,,,0.0,0.0,0.0
+508,,,,,,,0.0,0.0,0.0
+509,,,,,,,0.0,0.0,0.0
+510,,,,,,,0.0,0.0,0.0
+511,,,,,,,0.0,0.0,0.0
+512,,,,,,,0.0,0.0,0.0
+513,,,,,,,0.0,0.0,0.0
+514,,,,,,,0.0,0.0,0.0
+515,,,,,,,0.0,0.0,0.0
+516,,,,,,,0.0,0.0,0.0
+517,,,,,,,0.0,0.0,0.0
+518,,,,,,,0.0,0.0,0.0
+519,,,,,,,0.0,0.0,0.0
+520,,,,,,,0.0,0.0,0.0
+521,,,,,,,0.0,0.0,0.0
+522,,,,,,,0.0,0.0,0.0
+523,,,,,,,0.0,0.0,0.0
+524,,,,,,,0.0,0.0,0.0
+525,,,,,,,0.0,0.0,0.0
+526,,,,,,,0.0,0.0,0.0
+527,,,,,,,0.0,0.0,0.0
+528,,,,,,,0.0,0.0,0.0
+529,,,,,,,0.0,0.0,0.0
+530,,,,,,,0.0,0.0,0.0
+531,,,,,,,0.0,0.0,0.0
+532,,,,,,,0.0,0.0,0.0
+533,,,,,,,0.0,0.0,0.0
+534,,,,,,,0.0,0.0,0.0
+535,,,,,,,0.0,0.0,0.0
+536,,,,,,,0.0,0.0,0.0
+537,,,,,,,0.0,0.0,0.0
+538,,,,,,,0.0,0.0,0.0
+539,,,,,,,0.0,0.0,0.0
+540,,,,,,,0.0,0.0,0.0
+541,,,,,,,0.0,0.0,0.0
+542,,,,,,,0.0,0.0,0.0
+543,,,,,,,0.0,0.0,0.0
+544,,,,,,,0.0,0.0,0.0
+545,,,,,,,0.0,0.0,0.0
+546,,,,,,,0.0,0.0,0.0
+547,,,,,,,0.0,0.0,0.0
+548,,,,,,,0.0,0.0,0.0
+549,,,,,,,0.0,0.0,0.0
+550,,,,,,,0.0,0.0,0.0
+551,,,,,,,0.0,0.0,0.0
+552,,,,,,,0.0,0.0,0.0
+553,,,,,,,0.0,0.0,0.0
+554,,,,,,,0.0,0.0,0.0
+555,,,,,,,0.0,0.0,0.0
+556,,,,,,,0.0,0.0,0.0
+557,,,,,,,0.0,0.0,0.0
+558,,,,,,,0.0,0.0,0.0
+559,,,,,,,0.0,0.0,0.0
+560,,,,,,,0.0,0.0,0.0
+561,,,,,,,0.0,0.0,0.0
+562,,,,,,,0.0,0.0,0.0
+563,,,,,,,0.0,0.0,0.0
+564,,,,,,,0.0,0.0,0.0
+565,,,,,,,0.0,0.0,0.0
+566,,,,,,,0.0,0.0,0.0
+567,,,,,,,0.0,0.0,0.0
+568,,,,,,,0.0,0.0,0.0
+569,,,,,,,0.0,0.0,0.0
+570,,,,,,,0.0,0.0,0.0
+571,,,,,,,0.0,0.0,0.0
+572,,,,,,,0.0,0.0,0.0
+573,,,,,,,0.0,0.0,0.0
+574,,,,,,,0.0,0.0,0.0
+575,,,,,,,0.0,0.0,0.0
+576,,,,,,,0.0,0.0,0.0
+577,,,,,,,0.0,0.0,0.0
+578,,,,,,,0.0,0.0,0.0
+579,,,,,,,0.0,0.0,0.0
+580,,,,,,,0.0,0.0,0.0
+581,,,,,,,0.0,0.0,0.0
+582,,,,,,,0.0,0.0,0.0
+583,,,,,,,0.0,0.0,0.0
+584,,,,,,,0.0,0.0,0.0
+585,,,,,,,0.0,0.0,0.0
+586,,,,,,,0.0,0.0,0.0
+587,,,,,,,0.0,0.0,0.0
+588,,,,,,,0.0,0.0,0.0
+589,,,,,,,0.0,0.0,0.0
+590,,,,,,,0.0,0.0,0.0
+591,,,,,,,0.0,0.0,0.0
+592,,,,,,,0.0,0.0,0.0
+593,,,,,,,0.0,0.0,0.0
+594,,,,,,,0.0,0.0,0.0
+595,,,,,,,0.0,0.0,0.0
+596,,,,,,,0.0,0.0,0.0
+597,,,,,,,0.0,0.0,0.0
+598,,,,,,,0.0,0.0,0.0
+599,,,,,,,0.0,0.0,0.0
+600,,,,,,,0.0,0.0,0.0
+601,,,,,,,0.0,0.0,0.0
+602,,,,,,,0.0,0.0,0.0
+603,,,,,,,0.0,0.0,0.0
+604,,,,,,,0.0,0.0,0.0
+605,,,,,,,0.0,0.0,0.0
+606,,,,,,,0.0,0.0,0.0
+607,,,,,,,0.0,0.0,0.0
+608,,,,,,,0.0,0.0,0.0
+609,,,,,,,0.0,0.0,0.0
+610,,,,,,,0.0,0.0,0.0
+611,,,,,,,0.0,0.0,0.0
+612,,,,,,,0.0,0.0,0.0
+613,,,,,,,0.0,0.0,0.0
+614,,,,,,,0.0,0.0,0.0
+615,,,,,,,0.0,0.0,0.0
+616,,,,,,,0.0,0.0,0.0
+617,,,,,,,0.0,0.0,0.0
+618,,,,,,,0.0,0.0,0.0
+619,,,,,,,0.0,0.0,0.0
+620,,,,,,,0.0,0.0,0.0
+621,,,,,,,0.0,0.0,0.0
+622,,,,,,,0.0,0.0,0.0
+623,,,,,,,0.0,0.0,0.0
+624,,,,,,,0.0,0.0,0.0
+625,,,,,,,0.0,0.0,0.0
+626,,,,,,,0.0,0.0,0.0
+627,,,,,,,0.0,0.0,0.0
+628,,,,,,,0.0,0.0,0.0
+629,,,,,,,0.0,0.0,0.0
+630,,,,,,,0.0,0.0,0.0
+631,,,,,,,0.0,0.0,0.0
+632,,,,,,,0.0,0.0,0.0
+633,,,,,,,0.0,0.0,0.0
+634,,,,,,,0.0,0.0,0.0
+635,,,,,,,0.0,0.0,0.0
+636,,,,,,,0.0,0.0,0.0
+637,,,,,,,0.0,0.0,0.0
+638,,,,,,,0.0,0.0,0.0
+639,,,,,,,0.0,0.0,0.0
+640,,,,,,,0.0,0.0,0.0
+641,,,,,,,0.0,0.0,0.0
+642,,,,,,,0.0,0.0,0.0
+643,,,,,,,0.0,0.0,0.0
+0,Bid and Buy Service,_SEu7jecdEeet0YmmfbMwkw,CF1,437.4540423,,,0.0,0.0,0.0
+1,Item Management Service,_SEu7g-cdEeet0YmmfbMwkw,CF1,289.7406914,,,0.0,0.0,0.0
+2,Availability Item Filter,_SEu7tecdEeet0YmmfbMwkw,CF2,226.12014150000002,,,0.0,0.0,0.0
+3,Bid and Buy Service,_SEvipucdEeet0YmmfbMwkw,CF3,195.7676128,,,0.0,0.0,0.0
+4,Item Management Service,_SEuUO-cdEeet0YmmfbMwkw,CF1,125.5866217,,,0.0,0.0,0.0
+5,Availability Item Filter,_SEuUbecdEeet0YmmfbMwkw,CF2,101.33794209999999,,,0.0,0.0,0.0
+6,Past Sales Item Filter,_SEuUY-cdEeet0YmmfbMwkw,CF1,57.67621111,,,0.0,0.0,0.0
+7,Authentication Service,_SEu7iucdEeet0YmmfbMwkw,CF3,744.1626307999999,,,0.0,0.0,0.0
+8,Authentication Service,_SEx_HucdEeet0YmmfbMwkw,CF3,491.04499730000003,,,0.0,0.0,0.0
+9,Authentication Service,_SEvio-cdEeet0YmmfbMwkw,CF1,429.0182392,,,0.0,0.0,0.0
+10,Authentication Service,_SEuUQucdEeet0YmmfbMwkw,CF1,338.3844331,,,0.0,0.0,0.0
+11,Authentication Service,_SEwwpOcdEeet0YmmfbMwkw,CF1,190.7350509,,,0.0,0.0,0.0
+12,Authentication Service,_SEymC-cdEeet0YmmfbMwkw,CF1,139.1890115,,,0.0,0.0,0.0
+13,Authentication Service,_SExYMecdEeet0YmmfbMwkw,CF1,138.3211682,,,0.0,0.0,0.0
+14,Authentication Service,_SExXkecdEeet0YmmfbMwkw,CF3,40.17041053,,,0.0,0.0,0.0
+15,Authentication Service,_SEwJrOcdEeet0YmmfbMwkw,CF3,36.38832583,,,0.0,0.0,0.0
+16,Query Service,_SEviuucdEeet0YmmfbMwkw,CF2,808.434981,,,0.0,0.0,0.0
+17,Authentication Service,_SE4F4ucdEeet0YmmfbMwkw,CF3,643.9520949,,,0.0,0.0,0.0
+18,Authentication Service,_SE4FQucdEeet0YmmfbMwkw,CF3,590.0921859,,,0.0,0.0,0.0
+19,Last Second Sales Item Filter,_SEu7pecdEeet0YmmfbMwkw,CF1,287.9633935,,,0.0,0.0,0.0
+20,Persistence Service,_SEu7n-cdEeet0YmmfbMwkw,CF1,251.79052259999997,,,0.0,0.0,0.0
+21,Buy Now Item Filter,_SEu7sOcdEeet0YmmfbMwkw,CF1,227.0712762,,,0.0,0.0,0.0
+22,Comment Item Filter,_SEu7xecdEeet0YmmfbMwkw,CF1,199.4805486,,,0.0,0.0,0.0
+23,Region Item Filter,_SEu7uucdEeet0YmmfbMwkw,CF1,168.0792313,,,0.0,0.0,0.0
+24,Availability Item Filter,_SEvizucdEeet0YmmfbMwkw,CF2,101.1170965,,,0.0,0.0,0.0
+25,Seller Reputation Item Filter,_SEvi2OcdEeet0YmmfbMwkw,CF2,97.41934906,,,0.0,0.0,0.0
+26,Category Item Filter,_SEvi5OcdEeet0YmmfbMwkw,CF2,58.55074861,,,0.0,0.0,0.0
+27,Past Sales Item Filter,_SEvixOcdEeet0YmmfbMwkw,CF2,56.24135119,,,0.0,0.0,0.0
+28,Availability Item Filter,_SEu7tecdEeet0YmmfbMwkw,CF2,226.12014150000002,,,0.0,0.0,0.0
+29,Bid and Buy Service,_SEwwp-cdEeet0YmmfbMwkw,CF2,106.48745819999999,,,0.0,0.0,0.0
+30,Item Management Service,_SEwwnecdEeet0YmmfbMwkw,CF2,66.73334914,,,0.0,0.0,0.0
+31,Persistence Service,_SEwwuecdEeet0YmmfbMwkw,CF2,58.32621604,,,0.0,0.0,0.0
+32,Availability Item Filter,_SEwwz-cdEeet0YmmfbMwkw,CF2,51.16399017,,,0.0,0.0,0.0
+33,Bid and Buy Service,_SEwJr-cdEeet0YmmfbMwkw,CF2,17.7341225,,,0.0,0.0,0.0
+34,Item Management Service,_SEwJpecdEeet0YmmfbMwkw,CF2,7.768185507,,,0.0,0.0,0.0
+35,Persistence Service,_SEwJwecdEeet0YmmfbMwkw,CF2,6.774312312999999,,,0.0,0.0,0.0
+36,Item Management Service,_SEz0QOcdEeet0YmmfbMwkw,CF1,48.51166737,,,0.0,0.0,0.0
+37,Last Second Sales Item Filter,_SEz0YucdEeet0YmmfbMwkw,CF3,45.80933052,,,0.0,0.0,0.0
+38,Authentication Service,_SEzM_ucdEeet0YmmfbMwkw,CF3,38.38187697,,,0.0,0.0,0.0
+39,Reputation Service,_SE23mOcdEeet0YmmfbMwkw,CF1,69.69989361,,,0.0,0.0,0.0
+40,Item Management Service,_SE23gucdEeet0YmmfbMwkw,CF1,65.32373489999999,,,0.0,0.0,0.0
+41,Seller Reputation Item Filter,_SE23vucdEeet0YmmfbMwkw,CF1,49.93589974,,,0.0,0.0,0.0
+42,Item Management Service,_SExYKucdEeet0YmmfbMwkw,CF1,45.17630238,,,0.0,0.0,0.0
+43,Item Management Service,_SExXiucdEeet0YmmfbMwkw,CF1,7.272244248,,,0.0,0.0,0.0
+44,Persistence Service,_SExXpucdEeet0YmmfbMwkw,CF1,5.287448106,,,0.0,0.0,0.0
+45,Comment Item Filter,_SExXzOcdEeet0YmmfbMwkw,CF1,3.07796863,,,0.0,0.0,0.0
+46,Query Service,_SFKZOecdEeet0YmmfbMwkw,CF3,1751.939112,,,0.0,0.0,0.0
+47,Recommendation Item Filter,_SFKaqecdEeet0YmmfbMwkw,CF2,222.24299280000002,,,0.0,0.0,0.0
+48,Authentication Service,_SFKZIucdEeet0YmmfbMwkw,CF3,1138.199003,,,0.0,0.0,0.0
+49,Availability Item Filter,_SFKajecdEeet0YmmfbMwkw,CF1,194.7757356,,,0.0,0.0,0.0
+50,Comment Item Filter,_SFKZXecdEeet0YmmfbMwkw,CF2,181.74425480000002,,,0.0,0.0,0.0
+51,Recommendation Item Filter,_SFKaCecdEeet0YmmfbMwkw,CF2,167.3832795,,,0.0,0.0,0.0
+52,Availability Item Filter,_SFKZ7ecdEeet0YmmfbMwkw,CF1,146.72194480000002,,,0.0,0.0,0.0
+53,Past Sales Item Filter,_SFKZQ-cdEeet0YmmfbMwkw,CF1,126.37750249999999,,,0.0,0.0,0.0
+54,Recommendation Item Filter,_SFJzmecdEeet0YmmfbMwkw,CF2,93.84071824,,,0.0,0.0,0.0
+55,Availability Item Filter,_SFJzfecdEeet0YmmfbMwkw,CF1,83.66063353,,,0.0,0.0,0.0
+56,Bid and Buy Service,_SFKaZecdEeet0YmmfbMwkw,CF3,379.00577480000004,,,0.0,0.0,0.0
+57,Bid and Buy Service,_SFKZxecdEeet0YmmfbMwkw,CF3,288.6169162,,,0.0,0.0,0.0
+58,Inventory Service,_SFJzXecdEeet0YmmfbMwkw,CF3,149.3546632,,,0.0,0.0,0.0
+59,Past Sales Item Filter,_SFKag-cdEeet0YmmfbMwkw,CF3,119.9808098,,,0.0,0.0,0.0
+60,Past Sales Item Filter,_SFKZ4-cdEeet0YmmfbMwkw,CF3,87.79044782,,,0.0,0.0,0.0
+61,Past Sales Item Filter,_SFJzc-cdEeet0YmmfbMwkw,CF3,46.53831586,,,0.0,0.0,0.0
+62,Query Service,_SEu7oecdEeet0YmmfbMwkw,CF1,1743.8543579999998,,,0.0,0.0,0.0
+63,Item Management Service,_SEvinOcdEeet0YmmfbMwkw,CF1,129.2850671,,,0.0,0.0,0.0
+64,Comment Item Filter,_SEuUfecdEeet0YmmfbMwkw,CF1,83.63963054,,,0.0,0.0,0.0
+65,Reputation Service,_SE23mOcdEeet0YmmfbMwkw,CF1,69.69989361,,,0.0,0.0,0.0
+66,Item Management Service,_SE23gucdEeet0YmmfbMwkw,CF1,65.32373489999999,,,0.0,0.0,0.0
+67,Seller Reputation Item Filter,_SE23vucdEeet0YmmfbMwkw,CF1,49.93589974,,,0.0,0.0,0.0
+68,Item Management Service,_SEz0QOcdEeet0YmmfbMwkw,CF1,48.51166737,,,0.0,0.0,0.0
+69,Availability Item Filter,_SEuUbecdEeet0YmmfbMwkw,CF2,101.33794209999999,,,0.0,0.0,0.0
+70,Seller Reputation Item Filter,_SEuUd-cdEeet0YmmfbMwkw,CF1,97.26546123,,,0.0,0.0,0.0
+71,Query Service,_SEzNFecdEeet0YmmfbMwkw,CF1,87.78566586,,,0.0,0.0,0.0
+72,Item Management Service,_SEz0QOcdEeet0YmmfbMwkw,CF2,48.51166737,,,0.0,0.0,0.0
+73,Region Item Filter,_SEz0d-cdEeet0YmmfbMwkw,CF2,23.54250049,,,0.0,0.0,0.0
+74,Seller Reputation Item Filter,_SEzz3OcdEeet0YmmfbMwkw,CF1,4.629150714,,,0.0,0.0,0.0
+75,Authentication Service,_SE0bNecdEeet0YmmfbMwkw,CF1,693.3662674,,,0.0,0.0,0.0
+76,Authentication Service,_SE1CkucdEeet0YmmfbMwkw,CF1,691.5011003999999,,,0.0,0.0,0.0
+77,Authentication Service,_SE1B8ucdEeet0YmmfbMwkw,CF3,542.6523157,,,0.0,0.0,0.0
+78,Query Service,_SE3ehucdEeet0YmmfbMwkw,CF1,616.3423945000001,,,0.0,0.0,0.0
+79,Query Service,_SE2Qd-cdEeet0YmmfbMwkw,CF1,346.8363451,,,0.0,0.0,0.0
+80,Query Service,_SE23oOcdEeet0YmmfbMwkw,CF1,345.86541439999996,,,0.0,0.0,0.0
+81,Item Management Service,_SE3eaOcdEeet0YmmfbMwkw,CF3,128.6976771,,,0.0,0.0,0.0
+82,Seller Reputation Item Filter,_SE3epOcdEeet0YmmfbMwkw,CF3,100.3614023,,,0.0,0.0,0.0
+83,Item Management Service,_SE2QWecdEeet0YmmfbMwkw,CF3,65.44639765,,,0.0,0.0,0.0
+84,Item Management Service,_SE23gucdEeet0YmmfbMwkw,CF3,65.32373489999999,,,0.0,0.0,0.0
+85,Seller Reputation Item Filter,_SE23HucdEeet0YmmfbMwkw,CF3,53.41419709,,,0.0,0.0,0.0
+86,Seller Reputation Item Filter,_SE23vucdEeet0YmmfbMwkw,CF3,49.93589974,,,0.0,0.0,0.0
+87,Query Service,_SEviuucdEeet0YmmfbMwkw,CF2,808.434981,,,0.0,0.0,0.0
+88,Last Second Sales Item Filter,_SEu7pecdEeet0YmmfbMwkw,CF1,287.9633935,,,0.0,0.0,0.0
+89,Persistence Service,_SEu7n-cdEeet0YmmfbMwkw,CF1,251.79052259999997,,,0.0,0.0,0.0
+90,Buy Now Item Filter,_SEu7sOcdEeet0YmmfbMwkw,CF1,227.0712762,,,0.0,0.0,0.0
+91,Comment Item Filter,_SEu7xecdEeet0YmmfbMwkw,CF1,199.4805486,,,0.0,0.0,0.0
+92,Region Item Filter,_SEu7uucdEeet0YmmfbMwkw,CF1,168.0792313,,,0.0,0.0,0.0
+93,Authentication Service,_SE4F4ucdEeet0YmmfbMwkw,CF3,702.1920949,,,0.0,0.0,0.0
+94,Authentication Service,_SE4FQucdEeet0YmmfbMwkw,CF3,643.8521859,,,0.0,0.0,0.0
+95,Availability Item Filter,_SEvizucdEeet0YmmfbMwkw,CF2,101.1170965,,,0.0,0.0,0.0
+96,Seller Reputation Item Filter,_SEvi2OcdEeet0YmmfbMwkw,CF2,97.41934906,,,0.0,0.0,0.0
+97,Category Item Filter,_SEvi5OcdEeet0YmmfbMwkw,CF2,58.55074861,,,0.0,0.0,0.0
+98,Past Sales Item Filter,_SEvixOcdEeet0YmmfbMwkw,CF2,56.24135119,,,0.0,0.0,0.0
+99,Comment Item Filter,_SE4sVecdEeet0YmmfbMwkw,CF2,167.9431301,,,0.0,0.0,0.0
+100,Last Second Sales Item Filter,_SE56qecdEeet0YmmfbMwkw,CF1,146.0264901,,,0.0,0.0,0.0
+101,Persistence Service,_SE4sz-cdEeet0YmmfbMwkw,CF1,127.01876659999999,,,0.0,0.0,0.0
+102,Past Sales Item Filter,_SE4GA-cdEeet0YmmfbMwkw,CF1,118.9717392,,,0.0,0.0,0.0
+103,Seller Reputation Item Filter,_SE56w-cdEeet0YmmfbMwkw,CF2,113.6525686,,,0.0,0.0,0.0
+104,Comment Item Filter,_SE4s9ecdEeet0YmmfbMwkw,CF2,98.26580308,,,0.0,0.0,0.0
+105,Persistence Service,_SE5TtucdEeet0YmmfbMwkw,CF1,57.21016951,,,0.0,0.0,0.0
+106,Comment Item Filter,_SE5T3OcdEeet0YmmfbMwkw,CF2,43.29143977,,,0.0,0.0,0.0
+107,Authentication Service,_SE8W5OcdEeet0YmmfbMwkw,CF3,741.5481832,,,0.0,0.0,0.0
+108,Reputation Service,_SE57PecdEeet0YmmfbMwkw,CF3,269.6578243,,,0.0,0.0,0.0
+109,Item Management Service,_SE57J-cdEeet0YmmfbMwkw,CF1,269.5055256,,,0.0,0.0,0.0
+110,Last Second Sales Item Filter,_SE57SecdEeet0YmmfbMwkw,CF1,267.0633999,,,0.0,0.0,0.0
+111,Persistence Service,_SE7ItecdEeet0YmmfbMwkw,CF3,259.4876312,,,0.0,0.0,0.0
+112,Item Management Service,_SE7ImecdEeet0YmmfbMwkw,CF1,247.3287536,,,0.0,0.0,0.0
+113,Seller Reputation Item Filter,_SE6hd-cdEeet0YmmfbMwkw,CF2,212.0754457,,,0.0,0.0,0.0
+114,Comment Item Filter,_SE7vpecdEeet0YmmfbMwkw,CF2,168.1192715,,,0.0,0.0,0.0
+115,Past Sales Item Filter,_SE7IwecdEeet0YmmfbMwkw,CF1,116.3454164,,,0.0,0.0,0.0
+116,Item Management Service,_SE7wA-cdEeet0YmmfbMwkw,CF1,89.50538789,,,0.0,0.0,0.0
+117,Last Second Sales Item Filter,_SE7wJecdEeet0YmmfbMwkw,CF1,85.83639658,,,0.0,0.0,0.0
+118,Reputation Service,_SE7wGecdEeet0YmmfbMwkw,CF3,85.06436996,,,0.0,0.0,0.0
+119,Seller Reputation Item Filter,_SE7wP-cdEeet0YmmfbMwkw,CF2,67.23325995,,,0.0,0.0,0.0
+120,Last Second Sales Item Filter,_SE6h_ecdEeet0YmmfbMwkw,CF1,7.760711894,,,0.0,0.0,0.0
+121,Reputation Service,_SE6h8ecdEeet0YmmfbMwkw,CF3,7.205817712000001,,,0.0,0.0,0.0
+122,Item Management Service,_SE6h2-cdEeet0YmmfbMwkw,CF1,5.682745657999999,,,0.0,0.0,0.0
+123,Seller Reputation Item Filter,_SE6iF-cdEeet0YmmfbMwkw,CF2,5.654083585,,,0.0,0.0,0.0
+124,Item Management Service,_SE8W3ecdEeet0YmmfbMwkw,CF1,286.13823130000003,,,0.0,0.0,0.0
+125,Persistence Service,_SE8W-ecdEeet0YmmfbMwkw,CF1,250.8198892,,,0.0,0.0,0.0
+126,Comment Item Filter,_SE8XH-cdEeet0YmmfbMwkw,CF2,197.20579640000003,,,0.0,0.0,0.0
+127,Past Sales Item Filter,_SE8XBecdEeet0YmmfbMwkw,CF1,138.5709639,,,0.0,0.0,0.0
+128,Item Management Service,_SE8XfecdEeet0YmmfbMwkw,CF1,128.9758237,,,0.0,0.0,0.0
+129,Last Second Sales Item Filter,_SE8Xn-cdEeet0YmmfbMwkw,CF1,128.7846842,,,0.0,0.0,0.0
+130,Reputation Service,_SE8Xk-cdEeet0YmmfbMwkw,CF1,128.0273396,,,0.0,0.0,0.0
+131,Seller Reputation Item Filter,_SE89uecdEeet0YmmfbMwkw,CF2,100.277819,,,0.0,0.0,0.0
+132,Last Second Sales Item Filter,_SE8-P-cdEeet0YmmfbMwkw,CF1,69.20539095,,,0.0,0.0,0.0
+133,Reputation Service,_SE8-M-cdEeet0YmmfbMwkw,CF1,67.66730963,,,0.0,0.0,0.0
+134,Item Management Service,_SE8-HecdEeet0YmmfbMwkw,CF1,65.82750035,,,0.0,0.0,0.0
+135,Seller Reputation Item Filter,_SE8-WecdEeet0YmmfbMwkw,CF2,50.62511977,,,0.0,0.0,0.0
+136,Item Management Service,_SE9lYOcdEeet0YmmfbMwkw,CF1,288.4933418,,,0.0,0.0,0.0
+137,Reputation Service,_SE9lducdEeet0YmmfbMwkw,CF3,287.9877703,,,0.0,0.0,0.0
+138,Last Second Sales Item Filter,_SE9lgucdEeet0YmmfbMwkw,CF1,286.3123562,,,0.0,0.0,0.0
+139,Reputation Service,_SFACGOcdEeet0YmmfbMwkw,CF3,269.9376338,,,0.0,0.0,0.0
+140,Item Management Service,_SFACAucdEeet0YmmfbMwkw,CF1,268.5784523,,,0.0,0.0,0.0
+141,Last Second Sales Item Filter,_SFACJOcdEeet0YmmfbMwkw,CF1,265.6899933,,,0.0,0.0,0.0
+142,Reputation Service,_SE_a9OcdEeet0YmmfbMwkw,CF3,249.5097352,,,0.0,0.0,0.0
+143,Last Second Sales Item Filter,_SE_bAOcdEeet0YmmfbMwkw,CF1,246.02107369999996,,,0.0,0.0,0.0
+144,Item Management Service,_SE_a3ucdEeet0YmmfbMwkw,CF1,245.3708435,,,0.0,0.0,0.0
+145,Last Second Sales Item Filter,_SFABhOcdEeet0YmmfbMwkw,CF1,229.07675460000002,,,0.0,0.0,0.0
+146,Item Management Service,_SE_aPucdEeet0YmmfbMwkw,CF1,229.0493379,,,0.0,0.0,0.0
+147,Last Second Sales Item Filter,_SE_aYOcdEeet0YmmfbMwkw,CF1,228.8968253,,,0.0,0.0,0.0
+148,Item Management Service,_SFABYucdEeet0YmmfbMwkw,CF1,228.1975591,,,0.0,0.0,0.0
+149,Reputation Service,_SFABeOcdEeet0YmmfbMwkw,CF3,227.9847142,,,0.0,0.0,0.0
+150,Seller Reputation Item Filter,_SE9lnOcdEeet0YmmfbMwkw,CF2,227.8773522,,,0.0,0.0,0.0
+151,Reputation Service,_SE_aVOcdEeet0YmmfbMwkw,CF3,225.61105919999997,,,0.0,0.0,0.0
+152,Seller Reputation Item Filter,_SFACPucdEeet0YmmfbMwkw,CF2,213.22303849999997,,,0.0,0.0,0.0
+153,Seller Reputation Item Filter,_SE_bGucdEeet0YmmfbMwkw,CF2,195.0279804,,,0.0,0.0,0.0
+154,Seller Reputation Item Filter,_SFABnucdEeet0YmmfbMwkw,CF2,178.3572361,,,0.0,0.0,0.0
+155,Seller Reputation Item Filter,_SE_aeucdEeet0YmmfbMwkw,CF2,178.2244491,,,0.0,0.0,0.0
+156,Item Management Service,_SE-L2-cdEeet0YmmfbMwkw,CF1,167.929743,,,0.0,0.0,0.0
+157,Last Second Sales Item Filter,_SE-L_ecdEeet0YmmfbMwkw,CF1,167.4439128,,,0.0,0.0,0.0
+158,Reputation Service,_SE-L8ecdEeet0YmmfbMwkw,CF3,165.3324966,,,0.0,0.0,0.0
+159,Item Management Service,_SE-zGucdEeet0YmmfbMwkw,CF1,148.49961499999998,,,0.0,0.0,0.0
+160,Last Second Sales Item Filter,_SE-zPOcdEeet0YmmfbMwkw,CF1,147.2504357,,,0.0,0.0,0.0
+161,Reputation Service,_SE-zMOcdEeet0YmmfbMwkw,CF3,147.16251440000002,,,0.0,0.0,0.0
+162,Seller Reputation Item Filter,_SE-MF-cdEeet0YmmfbMwkw,CF2,132.7188918,,,0.0,0.0,0.0
+163,Seller Reputation Item Filter,_SE-zVucdEeet0YmmfbMwkw,CF2,113.2026963,,,0.0,0.0,0.0
+164,Item Management Service,_SE-zuucdEeet0YmmfbMwkw,CF1,109.17826409999998,,,0.0,0.0,0.0
+165,Item Management Service,_SE9kwOcdEeet0YmmfbMwkw,CF1,108.28576540000002,,,0.0,0.0,0.0
+166,Reputation Service,_SE-z0OcdEeet0YmmfbMwkw,CF3,106.87447379999999,,,0.0,0.0,0.0
+167,Reputation Service,_SE9k1ucdEeet0YmmfbMwkw,CF3,105.62892649999999,,,0.0,0.0,0.0
+168,Last Second Sales Item Filter,_SE9k4ucdEeet0YmmfbMwkw,CF1,105.53958870000001,,,0.0,0.0,0.0
+169,Last Second Sales Item Filter,_SE-z3OcdEeet0YmmfbMwkw,CF1,105.3755591,,,0.0,0.0,0.0
+170,Seller Reputation Item Filter,_SE-z9ucdEeet0YmmfbMwkw,CF2,82.69454308,,,0.0,0.0,0.0
+171,Seller Reputation Item Filter,_SE9k_OcdEeet0YmmfbMwkw,CF2,81.31827249999999,,,0.0,0.0,0.0
+172,Persistence Service,_SE-Ml-cdEeet0YmmfbMwkw,CF3,70.65325271,,,0.0,0.0,0.0
+173,Item Management Service,_SE-Me-cdEeet0YmmfbMwkw,CF1,66.23546489,,,0.0,0.0,0.0
+174,Comment Item Filter,_SE-MvecdEeet0YmmfbMwkw,CF2,42.57331701,,,0.0,0.0,0.0
+175,Past Sales Item Filter,_SE-Mo-cdEeet0YmmfbMwkw,CF1,26.52780712,,,0.0,0.0,0.0
+176,Inventory Service,_SE8W7-cdEeet0YmmfbMwkw,CF1,394.46699900000004,,,0.0,0.0,0.0
+177,Inventory Service,_SE7Iq-cdEeet0YmmfbMwkw,CF1,337.16702480000004,,,0.0,0.0,0.0
+178,Item Management Service,_SE7ImecdEeet0YmmfbMwkw,CF1,247.3287536,,,0.0,0.0,0.0
+179,Buy Now Item Filter,_SE8XCucdEeet0YmmfbMwkw,CF1,225.8392483,,,0.0,0.0,0.0
+180,Future Sales Item Filter,_SE7vtucdEeet0YmmfbMwkw,CF1,171.2342754,,,0.0,0.0,0.0
+181,Category Item Filter,_SE8XJecdEeet0YmmfbMwkw,CF1,138.5410789,,,0.0,0.0,0.0
+182,Persistence Service,_SE7wH-cdEeet0YmmfbMwkw,CF2,92.42216346,,,0.0,0.0,0.0
+183,Item Management Service,_SE7wA-cdEeet0YmmfbMwkw,CF2,89.50538789,,,0.0,0.0,0.0
+184,Availability Item Filter,_SE7wNecdEeet0YmmfbMwkw,CF2,67.74910361,,,0.0,0.0,0.0
+185,Item Management Service,_SFB2iucdEeet0YmmfbMwkw,CF1,269.28297119999996,,,0.0,0.0,0.0
+186,Reputation Service,_SFB2oOcdEeet0YmmfbMwkw,CF1,267.1020377,,,0.0,0.0,0.0
+187,Last Second Sales Item Filter,_SFB2rOcdEeet0YmmfbMwkw,CF1,265.89246119999996,,,0.0,0.0,0.0
+188,Seller Reputation Item Filter,_SFB2xucdEeet0YmmfbMwkw,CF2,211.9920932,,,0.0,0.0,0.0
+189,Item Management Service,_SFApC-cdEeet0YmmfbMwkw,CF1,189.6034362,,,0.0,0.0,0.0
+190,Reputation Service,_SFApIecdEeet0YmmfbMwkw,CF1,188.8889892,,,0.0,0.0,0.0
+191,Last Second Sales Item Filter,_SFApLecdEeet0YmmfbMwkw,CF1,187.49413,,,0.0,0.0,0.0
+192,Seller Reputation Item Filter,_SFApR-cdEeet0YmmfbMwkw,CF2,146.4727881,,,0.0,0.0,0.0
+193,Last Second Sales Item Filter,_SFAojecdEeet0YmmfbMwkw,CF1,89.4983843,,,0.0,0.0,0.0
+194,Reputation Service,_SFAogecdEeet0YmmfbMwkw,CF1,86.67402931,,,0.0,0.0,0.0
+195,Item Management Service,_SFAoa-cdEeet0YmmfbMwkw,CF1,85.11647313,,,0.0,0.0,0.0
+196,Seller Reputation Item Filter,_SFAop-cdEeet0YmmfbMwkw,CF2,69.3094291,,,0.0,0.0,0.0
+197,Reputation Service,_SFB3QOcdEeet0YmmfbMwkw,CF1,46.67297934,,,0.0,0.0,0.0
+198,Last Second Sales Item Filter,_SFB3TOcdEeet0YmmfbMwkw,CF1,46.09275383,,,0.0,0.0,0.0
+199,Item Management Service,_SFB3KucdEeet0YmmfbMwkw,CF1,45.69529732,,,0.0,0.0,0.0
+200,Seller Reputation Item Filter,_SFB3ZucdEeet0YmmfbMwkw,CF2,36.27918242,,,0.0,0.0,0.0
+201,Item Management Service,_SFBPaucdEeet0YmmfbMwkw,CF1,29.865472999999998,,,0.0,0.0,0.0
+202,Reputation Service,_SFBPgOcdEeet0YmmfbMwkw,CF1,29.65284005,,,0.0,0.0,0.0
+203,Last Second Sales Item Filter,_SFBPjOcdEeet0YmmfbMwkw,CF1,27.0231304,,,0.0,0.0,0.0
+204,Seller Reputation Item Filter,_SFBPpucdEeet0YmmfbMwkw,CF2,20.53013645,,,0.0,0.0,0.0
+205,Last Second Sales Item Filter,_SFGvfecdEeet0YmmfbMwkw,CF1,286.4500868,,,0.0,0.0,0.0
+206,Reputation Service,_SFGvcecdEeet0YmmfbMwkw,CF3,286.2596115,,,0.0,0.0,0.0
+207,Item Management Service,_SFGvW-cdEeet0YmmfbMwkw,CF1,285.56082810000004,,,0.0,0.0,0.0
+208,Reputation Service,_SFGIqOcdEeet0YmmfbMwkw,CF3,268.1706871,,,0.0,0.0,0.0
+209,Item Management Service,_SFGIkucdEeet0YmmfbMwkw,CF1,267.8960963,,,0.0,0.0,0.0
+210,Last Second Sales Item Filter,_SFGItOcdEeet0YmmfbMwkw,CF1,267.499151,,,0.0,0.0,0.0
+211,Recommendation Item Filter,_SFGvqecdEeet0YmmfbMwkw,CF2,259.397525,,,0.0,0.0,0.0
+212,Reputation Service,_SFE55ucdEeet0YmmfbMwkw,CF3,249.8965114,,,0.0,0.0,0.0
+213,Item Management Service,_SFE50OcdEeet0YmmfbMwkw,CF1,248.8650864,,,0.0,0.0,0.0
+214,Last Second Sales Item Filter,_SFE58ucdEeet0YmmfbMwkw,CF1,245.3624889,,,0.0,0.0,0.0
+215,Recommendation Item Filter,_SFGI4OcdEeet0YmmfbMwkw,CF2,240.11275730000003,,,0.0,0.0,0.0
+216,Seller Reputation Item Filter,_SFGvl-cdEeet0YmmfbMwkw,CF2,229.81814469999998,,,0.0,0.0,0.0
+217,Reputation Service,_SFDr1ecdEeet0YmmfbMwkw,CF3,229.47133419999997,,,0.0,0.0,0.0
+218,Last Second Sales Item Filter,_SFDr4ecdEeet0YmmfbMwkw,CF1,228.054087,,,0.0,0.0,0.0
+219,Item Management Service,_SFDrv-cdEeet0YmmfbMwkw,CF1,225.17120580000002,,,0.0,0.0,0.0
+220,Recommendation Item Filter,_SFE6HucdEeet0YmmfbMwkw,CF2,219.82579040000002,,,0.0,0.0,0.0
+221,Last Second Sales Item Filter,_SFDFeecdEeet0YmmfbMwkw,CF1,209.78419680000005,,,0.0,0.0,0.0
+222,Seller Reputation Item Filter,_SFGIzucdEeet0YmmfbMwkw,CF2,209.0004486,,,0.0,0.0,0.0
+223,Item Management Service,_SFDFV-cdEeet0YmmfbMwkw,CF1,207.78912549999998,,,0.0,0.0,0.0
+224,Reputation Service,_SFDFbecdEeet0YmmfbMwkw,CF3,205.1855069,,,0.0,0.0,0.0
+225,Recommendation Item Filter,_SFDsDecdEeet0YmmfbMwkw,CF2,201.1179015,,,0.0,0.0,0.0
+226,Seller Reputation Item Filter,_SFE6DOcdEeet0YmmfbMwkw,CF2,195.91424080000002,,,0.0,0.0,0.0
+227,Reputation Service,_SFFhvucdEeet0YmmfbMwkw,CF3,188.770872,,,0.0,0.0,0.0
+228,Last Second Sales Item Filter,_SFFhyucdEeet0YmmfbMwkw,CF1,188.35996569999998,,,0.0,0.0,0.0
+229,Item Management Service,_SFFhqOcdEeet0YmmfbMwkw,CF1,186.98909009999997,,,0.0,0.0,0.0
+230,Recommendation Item Filter,_SFDrbecdEeet0YmmfbMwkw,CF2,186.0561934,,,0.0,0.0,0.0
+231,Seller Reputation Item Filter,_SFDr--cdEeet0YmmfbMwkw,CF2,180.05583959999998,,,0.0,0.0,0.0
+232,Recommendation Item Filter,_SFGHoOcdEeet0YmmfbMwkw,CF2,166.83899269999998,,,0.0,0.0,0.0
+233,Last Second Sales Item Filter,_SFGu3ecdEeet0YmmfbMwkw,CF1,166.5569678,,,0.0,0.0,0.0
+234,Reputation Service,_SFGu0ecdEeet0YmmfbMwkw,CF3,165.9984097,,,0.0,0.0,0.0
+235,Item Management Service,_SFGuu-cdEeet0YmmfbMwkw,CF1,165.4735118,,,0.0,0.0,0.0
+236,Seller Reputation Item Filter,_SFDFk-cdEeet0YmmfbMwkw,CF2,163.85853669999997,,,0.0,0.0,0.0
+237,Recommendation Item Filter,_SFGvCecdEeet0YmmfbMwkw,CF2,150.5114206,,,0.0,0.0,0.0
+238,Seller Reputation Item Filter,_SFFh5OcdEeet0YmmfbMwkw,CF2,149.68306850000002,,,0.0,0.0,0.0
+239,Last Second Sales Item Filter,_SFFhKucdEeet0YmmfbMwkw,CF1,149.5648534,,,0.0,0.0,0.0
+240,Reputation Service,_SFE6hucdEeet0YmmfbMwkw,CF3,148.90903269999998,,,0.0,0.0,0.0
+241,Item Management Service,_SFE6cOcdEeet0YmmfbMwkw,CF1,148.51788159999998,,,0.0,0.0,0.0
+242,Last Second Sales Item Filter,_SFE6kucdEeet0YmmfbMwkw,CF1,147.94924369999998,,,0.0,0.0,0.0
+243,Item Management Service,_SFFhCOcdEeet0YmmfbMwkw,CF1,146.4490209,,,0.0,0.0,0.0
+244,Reputation Service,_SFFhHucdEeet0YmmfbMwkw,CF3,145.1685364,,,0.0,0.0,0.0
+245,Seller Reputation Item Filter,_SFGu9-cdEeet0YmmfbMwkw,CF2,131.6749417,,,0.0,0.0,0.0
+246,Recommendation Item Filter,_SFFgtucdEeet0YmmfbMwkw,CF2,129.8782964,,,0.0,0.0,0.0
+247,Recommendation Item Filter,_SFFhVucdEeet0YmmfbMwkw,CF2,129.1262122,,,0.0,0.0,0.0
+248,Seller Reputation Item Filter,_SFFgpOcdEeet0YmmfbMwkw,CF2,116.5135754,,,0.0,0.0,0.0
+249,Seller Reputation Item Filter,_SFFhROcdEeet0YmmfbMwkw,CF2,114.2866129,,,0.0,0.0,0.0
+250,Item Management Service,_SFGH8ucdEeet0YmmfbMwkw,CF1,109.25874250000001,,,0.0,0.0,0.0
+251,Reputation Service,_SFGICOcdEeet0YmmfbMwkw,CF3,108.6830709,,,0.0,0.0,0.0
+252,Last Second Sales Item Filter,_SFGIFOcdEeet0YmmfbMwkw,CF1,108.6449798,,,0.0,0.0,0.0
+253,Reputation Service,_SFDsdecdEeet0YmmfbMwkw,CF3,107.83317790000001,,,0.0,0.0,0.0
+254,Last Second Sales Item Filter,_SFETIecdEeet0YmmfbMwkw,CF1,107.4698031,,,0.0,0.0,0.0
+255,Item Management Service,_SFES_-cdEeet0YmmfbMwkw,CF1,106.218577,,,0.0,0.0,0.0
+256,Last Second Sales Item Filter,_SFDsgecdEeet0YmmfbMwkw,CF1,105.8027273,,,0.0,0.0,0.0
+257,Item Management Service,_SFDsX-cdEeet0YmmfbMwkw,CF1,105.7766537,,,0.0,0.0,0.0
+258,Reputation Service,_SFETFecdEeet0YmmfbMwkw,CF3,105.579862,,,0.0,0.0,0.0
+259,Recommendation Item Filter,_SFETTecdEeet0YmmfbMwkw,CF2,96.1516172,,,0.0,0.0,0.0
+260,Recommendation Item Filter,_SFGIQOcdEeet0YmmfbMwkw,CF2,93.65943793,,,0.0,0.0,0.0
+261,Recommendation Item Filter,_SFDsrecdEeet0YmmfbMwkw,CF2,93.62779287,,,0.0,0.0,0.0
+262,Last Second Sales Item Filter,_SFDE2ecdEeet0YmmfbMwkw,CF1,89.6932997,,,0.0,0.0,0.0
+263,Last Second Sales Item Filter,_SFCeWucdEeet0YmmfbMwkw,CF1,88.91516269,,,0.0,0.0,0.0
+264,Reputation Service,_SFDEzecdEeet0YmmfbMwkw,CF3,87.52330209,,,0.0,0.0,0.0
+265,Item Management Service,_SFCeOOcdEeet0YmmfbMwkw,CF1,86.64550877,,,0.0,0.0,0.0
+266,Reputation Service,_SFCeTucdEeet0YmmfbMwkw,CF3,86.54117695,,,0.0,0.0,0.0
+267,Item Management Service,_SFDEt-cdEeet0YmmfbMwkw,CF1,86.15815401,,,0.0,0.0,0.0
+268,Seller Reputation Item Filter,_SFETO-cdEeet0YmmfbMwkw,CF2,83.24929696,,,0.0,0.0,0.0
+269,Seller Reputation Item Filter,_SFDsm-cdEeet0YmmfbMwkw,CF2,82.96230256,,,0.0,0.0,0.0
+270,Seller Reputation Item Filter,_SFGILucdEeet0YmmfbMwkw,CF2,82.95516312,,,0.0,0.0,0.0
+271,Recommendation Item Filter,_SFDEZecdEeet0YmmfbMwkw,CF2,77.56654497,,,0.0,0.0,0.0
+272,Recommendation Item Filter,_SFDFBecdEeet0YmmfbMwkw,CF2,76.51464468,,,0.0,0.0,0.0
+273,Seller Reputation Item Filter,_SFDE8-cdEeet0YmmfbMwkw,CF2,69.25429712,,,0.0,0.0,0.0
+274,Item Management Service,_SFDs_-cdEeet0YmmfbMwkw,CF1,69.15047591,,,0.0,0.0,0.0
+275,Seller Reputation Item Filter,_SFDEU-cdEeet0YmmfbMwkw,CF2,67.54291886,,,0.0,0.0,0.0
+276,Reputation Service,_SFESdecdEeet0YmmfbMwkw,CF3,66.24827054,,,0.0,0.0,0.0
+277,Last Second Sales Item Filter,_SFESgecdEeet0YmmfbMwkw,CF1,65.12381472,,,0.0,0.0,0.0
+278,Recommendation Item Filter,_SFESrecdEeet0YmmfbMwkw,CF2,59.17988287,,,0.0,0.0,0.0
+279,Seller Reputation Item Filter,_SFESm-cdEeet0YmmfbMwkw,CF2,51.82751265,,,0.0,0.0,0.0
+280,Last Second Sales Item Filter,_SFCduucdEeet0YmmfbMwkw,CF1,48.62148558,,,0.0,0.0,0.0
+281,Reputation Service,_SFCdrucdEeet0YmmfbMwkw,CF3,48.59070971,,,0.0,0.0,0.0
+282,Item Management Service,_SFCdmOcdEeet0YmmfbMwkw,CF1,45.93051566,,,0.0,0.0,0.0
+283,Recommendation Item Filter,_SFCd5ucdEeet0YmmfbMwkw,CF2,43.77616526,,,0.0,0.0,0.0
+284,Seller Reputation Item Filter,_SFCd1OcdEeet0YmmfbMwkw,CF2,33.58676403,,,0.0,0.0,0.0
+285,Last Second Sales Item Filter,_SFHV1-cdEeet0YmmfbMwkw,CF1,29.87330853,,,0.0,0.0,0.0
+286,Reputation Service,_SFHVy-cdEeet0YmmfbMwkw,CF3,27.75233447,,,0.0,0.0,0.0
+287,Item Management Service,_SFGwm-cdEeet0YmmfbMwkw,CF1,25.494251600000002,,,0.0,0.0,0.0
+288,Recommendation Item Filter,_SFHWA-cdEeet0YmmfbMwkw,CF2,24.4399749,,,0.0,0.0,0.0
+289,Seller Reputation Item Filter,_SFHV8ecdEeet0YmmfbMwkw,CF2,17.76224435,,,0.0,0.0,0.0
+290,Item Management Service,_SFGv--cdEeet0YmmfbMwkw,CF1,8.982182556,,,0.0,0.0,0.0
+291,Reputation Service,_SFGwEecdEeet0YmmfbMwkw,CF3,6.392938976,,,0.0,0.0,0.0
+292,Last Second Sales Item Filter,_SFGwHecdEeet0YmmfbMwkw,CF1,6.254571422000001,,,0.0,0.0,0.0
+293,Recommendation Item Filter,_SFGwSecdEeet0YmmfbMwkw,CF2,4.615962963,,,0.0,0.0,0.0
+294,Seller Reputation Item Filter,_SFGwN-cdEeet0YmmfbMwkw,CF2,4.591479584,,,0.0,0.0,0.0
+295,Query Service,_SE-zOOcdEeet0YmmfbMwkw,CF1,852.20253,,,0.0,0.0,0.0
+296,Bid and Buy Service,_SE-zxOcdEeet0YmmfbMwkw,CF3,169.9490381,,,0.0,0.0,0.0
+297,Authentication Service,_SFApEucdEeet0YmmfbMwkw,CF1,489.53655210000005,,,0.0,0.0,0.0
+298,Item Management Service,_SFApC-cdEeet0YmmfbMwkw,CF1,189.6034362,,,0.0,0.0,0.0
+299,Seller Reputation Item Filter,_SFApR-cdEeet0YmmfbMwkw,CF3,146.4727881,,,0.0,0.0,0.0
+300,Past Sales Item Filter,_SFApM-cdEeet0YmmfbMwkw,CF1,87.042263,,,0.0,0.0,0.0
+301,Buy Now Item Filter,_SFESjOcdEeet0YmmfbMwkw,CF1,51.57540716,,,0.0,0.0,0.0
+302,Comment Item Filter,_SFESoecdEeet0YmmfbMwkw,CF3,44.72332864,,,0.0,0.0,0.0
+303,Bid and Buy Service,_SFGwBecdEeet0YmmfbMwkw,CF3,17.99329386,,,0.0,0.0,0.0
+304,Comment Item Filter,_SFGwPecdEeet0YmmfbMwkw,CF3,3.15388917,,,0.0,0.0,0.0
+305,Buy Now Item Filter,_SFGwKOcdEeet0YmmfbMwkw,CF1,2.991822973,,,0.0,0.0,0.0
+306,Last Second Sales Item Filter,_SFAojecdEeet0YmmfbMwkw,CF1,89.4983843,,,0.0,0.0,0.0
+307,Item Management Service,_SFAoa-cdEeet0YmmfbMwkw,CF1,85.11647313,,,0.0,0.0,0.0
+308,Buy Now Item Filter,_SFAomOcdEeet0YmmfbMwkw,CF1,69.84844354,,,0.0,0.0,0.0
+309,Item Management Service,_SFB2iucdEeet0YmmfbMwkw,CF2,269.28297119999996,,,0.0,0.0,0.0
+310,Seller Reputation Item Filter,_SFB2xucdEeet0YmmfbMwkw,CF2,211.9920932,,,0.0,0.0,0.0
+311,Authentication Service,_SFCdn-cdEeet0YmmfbMwkw,CF3,178.211073,,,0.0,0.0,0.0
+312,Item Management Service,_SFB3KucdEeet0YmmfbMwkw,CF1,45.69529732,,,0.0,0.0,0.0
+313,Category Item Filter,_SFCdQOcdEeet0YmmfbMwkw,CF3,18.99714276,,,0.0,0.0,0.0
+314,Bid and Buy Service,_SFDryecdEeet0YmmfbMwkw,CF3,348.58596769999997,,,0.0,0.0,0.0
+315,Bid and Buy Service,_SFDFYecdEeet0YmmfbMwkw,CF3,319.9059549,,,0.0,0.0,0.0
+316,Item Management Service,_SFDrv-cdEeet0YmmfbMwkw,CF3,225.17120580000002,,,0.0,0.0,0.0
+317,Item Management Service,_SFDFV-cdEeet0YmmfbMwkw,CF3,207.78912549999998,,,0.0,0.0,0.0
+318,Seller Reputation Item Filter,_SFDr--cdEeet0YmmfbMwkw,CF2,180.05583959999998,,,0.0,0.0,0.0
+319,Bid and Buy Service,_SFDsaecdEeet0YmmfbMwkw,CF3,168.2809154,,,0.0,0.0,0.0
+320,Bid and Buy Service,_SFETCecdEeet0YmmfbMwkw,CF3,165.8680546,,,0.0,0.0,0.0
+321,Seller Reputation Item Filter,_SFDFk-cdEeet0YmmfbMwkw,CF2,163.85853669999997,,,0.0,0.0,0.0
+322,Bid and Buy Service,_SFCeQucdEeet0YmmfbMwkw,CF3,138.3257414,,,0.0,0.0,0.0
+323,Bid and Buy Service,_SFDEwecdEeet0YmmfbMwkw,CF3,135.0279543,,,0.0,0.0,0.0
+324,Bid and Buy Service,_SFDtCecdEeet0YmmfbMwkw,CF3,107.8349355,,,0.0,0.0,0.0
+325,Item Management Service,_SFES_-cdEeet0YmmfbMwkw,CF3,106.218577,,,0.0,0.0,0.0
+326,Item Management Service,_SFDsX-cdEeet0YmmfbMwkw,CF3,105.7766537,,,0.0,0.0,0.0
+327,Item Management Service,_SFCeOOcdEeet0YmmfbMwkw,CF3,86.64550877,,,0.0,0.0,0.0
+328,Item Management Service,_SFDEt-cdEeet0YmmfbMwkw,CF3,86.15815401,,,0.0,0.0,0.0
+329,Seller Reputation Item Filter,_SFETO-cdEeet0YmmfbMwkw,CF2,83.24929696,,,0.0,0.0,0.0
+330,Seller Reputation Item Filter,_SFDsm-cdEeet0YmmfbMwkw,CF2,82.96230256,,,0.0,0.0,0.0
+331,Seller Reputation Item Filter,_SFDE8-cdEeet0YmmfbMwkw,CF2,69.25429712,,,0.0,0.0,0.0
+332,Item Management Service,_SFDs_-cdEeet0YmmfbMwkw,CF3,69.15047591,,,0.0,0.0,0.0
+333,Seller Reputation Item Filter,_SFDEU-cdEeet0YmmfbMwkw,CF2,67.54291886,,,0.0,0.0,0.0
+334,Seller Reputation Item Filter,_SFESm-cdEeet0YmmfbMwkw,CF2,51.82751265,,,0.0,0.0,0.0
+335,Bid and Buy Service,_SFE52ucdEeet0YmmfbMwkw,CF3,377.4609562,,,0.0,0.0,0.0
+336,Item Management Service,_SFE50OcdEeet0YmmfbMwkw,CF1,248.8650864,,,0.0,0.0,0.0
+337,Bid and Buy Service,_SFE6eucdEeet0YmmfbMwkw,CF3,226.183225,,,0.0,0.0,0.0
+338,Bid and Buy Service,_SFFhEucdEeet0YmmfbMwkw,CF3,225.2097076,,,0.0,0.0,0.0
+339,Seller Reputation Item Filter,_SFE6DOcdEeet0YmmfbMwkw,CF2,195.91424080000002,,,0.0,0.0,0.0
+340,Item Management Service,_SFFhqOcdEeet0YmmfbMwkw,CF3,186.98909009999997,,,0.0,0.0,0.0
+341,Item Management Service,_SFE6cOcdEeet0YmmfbMwkw,CF1,148.51788159999998,,,0.0,0.0,0.0
+342,Item Management Service,_SFFhCOcdEeet0YmmfbMwkw,CF1,146.4490209,,,0.0,0.0,0.0
+343,Past Sales Item Filter,_SFE5-OcdEeet0YmmfbMwkw,CF3,117.2891217,,,0.0,0.0,0.0
+344,Seller Reputation Item Filter,_SFFgpOcdEeet0YmmfbMwkw,CF2,116.5135754,,,0.0,0.0,0.0
+345,Seller Reputation Item Filter,_SFFhROcdEeet0YmmfbMwkw,CF2,114.2866129,,,0.0,0.0,0.0
+346,Region Item Filter,_SFFh3-cdEeet0YmmfbMwkw,CF1,109.1050874,,,0.0,0.0,0.0
+347,Past Sales Item Filter,_SFFgkOcdEeet0YmmfbMwkw,CF3,67.03039781,,,0.0,0.0,0.0
+348,Past Sales Item Filter,_SFFhMOcdEeet0YmmfbMwkw,CF3,66.57856793,,,0.0,0.0,0.0
+349,Inventory Service,_SFFhGucdEeet0YmmfbMwkw,CF3,201.9272683,,,0.0,0.0,0.0
+350,Persistence Service,_SFDse-cdEeet0YmmfbMwkw,CF3,153.4903949,,,0.0,0.0,0.0
+351,Item Management Service,_SFE6cOcdEeet0YmmfbMwkw,CF3,148.51788159999998,,,0.0,0.0,0.0
+352,Recommendation Item Filter,_SEwJ8-cdEeet0YmmfbMwkw,CF2,6.569169001000001,,,0.0,0.0,0.0
+353,Bid and Buy Service,_SFJytecdEeet0YmmfbMwkw,CF3,407.88740110000003,,,0.0,0.0,0.0
+354,Item Management Service,_SFJyq-cdEeet0YmmfbMwkw,CF1,269.4086412,,,0.0,0.0,0.0
+355,Item Management Service,_SFKZG-cdEeet0YmmfbMwkw,CF1,269.1265329,,,0.0,0.0,0.0
+356,Bid and Buy Service,_SFJzVecdEeet0YmmfbMwkw,CF3,169.63922230000003,,,0.0,0.0,0.0
+357,Category Item Filter,_SFJy8-cdEeet0YmmfbMwkw,CF2,128.3189594,,,0.0,0.0,0.0
+358,Item Management Service,_SFJzS-cdEeet0YmmfbMwkw,CF3,106.5592925,,,0.0,0.0,0.0
+359,Query Service,_SFLBJecdEeet0YmmfbMwkw,CF3,1245.594859,,,0.0,0.0,0.0
+360,Query Service,_SFKaeecdEeet0YmmfbMwkw,CF3,1155.952219,,,0.0,0.0,0.0
+361,Query Service,_SFKZ2ecdEeet0YmmfbMwkw,CF3,888.5478648,,,0.0,0.0,0.0
+362,Authentication Service,_SFFhr-cdEeet0YmmfbMwkw,CF3,742.2513524,,,0.0,0.0,0.0
+363,Reputation Service,_SFLBHecdEeet0YmmfbMwkw,CF2,269.0722865,,,0.0,0.0,0.0
+364,Item Management Service,_SFLBB-cdEeet0YmmfbMwkw,CF3,265.4098715,,,0.0,0.0,0.0
+365,Reputation Service,_SFKacecdEeet0YmmfbMwkw,CF2,247.7539769,,,0.0,0.0,0.0
+366,Item Management Service,_SFKaW-cdEeet0YmmfbMwkw,CF3,247.56976150000003,,,0.0,0.0,0.0
+367,Reputation Service,_SFKZ0ecdEeet0YmmfbMwkw,CF2,189.9815721,,,0.0,0.0,0.0
+368,Item Management Service,_SFKZu-cdEeet0YmmfbMwkw,CF3,189.6972344,,,0.0,0.0,0.0
+369,Query Service,_SFLAhecdEeet0YmmfbMwkw,CF3,167.96024340000002,,,0.0,0.0,0.0
+370,Comment Item Filter,_SFFhSucdEeet0YmmfbMwkw,CF3,97.42332562,,,0.0,0.0,0.0
+371,Item Management Service,_SFLAZ-cdEeet0YmmfbMwkw,CF3,27.96511216,,,0.0,0.0,0.0
+372,Reputation Service,_SFLAfecdEeet0YmmfbMwkw,CF2,26.715291399999998,,,0.0,0.0,0.0
+373,Bid and Buy Service,_SFGInOcdEeet0YmmfbMwkw,CF3,408.670733,,,0.0,0.0,0.0
+374,Item Management Service,_SFGIkucdEeet0YmmfbMwkw,CF1,267.8960963,,,0.0,0.0,0.0
+375,Last Second Sales Item Filter,_SFGItOcdEeet0YmmfbMwkw,CF3,267.499151,,,0.0,0.0,0.0
+376,Bid and Buy Service,_SFGuxecdEeet0YmmfbMwkw,CF3,255.49652630000003,,,0.0,0.0,0.0
+377,Seller Reputation Item Filter,_SFGIzucdEeet0YmmfbMwkw,CF2,209.0004486,,,0.0,0.0,0.0
+378,Last Second Sales Item Filter,_SFGu3ecdEeet0YmmfbMwkw,CF3,166.5569678,,,0.0,0.0,0.0
+379,Item Management Service,_SFGuu-cdEeet0YmmfbMwkw,CF1,165.4735118,,,0.0,0.0,0.0
+380,Seller Reputation Item Filter,_SFGu9-cdEeet0YmmfbMwkw,CF2,131.6749417,,,0.0,0.0,0.0
+381,Bid and Buy Service,_SFJLBecdEeet0YmmfbMwkw,CF3,286.1890588,,,0.0,0.0,0.0
+382,Bid and Buy Service,_SFGwpecdEeet0YmmfbMwkw,CF3,45.18976915,,,0.0,0.0,0.0
+383,Item Management Service,_SFGwm-cdEeet0YmmfbMwkw,CF3,25.494251600000002,,,0.0,0.0,0.0
+384,Region Item Filter,_SFHV7OcdEeet0YmmfbMwkw,CF2,11.91411865,,,0.0,0.0,0.0
+385,Seller Reputation Item Filter,_SFGwN-cdEeet0YmmfbMwkw,CF2,4.591479584,,,0.0,0.0,0.0
+386,Availability Item Filter,_SFGwLecdEeet0YmmfbMwkw,CF1,1.555790231,,,0.0,0.0,0.0
+387,Query Service,_SFKZOecdEeet0YmmfbMwkw,CF1,1247.939112,,,0.0,0.0,0.0
+388,Authentication Service,_SFLBDucdEeet0YmmfbMwkw,CF3,871.4150778,,,0.0,0.0,0.0
+389,Authentication Service,_SFKaYucdEeet0YmmfbMwkw,CF3,807.8916707000001,,,0.0,0.0,0.0
+390,Authentication Service,_SFKZwucdEeet0YmmfbMwkw,CF3,619.1327190000001,,,0.0,0.0,0.0
+391,Query Service,_SFJyKecdEeet0YmmfbMwkw,CF1,525.2261947,,,0.0,0.0,0.0
+392,Authentication Service,_SFJzUucdEeet0YmmfbMwkw,CF3,443.3856521000001,,,0.0,0.0,0.0
+393,Bid and Buy Service,_SFKZJecdEeet0YmmfbMwkw,CF3,405.4297184,,,0.0,0.0,0.0
+394,Authentication Service,_SFLBrucdEeet0YmmfbMwkw,CF3,389.1656133,,,0.0,0.0,0.0
+395,Inventory Service,_SFJyvecdEeet0YmmfbMwkw,CF3,367.4647798,,,0.0,0.0,0.0
+396,Inventory Service,_SFKabecdEeet0YmmfbMwkw,CF3,340.62386410000005,,,0.0,0.0,0.0
+397,Item Management Service,_SFJyq-cdEeet0YmmfbMwkw,CF3,269.4086412,,,0.0,0.0,0.0
+398,Item Management Service,_SFKZG-cdEeet0YmmfbMwkw,CF3,269.1265329,,,0.0,0.0,0.0
+399,Last Second Sales Item Filter,_SFJyzecdEeet0YmmfbMwkw,CF1,265.8155442,,,0.0,0.0,0.0
+400,Inventory Service,_SFKZzecdEeet0YmmfbMwkw,CF3,258.1628579,,,0.0,0.0,0.0
+401,Seller Reputation Item Filter,_SFJy5-cdEeet0YmmfbMwkw,CF2,210.0653867,,,0.0,0.0,0.0
+402,Comment Item Filter,_SFKanecdEeet0YmmfbMwkw,CF2,171.74057230000003,,,0.0,0.0,0.0
+403,Bid and Buy Service,_SFJyFecdEeet0YmmfbMwkw,CF3,167.3697583,,,0.0,0.0,0.0
+404,Region Item Filter,_SFKZUucdEeet0YmmfbMwkw,CF2,153.3670584,,,0.0,0.0,0.0
+405,Comment Item Filter,_SFKZ_ecdEeet0YmmfbMwkw,CF2,125.6990459,,,0.0,0.0,0.0
+406,Past Sales Item Filter,_SFKag-cdEeet0YmmfbMwkw,CF1,119.9808098,,,0.0,0.0,0.0
+407,Authentication Service,_SFLAbucdEeet0YmmfbMwkw,CF3,115.98937820000002,,,0.0,0.0,0.0
+408,Item Management Service,_SFJyC-cdEeet0YmmfbMwkw,CF3,108.08126909999999,,,0.0,0.0,0.0
+409,Reputation Service,_SFJzYecdEeet0YmmfbMwkw,CF3,106.9250375,,,0.0,0.0,0.0
+410,Past Sales Item Filter,_SFKZ4-cdEeet0YmmfbMwkw,CF1,87.79044782,,,0.0,0.0,0.0
+411,Comment Item Filter,_SFJzjecdEeet0YmmfbMwkw,CF2,69.91733269,,,0.0,0.0,0.0
+412,Region Item Filter,_SFJyQucdEeet0YmmfbMwkw,CF2,57.9768803,,,0.0,0.0,0.0
+413,Past Sales Item Filter,_SFJzc-cdEeet0YmmfbMwkw,CF1,46.53831586,,,0.0,0.0,0.0
+414,Inventory Service,_SFLAeecdEeet0YmmfbMwkw,CF3,43.76632485,,,0.0,0.0,0.0
+415,Comment Item Filter,_SFLAqecdEeet0YmmfbMwkw,CF2,16.82406571,,,0.0,0.0,0.0
+416,Past Sales Item Filter,_SFLAj-cdEeet0YmmfbMwkw,CF1,7.650845181,,,0.0,0.0,0.0
+417,Authentication Service,_SFJyEucdEeet0YmmfbMwkw,CF1,440.257916,,,0.0,0.0,0.0
+418,Reputation Service,_SFJyIecdEeet0YmmfbMwkw,CF3,108.549876,,,0.0,0.0,0.0
+419,Recommendation Item Filter,_SFJyWecdEeet0YmmfbMwkw,CF2,93.48609503,,,0.0,0.0,0.0
+420,Buy Now Item Filter,_SFJyOOcdEeet0YmmfbMwkw,CF2,81.20634661,,,0.0,0.0,0.0
+421,Authentication Service,_SFJysucdEeet0YmmfbMwkw,CF1,1045.042408,,,0.0,0.0,0.0
+422,Persistence Service,_SFJyx-cdEeet0YmmfbMwkw,CF3,377.3459402,,,0.0,0.0,0.0
+423,Comment Item Filter,_SFJy7ecdEeet0YmmfbMwkw,CF2,183.117773,,,0.0,0.0,0.0
+424,Query Service,_SFKZOecdEeet0YmmfbMwkw,CF3,1751.939112,,,0.0,0.0,0.0
+425,Authentication Service,_SFKZIucdEeet0YmmfbMwkw,CF3,1044.119003,,,0.0,0.0,0.0
+426,Bid and Buy Service,_SFKaZecdEeet0YmmfbMwkw,CF3,379.00577480000004,,,0.0,0.0,0.0
+427,Bid and Buy Service,_SFKZxecdEeet0YmmfbMwkw,CF3,288.6169162,,,0.0,0.0,0.0
+428,Recommendation Item Filter,_SFKaqecdEeet0YmmfbMwkw,CF2,222.24299280000002,,,0.0,0.0,0.0
+429,Availability Item Filter,_SFKajecdEeet0YmmfbMwkw,CF1,194.7757356,,,0.0,0.0,0.0
+430,Comment Item Filter,_SFKZXecdEeet0YmmfbMwkw,CF2,181.74425480000002,,,0.0,0.0,0.0
+431,Recommendation Item Filter,_SFKaCecdEeet0YmmfbMwkw,CF2,167.3832795,,,0.0,0.0,0.0
+432,Inventory Service,_SFJzXecdEeet0YmmfbMwkw,CF3,149.3546632,,,0.0,0.0,0.0
+433,Availability Item Filter,_SFKZ7ecdEeet0YmmfbMwkw,CF1,146.72194480000002,,,0.0,0.0,0.0
+434,Past Sales Item Filter,_SFKZQ-cdEeet0YmmfbMwkw,CF1,126.37750249999999,,,0.0,0.0,0.0
+435,Past Sales Item Filter,_SFKag-cdEeet0YmmfbMwkw,CF3,119.9808098,,,0.0,0.0,0.0
+436,Recommendation Item Filter,_SFJzmecdEeet0YmmfbMwkw,CF2,93.84071824,,,0.0,0.0,0.0
+437,Past Sales Item Filter,_SFKZ4-cdEeet0YmmfbMwkw,CF3,87.79044782,,,0.0,0.0,0.0
+438,Availability Item Filter,_SFJzfecdEeet0YmmfbMwkw,CF1,83.66063353,,,0.0,0.0,0.0
+439,Past Sales Item Filter,_SFJzc-cdEeet0YmmfbMwkw,CF3,46.53831586,,,0.0,0.0,0.0
+440,Persistence Service,_SEu7n-cdEeet0YmmfbMwkw,CF2,304.29052260000003,,,0.0,0.0,0.0
+441,Item Management Service,_SEu7g-cdEeet0YmmfbMwkw,CF1,289.7406914,,,0.0,0.0,0.0
+442,Item Management Service,_SE9lYOcdEeet0YmmfbMwkw,CF3,288.4933418,,,0.0,0.0,0.0
+443,Reputation Service,_SEu7mecdEeet0YmmfbMwkw,CF3,286.787254,,,0.0,0.0,0.0
+444,Seller Reputation Item Filter,_SEu7v-cdEeet0YmmfbMwkw,CF2,227.93415299999998,,,0.0,0.0,0.0
+445,Availability Item Filter,_SEu7tecdEeet0YmmfbMwkw,CF3,226.12014150000002,,,0.0,0.0,0.0
+446,Buy Now Item Filter,_SE0bW-cdEeet0YmmfbMwkw,CF1,210.1748901,,,0.0,0.0,0.0
+447,Item Management Service,_SEvinOcdEeet0YmmfbMwkw,CF3,129.2850671,,,0.0,0.0,0.0
+448,Reputation Service,_SEvisucdEeet0YmmfbMwkw,CF3,128.5944685,,,0.0,0.0,0.0
+449,Item Management Service,_SEuUO-cdEeet0YmmfbMwkw,CF1,125.5866217,,,0.0,0.0,0.0
+450,Buy Now Item Filter,_SEuUaOcdEeet0YmmfbMwkw,CF1,97.07323515,,,0.0,0.0,0.0
+451,Inventory Service,_SEwwr-cdEeet0YmmfbMwkw,CF3,93.78371651,,,0.0,0.0,0.0
+452,Region Item Filter,_SEuUcucdEeet0YmmfbMwkw,CF2,73.37404785,,,0.0,0.0,0.0
+453,Item Management Service,_SEwwnecdEeet0YmmfbMwkw,CF1,66.73334914,,,0.0,0.0,0.0
+454,Category Item Filter,_SEvi5OcdEeet0YmmfbMwkw,CF3,58.55074861,,,0.0,0.0,0.0
+455,Item Management Service,_SEz0QOcdEeet0YmmfbMwkw,CF1,48.51166737,,,0.0,0.0,0.0
+456,Seller Reputation Item Filter,_SEx-s-cdEeet0YmmfbMwkw,CF2,35.61454892,,,0.0,0.0,0.0
+457,Availability Item Filter,_SEz0cucdEeet0YmmfbMwkw,CF1,34.383833200000005,,,0.0,0.0,0.0
+458,Past Sales Item Filter,_SE5TwucdEeet0YmmfbMwkw,CF3,25.13892315,,,0.0,0.0,0.0
+459,Item Management Service,_SEzM9-cdEeet0YmmfbMwkw,CF1,5.461924507000001,,,0.0,0.0,0.0
+460,Item Management Service,_SE57J-cdEeet0YmmfbMwkw,CF1,269.5055256,,,0.0,0.0,0.0
+461,Last Second Sales Item Filter,_SE57SecdEeet0YmmfbMwkw,CF1,267.0633999,,,0.0,0.0,0.0
+462,Item Management Service,_SE7ImecdEeet0YmmfbMwkw,CF1,247.3287536,,,0.0,0.0,0.0
+463,Seller Reputation Item Filter,_SE6hd-cdEeet0YmmfbMwkw,CF2,212.0754457,,,0.0,0.0,0.0
+464,Comment Item Filter,_SE7vpecdEeet0YmmfbMwkw,CF2,168.1192715,,,0.0,0.0,0.0
+465,Authentication Service,_SE8W5OcdEeet0YmmfbMwkw,CF3,808.7481832000001,,,0.0,0.0,0.0
+466,Past Sales Item Filter,_SE7IwecdEeet0YmmfbMwkw,CF1,116.3454164,,,0.0,0.0,0.0
+467,Item Management Service,_SE7wA-cdEeet0YmmfbMwkw,CF1,89.50538789,,,0.0,0.0,0.0
+468,Last Second Sales Item Filter,_SE7wJecdEeet0YmmfbMwkw,CF1,85.83639658,,,0.0,0.0,0.0
+469,Seller Reputation Item Filter,_SE7wP-cdEeet0YmmfbMwkw,CF2,67.23325995,,,0.0,0.0,0.0
+470,Reputation Service,_SE57PecdEeet0YmmfbMwkw,CF3,269.6578243,,,0.0,0.0,0.0
+471,Persistence Service,_SE7ItecdEeet0YmmfbMwkw,CF3,259.4876312,,,0.0,0.0,0.0
+472,Reputation Service,_SE7wGecdEeet0YmmfbMwkw,CF3,85.06436996,,,0.0,0.0,0.0
+473,Last Second Sales Item Filter,_SE6h_ecdEeet0YmmfbMwkw,CF1,7.760711894,,,0.0,0.0,0.0
+474,Item Management Service,_SE6h2-cdEeet0YmmfbMwkw,CF1,5.682745657999999,,,0.0,0.0,0.0
+475,Seller Reputation Item Filter,_SE6iF-cdEeet0YmmfbMwkw,CF2,5.654083585,,,0.0,0.0,0.0
+476,Reputation Service,_SE6h8ecdEeet0YmmfbMwkw,CF3,7.205817712000001,,,0.0,0.0,0.0
+477,Authentication Service,_SFM2TOcdEeet0YmmfbMwkw,CF1,693.8632895,,,0.0,0.0,0.0
+478,Authentication Service,_SFOEm-cdEeet0YmmfbMwkw,CF3,644.8844653,,,0.0,0.0,0.0
+479,Authentication Service,_SFM27OcdEeet0YmmfbMwkw,CF3,392.5043965,,,0.0,0.0,0.0
+480,Authentication Service,_SFOD--cdEeet0YmmfbMwkw,CF1,338.10582810000005,,,0.0,0.0,0.0
+481,Authentication Service,_SFNc7ecdEeet0YmmfbMwkw,CF3,240.35487859999998,,,0.0,0.0,0.0
+482,Authentication Service,_SFNeLecdEeet0YmmfbMwkw,CF1,240.2174134,,,0.0,0.0,0.0
+483,Authentication Service,_SFNdjecdEeet0YmmfbMwkw,CF1,237.40322609999998,,,0.0,0.0,0.0
+484,Item Management Service,_SFLBp-cdEeet0YmmfbMwkw,CF1,145.6659648,,,0.0,0.0,0.0
+485,Authentication Service,_SFOFO-cdEeet0YmmfbMwkw,CF3,138.9438713,,,0.0,0.0,0.0
+486,Comment Item Filter,_SFLB6ecdEeet0YmmfbMwkw,CF1,97.22334217,,,0.0,0.0,0.0
+487,Inventory Service,_SFLBuecdEeet0YmmfbMwkw,CF3,205.00528740000001,,,0.0,0.0,0.0
+488,Bid and Buy Service,_SFLohecdEeet0YmmfbMwkw,CF1,75.07305823,,,0.0,0.0,0.0
+489,Item Management Service,_SFLnO-cdEeet0YmmfbMwkw,CF1,46.01836673,,,0.0,0.0,0.0
+490,Reputation Service,_SFLnUecdEeet0YmmfbMwkw,CF1,45.78352352,,,0.0,0.0,0.0
+491,Past Sales Item Filter,_SFLnY-cdEeet0YmmfbMwkw,CF2,19.81802208,,,0.0,0.0,0.0
+492,Bid and Buy Service,_SFLn5ecdEeet0YmmfbMwkw,CF3,15.46453081,,,0.0,0.0,0.0
+493,Reputation Service,_SFLn8ecdEeet0YmmfbMwkw,CF1,6.772568092999999,,,0.0,0.0,0.0
+494,Item Management Service,_SFLn2-cdEeet0YmmfbMwkw,CF1,6.23572069,,,0.0,0.0,0.0
+495,Seller Reputation Item Filter,_SFLoF-cdEeet0YmmfbMwkw,CF1,5.523838986,,,0.0,0.0,0.0
+496,Past Sales Item Filter,_SFLoA-cdEeet0YmmfbMwkw,CF2,0.0,,,0.0,0.0,0.0
+497,Item Management Service,_SFLnO-cdEeet0YmmfbMwkw,CF1,46.01836673,,,0.0,0.0,0.0
+498,Comment Item Filter,_SFLnfecdEeet0YmmfbMwkw,CF3,27.91806804,,,0.0,0.0,0.0
+499,Inventory Service,_SFLn7ecdEeet0YmmfbMwkw,CF3,12.87649072,,,0.0,0.0,0.0
+500,Query Service,_SFLomecdEeet0YmmfbMwkw,CF2,258.9906201,,,0.0,0.0,0.0
+501,Bid and Buy Service,_SFLpJecdEeet0YmmfbMwkw,CF3,109.25538290000001,,,0.0,0.0,0.0
+502,Item Management Service,_SFLpG-cdEeet0YmmfbMwkw,CF1,67.93626614,,,0.0,0.0,0.0
+503,Buy Now Item Filter,_SFMOXOcdEeet0YmmfbMwkw,CF1,53.88085004,,,0.0,0.0,0.0
+504,Comment Item Filter,_SFMOcecdEeet0YmmfbMwkw,CF3,45.86911149,,,0.0,0.0,0.0
+505,Item Management Service,_SFLoe-cdEeet0YmmfbMwkw,CF1,45.67165612,,,0.0,0.0,0.0
+506,Buy Now Item Filter,_SFLoqOcdEeet0YmmfbMwkw,CF3,34.21777812,,,0.0,0.0,0.0
+507,Future Sales Item Filter,_SFLozucdEeet0YmmfbMwkw,CF2,29.89589043,,,0.0,0.0,0.0
+508,Region Item Filter,_SFLosucdEeet0YmmfbMwkw,CF2,25.55819903,,,0.0,0.0,0.0
+509,Query Service,_SFMO7ecdEeet0YmmfbMwkw,CF2,1337.506631,,,0.0,0.0,0.0
+510,Query Service,_SFMQLecdEeet0YmmfbMwkw,CF2,798.3253597,,,0.0,0.0,0.0
+511,Item Management Service,_SFMOz-cdEeet0YmmfbMwkw,CF1,286.0145286,,,0.0,0.0,0.0
+512,Bid and Buy Service,_SFMQGecdEeet0YmmfbMwkw,CF3,255.54599419999997,,,0.0,0.0,0.0
+513,Item Management Service,_SFMQD-cdEeet0YmmfbMwkw,CF1,167.2312004,,,0.0,0.0,0.0
+514,Region Item Filter,_SFMPBucdEeet0YmmfbMwkw,CF2,166.80975569999998,,,0.0,0.0,0.0
+515,Seller Reputation Item Filter,_SFMQS-cdEeet0YmmfbMwkw,CF1,130.5846051,,,0.0,0.0,0.0
+516,Query Service,_SFMPjecdEeet0YmmfbMwkw,CF2,77.13970561,,,0.0,0.0,0.0
+517,Bid and Buy Service,_SFMPeecdEeet0YmmfbMwkw,CF3,16.29563313,,,0.0,0.0,0.0
+518,Item Management Service,_SFMPb-cdEeet0YmmfbMwkw,CF1,6.542362689,,,0.0,0.0,0.0
+519,Buy Now Item Filter,_SFMPnOcdEeet0YmmfbMwkw,CF1,5.803420077999999,,,0.0,0.0,0.0
+520,Comment Item Filter,_SFMPsecdEeet0YmmfbMwkw,CF3,2.379928205,,,0.0,0.0,0.0
+521,Query Service,_SE9lfucdEeet0YmmfbMwkw,CF1,1878.45468,,,0.0,0.0,0.0
+522,Query Service,_SFM1w-cdEeet0YmmfbMwkw,CF2,616.1222275,,,0.0,0.0,0.0
+523,Query Service,_SEwwu-cdEeet0YmmfbMwkw,CF1,419.23380380000003,,,0.0,0.0,0.0
+524,Reputation Service,_SFOrf-cdEeet0YmmfbMwkw,CF1,246.19744590000002,,,0.0,0.0,0.0
+525,Persistence Service,_SFM2YecdEeet0YmmfbMwkw,CF2,234.3938454,,,0.0,0.0,0.0
+526,Persistence Service,_SFMQK-cdEeet0YmmfbMwkw,CF3,176.20344430000003,,,0.0,0.0,0.0
+527,Region Item Filter,_SEu7uucdEeet0YmmfbMwkw,CF3,168.0792313,,,0.0,0.0,0.0
+528,Region Item Filter,_SEx_TucdEeet0YmmfbMwkw,CF1,109.86672949999999,,,0.0,0.0,0.0
+529,Category Item Filter,_SFMQV-cdEeet0YmmfbMwkw,CF3,75.81999908,,,0.0,0.0,0.0
+530,Region Item Filter,_SEuUcucdEeet0YmmfbMwkw,CF1,73.37404785,,,0.0,0.0,0.0
+531,Query Service,_SE57RecdEeet0YmmfbMwkw,CF3,1500.254488,,,0.0,0.0,0.0
+532,Persistence Service,_SFM2YecdEeet0YmmfbMwkw,CF2,234.3938454,,,0.0,0.0,0.0
+533,Seller Reputation Item Filter,_SEu7v-cdEeet0YmmfbMwkw,CF3,227.93415299999998,,,0.0,0.0,0.0
+534,Comment Item Filter,_SFM2h-cdEeet0YmmfbMwkw,CF3,182.1524833,,,0.0,0.0,0.0
+535,Reputation Service,_SE56necdEeet0YmmfbMwkw,CF3,149.712539,,,0.0,0.0,0.0
+536,Persistence Service,_SFNcYucdEeet0YmmfbMwkw,CF3,128.34682990000002,,,0.0,0.0,0.0
+537,Persistence Service,_SE6h9-cdEeet0YmmfbMwkw,CF3,8.522013459,,,0.0,0.0,0.0
+538,Query Service,_SFLBxecdEeet0YmmfbMwkw,CF3,851.0785567,,,0.0,0.0,0.0
+539,Bid and Buy Service,_SFLBEecdEeet0YmmfbMwkw,CF1,407.3678365,,,0.0,0.0,0.0
+540,Reputation Service,_SFLBHecdEeet0YmmfbMwkw,CF3,269.0722865,,,0.0,0.0,0.0
+541,Last Second Sales Item Filter,_SFLBKecdEeet0YmmfbMwkw,CF3,268.79432099999997,,,0.0,0.0,0.0
+542,Query Service,_SFLnWecdEeet0YmmfbMwkw,CF3,259.4840389,,,0.0,0.0,0.0
+543,Reputation Service,_SFKacecdEeet0YmmfbMwkw,CF1,247.7539769,,,0.0,0.0,0.0
+544,Last Second Sales Item Filter,_SFKafecdEeet0YmmfbMwkw,CF3,245.65684469999997,,,0.0,0.0,0.0
+545,Buy Now Item Filter,_SFLBNOcdEeet0YmmfbMwkw,CF3,210.81952379999998,,,0.0,0.0,0.0
+546,Seller Reputation Item Filter,_SFKal-cdEeet0YmmfbMwkw,CF3,196.27028909999999,,,0.0,0.0,0.0
+547,Availability Item Filter,_SFKajecdEeet0YmmfbMwkw,CF3,194.7757356,,,0.0,0.0,0.0
+548,Region Item Filter,_SFLBPucdEeet0YmmfbMwkw,CF2,153.9849493,,,0.0,0.0,0.0
+549,Reputation Service,_SFLBvecdEeet0YmmfbMwkw,CF3,145.78789319999998,,,0.0,0.0,0.0
+550,Item Management Service,_SFLBp-cdEeet0YmmfbMwkw,CF1,145.6659648,,,0.0,0.0,0.0
+551,Category Item Filter,_SFKao-cdEeet0YmmfbMwkw,CF2,116.3331685,,,0.0,0.0,0.0
+552,Buy Now Item Filter,_SFLB1OcdEeet0YmmfbMwkw,CF3,113.34484579999999,,,0.0,0.0,0.0
+553,Region Item Filter,_SFLB3ucdEeet0YmmfbMwkw,CF2,81.74035267,,,0.0,0.0,0.0
+554,Bid and Buy Service,_SFLnRecdEeet0YmmfbMwkw,CF3,76.82548068,,,0.0,0.0,0.0
+555,Bid and Buy Service,_SFLAcecdEeet0YmmfbMwkw,CF1,46.39046976,,,0.0,0.0,0.0
+556,Item Management Service,_SFLnO-cdEeet0YmmfbMwkw,CF1,46.01836673,,,0.0,0.0,0.0
+557,Reputation Service,_SFLnUecdEeet0YmmfbMwkw,CF3,45.78352352,,,0.0,0.0,0.0
+558,Persistence Service,_SFLAg-cdEeet0YmmfbMwkw,CF3,38.70423167,,,0.0,0.0,0.0
+559,Availability Item Filter,_SFLAmecdEeet0YmmfbMwkw,CF3,20.30880114,,,0.0,0.0,0.0
+560,Past Sales Item Filter,_SFLnY-cdEeet0YmmfbMwkw,CF2,19.81802208,,,0.0,0.0,0.0
+561,Seller Reputation Item Filter,_SFLAo-cdEeet0YmmfbMwkw,CF2,17.78388629,,,0.0,0.0,0.0
+562,Past Sales Item Filter,_SFLAj-cdEeet0YmmfbMwkw,CF3,7.650845181,,,0.0,0.0,0.0
+563,Inventory Service,_SEu7lecdEeet0YmmfbMwkw,CF3,394.30306129999997,,,0.0,0.0,0.0
+564,Inventory Service,_SFGvbecdEeet0YmmfbMwkw,CF2,391.1902818,,,0.0,0.0,0.0
+565,Inventory Service,_SE7Iq-cdEeet0YmmfbMwkw,CF3,337.16702480000004,,,0.0,0.0,0.0
+566,Persistence Service,_SE57Q-cdEeet0YmmfbMwkw,CF1,283.9350654,,,0.0,0.0,0.0
+567,Authentication Service,_SE2QYOcdEeet0YmmfbMwkw,CF1,241.1611772,,,0.0,0.0,0.0
+568,Persistence Service,_SFE6jOcdEeet0YmmfbMwkw,CF1,209.86657119999998,,,0.0,0.0,0.0
+569,Item Management Service,_SE1B6-cdEeet0YmmfbMwkw,CF1,208.7798043,,,0.0,0.0,0.0
+570,Comment Item Filter,_SFACROcdEeet0YmmfbMwkw,CF3,184.5684247,,,0.0,0.0,0.0
+571,Persistence Service,_SE3ehOcdEeet0YmmfbMwkw,CF2,132.26842340000002,,,0.0,0.0,0.0
+572,Bid and Buy Service,_SE23jOcdEeet0YmmfbMwkw,CF1,105.57420459999999,,,0.0,0.0,0.0
+573,Inventory Service,_SE-MjecdEeet0YmmfbMwkw,CF3,97.48318073,,,0.0,0.0,0.0
+574,Region Item Filter,_SE56vucdEeet0YmmfbMwkw,CF2,82.84340884,,,0.0,0.0,0.0
+575,Region Item Filter,_SE-zUecdEeet0YmmfbMwkw,CF2,81.31263268,,,0.0,0.0,0.0
+576,Bid and Buy Service,_SEz0SucdEeet0YmmfbMwkw,CF1,75.48800656,,,0.0,0.0,0.0
+577,Bid and Buy Service,_SExYNOcdEeet0YmmfbMwkw,CF3,75.32432656,,,0.0,0.0,0.0
+578,Item Management Service,_SE5TmucdEeet0YmmfbMwkw,CF1,67.38046741,,,0.0,0.0,0.0
+579,Category Item Filter,_SFLB7-cdEeet0YmmfbMwkw,CF3,65.36485639,,,0.0,0.0,0.0
+580,Region Item Filter,_SFETNucdEeet0YmmfbMwkw,CF1,58.88712294,,,0.0,0.0,0.0
+581,Bid and Buy Service,_SFS9COcdEeet0YmmfbMwkw,CF3,227.4573835,,,0.0,0.0,0.0
+582,Item Management Service,_SFS8_ucdEeet0YmmfbMwkw,CF1,145.75836950000001,,,0.0,0.0,0.0
+583,Bid and Buy Service,_SFS8aOcdEeet0YmmfbMwkw,CF3,138.5881535,,,0.0,0.0,0.0
+584,Recommendation Item Filter,_SFS9TOcdEeet0YmmfbMwkw,CF2,133.0499408,,,0.0,0.0,0.0
+585,Bid and Buy Service,_SFS9qOcdEeet0YmmfbMwkw,CF3,105.3729132,,,0.0,0.0,0.0
+586,Item Management Service,_SFS8XucdEeet0YmmfbMwkw,CF1,88.87765834,,,0.0,0.0,0.0
+587,Region Item Filter,_SFS9NecdEeet0YmmfbMwkw,CF2,82.5515834,,,0.0,0.0,0.0
+588,Recommendation Item Filter,_SFS8rOcdEeet0YmmfbMwkw,CF2,76.82940934,,,0.0,0.0,0.0
+589,Past Sales Item Filter,_SFS9JucdEeet0YmmfbMwkw,CF1,68.63668154,,,0.0,0.0,0.0
+590,Item Management Service,_SFS9nucdEeet0YmmfbMwkw,CF1,66.61026654,,,0.0,0.0,0.0
+591,Recommendation Item Filter,_SFS97OcdEeet0YmmfbMwkw,CF2,60.64553324,,,0.0,0.0,0.0
+592,Region Item Filter,_SFS8lecdEeet0YmmfbMwkw,CF2,46.03400279,,,0.0,0.0,0.0
+593,Past Sales Item Filter,_SFS8hucdEeet0YmmfbMwkw,CF1,35.1043086,,,0.0,0.0,0.0
+594,Region Item Filter,_SFS91ecdEeet0YmmfbMwkw,CF2,34.26988819,,,0.0,0.0,0.0
+595,Past Sales Item Filter,_SFS9xucdEeet0YmmfbMwkw,CF1,28.33178703,,,0.0,0.0,0.0
+596,Inventory Service,_SFNdmOcdEeet0YmmfbMwkw,CF3,121.89984609999999,,,0.0,0.0,0.0
+597,Inventory Service,_SFNeOOcdEeet0YmmfbMwkw,CF3,121.5887446,,,0.0,0.0,0.0
+598,Last Second Sales Item Filter,_SFODducdEeet0YmmfbMwkw,CF1,89.82413363,,,0.0,0.0,0.0
+599,Item Management Service,_SFNdhucdEeet0YmmfbMwkw,CF1,86.66416974,,,0.0,0.0,0.0
+600,Last Second Sales Item Filter,_SFNdqOcdEeet0YmmfbMwkw,CF1,86.45850928,,,0.0,0.0,0.0
+601,Item Management Service,_SFNeJucdEeet0YmmfbMwkw,CF1,85.12184157,,,0.0,0.0,0.0
+602,Seller Reputation Item Filter,_SFODkOcdEeet0YmmfbMwkw,CF2,69.92854063,,,0.0,0.0,0.0
+603,Buy Now Item Filter,_SFODgecdEeet0YmmfbMwkw,CF1,68.07971099,,,0.0,0.0,0.0
+604,Buy Now Item Filter,_SFNds-cdEeet0YmmfbMwkw,CF1,65.90812193,,,0.0,0.0,0.0
+605,Seller Reputation Item Filter,_SFNdwucdEeet0YmmfbMwkw,CF2,65.6608869,,,0.0,0.0,0.0
+606,Future Sales Item Filter,_SFODp-cdEeet0YmmfbMwkw,CF2,59.64910741,,,0.0,0.0,0.0
+607,Future Sales Item Filter,_SFNd2ecdEeet0YmmfbMwkw,CF2,59.24012581,,,0.0,0.0,0.0
+608,Inventory Service,_SFOEpucdEeet0YmmfbMwkw,CF1,339.92739,,,0.0,0.0,0.0
+609,Last Second Sales Item Filter,_SFOEtucdEeet0YmmfbMwkw,CF1,249.3231094,,,0.0,0.0,0.0
+610,Item Management Service,_SFOElOcdEeet0YmmfbMwkw,CF1,246.3204921,,,0.0,0.0,0.0
+611,Buy Now Item Filter,_SFOEwecdEeet0YmmfbMwkw,CF1,194.8608943,,,0.0,0.0,0.0
+612,Seller Reputation Item Filter,_SFOE0OcdEeet0YmmfbMwkw,CF2,194.794182,,,0.0,0.0,0.0
+613,Inventory Service,_SFOEBucdEeet0YmmfbMwkw,CF1,177.01565569999997,,,0.0,0.0,0.0
+614,Future Sales Item Filter,_SFOE5-cdEeet0YmmfbMwkw,CF2,170.325683,,,0.0,0.0,0.0
+615,Last Second Sales Item Filter,_SFOEFucdEeet0YmmfbMwkw,CF1,129.6811553,,,0.0,0.0,0.0
+616,Item Management Service,_SFOD9OcdEeet0YmmfbMwkw,CF1,126.8538643,,,0.0,0.0,0.0
+617,Seller Reputation Item Filter,_SFOEMOcdEeet0YmmfbMwkw,CF2,100.7298818,,,0.0,0.0,0.0
+618,Buy Now Item Filter,_SFOEIecdEeet0YmmfbMwkw,CF1,98.24425886,,,0.0,0.0,0.0
+619,Future Sales Item Filter,_SFOER-cdEeet0YmmfbMwkw,CF2,83.92804238,,,0.0,0.0,0.0
+620,Inventory Service,_SFOFRucdEeet0YmmfbMwkw,CF1,69.16528576,,,0.0,0.0,0.0
+621,Item Management Service,_SFOFNOcdEeet0YmmfbMwkw,CF1,48.46882835,,,0.0,0.0,0.0
+622,Last Second Sales Item Filter,_SFOFVucdEeet0YmmfbMwkw,CF1,45.78335744,,,0.0,0.0,0.0
+623,Buy Now Item Filter,_SFOFYecdEeet0YmmfbMwkw,CF1,36.55215791,,,0.0,0.0,0.0
+624,Seller Reputation Item Filter,_SFOFcOcdEeet0YmmfbMwkw,CF2,33.79424131,,,0.0,0.0,0.0
+625,Future Sales Item Filter,_SFOFh-cdEeet0YmmfbMwkw,CF2,27.90052208,,,0.0,0.0,0.0
+626,Bid and Buy Service,_SFOrc-cdEeet0YmmfbMwkw,CF1,375.1597568,,,0.0,0.0,0.0
+627,Item Management Service,_SFSWK-cdEeet0YmmfbMwkw,CF3,268.88645,,,0.0,0.0,0.0
+628,Reputation Service,_SFSWQecdEeet0YmmfbMwkw,CF1,266.1407752,,,0.0,0.0,0.0
+629,Item Management Service,_SFOraecdEeet0YmmfbMwkw,CF1,249.5344168,,,0.0,0.0,0.0
+630,Region Item Filter,_SFOroOcdEeet0YmmfbMwkw,CF2,144.0559159,,,0.0,0.0,0.0
+631,Bid and Buy Service,_SFSVlecdEeet0YmmfbMwkw,CF1,136.6701964,,,0.0,0.0,0.0
+632,Item Management Service,_SFSVi-cdEeet0YmmfbMwkw,CF1,86.21181956,,,0.0,0.0,0.0
+633,Bid and Buy Service,_SFOsE-cdEeet0YmmfbMwkw,CF1,76.64703988,,,0.0,0.0,0.0
+634,Region Item Filter,_SFSVwucdEeet0YmmfbMwkw,CF2,48.49739351,,,0.0,0.0,0.0
+635,Bid and Buy Service,_SFSU9ecdEeet0YmmfbMwkw,CF1,46.68653051,,,0.0,0.0,0.0
+636,Item Management Service,_SFOsCecdEeet0YmmfbMwkw,CF1,45.294032,,,0.0,0.0,0.0
+637,Item Management Service,_SFSU6-cdEeet0YmmfbMwkw,CF1,27.30040508,,,0.0,0.0,0.0
+638,Region Item Filter,_SFOsQOcdEeet0YmmfbMwkw,CF2,23.55978886,,,0.0,0.0,0.0
+639,Region Item Filter,_SFSVIucdEeet0YmmfbMwkw,CF2,9.899370315,,,0.0,0.0,0.0
+640,Reputation Service,_SFSW4ecdEeet0YmmfbMwkw,CF3,29.05611145,,,0.0,0.0,0.0
+641,Last Second Sales Item Filter,_SFSW7ecdEeet0YmmfbMwkw,CF2,27.99702718,,,0.0,0.0,0.0
+642,Item Management Service,_SFSWy-cdEeet0YmmfbMwkw,CF1,26.36020964,,,0.0,0.0,0.0
+643,Comment Item Filter,_SFS8AOcdEeet0YmmfbMwkw,CF1,13.02411915,,,0.0,0.0,0.0
+0,,,,,,,0.0,0.0,0.0
+1,,,,,,,0.0,0.0,0.0
+2,,,,,,,0.0,0.0,0.0
+3,,,,,,,0.0,0.0,0.0
+4,,,,,,,0.0,0.0,0.0
+5,,,,,,,0.0,0.0,0.0
+6,,,,,,,0.0,0.0,0.0
+7,,,,,,,0.0,0.0,0.0
+8,,,,,,,0.0,0.0,0.0
+9,,,,,,,0.0,0.0,0.0
+10,,,,,,,0.0,0.0,0.0
+11,,,,,,,0.0,0.0,0.0
+12,,,,,,,0.0,0.0,0.0
+13,,,,,,,0.0,0.0,0.0
+14,,,,,,,0.0,0.0,0.0
+15,,,,,,,0.0,0.0,0.0
+16,,,,,,,0.0,0.0,0.0
+17,,,,,,,0.0,0.0,0.0
+18,,,,,,,0.0,0.0,0.0
+19,,,,,,,0.0,0.0,0.0
+20,,,,,,,0.0,0.0,0.0
+21,,,,,,,0.0,0.0,0.0
+22,,,,,,,0.0,0.0,0.0
+23,,,,,,,0.0,0.0,0.0
+24,,,,,,,0.0,0.0,0.0
+25,,,,,,,0.0,0.0,0.0
+26,,,,,,,0.0,0.0,0.0
+27,,,,,,,0.0,0.0,0.0
+28,,,,,,,0.0,0.0,0.0
+29,,,,,,,0.0,0.0,0.0
+30,,,,,,,0.0,0.0,0.0
+31,,,,,,,0.0,0.0,0.0
+32,,,,,,,0.0,0.0,0.0
+33,,,,,,,0.0,0.0,0.0
+34,,,,,,,0.0,0.0,0.0
+35,,,,,,,0.0,0.0,0.0
+36,,,,,,,0.0,0.0,0.0
+37,,,,,,,0.0,0.0,0.0
+38,,,,,,,0.0,0.0,0.0
+39,,,,,,,0.0,0.0,0.0
+40,,,,,,,0.0,0.0,0.0
+41,,,,,,,0.0,0.0,0.0
+42,,,,,,,0.0,0.0,0.0
+43,,,,,,,0.0,0.0,0.0
+44,,,,,,,0.0,0.0,0.0
+45,,,,,,,0.0,0.0,0.0
+46,,,,,,,0.0,0.0,0.0
+47,,,,,,,0.0,0.0,0.0
+48,,,,,,,0.0,0.0,0.0
+49,,,,,,,0.0,0.0,0.0
+50,,,,,,,0.0,0.0,0.0
+51,,,,,,,0.0,0.0,0.0
+52,,,,,,,0.0,0.0,0.0
+53,,,,,,,0.0,0.0,0.0
+54,,,,,,,0.0,0.0,0.0
+55,,,,,,,0.0,0.0,0.0
+56,,,,,,,0.0,0.0,0.0
+57,,,,,,,0.0,0.0,0.0
+58,,,,,,,0.0,0.0,0.0
+59,,,,,,,0.0,0.0,0.0
+60,,,,,,,0.0,0.0,0.0
+61,,,,,,,0.0,0.0,0.0
+62,,,,,,,0.0,0.0,0.0
+63,,,,,,,0.0,0.0,0.0
+64,,,,,,,0.0,0.0,0.0
+65,,,,,,,0.0,0.0,0.0
+66,,,,,,,0.0,0.0,0.0
+67,,,,,,,0.0,0.0,0.0
+68,,,,,,,0.0,0.0,0.0
+69,,,,,,,0.0,0.0,0.0
+70,,,,,,,0.0,0.0,0.0
+71,,,,,,,0.0,0.0,0.0
+72,,,,,,,0.0,0.0,0.0
+73,,,,,,,0.0,0.0,0.0
+74,,,,,,,0.0,0.0,0.0
+75,,,,,,,0.0,0.0,0.0
+76,,,,,,,0.0,0.0,0.0
+77,,,,,,,0.0,0.0,0.0
+78,,,,,,,0.0,0.0,0.0
+79,,,,,,,0.0,0.0,0.0
+80,,,,,,,0.0,0.0,0.0
+81,,,,,,,0.0,0.0,0.0
+82,,,,,,,0.0,0.0,0.0
+83,,,,,,,0.0,0.0,0.0
+84,,,,,,,0.0,0.0,0.0
+85,,,,,,,0.0,0.0,0.0
+86,,,,,,,0.0,0.0,0.0
+87,,,,,,,0.0,0.0,0.0
+88,,,,,,,0.0,0.0,0.0
+89,,,,,,,0.0,0.0,0.0
+90,,,,,,,0.0,0.0,0.0
+91,,,,,,,0.0,0.0,0.0
+92,,,,,,,0.0,0.0,0.0
+93,,,,,,,0.0,0.0,0.0
+94,,,,,,,0.0,0.0,0.0
+95,,,,,,,0.0,0.0,0.0
+96,,,,,,,0.0,0.0,0.0
+97,,,,,,,0.0,0.0,0.0
+98,,,,,,,0.0,0.0,0.0
+99,,,,,,,0.0,0.0,0.0
+100,,,,,,,0.0,0.0,0.0
+101,,,,,,,0.0,0.0,0.0
+102,,,,,,,0.0,0.0,0.0
+103,,,,,,,0.0,0.0,0.0
+104,,,,,,,0.0,0.0,0.0
+105,,,,,,,0.0,0.0,0.0
+106,,,,,,,0.0,0.0,0.0
+107,,,,,,,0.0,0.0,0.0
+108,,,,,,,0.0,0.0,0.0
+109,,,,,,,0.0,0.0,0.0
+110,,,,,,,0.0,0.0,0.0
+111,,,,,,,0.0,0.0,0.0
+112,,,,,,,0.0,0.0,0.0
+113,,,,,,,0.0,0.0,0.0
+114,,,,,,,0.0,0.0,0.0
+115,,,,,,,0.0,0.0,0.0
+116,,,,,,,0.0,0.0,0.0
+117,,,,,,,0.0,0.0,0.0
+118,,,,,,,0.0,0.0,0.0
+119,,,,,,,0.0,0.0,0.0
+120,,,,,,,0.0,0.0,0.0
+121,,,,,,,0.0,0.0,0.0
+122,,,,,,,0.0,0.0,0.0
+123,,,,,,,0.0,0.0,0.0
+124,,,,,,,0.0,0.0,0.0
+125,,,,,,,0.0,0.0,0.0
+126,,,,,,,0.0,0.0,0.0
+127,,,,,,,0.0,0.0,0.0
+128,,,,,,,0.0,0.0,0.0
+129,,,,,,,0.0,0.0,0.0
+130,,,,,,,0.0,0.0,0.0
+131,,,,,,,0.0,0.0,0.0
+132,,,,,,,0.0,0.0,0.0
+133,,,,,,,0.0,0.0,0.0
+134,,,,,,,0.0,0.0,0.0
+135,,,,,,,0.0,0.0,0.0
+136,,,,,,,0.0,0.0,0.0
+137,,,,,,,0.0,0.0,0.0
+138,,,,,,,0.0,0.0,0.0
+139,,,,,,,0.0,0.0,0.0
+140,,,,,,,0.0,0.0,0.0
+141,,,,,,,0.0,0.0,0.0
+142,,,,,,,0.0,0.0,0.0
+143,,,,,,,0.0,0.0,0.0
+144,,,,,,,0.0,0.0,0.0
+145,,,,,,,0.0,0.0,0.0
+146,,,,,,,0.0,0.0,0.0
+147,,,,,,,0.0,0.0,0.0
+148,,,,,,,0.0,0.0,0.0
+149,,,,,,,0.0,0.0,0.0
+150,,,,,,,0.0,0.0,0.0
+151,,,,,,,0.0,0.0,0.0
+152,,,,,,,0.0,0.0,0.0
+153,,,,,,,0.0,0.0,0.0
+154,,,,,,,0.0,0.0,0.0
+155,,,,,,,0.0,0.0,0.0
+156,,,,,,,0.0,0.0,0.0
+157,,,,,,,0.0,0.0,0.0
+158,,,,,,,0.0,0.0,0.0
+159,,,,,,,0.0,0.0,0.0
+160,,,,,,,0.0,0.0,0.0
+161,,,,,,,0.0,0.0,0.0
+162,,,,,,,0.0,0.0,0.0
+163,,,,,,,0.0,0.0,0.0
+164,,,,,,,0.0,0.0,0.0
+165,,,,,,,0.0,0.0,0.0
+166,,,,,,,0.0,0.0,0.0
+167,,,,,,,0.0,0.0,0.0
+168,,,,,,,0.0,0.0,0.0
+169,,,,,,,0.0,0.0,0.0
+170,,,,,,,0.0,0.0,0.0
+171,,,,,,,0.0,0.0,0.0
+172,,,,,,,0.0,0.0,0.0
+173,,,,,,,0.0,0.0,0.0
+174,,,,,,,0.0,0.0,0.0
+175,,,,,,,0.0,0.0,0.0
+176,,,,,,,0.0,0.0,0.0
+177,,,,,,,0.0,0.0,0.0
+178,,,,,,,0.0,0.0,0.0
+179,,,,,,,0.0,0.0,0.0
+180,,,,,,,0.0,0.0,0.0
+181,,,,,,,0.0,0.0,0.0
+182,,,,,,,0.0,0.0,0.0
+183,,,,,,,0.0,0.0,0.0
+184,,,,,,,0.0,0.0,0.0
+185,,,,,,,0.0,0.0,0.0
+186,,,,,,,0.0,0.0,0.0
+187,,,,,,,0.0,0.0,0.0
+188,,,,,,,0.0,0.0,0.0
+189,,,,,,,0.0,0.0,0.0
+190,,,,,,,0.0,0.0,0.0
+191,,,,,,,0.0,0.0,0.0
+192,,,,,,,0.0,0.0,0.0
+193,,,,,,,0.0,0.0,0.0
+194,,,,,,,0.0,0.0,0.0
+195,,,,,,,0.0,0.0,0.0
+196,,,,,,,0.0,0.0,0.0
+197,,,,,,,0.0,0.0,0.0
+198,,,,,,,0.0,0.0,0.0
+199,,,,,,,0.0,0.0,0.0
+200,,,,,,,0.0,0.0,0.0
+201,,,,,,,0.0,0.0,0.0
+202,,,,,,,0.0,0.0,0.0
+203,,,,,,,0.0,0.0,0.0
+204,,,,,,,0.0,0.0,0.0
+205,,,,,,,0.0,0.0,0.0
+206,,,,,,,0.0,0.0,0.0
+207,,,,,,,0.0,0.0,0.0
+208,,,,,,,0.0,0.0,0.0
+209,,,,,,,0.0,0.0,0.0
+210,,,,,,,0.0,0.0,0.0
+211,,,,,,,0.0,0.0,0.0
+212,,,,,,,0.0,0.0,0.0
+213,,,,,,,0.0,0.0,0.0
+214,,,,,,,0.0,0.0,0.0
+215,,,,,,,0.0,0.0,0.0
+216,,,,,,,0.0,0.0,0.0
+217,,,,,,,0.0,0.0,0.0
+218,,,,,,,0.0,0.0,0.0
+219,,,,,,,0.0,0.0,0.0
+220,,,,,,,0.0,0.0,0.0
+221,,,,,,,0.0,0.0,0.0
+222,,,,,,,0.0,0.0,0.0
+223,,,,,,,0.0,0.0,0.0
+224,,,,,,,0.0,0.0,0.0
+225,,,,,,,0.0,0.0,0.0
+226,,,,,,,0.0,0.0,0.0
+227,,,,,,,0.0,0.0,0.0
+228,,,,,,,0.0,0.0,0.0
+229,,,,,,,0.0,0.0,0.0
+230,,,,,,,0.0,0.0,0.0
+231,,,,,,,0.0,0.0,0.0
+232,,,,,,,0.0,0.0,0.0
+233,,,,,,,0.0,0.0,0.0
+234,,,,,,,0.0,0.0,0.0
+235,,,,,,,0.0,0.0,0.0
+236,,,,,,,0.0,0.0,0.0
+237,,,,,,,0.0,0.0,0.0
+238,,,,,,,0.0,0.0,0.0
+239,,,,,,,0.0,0.0,0.0
+240,,,,,,,0.0,0.0,0.0
+241,,,,,,,0.0,0.0,0.0
+242,,,,,,,0.0,0.0,0.0
+243,,,,,,,0.0,0.0,0.0
+244,,,,,,,0.0,0.0,0.0
+245,,,,,,,0.0,0.0,0.0
+246,,,,,,,0.0,0.0,0.0
+247,,,,,,,0.0,0.0,0.0
+248,,,,,,,0.0,0.0,0.0
+249,,,,,,,0.0,0.0,0.0
+250,,,,,,,0.0,0.0,0.0
+251,,,,,,,0.0,0.0,0.0
+252,,,,,,,0.0,0.0,0.0
+253,,,,,,,0.0,0.0,0.0
+254,,,,,,,0.0,0.0,0.0
+255,,,,,,,0.0,0.0,0.0
+256,,,,,,,0.0,0.0,0.0
+257,,,,,,,0.0,0.0,0.0
+258,,,,,,,0.0,0.0,0.0
+259,,,,,,,0.0,0.0,0.0
+260,,,,,,,0.0,0.0,0.0
+261,,,,,,,0.0,0.0,0.0
+262,,,,,,,0.0,0.0,0.0
+263,,,,,,,0.0,0.0,0.0
+264,,,,,,,0.0,0.0,0.0
+265,,,,,,,0.0,0.0,0.0
+266,,,,,,,0.0,0.0,0.0
+267,,,,,,,0.0,0.0,0.0
+268,,,,,,,0.0,0.0,0.0
+269,,,,,,,0.0,0.0,0.0
+270,,,,,,,0.0,0.0,0.0
+271,,,,,,,0.0,0.0,0.0
+272,,,,,,,0.0,0.0,0.0
+273,,,,,,,0.0,0.0,0.0
+274,,,,,,,0.0,0.0,0.0
+275,,,,,,,0.0,0.0,0.0
+276,,,,,,,0.0,0.0,0.0
+277,,,,,,,0.0,0.0,0.0
+278,,,,,,,0.0,0.0,0.0
+279,,,,,,,0.0,0.0,0.0
+280,,,,,,,0.0,0.0,0.0
+281,,,,,,,0.0,0.0,0.0
+282,,,,,,,0.0,0.0,0.0
+283,,,,,,,0.0,0.0,0.0
+284,,,,,,,0.0,0.0,0.0
+285,,,,,,,0.0,0.0,0.0
+286,,,,,,,0.0,0.0,0.0
+287,,,,,,,0.0,0.0,0.0
+288,,,,,,,0.0,0.0,0.0
+289,,,,,,,0.0,0.0,0.0
+290,,,,,,,0.0,0.0,0.0
+291,,,,,,,0.0,0.0,0.0
+292,,,,,,,0.0,0.0,0.0
+293,,,,,,,0.0,0.0,0.0
+294,,,,,,,0.0,0.0,0.0
+295,,,,,,,0.0,0.0,0.0
+296,,,,,,,0.0,0.0,0.0
+297,,,,,,,0.0,0.0,0.0
+298,,,,,,,0.0,0.0,0.0
+299,,,,,,,0.0,0.0,0.0
+300,,,,,,,0.0,0.0,0.0
+301,,,,,,,0.0,0.0,0.0
+302,,,,,,,0.0,0.0,0.0
+303,,,,,,,0.0,0.0,0.0
+304,,,,,,,0.0,0.0,0.0
+305,,,,,,,0.0,0.0,0.0
+306,,,,,,,0.0,0.0,0.0
+307,,,,,,,0.0,0.0,0.0
+308,,,,,,,0.0,0.0,0.0
+309,,,,,,,0.0,0.0,0.0
+310,,,,,,,0.0,0.0,0.0
+311,,,,,,,0.0,0.0,0.0
+312,,,,,,,0.0,0.0,0.0
+313,,,,,,,0.0,0.0,0.0
+314,,,,,,,0.0,0.0,0.0
+315,,,,,,,0.0,0.0,0.0
+316,,,,,,,0.0,0.0,0.0
+317,,,,,,,0.0,0.0,0.0
+318,,,,,,,0.0,0.0,0.0
+319,,,,,,,0.0,0.0,0.0
+320,,,,,,,0.0,0.0,0.0
+321,,,,,,,0.0,0.0,0.0
+322,,,,,,,0.0,0.0,0.0
+323,,,,,,,0.0,0.0,0.0
+324,,,,,,,0.0,0.0,0.0
+325,,,,,,,0.0,0.0,0.0
+326,,,,,,,0.0,0.0,0.0
+327,,,,,,,0.0,0.0,0.0
+328,,,,,,,0.0,0.0,0.0
+329,,,,,,,0.0,0.0,0.0
+330,,,,,,,0.0,0.0,0.0
+331,,,,,,,0.0,0.0,0.0
+332,,,,,,,0.0,0.0,0.0
+333,,,,,,,0.0,0.0,0.0
+334,,,,,,,0.0,0.0,0.0
+335,,,,,,,0.0,0.0,0.0
+336,,,,,,,0.0,0.0,0.0
+337,,,,,,,0.0,0.0,0.0
+338,,,,,,,0.0,0.0,0.0
+339,,,,,,,0.0,0.0,0.0
+340,,,,,,,0.0,0.0,0.0
+341,,,,,,,0.0,0.0,0.0
+342,,,,,,,0.0,0.0,0.0
+343,,,,,,,0.0,0.0,0.0
+344,,,,,,,0.0,0.0,0.0
+345,,,,,,,0.0,0.0,0.0
+346,,,,,,,0.0,0.0,0.0
+347,,,,,,,0.0,0.0,0.0
+348,,,,,,,0.0,0.0,0.0
+349,,,,,,,0.0,0.0,0.0
+350,,,,,,,0.0,0.0,0.0
+351,,,,,,,0.0,0.0,0.0
+352,,,,,,,0.0,0.0,0.0
+353,,,,,,,0.0,0.0,0.0
+354,,,,,,,0.0,0.0,0.0
+355,,,,,,,0.0,0.0,0.0
+356,,,,,,,0.0,0.0,0.0
+357,,,,,,,0.0,0.0,0.0
+358,,,,,,,0.0,0.0,0.0
+359,,,,,,,0.0,0.0,0.0
+360,,,,,,,0.0,0.0,0.0
+361,,,,,,,0.0,0.0,0.0
+362,,,,,,,0.0,0.0,0.0
+363,,,,,,,0.0,0.0,0.0
+364,,,,,,,0.0,0.0,0.0
+365,,,,,,,0.0,0.0,0.0
+366,,,,,,,0.0,0.0,0.0
+367,,,,,,,0.0,0.0,0.0
+368,,,,,,,0.0,0.0,0.0
+369,,,,,,,0.0,0.0,0.0
+370,,,,,,,0.0,0.0,0.0
+371,,,,,,,0.0,0.0,0.0
+372,,,,,,,0.0,0.0,0.0
+373,,,,,,,0.0,0.0,0.0
+374,,,,,,,0.0,0.0,0.0
+375,,,,,,,0.0,0.0,0.0
+376,,,,,,,0.0,0.0,0.0
+377,,,,,,,0.0,0.0,0.0
+378,,,,,,,0.0,0.0,0.0
+379,,,,,,,0.0,0.0,0.0
+380,,,,,,,0.0,0.0,0.0
+381,,,,,,,0.0,0.0,0.0
+382,,,,,,,0.0,0.0,0.0
+383,,,,,,,0.0,0.0,0.0
+384,,,,,,,0.0,0.0,0.0
+385,,,,,,,0.0,0.0,0.0
+386,,,,,,,0.0,0.0,0.0
+387,,,,,,,0.0,0.0,0.0
+388,,,,,,,0.0,0.0,0.0
+389,,,,,,,0.0,0.0,0.0
+390,,,,,,,0.0,0.0,0.0
+391,,,,,,,0.0,0.0,0.0
+392,,,,,,,0.0,0.0,0.0
+393,,,,,,,0.0,0.0,0.0
+394,,,,,,,0.0,0.0,0.0
+395,,,,,,,0.0,0.0,0.0
+396,,,,,,,0.0,0.0,0.0
+397,,,,,,,0.0,0.0,0.0
+398,,,,,,,0.0,0.0,0.0
+399,,,,,,,0.0,0.0,0.0
+400,,,,,,,0.0,0.0,0.0
+401,,,,,,,0.0,0.0,0.0
+402,,,,,,,0.0,0.0,0.0
+403,,,,,,,0.0,0.0,0.0
+404,,,,,,,0.0,0.0,0.0
+405,,,,,,,0.0,0.0,0.0
+406,,,,,,,0.0,0.0,0.0
+407,,,,,,,0.0,0.0,0.0
+408,,,,,,,0.0,0.0,0.0
+409,,,,,,,0.0,0.0,0.0
+410,,,,,,,0.0,0.0,0.0
+411,,,,,,,0.0,0.0,0.0
+412,,,,,,,0.0,0.0,0.0
+413,,,,,,,0.0,0.0,0.0
+414,,,,,,,0.0,0.0,0.0
+415,,,,,,,0.0,0.0,0.0
+416,,,,,,,0.0,0.0,0.0
+417,,,,,,,0.0,0.0,0.0
+418,,,,,,,0.0,0.0,0.0
+419,,,,,,,0.0,0.0,0.0
+420,,,,,,,0.0,0.0,0.0
+421,,,,,,,0.0,0.0,0.0
+422,,,,,,,0.0,0.0,0.0
+423,,,,,,,0.0,0.0,0.0
+424,,,,,,,0.0,0.0,0.0
+425,,,,,,,0.0,0.0,0.0
+426,,,,,,,0.0,0.0,0.0
+427,,,,,,,0.0,0.0,0.0
+428,,,,,,,0.0,0.0,0.0
+429,,,,,,,0.0,0.0,0.0
+430,,,,,,,0.0,0.0,0.0
+431,,,,,,,0.0,0.0,0.0
+432,,,,,,,0.0,0.0,0.0
+433,,,,,,,0.0,0.0,0.0
+434,,,,,,,0.0,0.0,0.0
+435,,,,,,,0.0,0.0,0.0
+436,,,,,,,0.0,0.0,0.0
+437,,,,,,,0.0,0.0,0.0
+438,,,,,,,0.0,0.0,0.0
+439,,,,,,,0.0,0.0,0.0
+440,,,,,,,0.0,0.0,0.0
+441,,,,,,,0.0,0.0,0.0
+442,,,,,,,0.0,0.0,0.0
+443,,,,,,,0.0,0.0,0.0
+444,,,,,,,0.0,0.0,0.0
+445,,,,,,,0.0,0.0,0.0
+446,,,,,,,0.0,0.0,0.0
+447,,,,,,,0.0,0.0,0.0
+448,,,,,,,0.0,0.0,0.0
+449,,,,,,,0.0,0.0,0.0
+450,,,,,,,0.0,0.0,0.0
+451,,,,,,,0.0,0.0,0.0
+452,,,,,,,0.0,0.0,0.0
+453,,,,,,,0.0,0.0,0.0
+454,,,,,,,0.0,0.0,0.0
+455,,,,,,,0.0,0.0,0.0
+456,,,,,,,0.0,0.0,0.0
+457,,,,,,,0.0,0.0,0.0
+458,,,,,,,0.0,0.0,0.0
+459,,,,,,,0.0,0.0,0.0
+460,,,,,,,0.0,0.0,0.0
+461,,,,,,,0.0,0.0,0.0
+462,,,,,,,0.0,0.0,0.0
+463,,,,,,,0.0,0.0,0.0
+464,,,,,,,0.0,0.0,0.0
+465,,,,,,,0.0,0.0,0.0
+466,,,,,,,0.0,0.0,0.0
+467,,,,,,,0.0,0.0,0.0
+468,,,,,,,0.0,0.0,0.0
+469,,,,,,,0.0,0.0,0.0
+470,,,,,,,0.0,0.0,0.0
+471,,,,,,,0.0,0.0,0.0
+472,,,,,,,0.0,0.0,0.0
+473,,,,,,,0.0,0.0,0.0
+474,,,,,,,0.0,0.0,0.0
+475,,,,,,,0.0,0.0,0.0
+476,,,,,,,0.0,0.0,0.0
+477,,,,,,,0.0,0.0,0.0
+478,,,,,,,0.0,0.0,0.0
+479,,,,,,,0.0,0.0,0.0
+480,,,,,,,0.0,0.0,0.0
+481,,,,,,,0.0,0.0,0.0
+482,,,,,,,0.0,0.0,0.0
+483,,,,,,,0.0,0.0,0.0
+484,,,,,,,0.0,0.0,0.0
+485,,,,,,,0.0,0.0,0.0
+486,,,,,,,0.0,0.0,0.0
+487,,,,,,,0.0,0.0,0.0
+488,,,,,,,0.0,0.0,0.0
+489,,,,,,,0.0,0.0,0.0
+490,,,,,,,0.0,0.0,0.0
+491,,,,,,,0.0,0.0,0.0
+492,,,,,,,0.0,0.0,0.0
+493,,,,,,,0.0,0.0,0.0
+494,,,,,,,0.0,0.0,0.0
+495,,,,,,,0.0,0.0,0.0
+496,,,,,,,0.0,0.0,0.0
+497,,,,,,,0.0,0.0,0.0
+498,,,,,,,0.0,0.0,0.0
+499,,,,,,,0.0,0.0,0.0
+500,,,,,,,0.0,0.0,0.0
+501,,,,,,,0.0,0.0,0.0
+502,,,,,,,0.0,0.0,0.0
+503,,,,,,,0.0,0.0,0.0
+504,,,,,,,0.0,0.0,0.0
+505,,,,,,,0.0,0.0,0.0
+506,,,,,,,0.0,0.0,0.0
+507,,,,,,,0.0,0.0,0.0
+508,,,,,,,0.0,0.0,0.0
+509,,,,,,,0.0,0.0,0.0
+510,,,,,,,0.0,0.0,0.0
+511,,,,,,,0.0,0.0,0.0
+512,,,,,,,0.0,0.0,0.0
+513,,,,,,,0.0,0.0,0.0
+514,,,,,,,0.0,0.0,0.0
+515,,,,,,,0.0,0.0,0.0
+516,,,,,,,0.0,0.0,0.0
+517,,,,,,,0.0,0.0,0.0
+518,,,,,,,0.0,0.0,0.0
+519,,,,,,,0.0,0.0,0.0
+520,,,,,,,0.0,0.0,0.0
+521,,,,,,,0.0,0.0,0.0
+522,,,,,,,0.0,0.0,0.0
+523,,,,,,,0.0,0.0,0.0
+524,,,,,,,0.0,0.0,0.0
+525,,,,,,,0.0,0.0,0.0
+526,,,,,,,0.0,0.0,0.0
+527,,,,,,,0.0,0.0,0.0
+528,,,,,,,0.0,0.0,0.0
+529,,,,,,,0.0,0.0,0.0
+530,,,,,,,0.0,0.0,0.0
+531,,,,,,,0.0,0.0,0.0
+532,,,,,,,0.0,0.0,0.0
+533,,,,,,,0.0,0.0,0.0
+534,,,,,,,0.0,0.0,0.0
+535,,,,,,,0.0,0.0,0.0
+536,,,,,,,0.0,0.0,0.0
+537,,,,,,,0.0,0.0,0.0
+538,,,,,,,0.0,0.0,0.0
+539,,,,,,,0.0,0.0,0.0
+540,,,,,,,0.0,0.0,0.0
+541,,,,,,,0.0,0.0,0.0
+542,,,,,,,0.0,0.0,0.0
+543,,,,,,,0.0,0.0,0.0
+544,,,,,,,0.0,0.0,0.0
+545,,,,,,,0.0,0.0,0.0
+546,,,,,,,0.0,0.0,0.0
+547,,,,,,,0.0,0.0,0.0
+548,,,,,,,0.0,0.0,0.0
+549,,,,,,,0.0,0.0,0.0
+550,,,,,,,0.0,0.0,0.0
+551,,,,,,,0.0,0.0,0.0
+552,,,,,,,0.0,0.0,0.0
+553,,,,,,,0.0,0.0,0.0
+554,,,,,,,0.0,0.0,0.0
+555,,,,,,,0.0,0.0,0.0
+556,,,,,,,0.0,0.0,0.0
+557,,,,,,,0.0,0.0,0.0
+558,,,,,,,0.0,0.0,0.0
+559,,,,,,,0.0,0.0,0.0
+560,,,,,,,0.0,0.0,0.0
+561,,,,,,,0.0,0.0,0.0
+562,,,,,,,0.0,0.0,0.0
+563,,,,,,,0.0,0.0,0.0
+564,,,,,,,0.0,0.0,0.0
+565,,,,,,,0.0,0.0,0.0
+566,,,,,,,0.0,0.0,0.0
+567,,,,,,,0.0,0.0,0.0
+568,,,,,,,0.0,0.0,0.0
+569,,,,,,,0.0,0.0,0.0
+570,,,,,,,0.0,0.0,0.0
+571,,,,,,,0.0,0.0,0.0
+572,,,,,,,0.0,0.0,0.0
+573,,,,,,,0.0,0.0,0.0
+574,,,,,,,0.0,0.0,0.0
+575,,,,,,,0.0,0.0,0.0
+576,,,,,,,0.0,0.0,0.0
+577,,,,,,,0.0,0.0,0.0
+578,,,,,,,0.0,0.0,0.0
+579,,,,,,,0.0,0.0,0.0
+580,,,,,,,0.0,0.0,0.0
+581,,,,,,,0.0,0.0,0.0
+582,,,,,,,0.0,0.0,0.0
+583,,,,,,,0.0,0.0,0.0
+584,,,,,,,0.0,0.0,0.0
+585,,,,,,,0.0,0.0,0.0
+586,,,,,,,0.0,0.0,0.0
+587,,,,,,,0.0,0.0,0.0
+588,,,,,,,0.0,0.0,0.0
+589,,,,,,,0.0,0.0,0.0
+590,,,,,,,0.0,0.0,0.0
+591,,,,,,,0.0,0.0,0.0
+592,,,,,,,0.0,0.0,0.0
+593,,,,,,,0.0,0.0,0.0
+594,,,,,,,0.0,0.0,0.0
+595,,,,,,,0.0,0.0,0.0
+596,,,,,,,0.0,0.0,0.0
+597,,,,,,,0.0,0.0,0.0
+598,,,,,,,0.0,0.0,0.0
+599,,,,,,,0.0,0.0,0.0
+600,,,,,,,0.0,0.0,0.0
+601,,,,,,,0.0,0.0,0.0
+602,,,,,,,0.0,0.0,0.0
+603,,,,,,,0.0,0.0,0.0
+604,,,,,,,0.0,0.0,0.0
+605,,,,,,,0.0,0.0,0.0
+606,,,,,,,0.0,0.0,0.0
+607,,,,,,,0.0,0.0,0.0
+608,,,,,,,0.0,0.0,0.0
+609,,,,,,,0.0,0.0,0.0
+610,,,,,,,0.0,0.0,0.0
+611,,,,,,,0.0,0.0,0.0
+612,,,,,,,0.0,0.0,0.0
+613,,,,,,,0.0,0.0,0.0
+614,,,,,,,0.0,0.0,0.0
+615,,,,,,,0.0,0.0,0.0
+616,,,,,,,0.0,0.0,0.0
+617,,,,,,,0.0,0.0,0.0
+618,,,,,,,0.0,0.0,0.0
+619,,,,,,,0.0,0.0,0.0
+620,,,,,,,0.0,0.0,0.0
+621,,,,,,,0.0,0.0,0.0
+622,,,,,,,0.0,0.0,0.0
+623,,,,,,,0.0,0.0,0.0
+624,,,,,,,0.0,0.0,0.0
+625,,,,,,,0.0,0.0,0.0
+626,,,,,,,0.0,0.0,0.0
+627,,,,,,,0.0,0.0,0.0
+628,,,,,,,0.0,0.0,0.0
+629,,,,,,,0.0,0.0,0.0
+630,,,,,,,0.0,0.0,0.0
+631,,,,,,,0.0,0.0,0.0
+632,,,,,,,0.0,0.0,0.0
+633,,,,,,,0.0,0.0,0.0
+634,,,,,,,0.0,0.0,0.0
+635,,,,,,,0.0,0.0,0.0
+636,,,,,,,0.0,0.0,0.0
+637,,,,,,,0.0,0.0,0.0
+638,,,,,,,0.0,0.0,0.0
+639,,,,,,,0.0,0.0,0.0
+640,,,,,,,0.0,0.0,0.0
+641,,,,,,,0.0,0.0,0.0
+642,,,,,,,0.0,0.0,0.0
+643,,,,,,,0.0,0.0,0.0

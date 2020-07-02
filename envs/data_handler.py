@@ -7,7 +7,7 @@ import envs.data_utils as du
 
 class DataHandler:
 
-    def __init__(self, data_generation: str = 'Linear', take_component_id: bool = True, type: str = 'raw'):
+    def __init__(self, data_generation: str = 'Linear', take_component_id: bool = True, transformation: str = 'raw'):
         '''
         Initializes the Data Handler by loading data into the environment and select between using the componenent id or name.
 
@@ -23,7 +23,7 @@ class DataHandler:
         For all possible combinations of environment, id and type please have a look on the file 'environments.py'.
         '''
 
-        self.environment, self.filename = check_environment(data_generation, take_component_id, type)
+        self.environment, self.filename = check_environment(data_generation, take_component_id, transformation)
         self.data: pd.DataFrame = pd.DataFrame()
         self.component_failure_pairs = []
         self.__load_data()
@@ -55,8 +55,7 @@ class DataHandler:
         try:
             self.data = pd.read_csv(self.filename, index_col=0)[[self.environment[1], 'Optimal_Failure', self.environment[2]]]
         except FileNotFoundError:
-            print('Please restart.')
-            sys.exit(0)
+            self.__load_transform_data()
 
     def __create_component_failure_pairs(self) -> None:
         combinations = self.data.groupby([self.data.columns[0], self.data.columns[1]]).size().reset_index().rename(
