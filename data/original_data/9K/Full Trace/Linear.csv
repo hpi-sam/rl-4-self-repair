@@ -1,0 +1,645 @@
+Preditcted_Index,Preditcted_Failure,Preditcted_Affected_Component_Uid,"	Preditcted_Affected_Component","	Preditcted_Utility_Drop","	Preditcted_Rule",Preditcted_Utility_Increase,CycleID,CycleSize,Optimal_Index ,"	Optimal_Failure","	Optimal_Affected_Component_Uid	",Optimal_Affected_Component,"	Optimal_Utility_Drop","	Optimal_Rule	",Optimal_Utility_Increase,CycleID2,CycleSize3,exact
+1,CF1,_SEu7jecdEeet0YmmfbMwkw,Bid and Buy Service,25,RestartComponent,25,1.4,7,1,CF1,_SEu7jecdEeet0YmmfbMwkw,Bid and Buy Service,25,RestartComponent,25,1.4,7,TRUE
+2,CF3,_SEvipucdEeet0YmmfbMwkw,Bid and Buy Service,25,HwRedeployComponent,25,1.4,7,2,CF3,_SEvipucdEeet0YmmfbMwkw,Bid and Buy Service,25,HwRedeployComponent,25,1.4,7,TRUE
+3,CF1,_SEuUO-cdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,1.4,7,3,CF1,_SEuUO-cdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,1.4,7,TRUE
+4,CF1,_SEu7g-cdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,1.4,7,4,CF1,_SEu7g-cdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,1.4,7,TRUE
+5,CF2,_SEuUbecdEeet0YmmfbMwkw,Availability Item Filter,8,RestartComponent,8,1.4,7,5,CF2,_SEuUbecdEeet0YmmfbMwkw,Availability Item Filter,8,RestartComponent,8,1.4,7,TRUE
+6,CF2,_SEu7tecdEeet0YmmfbMwkw,Availability Item Filter,8,RestartComponent,8,1.4,7,6,CF2,_SEu7tecdEeet0YmmfbMwkw,Availability Item Filter,8,RestartComponent,8,1.4,7,TRUE
+7,CF1,_SEuUY-cdEeet0YmmfbMwkw,Past Sales Item Filter,5,RestartComponent,5,1.4,7,7,CF1,_SEuUY-cdEeet0YmmfbMwkw,Past Sales Item Filter,5,RestartComponent,5,1.4,7,TRUE
+1,CF1,_SEvio-cdEeet0YmmfbMwkw,Authentication Service,35.7,ReplaceComponent,37.8,2.4,9,1,CF1,_SEvio-cdEeet0YmmfbMwkw,Authentication Service,35.7,ReplaceComponent,37.8,2.4,9,TRUE
+2,CF1,_SEuUQucdEeet0YmmfbMwkw,Authentication Service,29.75,ReplaceComponent,31.5,2.4,9,2,CF1,_SEuUQucdEeet0YmmfbMwkw,Authentication Service,29.75,ReplaceComponent,31.5,2.4,9,TRUE
+3,CF3,_SEu7iucdEeet0YmmfbMwkw,Authentication Service,29.75,ReplaceComponent,31.5,2.4,9,3,CF3,_SEu7iucdEeet0YmmfbMwkw,Authentication Service,29.75,ReplaceComponent,31.5,2.4,9,TRUE
+4,CF3,_SEwJrOcdEeet0YmmfbMwkw,Authentication Service,29.75,ReplaceComponent,31.5,2.4,9,4,CF3,_SEwJrOcdEeet0YmmfbMwkw,Authentication Service,29.75,ReplaceComponent,31.5,2.4,9,TRUE
+5,CF1,_SEwwpOcdEeet0YmmfbMwkw,Authentication Service,29.75,ReplaceComponent,31.5,2.4,9,5,CF1,_SEwwpOcdEeet0YmmfbMwkw,Authentication Service,29.75,ReplaceComponent,31.5,2.4,9,TRUE
+6,CF3,_SExXkecdEeet0YmmfbMwkw,Authentication Service,29.75,ReplaceComponent,31.5,2.4,9,6,CF3,_SExXkecdEeet0YmmfbMwkw,Authentication Service,29.75,ReplaceComponent,31.5,2.4,9,TRUE
+7,CF1,_SExYMecdEeet0YmmfbMwkw,Authentication Service,29.75,ReplaceComponent,31.5,2.4,9,7,CF1,_SExYMecdEeet0YmmfbMwkw,Authentication Service,29.75,ReplaceComponent,31.5,2.4,9,TRUE
+8,CF3,_SEx_HucdEeet0YmmfbMwkw,Authentication Service,29.75,ReplaceComponent,31.5,2.4,9,8,CF3,_SEx_HucdEeet0YmmfbMwkw,Authentication Service,29.75,ReplaceComponent,31.5,2.4,9,TRUE
+9,CF1,_SEymC-cdEeet0YmmfbMwkw,Authentication Service,29.75,ReplaceComponent,31.5,2.4,9,9,CF1,_SEymC-cdEeet0YmmfbMwkw,Authentication Service,29.75,ReplaceComponent,31.5,2.4,9,TRUE
+1,CF2,_SEviuucdEeet0YmmfbMwkw,Query Service,63,RestartComponent,63,3.4,12,1,CF2,_SEviuucdEeet0YmmfbMwkw,Query Service,63,RestartComponent,63,3.4,12,TRUE
+2,CF3,_SE4FQucdEeet0YmmfbMwkw,Authentication Service,29.75,ReplaceComponent,31.5,3.4,12,2,CF3,_SE4FQucdEeet0YmmfbMwkw,Authentication Service,29.75,ReplaceComponent,31.5,3.4,12,TRUE
+3,CF3,_SE4F4ucdEeet0YmmfbMwkw,Authentication Service,29.75,ReplaceComponent,31.5,3.4,12,3,CF3,_SE4F4ucdEeet0YmmfbMwkw,Authentication Service,29.75,ReplaceComponent,31.5,3.4,12,TRUE
+4,CF1,_SEu7n-cdEeet0YmmfbMwkw,Persistence Service,17.5,RestartComponent,17.5,3.4,12,4,CF1,_SEu7n-cdEeet0YmmfbMwkw,Persistence Service,17.5,RestartComponent,17.5,3.4,12,TRUE
+5,CF1,_SEu7pecdEeet0YmmfbMwkw,Last Second Sales Item Filter,10,RestartComponent,10,3.4,12,5,CF1,_SEu7pecdEeet0YmmfbMwkw,Last Second Sales Item Filter,10,RestartComponent,10,3.4,12,TRUE
+6,CF2,_SEvizucdEeet0YmmfbMwkw,Availability Item Filter,8,RestartComponent,8,3.4,12,6,CF1,_SEu7sOcdEeet0YmmfbMwkw,Buy Now Item Filter,8,RestartComponent,8,3.4,12,FALSE
+7,CF1,_SEu7sOcdEeet0YmmfbMwkw,Buy Now Item Filter,8,RestartComponent,8,3.4,12,7,CF2,_SEvizucdEeet0YmmfbMwkw,Availability Item Filter,8,RestartComponent,8,3.4,12,FALSE
+8,CF2,_SEvi2OcdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,3.4,12,8,CF2,_SEvi2OcdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,3.4,12,TRUE
+9,CF1,_SEu7xecdEeet0YmmfbMwkw,Comment Item Filter,7,RestartComponent,7,3.4,12,9,CF1,_SEu7xecdEeet0YmmfbMwkw,Comment Item Filter,7,RestartComponent,7,3.4,12,TRUE
+10,CF1,_SEu7uucdEeet0YmmfbMwkw,Region Item Filter,6,RestartComponent,6,3.4,12,10,CF1,_SEu7uucdEeet0YmmfbMwkw,Region Item Filter,6,RestartComponent,6,3.4,12,TRUE
+11,CF2,_SEvi5OcdEeet0YmmfbMwkw,Category Item Filter,5,RestartComponent,5,3.4,12,11,CF2,_SEvixOcdEeet0YmmfbMwkw,Past Sales Item Filter,5,RestartComponent,5,3.4,12,FALSE
+12,CF2,_SEvixOcdEeet0YmmfbMwkw,Past Sales Item Filter,5,RestartComponent,5,3.4,12,12,CF2,_SEvi5OcdEeet0YmmfbMwkw,Category Item Filter,5,RestartComponent,5,3.4,12,FALSE
+1,CF2,_SEwJr-cdEeet0YmmfbMwkw,Bid and Buy Service,25,RestartComponent,25,4.4,8,1,CF2,_SEwJr-cdEeet0YmmfbMwkw,Bid and Buy Service,25,RestartComponent,25,4.4,8,TRUE
+2,CF2,_SEwwp-cdEeet0YmmfbMwkw,Bid and Buy Service,25,RestartComponent,25,4.4,8,2,CF2,_SEwwp-cdEeet0YmmfbMwkw,Bid and Buy Service,25,RestartComponent,25,4.4,8,TRUE
+3,CF2,_SEwJwecdEeet0YmmfbMwkw,Persistence Service,17.5,RestartComponent,17.5,4.4,8,3,CF2,_SEwJwecdEeet0YmmfbMwkw,Persistence Service,17.5,RestartComponent,17.5,4.4,8,TRUE
+4,CF2,_SEwwuecdEeet0YmmfbMwkw,Persistence Service,17.5,RestartComponent,17.5,4.4,8,4,CF2,_SEwwuecdEeet0YmmfbMwkw,Persistence Service,17.5,RestartComponent,17.5,4.4,8,TRUE
+5,CF2,_SEwJpecdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,4.4,8,5,CF2,_SEwJpecdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,4.4,8,TRUE
+6,CF2,_SEwwnecdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,4.4,8,6,CF2,_SEwwnecdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,4.4,8,TRUE
+7,CF2,_SEwwz-cdEeet0YmmfbMwkw,Availability Item Filter,8,RestartComponent,8,4.4,8,7,CF2,_SEwwz-cdEeet0YmmfbMwkw,Availability Item Filter,8,RestartComponent,8,4.4,8,TRUE
+8,CF2,_SEu7tecdEeet0YmmfbMwkw,Availability Item Filter,8,RestartComponent,8,4.4,8,8,CF2,_SEu7tecdEeet0YmmfbMwkw,Availability Item Filter,8,RestartComponent,8,4.4,8,TRUE
+1,CF3,_SEzM_ucdEeet0YmmfbMwkw,Authentication Service,29.75,ReplaceComponent,31.5,5.4,3,1,CF3,_SEzM_ucdEeet0YmmfbMwkw,Authentication Service,29.75,ReplaceComponent,31.5,5.4,3,TRUE
+2,CF1,_SEz0QOcdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,5.4,3,2,CF1,_SEz0QOcdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,5.4,3,TRUE
+3,CF3,_SEz0YucdEeet0YmmfbMwkw,Last Second Sales Item Filter,10,HwRedeployComponent,10,5.4,3,3,CF3,_SEz0YucdEeet0YmmfbMwkw,Last Second Sales Item Filter,10,HwRedeployComponent,10,5.4,3,TRUE
+1,CF1,_SExXpucdEeet0YmmfbMwkw,Persistence Service,17.5,RestartComponent,17.5,6.4,7,1,CF1,_SExXpucdEeet0YmmfbMwkw,Persistence Service,17.5,RestartComponent,17.5,6.4,7,TRUE
+2,CF1,_SExXiucdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,6.4,7,2,CF1,_SExXiucdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,6.4,7,TRUE
+3,CF1,_SE23gucdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,6.4,7,3,CF1,_SE23mOcdEeet0YmmfbMwkw,Reputation Service,16,RestartComponent,16,6.4,7,FALSE
+4,CF1,_SExYKucdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,6.4,7,4,CF1,_SE23gucdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,6.4,7,FALSE
+5,CF1,_SE23mOcdEeet0YmmfbMwkw,Reputation Service,16,RestartComponent,16,6.4,7,5,CF1,_SExYKucdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,6.4,7,FALSE
+6,CF1,_SE23vucdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,6.4,7,6,CF1,_SE23vucdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,6.4,7,TRUE
+7,CF1,_SExXzOcdEeet0YmmfbMwkw,Comment Item Filter,7,RestartComponent,7,6.4,7,7,CF1,_SExXzOcdEeet0YmmfbMwkw,Comment Item Filter,7,RestartComponent,7,6.4,7,TRUE
+1,CF1,_SEz0R-cdEeet0YmmfbMwkw,Authentication Service,29.75,ReplaceComponent,31.5,7.4,16,1,CF1,_SEz0R-cdEeet0YmmfbMwkw,Authentication Service,29.75,ReplaceComponent,31.5,7.4,16,TRUE
+2,CF3,_SEu7jecdEeet0YmmfbMwkw,Bid and Buy Service,25,HwRedeployComponent,25,7.4,16,2,CF3,_SEu7jecdEeet0YmmfbMwkw,Bid and Buy Service,25,HwRedeployComponent,25,7.4,16,TRUE
+3,CF3,_SE7Io-cdEeet0YmmfbMwkw,Bid and Buy Service,25,HwRedeployComponent,25,7.4,16,3,CF3,_SE7Io-cdEeet0YmmfbMwkw,Bid and Buy Service,25,HwRedeployComponent,25,7.4,16,TRUE
+4,CF3,_SE-MhecdEeet0YmmfbMwkw,Bid and Buy Service,25,HwRedeployComponent,25,7.4,16,4,CF3,_SE-MhecdEeet0YmmfbMwkw,Bid and Buy Service,25,HwRedeployComponent,25,7.4,16,TRUE
+5,CF1,_SE23gucdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,7.4,16,5,CF1,_SE23gucdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,7.4,16,TRUE
+6,CF3,_SExYKucdEeet0YmmfbMwkw,Item Management Service,16,HwRedeployComponent,16,7.4,16,6,CF3,_SExYKucdEeet0YmmfbMwkw,Item Management Service,16,HwRedeployComponent,16,7.4,16,TRUE
+7,CF1,_SE1B6-cdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,7.4,16,7,CF1,_SE1B6-cdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,7.4,16,TRUE
+8,CF1,_SE5TmucdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,7.4,16,8,CF1,_SE5TmucdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,7.4,16,TRUE
+9,CF1,_SE57PecdEeet0YmmfbMwkw,Reputation Service,16,RestartComponent,16,7.4,16,9,CF1,_SE57PecdEeet0YmmfbMwkw,Reputation Service,16,RestartComponent,16,7.4,16,TRUE
+10,CF2,_SE3efucdEeet0YmmfbMwkw,Reputation Service,16,RestartComponent,16,7.4,16,10,CF2,_SE3efucdEeet0YmmfbMwkw,Reputation Service,16,RestartComponent,16,7.4,16,TRUE
+11,CF1,_SEwJt-cdEeet0YmmfbMwkw,Inventory Service,13.5,RestartComponent,13.5,7.4,16,11,CF1,_SEwJt-cdEeet0YmmfbMwkw,Inventory Service,13.5,RestartComponent,13.5,7.4,16,TRUE
+12,CF2,_SE56uecdEeet0YmmfbMwkw,Availability Item Filter,8,RestartComponent,8,7.4,16,12,CF2,_SE56uecdEeet0YmmfbMwkw,Availability Item Filter,8,RestartComponent,8,7.4,16,TRUE
+13,CF2,_SE-zTOcdEeet0YmmfbMwkw,Availability Item Filter,8,RestartComponent,8,7.4,16,13,CF2,_SE-zTOcdEeet0YmmfbMwkw,Availability Item Filter,8,RestartComponent,8,7.4,16,TRUE
+14,CF1,_SEx-rucdEeet0YmmfbMwkw,Region Item Filter,6,RestartComponent,6,7.4,16,14,CF1,_SEx-rucdEeet0YmmfbMwkw,Region Item Filter,6,RestartComponent,6,7.4,16,TRUE
+15,CF1,_SFETJ-cdEeet0YmmfbMwkw,Past Sales Item Filter,5,RestartComponent,5,7.4,16,15,CF1,_SFETJ-cdEeet0YmmfbMwkw,Past Sales Item Filter,5,RestartComponent,5,7.4,16,TRUE
+16,CF3,_SFLBz-cdEeet0YmmfbMwkw,Past Sales Item Filter,5,HwRedeployComponent,5,7.4,16,16,CF3,_SFLBz-cdEeet0YmmfbMwkw,Past Sales Item Filter,5,HwRedeployComponent,5,7.4,16,TRUE
+1,CF1,_SEu7oecdEeet0YmmfbMwkw,Query Service,63,RestartComponent,63,8.4,7,1,CF1,_SEu7oecdEeet0YmmfbMwkw,Query Service,63,RestartComponent,63,8.4,7,TRUE
+2,CF1,_SE23gucdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,8.4,7,2,CF1,_SE23gucdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,8.4,7,TRUE
+3,CF1,_SEz0QOcdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,8.4,7,3,CF1,_SE23mOcdEeet0YmmfbMwkw,Reputation Service,16,RestartComponent,16,8.4,7,FALSE
+4,CF1,_SEvinOcdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,8.4,7,4,CF1,_SEz0QOcdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,8.4,7,FALSE
+5,CF1,_SE23mOcdEeet0YmmfbMwkw,Reputation Service,16,RestartComponent,16,8.4,7,5,CF1,_SEvinOcdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,8.4,7,FALSE
+6,CF1,_SE23vucdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,8.4,7,6,CF1,_SE23vucdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,8.4,7,TRUE
+7,CF1,_SEuUfecdEeet0YmmfbMwkw,Comment Item Filter,7,RestartComponent,7,8.4,7,7,CF1,_SEuUfecdEeet0YmmfbMwkw,Comment Item Filter,7,RestartComponent,7,8.4,7,TRUE
+1,CF1,_SEzNFecdEeet0YmmfbMwkw,Query Service,54,RestartComponent,54,9.4,6,1,CF1,_SEzNFecdEeet0YmmfbMwkw,Query Service,54,RestartComponent,54,9.4,6,TRUE
+2,CF2,_SEz0QOcdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,9.4,6,2,CF2,_SEz0QOcdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,9.4,6,TRUE
+3,CF2,_SEuUbecdEeet0YmmfbMwkw,Availability Item Filter,8,RestartComponent,8,9.4,6,3,CF1,_SEzz3OcdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,9.4,6,FALSE
+4,CF1,_SEzz3OcdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,9.4,6,4,CF1,_SEuUd-cdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,9.4,6,FALSE
+5,CF1,_SEuUd-cdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,9.4,6,5,CF2,_SEuUbecdEeet0YmmfbMwkw,Availability Item Filter,8,RestartComponent,8,9.4,6,FALSE
+6,CF2,_SEz0d-cdEeet0YmmfbMwkw,Region Item Filter,6,RestartComponent,6,9.4,6,6,CF2,_SEz0d-cdEeet0YmmfbMwkw,Region Item Filter,6,RestartComponent,6,9.4,6,TRUE
+1,CF1,_SE0bNecdEeet0YmmfbMwkw,Authentication Service,29.75,ReplaceComponent,31.5,10.4,3,1,CF1,_SE0bNecdEeet0YmmfbMwkw,Authentication Service,29.75,ReplaceComponent,31.5,10.4,3,TRUE
+2,CF3,_SE1B8ucdEeet0YmmfbMwkw,Authentication Service,29.75,ReplaceComponent,31.5,10.4,3,2,CF3,_SE1B8ucdEeet0YmmfbMwkw,Authentication Service,29.75,ReplaceComponent,31.5,10.4,3,TRUE
+3,CF1,_SE1CkucdEeet0YmmfbMwkw,Authentication Service,29.75,ReplaceComponent,31.5,10.4,3,3,CF1,_SE1CkucdEeet0YmmfbMwkw,Authentication Service,29.75,ReplaceComponent,31.5,10.4,3,TRUE
+1,CF1,_SE2Qd-cdEeet0YmmfbMwkw,Query Service,49.5,RestartComponent,49.5,11.4,9,1,CF1,_SE2Qd-cdEeet0YmmfbMwkw,Query Service,49.5,RestartComponent,49.5,11.4,9,TRUE
+2,CF1,_SE23oOcdEeet0YmmfbMwkw,Query Service,49.5,RestartComponent,49.5,11.4,9,2,CF1,_SE23oOcdEeet0YmmfbMwkw,Query Service,49.5,RestartComponent,49.5,11.4,9,TRUE
+3,CF1,_SE3ehucdEeet0YmmfbMwkw,Query Service,49.5,RestartComponent,49.5,11.4,9,3,CF1,_SE3ehucdEeet0YmmfbMwkw,Query Service,49.5,RestartComponent,49.5,11.4,9,TRUE
+4,CF3,_SE2QWecdEeet0YmmfbMwkw,Item Management Service,16,HwRedeployComponent,16,11.4,9,4,CF3,_SE2QWecdEeet0YmmfbMwkw,Item Management Service,16,HwRedeployComponent,16,11.4,9,TRUE
+5,CF3,_SE23gucdEeet0YmmfbMwkw,Item Management Service,16,HwRedeployComponent,16,11.4,9,5,CF3,_SE23gucdEeet0YmmfbMwkw,Item Management Service,16,HwRedeployComponent,16,11.4,9,TRUE
+6,CF3,_SE3eaOcdEeet0YmmfbMwkw,Item Management Service,16,HwRedeployComponent,16,11.4,9,6,CF3,_SE3eaOcdEeet0YmmfbMwkw,Item Management Service,16,HwRedeployComponent,16,11.4,9,TRUE
+7,CF3,_SE23HucdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,HwRedeployComponent,8,11.4,9,7,CF3,_SE23HucdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,HwRedeployComponent,8,11.4,9,TRUE
+8,CF3,_SE23vucdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,HwRedeployComponent,8,11.4,9,8,CF3,_SE23vucdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,HwRedeployComponent,8,11.4,9,TRUE
+9,CF3,_SE3epOcdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,HwRedeployComponent,8,11.4,9,9,CF3,_SE3epOcdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,HwRedeployComponent,8,11.4,9,TRUE
+1,CF2,_SE4FWecdEeet0YmmfbMwkw,Query Service,54,RestartComponent,54,12.4,12,1,CF2,_SE4FWecdEeet0YmmfbMwkw,Query Service,54,RestartComponent,54,12.4,12,TRUE
+2,CF1,_SE23iecdEeet0YmmfbMwkw,Authentication Service,35.7,ReplaceComponent,37.8,12.4,12,2,CF1,_SE23iecdEeet0YmmfbMwkw,Authentication Service,35.7,ReplaceComponent,37.8,12.4,12,TRUE
+3,CF2,_SE4F5ecdEeet0YmmfbMwkw,Bid and Buy Service,25,RestartComponent,25,12.4,12,3,CF2,_SE4F5ecdEeet0YmmfbMwkw,Bid and Buy Service,25,RestartComponent,25,12.4,12,TRUE
+4,CF2,_SExYNOcdEeet0YmmfbMwkw,Bid and Buy Service,25,RestartComponent,25,12.4,12,4,CF2,_SExYNOcdEeet0YmmfbMwkw,Bid and Buy Service,25,RestartComponent,25,12.4,12,TRUE
+5,CF2,_SE1B9ecdEeet0YmmfbMwkw,Bid and Buy Service,25,RestartComponent,25,12.4,12,5,CF2,_SE1B9ecdEeet0YmmfbMwkw,Bid and Buy Service,25,RestartComponent,25,12.4,12,TRUE
+6,CF1,_SE3ehOcdEeet0YmmfbMwkw,Persistence Service,21,RestartComponent,21,12.4,12,6,CF1,_SE3ehOcdEeet0YmmfbMwkw,Persistence Service,21,RestartComponent,21,12.4,12,TRUE
+7,CF2,_SE4FUecdEeet0YmmfbMwkw,Reputation Service,16,RestartComponent,16,12.4,12,7,CF2,_SE4FUecdEeet0YmmfbMwkw,Reputation Service,16,RestartComponent,16,12.4,12,TRUE
+8,CF1,_SE23lOcdEeet0YmmfbMwkw,Inventory Service,13.5,RestartComponent,13.5,12.4,12,8,CF1,_SE23lOcdEeet0YmmfbMwkw,Inventory Service,13.5,RestartComponent,13.5,12.4,12,TRUE
+9,CF2,_SE3equcdEeet0YmmfbMwkw,Comment Item Filter,10.5,RestartComponent,10.5,12.4,12,9,CF2,_SE3equcdEeet0YmmfbMwkw,Comment Item Filter,10.5,RestartComponent,10.5,12.4,12,TRUE
+10,CF1,_SE3eiucdEeet0YmmfbMwkw,Last Second Sales Item Filter,10,RestartComponent,10,12.4,12,10,CF1,_SE3eiucdEeet0YmmfbMwkw,Last Second Sales Item Filter,10,RestartComponent,10,12.4,12,TRUE
+11,CF2,_SEyloOcdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,12.4,12,11,CF2,_SEyloOcdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,12.4,12,TRUE
+12,CF2,_SEx-rucdEeet0YmmfbMwkw,Region Item Filter,6,RestartComponent,6,12.4,12,12,CF2,_SEx-rucdEeet0YmmfbMwkw,Region Item Filter,6,RestartComponent,6,12.4,12,TRUE
+1,CF1,_SE4sz-cdEeet0YmmfbMwkw,Persistence Service,17.5,RestartComponent,17.5,13.4,8,1,CF1,_SE4sz-cdEeet0YmmfbMwkw,Persistence Service,17.5,RestartComponent,17.5,13.4,8,TRUE
+2,CF1,_SE5TtucdEeet0YmmfbMwkw,Persistence Service,17.5,RestartComponent,17.5,13.4,8,2,CF1,_SE5TtucdEeet0YmmfbMwkw,Persistence Service,17.5,RestartComponent,17.5,13.4,8,TRUE
+3,CF1,_SE56qecdEeet0YmmfbMwkw,Last Second Sales Item Filter,10,RestartComponent,10,13.4,8,3,CF1,_SE56qecdEeet0YmmfbMwkw,Last Second Sales Item Filter,10,RestartComponent,10,13.4,8,TRUE
+4,CF2,_SE56w-cdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,13.4,8,4,CF2,_SE56w-cdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,13.4,8,TRUE
+5,CF2,_SE4sVecdEeet0YmmfbMwkw,Comment Item Filter,7,RestartComponent,7,13.4,8,5,CF2,_SE4sVecdEeet0YmmfbMwkw,Comment Item Filter,7,RestartComponent,7,13.4,8,TRUE
+6,CF2,_SE4s9ecdEeet0YmmfbMwkw,Comment Item Filter,7,RestartComponent,7,13.4,8,6,CF2,_SE4s9ecdEeet0YmmfbMwkw,Comment Item Filter,7,RestartComponent,7,13.4,8,TRUE
+7,CF2,_SE5T3OcdEeet0YmmfbMwkw,Comment Item Filter,7,RestartComponent,7,13.4,8,7,CF2,_SE5T3OcdEeet0YmmfbMwkw,Comment Item Filter,7,RestartComponent,7,13.4,8,TRUE
+8,CF1,_SE4GA-cdEeet0YmmfbMwkw,Past Sales Item Filter,5,RestartComponent,5,13.4,8,8,CF1,_SE4GA-cdEeet0YmmfbMwkw,Past Sales Item Filter,5,RestartComponent,5,13.4,8,TRUE
+1,CF3,_SE8W5OcdEeet0YmmfbMwkw,Authentication Service,29.75,ReplaceComponent,31.5,14.4,17,1,CF3,_SE8W5OcdEeet0YmmfbMwkw,Authentication Service,29.75,ReplaceComponent,31.5,14.4,17,TRUE
+2,CF3,_SE7ItecdEeet0YmmfbMwkw,Persistence Service,21,HwRedeployComponent,21,14.4,17,2,CF3,_SE7ItecdEeet0YmmfbMwkw,Persistence Service,21,HwRedeployComponent,21,14.4,17,TRUE
+3,CF1,_SE57J-cdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,14.4,17,3,CF1,_SE57J-cdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,14.4,17,TRUE
+4,CF1,_SE6h2-cdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,14.4,17,4,CF3,_SE57PecdEeet0YmmfbMwkw,Reputation Service,16,HwRedeployComponent,16,14.4,17,FALSE
+5,CF1,_SE7ImecdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,14.4,17,5,CF1,_SE6h2-cdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,14.4,17,FALSE
+6,CF1,_SE7wA-cdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,14.4,17,6,CF3,_SE6h8ecdEeet0YmmfbMwkw,Reputation Service,16,HwRedeployComponent,16,14.4,17,FALSE
+7,CF3,_SE57PecdEeet0YmmfbMwkw,Reputation Service,16,HwRedeployComponent,16,14.4,17,7,CF1,_SE7ImecdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,14.4,17,FALSE
+8,CF3,_SE6h8ecdEeet0YmmfbMwkw,Reputation Service,16,HwRedeployComponent,16,14.4,17,8,CF1,_SE7wA-cdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,14.4,17,FALSE
+9,CF3,_SE7wGecdEeet0YmmfbMwkw,Reputation Service,16,HwRedeployComponent,16,14.4,17,9,CF3,_SE7wGecdEeet0YmmfbMwkw,Reputation Service,16,HwRedeployComponent,16,14.4,17,TRUE
+10,CF1,_SE57SecdEeet0YmmfbMwkw,Last Second Sales Item Filter,10,RestartComponent,10,14.4,17,10,CF1,_SE57SecdEeet0YmmfbMwkw,Last Second Sales Item Filter,10,RestartComponent,10,14.4,17,TRUE
+11,CF1,_SE6h_ecdEeet0YmmfbMwkw,Last Second Sales Item Filter,10,RestartComponent,10,14.4,17,11,CF1,_SE6h_ecdEeet0YmmfbMwkw,Last Second Sales Item Filter,10,RestartComponent,10,14.4,17,TRUE
+12,CF1,_SE7wJecdEeet0YmmfbMwkw,Last Second Sales Item Filter,10,RestartComponent,10,14.4,17,12,CF1,_SE7wJecdEeet0YmmfbMwkw,Last Second Sales Item Filter,10,RestartComponent,10,14.4,17,TRUE
+13,CF2,_SE6hd-cdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,14.4,17,13,CF2,_SE6hd-cdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,14.4,17,TRUE
+14,CF2,_SE6iF-cdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,14.4,17,14,CF2,_SE6iF-cdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,14.4,17,TRUE
+15,CF2,_SE7wP-cdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,14.4,17,15,CF2,_SE7wP-cdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,14.4,17,TRUE
+16,CF2,_SE7vpecdEeet0YmmfbMwkw,Comment Item Filter,7,RestartComponent,7,14.4,17,16,CF2,_SE7vpecdEeet0YmmfbMwkw,Comment Item Filter,7,RestartComponent,7,14.4,17,TRUE
+17,CF1,_SE7IwecdEeet0YmmfbMwkw,Past Sales Item Filter,5,RestartComponent,5,14.4,17,17,CF1,_SE7IwecdEeet0YmmfbMwkw,Past Sales Item Filter,5,RestartComponent,5,14.4,17,TRUE
+1,CF1,_SE8W-ecdEeet0YmmfbMwkw,Persistence Service,17.5,RestartComponent,17.5,15.4,12,1,CF1,_SE8W-ecdEeet0YmmfbMwkw,Persistence Service,17.5,RestartComponent,17.5,15.4,12,TRUE
+2,CF1,_SE8W3ecdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,15.4,12,2,CF1,_SE8W3ecdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,15.4,12,TRUE
+3,CF1,_SE8XfecdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,15.4,12,3,CF1,_SE8XfecdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,15.4,12,TRUE
+4,CF1,_SE8-HecdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,15.4,12,4,CF1,_SE8Xk-cdEeet0YmmfbMwkw,Reputation Service,16,RestartComponent,16,15.4,12,FALSE
+5,CF1,_SE8Xk-cdEeet0YmmfbMwkw,Reputation Service,16,RestartComponent,16,15.4,12,5,CF1,_SE8-HecdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,15.4,12,FALSE
+6,CF1,_SE8-M-cdEeet0YmmfbMwkw,Reputation Service,16,RestartComponent,16,15.4,12,6,CF1,_SE8-M-cdEeet0YmmfbMwkw,Reputation Service,16,RestartComponent,16,15.4,12,TRUE
+7,CF1,_SE8Xn-cdEeet0YmmfbMwkw,Last Second Sales Item Filter,10,RestartComponent,10,15.4,12,7,CF1,_SE8Xn-cdEeet0YmmfbMwkw,Last Second Sales Item Filter,10,RestartComponent,10,15.4,12,TRUE
+8,CF1,_SE8-P-cdEeet0YmmfbMwkw,Last Second Sales Item Filter,10,RestartComponent,10,15.4,12,8,CF1,_SE8-P-cdEeet0YmmfbMwkw,Last Second Sales Item Filter,10,RestartComponent,10,15.4,12,TRUE
+9,CF2,_SE89uecdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,15.4,12,9,CF2,_SE89uecdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,15.4,12,TRUE
+10,CF2,_SE8-WecdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,15.4,12,10,CF2,_SE8-WecdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,15.4,12,TRUE
+11,CF2,_SE8XH-cdEeet0YmmfbMwkw,Comment Item Filter,7,RestartComponent,7,15.4,12,11,CF2,_SE8XH-cdEeet0YmmfbMwkw,Comment Item Filter,7,RestartComponent,7,15.4,12,TRUE
+12,CF1,_SE8XBecdEeet0YmmfbMwkw,Past Sales Item Filter,5,RestartComponent,5,15.4,12,12,CF1,_SE8XBecdEeet0YmmfbMwkw,Past Sales Item Filter,5,RestartComponent,5,15.4,12,TRUE
+1,CF3,_SE-Ml-cdEeet0YmmfbMwkw,Persistence Service,21,HwRedeployComponent,21,16.4,40,1,CF3,_SE-Ml-cdEeet0YmmfbMwkw,Persistence Service,21,HwRedeployComponent,21,16.4,40,TRUE
+2,CF1,_SE9kwOcdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,16.4,40,2,CF1,_SE9kwOcdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,16.4,40,TRUE
+3,CF1,_SE9lYOcdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,16.4,40,3,CF3,_SE9k1ucdEeet0YmmfbMwkw,Reputation Service,16,HwRedeployComponent,16,16.4,40,FALSE
+4,CF1,_SE-L2-cdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,16.4,40,4,CF1,_SE9lYOcdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,16.4,40,FALSE
+5,CF1,_SE-Me-cdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,16.4,40,5,CF3,_SE9lducdEeet0YmmfbMwkw,Reputation Service,16,HwRedeployComponent,16,16.4,40,FALSE
+6,CF1,_SE-zGucdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,16.4,40,6,CF1,_SE-L2-cdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,16.4,40,FALSE
+7,CF1,_SE-zuucdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,16.4,40,7,CF3,_SE-L8ecdEeet0YmmfbMwkw,Reputation Service,16,HwRedeployComponent,16,16.4,40,FALSE
+8,CF1,_SE_aPucdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,16.4,40,8,CF1,_SE-Me-cdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,16.4,40,FALSE
+9,CF1,_SE_a3ucdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,16.4,40,9,CF1,_SE-zGucdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,16.4,40,FALSE
+10,CF1,_SFABYucdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,16.4,40,10,CF3,_SE-zMOcdEeet0YmmfbMwkw,Reputation Service,16,HwRedeployComponent,16,16.4,40,FALSE
+11,CF1,_SFACAucdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,16.4,40,11,CF1,_SE-zuucdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,16.4,40,FALSE
+12,CF3,_SE9k1ucdEeet0YmmfbMwkw,Reputation Service,16,HwRedeployComponent,16,16.4,40,12,CF3,_SE-z0OcdEeet0YmmfbMwkw,Reputation Service,16,HwRedeployComponent,16,16.4,40,FALSE
+13,CF3,_SE9lducdEeet0YmmfbMwkw,Reputation Service,16,HwRedeployComponent,16,16.4,40,13,CF1,_SE_aPucdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,16.4,40,FALSE
+14,CF3,_SE-L8ecdEeet0YmmfbMwkw,Reputation Service,16,HwRedeployComponent,16,16.4,40,14,CF3,_SE_aVOcdEeet0YmmfbMwkw,Reputation Service,16,HwRedeployComponent,16,16.4,40,FALSE
+15,CF3,_SE-zMOcdEeet0YmmfbMwkw,Reputation Service,16,HwRedeployComponent,16,16.4,40,15,CF1,_SE_a3ucdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,16.4,40,FALSE
+16,CF3,_SE-z0OcdEeet0YmmfbMwkw,Reputation Service,16,HwRedeployComponent,16,16.4,40,16,CF3,_SE_a9OcdEeet0YmmfbMwkw,Reputation Service,16,HwRedeployComponent,16,16.4,40,FALSE
+17,CF3,_SE_aVOcdEeet0YmmfbMwkw,Reputation Service,16,HwRedeployComponent,16,16.4,40,17,CF1,_SFABYucdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,16.4,40,FALSE
+18,CF3,_SE_a9OcdEeet0YmmfbMwkw,Reputation Service,16,HwRedeployComponent,16,16.4,40,18,CF3,_SFABeOcdEeet0YmmfbMwkw,Reputation Service,16,HwRedeployComponent,16,16.4,40,FALSE
+19,CF3,_SFABeOcdEeet0YmmfbMwkw,Reputation Service,16,HwRedeployComponent,16,16.4,40,19,CF1,_SFACAucdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,16.4,40,FALSE
+20,CF3,_SFACGOcdEeet0YmmfbMwkw,Reputation Service,16,HwRedeployComponent,16,16.4,40,20,CF3,_SFACGOcdEeet0YmmfbMwkw,Reputation Service,16,HwRedeployComponent,16,16.4,40,TRUE
+21,CF1,_SE9k4ucdEeet0YmmfbMwkw,Last Second Sales Item Filter,10,RestartComponent,10,16.4,40,21,CF1,_SE9k4ucdEeet0YmmfbMwkw,Last Second Sales Item Filter,10,RestartComponent,10,16.4,40,TRUE
+22,CF1,_SE9lgucdEeet0YmmfbMwkw,Last Second Sales Item Filter,10,RestartComponent,10,16.4,40,22,CF1,_SE9lgucdEeet0YmmfbMwkw,Last Second Sales Item Filter,10,RestartComponent,10,16.4,40,TRUE
+23,CF1,_SE-L_ecdEeet0YmmfbMwkw,Last Second Sales Item Filter,10,RestartComponent,10,16.4,40,23,CF1,_SE-L_ecdEeet0YmmfbMwkw,Last Second Sales Item Filter,10,RestartComponent,10,16.4,40,TRUE
+24,CF1,_SE-zPOcdEeet0YmmfbMwkw,Last Second Sales Item Filter,10,RestartComponent,10,16.4,40,24,CF1,_SE-zPOcdEeet0YmmfbMwkw,Last Second Sales Item Filter,10,RestartComponent,10,16.4,40,TRUE
+25,CF1,_SE-z3OcdEeet0YmmfbMwkw,Last Second Sales Item Filter,10,RestartComponent,10,16.4,40,25,CF1,_SE-z3OcdEeet0YmmfbMwkw,Last Second Sales Item Filter,10,RestartComponent,10,16.4,40,TRUE
+26,CF1,_SE_aYOcdEeet0YmmfbMwkw,Last Second Sales Item Filter,10,RestartComponent,10,16.4,40,26,CF1,_SE_aYOcdEeet0YmmfbMwkw,Last Second Sales Item Filter,10,RestartComponent,10,16.4,40,TRUE
+27,CF1,_SE_bAOcdEeet0YmmfbMwkw,Last Second Sales Item Filter,10,RestartComponent,10,16.4,40,27,CF1,_SE_bAOcdEeet0YmmfbMwkw,Last Second Sales Item Filter,10,RestartComponent,10,16.4,40,TRUE
+28,CF1,_SFABhOcdEeet0YmmfbMwkw,Last Second Sales Item Filter,10,RestartComponent,10,16.4,40,28,CF1,_SFABhOcdEeet0YmmfbMwkw,Last Second Sales Item Filter,10,RestartComponent,10,16.4,40,TRUE
+29,CF1,_SFACJOcdEeet0YmmfbMwkw,Last Second Sales Item Filter,10,RestartComponent,10,16.4,40,29,CF1,_SFACJOcdEeet0YmmfbMwkw,Last Second Sales Item Filter,10,RestartComponent,10,16.4,40,TRUE
+30,CF2,_SE9k_OcdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,16.4,40,30,CF2,_SE9k_OcdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,16.4,40,TRUE
+31,CF2,_SE9lnOcdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,16.4,40,31,CF2,_SE9lnOcdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,16.4,40,TRUE
+32,CF2,_SE-MF-cdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,16.4,40,32,CF2,_SE-MF-cdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,16.4,40,TRUE
+33,CF2,_SE-zVucdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,16.4,40,33,CF2,_SE-zVucdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,16.4,40,TRUE
+34,CF2,_SE-z9ucdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,16.4,40,34,CF2,_SE-z9ucdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,16.4,40,TRUE
+35,CF2,_SE_aeucdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,16.4,40,35,CF2,_SE_aeucdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,16.4,40,TRUE
+36,CF2,_SE_bGucdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,16.4,40,36,CF2,_SE_bGucdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,16.4,40,TRUE
+37,CF2,_SFABnucdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,16.4,40,37,CF2,_SFABnucdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,16.4,40,TRUE
+38,CF2,_SFACPucdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,16.4,40,38,CF2,_SFACPucdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,16.4,40,TRUE
+39,CF2,_SE-MvecdEeet0YmmfbMwkw,Comment Item Filter,7,RestartComponent,7,16.4,40,39,CF2,_SE-MvecdEeet0YmmfbMwkw,Comment Item Filter,7,RestartComponent,7,16.4,40,TRUE
+40,CF1,_SE-Mo-cdEeet0YmmfbMwkw,Past Sales Item Filter,5,RestartComponent,5,16.4,40,40,CF1,_SE-Mo-cdEeet0YmmfbMwkw,Past Sales Item Filter,5,RestartComponent,5,16.4,40,TRUE
+1,CF2,_SE7wH-cdEeet0YmmfbMwkw,Persistence Service,21,RestartComponent,21,17.4,9,1,CF2,_SE7wH-cdEeet0YmmfbMwkw,Persistence Service,21,RestartComponent,21,17.4,9,TRUE
+2,CF1,_SE7Iq-cdEeet0YmmfbMwkw,Inventory Service,18,RestartComponent,18,17.4,9,2,CF1,_SE7Iq-cdEeet0YmmfbMwkw,Inventory Service,18,RestartComponent,18,17.4,9,TRUE
+3,CF1,_SE7ImecdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,17.4,9,3,CF1,_SE7ImecdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,17.4,9,TRUE
+4,CF2,_SE7wA-cdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,17.4,9,4,CF2,_SE7wA-cdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,17.4,9,TRUE
+5,CF1,_SE8W7-cdEeet0YmmfbMwkw,Inventory Service,13.5,RestartComponent,13.5,17.4,9,5,CF1,_SE8W7-cdEeet0YmmfbMwkw,Inventory Service,13.5,RestartComponent,13.5,17.4,9,TRUE
+6,CF2,_SE7wNecdEeet0YmmfbMwkw,Availability Item Filter,8,RestartComponent,8,17.4,9,6,CF2,_SE7wNecdEeet0YmmfbMwkw,Availability Item Filter,8,RestartComponent,8,17.4,9,TRUE
+7,CF1,_SE8XCucdEeet0YmmfbMwkw,Buy Now Item Filter,8,RestartComponent,8,17.4,9,7,CF1,_SE8XCucdEeet0YmmfbMwkw,Buy Now Item Filter,8,RestartComponent,8,17.4,9,TRUE
+8,CF1,_SE7vtucdEeet0YmmfbMwkw,Future Sales Item Filter,7,RestartComponent,7,17.4,9,8,CF1,_SE7vtucdEeet0YmmfbMwkw,Future Sales Item Filter,7,RestartComponent,7,17.4,9,TRUE
+9,CF1,_SE8XJecdEeet0YmmfbMwkw,Category Item Filter,5,RestartComponent,5,17.4,9,9,CF1,_SE8XJecdEeet0YmmfbMwkw,Category Item Filter,5,RestartComponent,5,17.4,9,TRUE
+1,CF1,_SFAoa-cdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,18.4,20,1,CF1,_SFAoa-cdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,18.4,20,TRUE
+2,CF1,_SFApC-cdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,18.4,20,2,CF1,_SFAogecdEeet0YmmfbMwkw,Reputation Service,16,RestartComponent,16,18.4,20,FALSE
+3,CF1,_SFBPaucdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,18.4,20,3,CF1,_SFApC-cdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,18.4,20,FALSE
+4,CF1,_SFB2iucdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,18.4,20,4,CF1,_SFApIecdEeet0YmmfbMwkw,Reputation Service,16,RestartComponent,16,18.4,20,FALSE
+5,CF1,_SFB3KucdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,18.4,20,5,CF1,_SFBPaucdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,18.4,20,FALSE
+6,CF1,_SFAogecdEeet0YmmfbMwkw,Reputation Service,16,RestartComponent,16,18.4,20,6,CF1,_SFBPgOcdEeet0YmmfbMwkw,Reputation Service,16,RestartComponent,16,18.4,20,FALSE
+7,CF1,_SFApIecdEeet0YmmfbMwkw,Reputation Service,16,RestartComponent,16,18.4,20,7,CF1,_SFB2iucdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,18.4,20,FALSE
+8,CF1,_SFBPgOcdEeet0YmmfbMwkw,Reputation Service,16,RestartComponent,16,18.4,20,8,CF1,_SFB2oOcdEeet0YmmfbMwkw,Reputation Service,16,RestartComponent,16,18.4,20,FALSE
+9,CF1,_SFB2oOcdEeet0YmmfbMwkw,Reputation Service,16,RestartComponent,16,18.4,20,9,CF1,_SFB3KucdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,18.4,20,FALSE
+10,CF1,_SFB3QOcdEeet0YmmfbMwkw,Reputation Service,16,RestartComponent,16,18.4,20,10,CF1,_SFB3QOcdEeet0YmmfbMwkw,Reputation Service,16,RestartComponent,16,18.4,20,TRUE
+11,CF1,_SFAojecdEeet0YmmfbMwkw,Last Second Sales Item Filter,10,RestartComponent,10,18.4,20,11,CF1,_SFAojecdEeet0YmmfbMwkw,Last Second Sales Item Filter,10,RestartComponent,10,18.4,20,TRUE
+12,CF1,_SFApLecdEeet0YmmfbMwkw,Last Second Sales Item Filter,10,RestartComponent,10,18.4,20,12,CF1,_SFApLecdEeet0YmmfbMwkw,Last Second Sales Item Filter,10,RestartComponent,10,18.4,20,TRUE
+13,CF1,_SFBPjOcdEeet0YmmfbMwkw,Last Second Sales Item Filter,10,RestartComponent,10,18.4,20,13,CF1,_SFBPjOcdEeet0YmmfbMwkw,Last Second Sales Item Filter,10,RestartComponent,10,18.4,20,TRUE
+14,CF1,_SFB2rOcdEeet0YmmfbMwkw,Last Second Sales Item Filter,10,RestartComponent,10,18.4,20,14,CF1,_SFB2rOcdEeet0YmmfbMwkw,Last Second Sales Item Filter,10,RestartComponent,10,18.4,20,TRUE
+15,CF1,_SFB3TOcdEeet0YmmfbMwkw,Last Second Sales Item Filter,10,RestartComponent,10,18.4,20,15,CF1,_SFB3TOcdEeet0YmmfbMwkw,Last Second Sales Item Filter,10,RestartComponent,10,18.4,20,TRUE
+16,CF2,_SFAop-cdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,18.4,20,16,CF2,_SFAop-cdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,18.4,20,TRUE
+17,CF2,_SFApR-cdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,18.4,20,17,CF2,_SFApR-cdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,18.4,20,TRUE
+18,CF2,_SFBPpucdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,18.4,20,18,CF2,_SFBPpucdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,18.4,20,TRUE
+19,CF2,_SFB2xucdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,18.4,20,19,CF2,_SFB2xucdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,18.4,20,TRUE
+20,CF2,_SFB3ZucdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,18.4,20,20,CF2,_SFB3ZucdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,18.4,20,TRUE
+1,CF1,_SFCdmOcdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,19.4,90,1,CF1,_SFCdmOcdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,19.4,90,TRUE
+2,CF1,_SFCeOOcdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,19.4,90,2,CF3,_SFCdrucdEeet0YmmfbMwkw,Reputation Service,16,HwRedeployComponent,16,19.4,90,FALSE
+3,CF1,_SFDEt-cdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,19.4,90,3,CF1,_SFCeOOcdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,19.4,90,FALSE
+4,CF1,_SFDFV-cdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,19.4,90,4,CF3,_SFCeTucdEeet0YmmfbMwkw,Reputation Service,16,HwRedeployComponent,16,19.4,90,FALSE
+5,CF1,_SFDrv-cdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,19.4,90,5,CF1,_SFDEt-cdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,19.4,90,FALSE
+6,CF1,_SFDsX-cdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,19.4,90,6,CF3,_SFDEzecdEeet0YmmfbMwkw,Reputation Service,16,HwRedeployComponent,16,19.4,90,FALSE
+7,CF1,_SFDs_-cdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,19.4,90,7,CF1,_SFDFV-cdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,19.4,90,FALSE
+8,CF1,_SFES_-cdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,19.4,90,8,CF3,_SFDFbecdEeet0YmmfbMwkw,Reputation Service,16,HwRedeployComponent,16,19.4,90,FALSE
+9,CF1,_SFE50OcdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,19.4,90,9,CF1,_SFDrv-cdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,19.4,90,FALSE
+10,CF1,_SFE6cOcdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,19.4,90,10,CF3,_SFDr1ecdEeet0YmmfbMwkw,Reputation Service,16,HwRedeployComponent,16,19.4,90,FALSE
+11,CF1,_SFFhCOcdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,19.4,90,11,CF1,_SFDsX-cdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,19.4,90,FALSE
+12,CF1,_SFFhqOcdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,19.4,90,12,CF3,_SFDsdecdEeet0YmmfbMwkw,Reputation Service,16,HwRedeployComponent,16,19.4,90,FALSE
+13,CF1,_SFGH8ucdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,19.4,90,13,CF1,_SFDs_-cdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,19.4,90,FALSE
+14,CF1,_SFGIkucdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,19.4,90,14,CF3,_SFESdecdEeet0YmmfbMwkw,Reputation Service,16,HwRedeployComponent,16,19.4,90,FALSE
+15,CF1,_SFGuu-cdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,19.4,90,15,CF1,_SFES_-cdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,19.4,90,FALSE
+16,CF1,_SFGvW-cdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,19.4,90,16,CF3,_SFETFecdEeet0YmmfbMwkw,Reputation Service,16,HwRedeployComponent,16,19.4,90,FALSE
+17,CF1,_SFGv--cdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,19.4,90,17,CF1,_SFE50OcdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,19.4,90,FALSE
+18,CF1,_SFGwm-cdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,19.4,90,18,CF3,_SFE55ucdEeet0YmmfbMwkw,Reputation Service,16,HwRedeployComponent,16,19.4,90,FALSE
+19,CF3,_SFCdrucdEeet0YmmfbMwkw,Reputation Service,16,HwRedeployComponent,16,19.4,90,19,CF1,_SFE6cOcdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,19.4,90,FALSE
+20,CF3,_SFCeTucdEeet0YmmfbMwkw,Reputation Service,16,HwRedeployComponent,16,19.4,90,20,CF3,_SFE6hucdEeet0YmmfbMwkw,Reputation Service,16,HwRedeployComponent,16,19.4,90,FALSE
+21,CF3,_SFDEzecdEeet0YmmfbMwkw,Reputation Service,16,HwRedeployComponent,16,19.4,90,21,CF1,_SFFhCOcdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,19.4,90,FALSE
+22,CF3,_SFDFbecdEeet0YmmfbMwkw,Reputation Service,16,HwRedeployComponent,16,19.4,90,22,CF3,_SFFhHucdEeet0YmmfbMwkw,Reputation Service,16,HwRedeployComponent,16,19.4,90,FALSE
+23,CF3,_SFDr1ecdEeet0YmmfbMwkw,Reputation Service,16,HwRedeployComponent,16,19.4,90,23,CF1,_SFFhqOcdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,19.4,90,FALSE
+24,CF3,_SFDsdecdEeet0YmmfbMwkw,Reputation Service,16,HwRedeployComponent,16,19.4,90,24,CF3,_SFFhvucdEeet0YmmfbMwkw,Reputation Service,16,HwRedeployComponent,16,19.4,90,FALSE
+25,CF3,_SFESdecdEeet0YmmfbMwkw,Reputation Service,16,HwRedeployComponent,16,19.4,90,25,CF1,_SFGH8ucdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,19.4,90,FALSE
+26,CF3,_SFETFecdEeet0YmmfbMwkw,Reputation Service,16,HwRedeployComponent,16,19.4,90,26,CF3,_SFGICOcdEeet0YmmfbMwkw,Reputation Service,16,HwRedeployComponent,16,19.4,90,FALSE
+27,CF3,_SFE55ucdEeet0YmmfbMwkw,Reputation Service,16,HwRedeployComponent,16,19.4,90,27,CF1,_SFGIkucdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,19.4,90,FALSE
+28,CF3,_SFE6hucdEeet0YmmfbMwkw,Reputation Service,16,HwRedeployComponent,16,19.4,90,28,CF3,_SFGIqOcdEeet0YmmfbMwkw,Reputation Service,16,HwRedeployComponent,16,19.4,90,FALSE
+29,CF3,_SFFhHucdEeet0YmmfbMwkw,Reputation Service,16,HwRedeployComponent,16,19.4,90,29,CF1,_SFGuu-cdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,19.4,90,FALSE
+30,CF3,_SFFhvucdEeet0YmmfbMwkw,Reputation Service,16,HwRedeployComponent,16,19.4,90,30,CF3,_SFGu0ecdEeet0YmmfbMwkw,Reputation Service,16,HwRedeployComponent,16,19.4,90,FALSE
+31,CF3,_SFGICOcdEeet0YmmfbMwkw,Reputation Service,16,HwRedeployComponent,16,19.4,90,31,CF1,_SFGvW-cdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,19.4,90,FALSE
+32,CF3,_SFGIqOcdEeet0YmmfbMwkw,Reputation Service,16,HwRedeployComponent,16,19.4,90,32,CF3,_SFGvcecdEeet0YmmfbMwkw,Reputation Service,16,HwRedeployComponent,16,19.4,90,FALSE
+33,CF3,_SFGu0ecdEeet0YmmfbMwkw,Reputation Service,16,HwRedeployComponent,16,19.4,90,33,CF1,_SFGv--cdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,19.4,90,FALSE
+34,CF3,_SFGvcecdEeet0YmmfbMwkw,Reputation Service,16,HwRedeployComponent,16,19.4,90,34,CF3,_SFGwEecdEeet0YmmfbMwkw,Reputation Service,16,HwRedeployComponent,16,19.4,90,FALSE
+35,CF3,_SFGwEecdEeet0YmmfbMwkw,Reputation Service,16,HwRedeployComponent,16,19.4,90,35,CF1,_SFGwm-cdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,19.4,90,FALSE
+36,CF3,_SFHVy-cdEeet0YmmfbMwkw,Reputation Service,16,HwRedeployComponent,16,19.4,90,36,CF3,_SFHVy-cdEeet0YmmfbMwkw,Reputation Service,16,HwRedeployComponent,16,19.4,90,TRUE
+37,CF1,_SFCduucdEeet0YmmfbMwkw,Last Second Sales Item Filter,10,RestartComponent,10,19.4,90,37,CF1,_SFCduucdEeet0YmmfbMwkw,Last Second Sales Item Filter,10,RestartComponent,10,19.4,90,TRUE
+38,CF1,_SFCeWucdEeet0YmmfbMwkw,Last Second Sales Item Filter,10,RestartComponent,10,19.4,90,38,CF1,_SFCeWucdEeet0YmmfbMwkw,Last Second Sales Item Filter,10,RestartComponent,10,19.4,90,TRUE
+39,CF1,_SFDE2ecdEeet0YmmfbMwkw,Last Second Sales Item Filter,10,RestartComponent,10,19.4,90,39,CF1,_SFDE2ecdEeet0YmmfbMwkw,Last Second Sales Item Filter,10,RestartComponent,10,19.4,90,TRUE
+40,CF1,_SFDFeecdEeet0YmmfbMwkw,Last Second Sales Item Filter,10,RestartComponent,10,19.4,90,40,CF1,_SFDFeecdEeet0YmmfbMwkw,Last Second Sales Item Filter,10,RestartComponent,10,19.4,90,TRUE
+41,CF1,_SFDr4ecdEeet0YmmfbMwkw,Last Second Sales Item Filter,10,RestartComponent,10,19.4,90,41,CF1,_SFDr4ecdEeet0YmmfbMwkw,Last Second Sales Item Filter,10,RestartComponent,10,19.4,90,TRUE
+42,CF1,_SFDsgecdEeet0YmmfbMwkw,Last Second Sales Item Filter,10,RestartComponent,10,19.4,90,42,CF1,_SFDsgecdEeet0YmmfbMwkw,Last Second Sales Item Filter,10,RestartComponent,10,19.4,90,TRUE
+43,CF1,_SFESgecdEeet0YmmfbMwkw,Last Second Sales Item Filter,10,RestartComponent,10,19.4,90,43,CF1,_SFESgecdEeet0YmmfbMwkw,Last Second Sales Item Filter,10,RestartComponent,10,19.4,90,TRUE
+44,CF1,_SFETIecdEeet0YmmfbMwkw,Last Second Sales Item Filter,10,RestartComponent,10,19.4,90,44,CF1,_SFETIecdEeet0YmmfbMwkw,Last Second Sales Item Filter,10,RestartComponent,10,19.4,90,TRUE
+45,CF1,_SFE58ucdEeet0YmmfbMwkw,Last Second Sales Item Filter,10,RestartComponent,10,19.4,90,45,CF1,_SFE58ucdEeet0YmmfbMwkw,Last Second Sales Item Filter,10,RestartComponent,10,19.4,90,TRUE
+46,CF1,_SFE6kucdEeet0YmmfbMwkw,Last Second Sales Item Filter,10,RestartComponent,10,19.4,90,46,CF1,_SFE6kucdEeet0YmmfbMwkw,Last Second Sales Item Filter,10,RestartComponent,10,19.4,90,TRUE
+47,CF1,_SFFhKucdEeet0YmmfbMwkw,Last Second Sales Item Filter,10,RestartComponent,10,19.4,90,47,CF1,_SFFhKucdEeet0YmmfbMwkw,Last Second Sales Item Filter,10,RestartComponent,10,19.4,90,TRUE
+48,CF1,_SFFhyucdEeet0YmmfbMwkw,Last Second Sales Item Filter,10,RestartComponent,10,19.4,90,48,CF1,_SFFhyucdEeet0YmmfbMwkw,Last Second Sales Item Filter,10,RestartComponent,10,19.4,90,TRUE
+49,CF1,_SFGIFOcdEeet0YmmfbMwkw,Last Second Sales Item Filter,10,RestartComponent,10,19.4,90,49,CF1,_SFGIFOcdEeet0YmmfbMwkw,Last Second Sales Item Filter,10,RestartComponent,10,19.4,90,TRUE
+50,CF1,_SFGItOcdEeet0YmmfbMwkw,Last Second Sales Item Filter,10,RestartComponent,10,19.4,90,50,CF1,_SFGItOcdEeet0YmmfbMwkw,Last Second Sales Item Filter,10,RestartComponent,10,19.4,90,TRUE
+51,CF1,_SFGu3ecdEeet0YmmfbMwkw,Last Second Sales Item Filter,10,RestartComponent,10,19.4,90,51,CF1,_SFGu3ecdEeet0YmmfbMwkw,Last Second Sales Item Filter,10,RestartComponent,10,19.4,90,TRUE
+52,CF1,_SFGvfecdEeet0YmmfbMwkw,Last Second Sales Item Filter,10,RestartComponent,10,19.4,90,52,CF1,_SFGvfecdEeet0YmmfbMwkw,Last Second Sales Item Filter,10,RestartComponent,10,19.4,90,TRUE
+53,CF1,_SFGwHecdEeet0YmmfbMwkw,Last Second Sales Item Filter,10,RestartComponent,10,19.4,90,53,CF1,_SFGwHecdEeet0YmmfbMwkw,Last Second Sales Item Filter,10,RestartComponent,10,19.4,90,TRUE
+54,CF1,_SFHV1-cdEeet0YmmfbMwkw,Last Second Sales Item Filter,10,RestartComponent,10,19.4,90,54,CF1,_SFHV1-cdEeet0YmmfbMwkw,Last Second Sales Item Filter,10,RestartComponent,10,19.4,90,TRUE
+55,CF2,_SFCd5ucdEeet0YmmfbMwkw,Recommendation Item Filter,9,RestartComponent,9,19.4,90,55,CF2,_SFCd5ucdEeet0YmmfbMwkw,Recommendation Item Filter,9,RestartComponent,9,19.4,90,TRUE
+56,CF2,_SFDEZecdEeet0YmmfbMwkw,Recommendation Item Filter,9,RestartComponent,9,19.4,90,56,CF2,_SFDEZecdEeet0YmmfbMwkw,Recommendation Item Filter,9,RestartComponent,9,19.4,90,TRUE
+57,CF2,_SFDFBecdEeet0YmmfbMwkw,Recommendation Item Filter,9,RestartComponent,9,19.4,90,57,CF2,_SFDFBecdEeet0YmmfbMwkw,Recommendation Item Filter,9,RestartComponent,9,19.4,90,TRUE
+58,CF2,_SFDrbecdEeet0YmmfbMwkw,Recommendation Item Filter,9,RestartComponent,9,19.4,90,58,CF2,_SFDrbecdEeet0YmmfbMwkw,Recommendation Item Filter,9,RestartComponent,9,19.4,90,TRUE
+59,CF2,_SFDsDecdEeet0YmmfbMwkw,Recommendation Item Filter,9,RestartComponent,9,19.4,90,59,CF2,_SFDsDecdEeet0YmmfbMwkw,Recommendation Item Filter,9,RestartComponent,9,19.4,90,TRUE
+60,CF2,_SFDsrecdEeet0YmmfbMwkw,Recommendation Item Filter,9,RestartComponent,9,19.4,90,60,CF2,_SFDsrecdEeet0YmmfbMwkw,Recommendation Item Filter,9,RestartComponent,9,19.4,90,TRUE
+61,CF2,_SFESrecdEeet0YmmfbMwkw,Recommendation Item Filter,9,RestartComponent,9,19.4,90,61,CF2,_SFESrecdEeet0YmmfbMwkw,Recommendation Item Filter,9,RestartComponent,9,19.4,90,TRUE
+62,CF2,_SFETTecdEeet0YmmfbMwkw,Recommendation Item Filter,9,RestartComponent,9,19.4,90,62,CF2,_SFETTecdEeet0YmmfbMwkw,Recommendation Item Filter,9,RestartComponent,9,19.4,90,TRUE
+63,CF2,_SFE6HucdEeet0YmmfbMwkw,Recommendation Item Filter,9,RestartComponent,9,19.4,90,63,CF2,_SFE6HucdEeet0YmmfbMwkw,Recommendation Item Filter,9,RestartComponent,9,19.4,90,TRUE
+64,CF2,_SFFgtucdEeet0YmmfbMwkw,Recommendation Item Filter,9,RestartComponent,9,19.4,90,64,CF2,_SFFgtucdEeet0YmmfbMwkw,Recommendation Item Filter,9,RestartComponent,9,19.4,90,TRUE
+65,CF2,_SFFhVucdEeet0YmmfbMwkw,Recommendation Item Filter,9,RestartComponent,9,19.4,90,65,CF2,_SFFhVucdEeet0YmmfbMwkw,Recommendation Item Filter,9,RestartComponent,9,19.4,90,TRUE
+66,CF2,_SFGHoOcdEeet0YmmfbMwkw,Recommendation Item Filter,9,RestartComponent,9,19.4,90,66,CF2,_SFGHoOcdEeet0YmmfbMwkw,Recommendation Item Filter,9,RestartComponent,9,19.4,90,TRUE
+67,CF2,_SFGIQOcdEeet0YmmfbMwkw,Recommendation Item Filter,9,RestartComponent,9,19.4,90,67,CF2,_SFGIQOcdEeet0YmmfbMwkw,Recommendation Item Filter,9,RestartComponent,9,19.4,90,TRUE
+68,CF2,_SFGI4OcdEeet0YmmfbMwkw,Recommendation Item Filter,9,RestartComponent,9,19.4,90,68,CF2,_SFGI4OcdEeet0YmmfbMwkw,Recommendation Item Filter,9,RestartComponent,9,19.4,90,TRUE
+69,CF2,_SFGvCecdEeet0YmmfbMwkw,Recommendation Item Filter,9,RestartComponent,9,19.4,90,69,CF2,_SFGvCecdEeet0YmmfbMwkw,Recommendation Item Filter,9,RestartComponent,9,19.4,90,TRUE
+70,CF2,_SFGvqecdEeet0YmmfbMwkw,Recommendation Item Filter,9,RestartComponent,9,19.4,90,70,CF2,_SFGvqecdEeet0YmmfbMwkw,Recommendation Item Filter,9,RestartComponent,9,19.4,90,TRUE
+71,CF2,_SFGwSecdEeet0YmmfbMwkw,Recommendation Item Filter,9,RestartComponent,9,19.4,90,71,CF2,_SFGwSecdEeet0YmmfbMwkw,Recommendation Item Filter,9,RestartComponent,9,19.4,90,TRUE
+72,CF2,_SFHWA-cdEeet0YmmfbMwkw,Recommendation Item Filter,9,RestartComponent,9,19.4,90,72,CF2,_SFHWA-cdEeet0YmmfbMwkw,Recommendation Item Filter,9,RestartComponent,9,19.4,90,TRUE
+73,CF2,_SFCd1OcdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,19.4,90,73,CF2,_SFCd1OcdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,19.4,90,TRUE
+74,CF2,_SFDEU-cdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,19.4,90,74,CF2,_SFDEU-cdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,19.4,90,TRUE
+75,CF2,_SFDE8-cdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,19.4,90,75,CF2,_SFDE8-cdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,19.4,90,TRUE
+76,CF2,_SFDFk-cdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,19.4,90,76,CF2,_SFDFk-cdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,19.4,90,TRUE
+77,CF2,_SFDr--cdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,19.4,90,77,CF2,_SFDr--cdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,19.4,90,TRUE
+78,CF2,_SFDsm-cdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,19.4,90,78,CF2,_SFDsm-cdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,19.4,90,TRUE
+79,CF2,_SFESm-cdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,19.4,90,79,CF2,_SFESm-cdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,19.4,90,TRUE
+80,CF2,_SFETO-cdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,19.4,90,80,CF2,_SFETO-cdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,19.4,90,TRUE
+81,CF2,_SFE6DOcdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,19.4,90,81,CF2,_SFE6DOcdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,19.4,90,TRUE
+82,CF2,_SFFgpOcdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,19.4,90,82,CF2,_SFFgpOcdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,19.4,90,TRUE
+83,CF2,_SFFhROcdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,19.4,90,83,CF2,_SFFhROcdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,19.4,90,TRUE
+84,CF2,_SFFh5OcdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,19.4,90,84,CF2,_SFFh5OcdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,19.4,90,TRUE
+85,CF2,_SFGILucdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,19.4,90,85,CF2,_SFGILucdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,19.4,90,TRUE
+86,CF2,_SFGIzucdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,19.4,90,86,CF2,_SFGIzucdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,19.4,90,TRUE
+87,CF2,_SFGu9-cdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,19.4,90,87,CF2,_SFGu9-cdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,19.4,90,TRUE
+88,CF2,_SFGvl-cdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,19.4,90,88,CF2,_SFGvl-cdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,19.4,90,TRUE
+89,CF2,_SFGwN-cdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,19.4,90,89,CF2,_SFGwN-cdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,19.4,90,TRUE
+90,CF2,_SFHV8ecdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,19.4,90,90,CF2,_SFHV8ecdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,19.4,90,TRUE
+1,CF1,_SE-zOOcdEeet0YmmfbMwkw,Query Service,58.5,RestartComponent,58.5,20.4,2,1,CF1,_SE-zOOcdEeet0YmmfbMwkw,Query Service,58.5,RestartComponent,58.5,20.4,2,TRUE
+2,CF3,_SE-zxOcdEeet0YmmfbMwkw,Bid and Buy Service,25,HwRedeployComponent,25,20.4,2,2,CF3,_SE-zxOcdEeet0YmmfbMwkw,Bid and Buy Service,25,HwRedeployComponent,25,20.4,2,TRUE
+1,CF1,_SFApEucdEeet0YmmfbMwkw,Authentication Service,29.75,ReplaceComponent,31.5,21.4,9,1,CF1,_SFApEucdEeet0YmmfbMwkw,Authentication Service,29.75,ReplaceComponent,31.5,21.4,9,TRUE
+2,CF3,_SFGwBecdEeet0YmmfbMwkw,Bid and Buy Service,25,HwRedeployComponent,25,21.4,9,2,CF3,_SFGwBecdEeet0YmmfbMwkw,Bid and Buy Service,25,HwRedeployComponent,25,21.4,9,TRUE
+3,CF1,_SFApC-cdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,21.4,9,3,CF1,_SFApC-cdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,21.4,9,TRUE
+4,CF3,_SFApR-cdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,HwRedeployComponent,8,21.4,9,4,CF3,_SFApR-cdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,HwRedeployComponent,8,21.4,9,TRUE
+5,CF1,_SFGwKOcdEeet0YmmfbMwkw,Buy Now Item Filter,8,RestartComponent,8,21.4,9,5,CF1,_SFGwKOcdEeet0YmmfbMwkw,Buy Now Item Filter,8,RestartComponent,8,21.4,9,TRUE
+6,CF1,_SFESjOcdEeet0YmmfbMwkw,Buy Now Item Filter,8,RestartComponent,8,21.4,9,6,CF1,_SFESjOcdEeet0YmmfbMwkw,Buy Now Item Filter,8,RestartComponent,8,21.4,9,TRUE
+7,CF3,_SFGwPecdEeet0YmmfbMwkw,Comment Item Filter,7,HwRedeployComponent,7,21.4,9,7,CF3,_SFGwPecdEeet0YmmfbMwkw,Comment Item Filter,7,HwRedeployComponent,7,21.4,9,TRUE
+8,CF3,_SFESoecdEeet0YmmfbMwkw,Comment Item Filter,7,HwRedeployComponent,7,21.4,9,8,CF3,_SFESoecdEeet0YmmfbMwkw,Comment Item Filter,7,HwRedeployComponent,7,21.4,9,TRUE
+9,CF1,_SFApM-cdEeet0YmmfbMwkw,Past Sales Item Filter,5,RestartComponent,5,21.4,9,9,CF1,_SFApM-cdEeet0YmmfbMwkw,Past Sales Item Filter,5,RestartComponent,5,21.4,9,TRUE
+1,CF1,_SFAoa-cdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,22.4,3,1,CF1,_SFAoa-cdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,22.4,3,TRUE
+2,CF1,_SFAojecdEeet0YmmfbMwkw,Last Second Sales Item Filter,10,RestartComponent,10,22.4,3,2,CF1,_SFAojecdEeet0YmmfbMwkw,Last Second Sales Item Filter,10,RestartComponent,10,22.4,3,TRUE
+3,CF1,_SFAomOcdEeet0YmmfbMwkw,Buy Now Item Filter,8,RestartComponent,8,22.4,3,3,CF1,_SFAomOcdEeet0YmmfbMwkw,Buy Now Item Filter,8,RestartComponent,8,22.4,3,TRUE
+1,CF3,_SFCdn-cdEeet0YmmfbMwkw,Authentication Service,35.7,ReplaceComponent,37.8,23.4,5,1,CF3,_SFCdn-cdEeet0YmmfbMwkw,Authentication Service,35.7,ReplaceComponent,37.8,23.4,5,TRUE
+2,CF2,_SFB2iucdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,23.4,5,2,CF2,_SFB2iucdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,23.4,5,TRUE
+3,CF1,_SFB3KucdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,23.4,5,3,CF1,_SFB3KucdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,23.4,5,TRUE
+4,CF2,_SFB2xucdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,23.4,5,4,CF2,_SFB2xucdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,23.4,5,TRUE
+5,CF3,_SFCdQOcdEeet0YmmfbMwkw,Category Item Filter,5,HwRedeployComponent,5,23.4,5,5,CF3,_SFCdQOcdEeet0YmmfbMwkw,Category Item Filter,5,HwRedeployComponent,5,23.4,5,TRUE
+1,CF3,_SFCeQucdEeet0YmmfbMwkw,Bid and Buy Service,25,HwRedeployComponent,25,24.4,21,1,CF3,_SFCeQucdEeet0YmmfbMwkw,Bid and Buy Service,25,HwRedeployComponent,25,24.4,21,TRUE
+2,CF3,_SFDEwecdEeet0YmmfbMwkw,Bid and Buy Service,25,HwRedeployComponent,25,24.4,21,2,CF3,_SFDEwecdEeet0YmmfbMwkw,Bid and Buy Service,25,HwRedeployComponent,25,24.4,21,TRUE
+3,CF3,_SFDFYecdEeet0YmmfbMwkw,Bid and Buy Service,25,HwRedeployComponent,25,24.4,21,3,CF3,_SFDFYecdEeet0YmmfbMwkw,Bid and Buy Service,25,HwRedeployComponent,25,24.4,21,TRUE
+4,CF3,_SFDryecdEeet0YmmfbMwkw,Bid and Buy Service,25,HwRedeployComponent,25,24.4,21,4,CF3,_SFDryecdEeet0YmmfbMwkw,Bid and Buy Service,25,HwRedeployComponent,25,24.4,21,TRUE
+5,CF3,_SFDsaecdEeet0YmmfbMwkw,Bid and Buy Service,25,HwRedeployComponent,25,24.4,21,5,CF3,_SFDsaecdEeet0YmmfbMwkw,Bid and Buy Service,25,HwRedeployComponent,25,24.4,21,TRUE
+6,CF3,_SFDtCecdEeet0YmmfbMwkw,Bid and Buy Service,25,HwRedeployComponent,25,24.4,21,6,CF3,_SFDtCecdEeet0YmmfbMwkw,Bid and Buy Service,25,HwRedeployComponent,25,24.4,21,TRUE
+7,CF3,_SFETCecdEeet0YmmfbMwkw,Bid and Buy Service,25,HwRedeployComponent,25,24.4,21,7,CF3,_SFETCecdEeet0YmmfbMwkw,Bid and Buy Service,25,HwRedeployComponent,25,24.4,21,TRUE
+8,CF3,_SFCeOOcdEeet0YmmfbMwkw,Item Management Service,16,HwRedeployComponent,16,24.4,21,8,CF3,_SFCeOOcdEeet0YmmfbMwkw,Item Management Service,16,HwRedeployComponent,16,24.4,21,TRUE
+9,CF3,_SFDEt-cdEeet0YmmfbMwkw,Item Management Service,16,HwRedeployComponent,16,24.4,21,9,CF3,_SFDEt-cdEeet0YmmfbMwkw,Item Management Service,16,HwRedeployComponent,16,24.4,21,TRUE
+10,CF3,_SFDFV-cdEeet0YmmfbMwkw,Item Management Service,16,HwRedeployComponent,16,24.4,21,10,CF3,_SFDFV-cdEeet0YmmfbMwkw,Item Management Service,16,HwRedeployComponent,16,24.4,21,TRUE
+11,CF3,_SFDrv-cdEeet0YmmfbMwkw,Item Management Service,16,HwRedeployComponent,16,24.4,21,11,CF3,_SFDrv-cdEeet0YmmfbMwkw,Item Management Service,16,HwRedeployComponent,16,24.4,21,TRUE
+12,CF3,_SFDsX-cdEeet0YmmfbMwkw,Item Management Service,16,HwRedeployComponent,16,24.4,21,12,CF3,_SFDsX-cdEeet0YmmfbMwkw,Item Management Service,16,HwRedeployComponent,16,24.4,21,TRUE
+13,CF3,_SFDs_-cdEeet0YmmfbMwkw,Item Management Service,16,HwRedeployComponent,16,24.4,21,13,CF3,_SFDs_-cdEeet0YmmfbMwkw,Item Management Service,16,HwRedeployComponent,16,24.4,21,TRUE
+14,CF3,_SFES_-cdEeet0YmmfbMwkw,Item Management Service,16,HwRedeployComponent,16,24.4,21,14,CF3,_SFES_-cdEeet0YmmfbMwkw,Item Management Service,16,HwRedeployComponent,16,24.4,21,TRUE
+15,CF2,_SFDEU-cdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,24.4,21,15,CF2,_SFDEU-cdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,24.4,21,TRUE
+16,CF2,_SFDE8-cdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,24.4,21,16,CF2,_SFDE8-cdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,24.4,21,TRUE
+17,CF2,_SFDFk-cdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,24.4,21,17,CF2,_SFDFk-cdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,24.4,21,TRUE
+18,CF2,_SFDr--cdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,24.4,21,18,CF2,_SFDr--cdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,24.4,21,TRUE
+19,CF2,_SFDsm-cdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,24.4,21,19,CF2,_SFDsm-cdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,24.4,21,TRUE
+20,CF2,_SFESm-cdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,24.4,21,20,CF2,_SFESm-cdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,24.4,21,TRUE
+21,CF2,_SFETO-cdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,24.4,21,21,CF2,_SFETO-cdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,24.4,21,TRUE
+1,CF3,_SFE52ucdEeet0YmmfbMwkw,Bid and Buy Service,25,HwRedeployComponent,25,25.4,14,1,CF3,_SFE52ucdEeet0YmmfbMwkw,Bid and Buy Service,25,HwRedeployComponent,25,25.4,14,TRUE
+2,CF3,_SFE6eucdEeet0YmmfbMwkw,Bid and Buy Service,25,HwRedeployComponent,25,25.4,14,2,CF3,_SFE6eucdEeet0YmmfbMwkw,Bid and Buy Service,25,HwRedeployComponent,25,25.4,14,TRUE
+3,CF3,_SFFhEucdEeet0YmmfbMwkw,Bid and Buy Service,25,HwRedeployComponent,25,25.4,14,3,CF3,_SFFhEucdEeet0YmmfbMwkw,Bid and Buy Service,25,HwRedeployComponent,25,25.4,14,TRUE
+4,CF1,_SFE50OcdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,25.4,14,4,CF1,_SFE50OcdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,25.4,14,TRUE
+5,CF1,_SFE6cOcdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,25.4,14,5,CF1,_SFE6cOcdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,25.4,14,TRUE
+6,CF1,_SFFhCOcdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,25.4,14,6,CF1,_SFFhCOcdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,25.4,14,TRUE
+7,CF3,_SFFhqOcdEeet0YmmfbMwkw,Item Management Service,16,HwRedeployComponent,16,25.4,14,7,CF3,_SFFhqOcdEeet0YmmfbMwkw,Item Management Service,16,HwRedeployComponent,16,25.4,14,TRUE
+8,CF2,_SFE6DOcdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,25.4,14,8,CF2,_SFE6DOcdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,25.4,14,TRUE
+9,CF2,_SFFgpOcdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,25.4,14,9,CF2,_SFFgpOcdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,25.4,14,TRUE
+10,CF2,_SFFhROcdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,25.4,14,10,CF2,_SFFhROcdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,25.4,14,TRUE
+11,CF1,_SFFh3-cdEeet0YmmfbMwkw,Region Item Filter,6,RestartComponent,6,25.4,14,11,CF1,_SFFh3-cdEeet0YmmfbMwkw,Region Item Filter,6,RestartComponent,6,25.4,14,TRUE
+12,CF3,_SFE5-OcdEeet0YmmfbMwkw,Past Sales Item Filter,5,HwRedeployComponent,5,25.4,14,12,CF3,_SFE5-OcdEeet0YmmfbMwkw,Past Sales Item Filter,5,HwRedeployComponent,5,25.4,14,TRUE
+13,CF3,_SFFgkOcdEeet0YmmfbMwkw,Past Sales Item Filter,5,HwRedeployComponent,5,25.4,14,13,CF3,_SFFgkOcdEeet0YmmfbMwkw,Past Sales Item Filter,5,HwRedeployComponent,5,25.4,14,TRUE
+14,CF3,_SFFhMOcdEeet0YmmfbMwkw,Past Sales Item Filter,5,HwRedeployComponent,5,25.4,14,14,CF3,_SFFhMOcdEeet0YmmfbMwkw,Past Sales Item Filter,5,HwRedeployComponent,5,25.4,14,TRUE
+1,CF3,_SFDse-cdEeet0YmmfbMwkw,Persistence Service,28,HwRedeployComponent,28,26.4,4,1,CF3,_SFDse-cdEeet0YmmfbMwkw,Persistence Service,28,HwRedeployComponent,28,26.4,4,TRUE
+2,CF3,_SFFhGucdEeet0YmmfbMwkw,Inventory Service,18,HwRedeployComponent,18,26.4,4,2,CF3,_SFFhGucdEeet0YmmfbMwkw,Inventory Service,18,HwRedeployComponent,18,26.4,4,TRUE
+3,CF3,_SFE6cOcdEeet0YmmfbMwkw,Item Management Service,16,HwRedeployComponent,16,26.4,4,3,CF3,_SFE6cOcdEeet0YmmfbMwkw,Item Management Service,16,HwRedeployComponent,16,26.4,4,TRUE
+4,CF2,_SEwJ8-cdEeet0YmmfbMwkw,Recommendation Item Filter,9,RestartComponent,9,26.4,4,4,CF2,_SEwJ8-cdEeet0YmmfbMwkw,Recommendation Item Filter,9,RestartComponent,9,26.4,4,TRUE
+1,CF3,_SFJytecdEeet0YmmfbMwkw,Bid and Buy Service,25,HwRedeployComponent,25,27.4,6,1,CF3,_SFJytecdEeet0YmmfbMwkw,Bid and Buy Service,25,HwRedeployComponent,25,27.4,6,TRUE
+2,CF3,_SFJzVecdEeet0YmmfbMwkw,Bid and Buy Service,25,HwRedeployComponent,25,27.4,6,2,CF3,_SFJzVecdEeet0YmmfbMwkw,Bid and Buy Service,25,HwRedeployComponent,25,27.4,6,TRUE
+3,CF1,_SFJyq-cdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,27.4,6,3,CF1,_SFJyq-cdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,27.4,6,TRUE
+4,CF3,_SFJzS-cdEeet0YmmfbMwkw,Item Management Service,16,HwRedeployComponent,16,27.4,6,4,CF3,_SFJzS-cdEeet0YmmfbMwkw,Item Management Service,16,HwRedeployComponent,16,27.4,6,TRUE
+5,CF1,_SFKZG-cdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,27.4,6,5,CF1,_SFKZG-cdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,27.4,6,TRUE
+6,CF2,_SFJy8-cdEeet0YmmfbMwkw,Category Item Filter,5,RestartComponent,5,27.4,6,6,CF2,_SFJy8-cdEeet0YmmfbMwkw,Category Item Filter,5,RestartComponent,5,27.4,6,TRUE
+1,CF3,_SFKZ2ecdEeet0YmmfbMwkw,Query Service,49.5,HwRedeployComponent,49.5,28.4,14,1,CF3,_SFKZ2ecdEeet0YmmfbMwkw,Query Service,49.5,HwRedeployComponent,49.5,28.4,14,TRUE
+2,CF3,_SFKaeecdEeet0YmmfbMwkw,Query Service,49.5,HwRedeployComponent,49.5,28.4,14,2,CF3,_SFKaeecdEeet0YmmfbMwkw,Query Service,49.5,HwRedeployComponent,49.5,28.4,14,TRUE
+3,CF3,_SFLAhecdEeet0YmmfbMwkw,Query Service,49.5,HwRedeployComponent,49.5,28.4,14,3,CF3,_SFLAhecdEeet0YmmfbMwkw,Query Service,49.5,HwRedeployComponent,49.5,28.4,14,TRUE
+4,CF3,_SFLBJecdEeet0YmmfbMwkw,Query Service,49.5,HwRedeployComponent,49.5,28.4,14,4,CF3,_SFLBJecdEeet0YmmfbMwkw,Query Service,49.5,HwRedeployComponent,49.5,28.4,14,TRUE
+5,CF3,_SFFhr-cdEeet0YmmfbMwkw,Authentication Service,41.65,ReplaceComponent,44.1,28.4,14,5,CF3,_SFFhr-cdEeet0YmmfbMwkw,Authentication Service,41.65,ReplaceComponent,44.1,28.4,14,TRUE
+6,CF3,_SFKZu-cdEeet0YmmfbMwkw,Item Management Service,16,HwRedeployComponent,16,28.4,14,6,CF2,_SFKZ0ecdEeet0YmmfbMwkw,Reputation Service,16,RestartComponent,16,28.4,14,FALSE
+7,CF3,_SFKaW-cdEeet0YmmfbMwkw,Item Management Service,16,HwRedeployComponent,16,28.4,14,7,CF3,_SFKZu-cdEeet0YmmfbMwkw,Item Management Service,16,HwRedeployComponent,16,28.4,14,FALSE
+8,CF3,_SFLAZ-cdEeet0YmmfbMwkw,Item Management Service,16,HwRedeployComponent,16,28.4,14,8,CF2,_SFKacecdEeet0YmmfbMwkw,Reputation Service,16,RestartComponent,16,28.4,14,FALSE
+9,CF3,_SFLBB-cdEeet0YmmfbMwkw,Item Management Service,16,HwRedeployComponent,16,28.4,14,9,CF3,_SFKaW-cdEeet0YmmfbMwkw,Item Management Service,16,HwRedeployComponent,16,28.4,14,FALSE
+10,CF2,_SFKZ0ecdEeet0YmmfbMwkw,Reputation Service,16,RestartComponent,16,28.4,14,10,CF2,_SFLAfecdEeet0YmmfbMwkw,Reputation Service,16,RestartComponent,16,28.4,14,FALSE
+11,CF2,_SFKacecdEeet0YmmfbMwkw,Reputation Service,16,RestartComponent,16,28.4,14,11,CF3,_SFLAZ-cdEeet0YmmfbMwkw,Item Management Service,16,HwRedeployComponent,16,28.4,14,FALSE
+12,CF2,_SFLAfecdEeet0YmmfbMwkw,Reputation Service,16,RestartComponent,16,28.4,14,12,CF2,_SFLBHecdEeet0YmmfbMwkw,Reputation Service,16,RestartComponent,16,28.4,14,FALSE
+13,CF2,_SFLBHecdEeet0YmmfbMwkw,Reputation Service,16,RestartComponent,16,28.4,14,13,CF3,_SFLBB-cdEeet0YmmfbMwkw,Item Management Service,16,HwRedeployComponent,16,28.4,14,FALSE
+14,CF3,_SFFhSucdEeet0YmmfbMwkw,Comment Item Filter,7,HwRedeployComponent,7,28.4,14,14,CF3,_SFFhSucdEeet0YmmfbMwkw,Comment Item Filter,7,HwRedeployComponent,7,28.4,14,TRUE
+1,CF3,_SFGInOcdEeet0YmmfbMwkw,Bid and Buy Service,25,HwRedeployComponent,25,29.4,8,1,CF3,_SFGInOcdEeet0YmmfbMwkw,Bid and Buy Service,25,HwRedeployComponent,25,29.4,8,TRUE
+2,CF3,_SFGuxecdEeet0YmmfbMwkw,Bid and Buy Service,25,HwRedeployComponent,25,29.4,8,2,CF3,_SFGuxecdEeet0YmmfbMwkw,Bid and Buy Service,25,HwRedeployComponent,25,29.4,8,TRUE
+3,CF1,_SFGIkucdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,29.4,8,3,CF1,_SFGIkucdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,29.4,8,TRUE
+4,CF1,_SFGuu-cdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,29.4,8,4,CF1,_SFGuu-cdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,29.4,8,TRUE
+5,CF3,_SFGItOcdEeet0YmmfbMwkw,Last Second Sales Item Filter,10,HwRedeployComponent,10,29.4,8,5,CF3,_SFGItOcdEeet0YmmfbMwkw,Last Second Sales Item Filter,10,HwRedeployComponent,10,29.4,8,TRUE
+6,CF3,_SFGu3ecdEeet0YmmfbMwkw,Last Second Sales Item Filter,10,HwRedeployComponent,10,29.4,8,6,CF3,_SFGu3ecdEeet0YmmfbMwkw,Last Second Sales Item Filter,10,HwRedeployComponent,10,29.4,8,TRUE
+7,CF2,_SFGIzucdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,29.4,8,7,CF2,_SFGIzucdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,29.4,8,TRUE
+8,CF2,_SFGu9-cdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,29.4,8,8,CF2,_SFGu9-cdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,29.4,8,TRUE
+1,CF3,_SFGwpecdEeet0YmmfbMwkw,Bid and Buy Service,25,HwRedeployComponent,25,30.4,6,1,CF3,_SFGwpecdEeet0YmmfbMwkw,Bid and Buy Service,25,HwRedeployComponent,25,30.4,6,TRUE
+2,CF3,_SFJLBecdEeet0YmmfbMwkw,Bid and Buy Service,25,HwRedeployComponent,25,30.4,6,2,CF3,_SFJLBecdEeet0YmmfbMwkw,Bid and Buy Service,25,HwRedeployComponent,25,30.4,6,TRUE
+3,CF3,_SFGwm-cdEeet0YmmfbMwkw,Item Management Service,16,HwRedeployComponent,16,30.4,6,3,CF3,_SFGwm-cdEeet0YmmfbMwkw,Item Management Service,16,HwRedeployComponent,16,30.4,6,TRUE
+4,CF1,_SFGwLecdEeet0YmmfbMwkw,Availability Item Filter,8,RestartComponent,8,30.4,6,4,CF1,_SFGwLecdEeet0YmmfbMwkw,Availability Item Filter,8,RestartComponent,8,30.4,6,TRUE
+5,CF2,_SFGwN-cdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,30.4,6,5,CF2,_SFGwN-cdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,30.4,6,TRUE
+6,CF2,_SFHV7OcdEeet0YmmfbMwkw,Region Item Filter,6,RestartComponent,6,30.4,6,6,CF2,_SFHV7OcdEeet0YmmfbMwkw,Region Item Filter,6,RestartComponent,6,30.4,6,TRUE
+1,CF1,_SFJyKecdEeet0YmmfbMwkw,Query Service,49.5,RestartComponent,49.5,31.4,30,1,CF1,_SFJyKecdEeet0YmmfbMwkw,Query Service,49.5,RestartComponent,49.5,31.4,30,TRUE
+2,CF1,_SFKZOecdEeet0YmmfbMwkw,Query Service,49.5,RestartComponent,49.5,31.4,30,2,CF1,_SFKZOecdEeet0YmmfbMwkw,Query Service,49.5,RestartComponent,49.5,31.4,30,TRUE
+3,CF3,_SFJzUucdEeet0YmmfbMwkw,Authentication Service,41.65,ReplaceComponent,44.1,31.4,30,3,CF3,_SFJzUucdEeet0YmmfbMwkw,Authentication Service,41.65,ReplaceComponent,44.1,31.4,30,TRUE
+4,CF3,_SFKZwucdEeet0YmmfbMwkw,Authentication Service,35.7,ReplaceComponent,37.8,31.4,30,4,CF3,_SFKZwucdEeet0YmmfbMwkw,Authentication Service,35.7,ReplaceComponent,37.8,31.4,30,TRUE
+5,CF3,_SFKaYucdEeet0YmmfbMwkw,Authentication Service,35.7,ReplaceComponent,37.8,31.4,30,5,CF3,_SFKaYucdEeet0YmmfbMwkw,Authentication Service,35.7,ReplaceComponent,37.8,31.4,30,TRUE
+6,CF3,_SFLAbucdEeet0YmmfbMwkw,Authentication Service,35.7,ReplaceComponent,37.8,31.4,30,6,CF3,_SFLAbucdEeet0YmmfbMwkw,Authentication Service,35.7,ReplaceComponent,37.8,31.4,30,TRUE
+7,CF3,_SFLBDucdEeet0YmmfbMwkw,Authentication Service,35.7,ReplaceComponent,37.8,31.4,30,7,CF3,_SFLBDucdEeet0YmmfbMwkw,Authentication Service,35.7,ReplaceComponent,37.8,31.4,30,TRUE
+8,CF3,_SFLBrucdEeet0YmmfbMwkw,Authentication Service,29.75,ReplaceComponent,31.5,31.4,30,8,CF3,_SFLBrucdEeet0YmmfbMwkw,Authentication Service,29.75,ReplaceComponent,31.5,31.4,30,TRUE
+9,CF3,_SFJyFecdEeet0YmmfbMwkw,Bid and Buy Service,25,HwRedeployComponent,25,31.4,30,9,CF3,_SFJyFecdEeet0YmmfbMwkw,Bid and Buy Service,25,HwRedeployComponent,25,31.4,30,TRUE
+10,CF3,_SFKZJecdEeet0YmmfbMwkw,Bid and Buy Service,25,HwRedeployComponent,25,31.4,30,10,CF3,_SFKZJecdEeet0YmmfbMwkw,Bid and Buy Service,25,HwRedeployComponent,25,31.4,30,TRUE
+11,CF3,_SFJyvecdEeet0YmmfbMwkw,Inventory Service,18,HwRedeployComponent,18,31.4,30,11,CF3,_SFJyvecdEeet0YmmfbMwkw,Inventory Service,18,HwRedeployComponent,18,31.4,30,TRUE
+12,CF3,_SFJyC-cdEeet0YmmfbMwkw,Item Management Service,16,HwRedeployComponent,16,31.4,30,12,CF3,_SFJyC-cdEeet0YmmfbMwkw,Item Management Service,16,HwRedeployComponent,16,31.4,30,TRUE
+13,CF3,_SFJyq-cdEeet0YmmfbMwkw,Item Management Service,16,HwRedeployComponent,16,31.4,30,13,CF3,_SFJyq-cdEeet0YmmfbMwkw,Item Management Service,16,HwRedeployComponent,16,31.4,30,TRUE
+14,CF3,_SFKZG-cdEeet0YmmfbMwkw,Item Management Service,16,HwRedeployComponent,16,31.4,30,14,CF3,_SFJzYecdEeet0YmmfbMwkw,Reputation Service,16,HwRedeployComponent,16,31.4,30,FALSE
+15,CF3,_SFJzYecdEeet0YmmfbMwkw,Reputation Service,16,HwRedeployComponent,16,31.4,30,15,CF3,_SFKZG-cdEeet0YmmfbMwkw,Item Management Service,16,HwRedeployComponent,16,31.4,30,FALSE
+16,CF3,_SFKZzecdEeet0YmmfbMwkw,Inventory Service,13.5,HwRedeployComponent,13.5,31.4,30,16,CF3,_SFKZzecdEeet0YmmfbMwkw,Inventory Service,13.5,HwRedeployComponent,13.5,31.4,30,TRUE
+17,CF3,_SFKabecdEeet0YmmfbMwkw,Inventory Service,13.5,HwRedeployComponent,13.5,31.4,30,17,CF3,_SFKabecdEeet0YmmfbMwkw,Inventory Service,13.5,HwRedeployComponent,13.5,31.4,30,TRUE
+18,CF3,_SFLAeecdEeet0YmmfbMwkw,Inventory Service,13.5,HwRedeployComponent,13.5,31.4,30,18,CF3,_SFLAeecdEeet0YmmfbMwkw,Inventory Service,13.5,HwRedeployComponent,13.5,31.4,30,TRUE
+19,CF1,_SFJyzecdEeet0YmmfbMwkw,Last Second Sales Item Filter,10,RestartComponent,10,31.4,30,19,CF1,_SFJyzecdEeet0YmmfbMwkw,Last Second Sales Item Filter,10,RestartComponent,10,31.4,30,TRUE
+20,CF2,_SFJy5-cdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,31.4,30,20,CF2,_SFJy5-cdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,31.4,30,TRUE
+21,CF2,_SFJzjecdEeet0YmmfbMwkw,Comment Item Filter,7,RestartComponent,7,31.4,30,21,CF2,_SFJzjecdEeet0YmmfbMwkw,Comment Item Filter,7,RestartComponent,7,31.4,30,TRUE
+22,CF2,_SFKZ_ecdEeet0YmmfbMwkw,Comment Item Filter,7,RestartComponent,7,31.4,30,22,CF2,_SFKZ_ecdEeet0YmmfbMwkw,Comment Item Filter,7,RestartComponent,7,31.4,30,TRUE
+23,CF2,_SFKanecdEeet0YmmfbMwkw,Comment Item Filter,7,RestartComponent,7,31.4,30,23,CF2,_SFKanecdEeet0YmmfbMwkw,Comment Item Filter,7,RestartComponent,7,31.4,30,TRUE
+24,CF2,_SFLAqecdEeet0YmmfbMwkw,Comment Item Filter,7,RestartComponent,7,31.4,30,24,CF2,_SFLAqecdEeet0YmmfbMwkw,Comment Item Filter,7,RestartComponent,7,31.4,30,TRUE
+25,CF2,_SFJyQucdEeet0YmmfbMwkw,Region Item Filter,6,RestartComponent,6,31.4,30,25,CF2,_SFJyQucdEeet0YmmfbMwkw,Region Item Filter,6,RestartComponent,6,31.4,30,TRUE
+26,CF2,_SFKZUucdEeet0YmmfbMwkw,Region Item Filter,6,RestartComponent,6,31.4,30,26,CF2,_SFKZUucdEeet0YmmfbMwkw,Region Item Filter,6,RestartComponent,6,31.4,30,TRUE
+27,CF1,_SFJzc-cdEeet0YmmfbMwkw,Past Sales Item Filter,5,RestartComponent,5,31.4,30,27,CF1,_SFJzc-cdEeet0YmmfbMwkw,Past Sales Item Filter,5,RestartComponent,5,31.4,30,TRUE
+28,CF1,_SFKZ4-cdEeet0YmmfbMwkw,Past Sales Item Filter,5,RestartComponent,5,31.4,30,28,CF1,_SFKZ4-cdEeet0YmmfbMwkw,Past Sales Item Filter,5,RestartComponent,5,31.4,30,TRUE
+29,CF1,_SFKag-cdEeet0YmmfbMwkw,Past Sales Item Filter,5,RestartComponent,5,31.4,30,29,CF1,_SFKag-cdEeet0YmmfbMwkw,Past Sales Item Filter,5,RestartComponent,5,31.4,30,TRUE
+30,CF1,_SFLAj-cdEeet0YmmfbMwkw,Past Sales Item Filter,5,RestartComponent,5,31.4,30,30,CF1,_SFLAj-cdEeet0YmmfbMwkw,Past Sales Item Filter,5,RestartComponent,5,31.4,30,TRUE
+1,CF1,_SFJyEucdEeet0YmmfbMwkw,Authentication Service,41.65,ReplaceComponent,44.1,32.4,4,1,CF1,_SFJyEucdEeet0YmmfbMwkw,Authentication Service,41.65,ReplaceComponent,44.1,32.4,4,TRUE
+2,CF3,_SFJyIecdEeet0YmmfbMwkw,Reputation Service,16,HwRedeployComponent,16,32.4,4,2,CF3,_SFJyIecdEeet0YmmfbMwkw,Reputation Service,16,HwRedeployComponent,16,32.4,4,TRUE
+3,CF2,_SFJyWecdEeet0YmmfbMwkw,Recommendation Item Filter,9,RestartComponent,9,32.4,4,3,CF2,_SFJyWecdEeet0YmmfbMwkw,Recommendation Item Filter,9,RestartComponent,9,32.4,4,TRUE
+4,CF2,_SFJyOOcdEeet0YmmfbMwkw,Buy Now Item Filter,8,RestartComponent,8,32.4,4,4,CF2,_SFJyOOcdEeet0YmmfbMwkw,Buy Now Item Filter,8,RestartComponent,8,32.4,4,TRUE
+1,CF1,_SFJysucdEeet0YmmfbMwkw,Authentication Service,41.65,ReplaceComponent,44.1,33.4,3,1,CF1,_SFJysucdEeet0YmmfbMwkw,Authentication Service,41.65,ReplaceComponent,44.1,33.4,3,TRUE
+2,CF3,_SFJyx-cdEeet0YmmfbMwkw,Persistence Service,28,HwRedeployComponent,28,33.4,3,2,CF3,_SFJyx-cdEeet0YmmfbMwkw,Persistence Service,28,HwRedeployComponent,28,33.4,3,TRUE
+3,CF2,_SFJy7ecdEeet0YmmfbMwkw,Comment Item Filter,7,RestartComponent,7,33.4,3,3,CF2,_SFJy7ecdEeet0YmmfbMwkw,Comment Item Filter,7,RestartComponent,7,33.4,3,TRUE
+1,CF3,_SFKZOecdEeet0YmmfbMwkw,Query Service,67.5,HwRedeployComponent,67.5,34.4,16,1,CF3,_SFKZOecdEeet0YmmfbMwkw,Query Service,67.5,HwRedeployComponent,67.5,34.4,16,TRUE
+2,CF3,_SFKZIucdEeet0YmmfbMwkw,Authentication Service,41.65,ReplaceComponent,44.1,34.4,16,2,CF3,_SFKZIucdEeet0YmmfbMwkw,Authentication Service,41.65,ReplaceComponent,44.1,34.4,16,TRUE
+3,CF3,_SFKZxecdEeet0YmmfbMwkw,Bid and Buy Service,25,HwRedeployComponent,25,34.4,16,3,CF3,_SFKZxecdEeet0YmmfbMwkw,Bid and Buy Service,25,HwRedeployComponent,25,34.4,16,TRUE
+4,CF3,_SFKaZecdEeet0YmmfbMwkw,Bid and Buy Service,25,HwRedeployComponent,25,34.4,16,4,CF3,_SFKaZecdEeet0YmmfbMwkw,Bid and Buy Service,25,HwRedeployComponent,25,34.4,16,TRUE
+5,CF3,_SFJzXecdEeet0YmmfbMwkw,Inventory Service,18,HwRedeployComponent,18,34.4,16,5,CF3,_SFJzXecdEeet0YmmfbMwkw,Inventory Service,18,HwRedeployComponent,18,34.4,16,TRUE
+6,CF2,_SFJzmecdEeet0YmmfbMwkw,Recommendation Item Filter,9,RestartComponent,9,34.4,16,6,CF2,_SFJzmecdEeet0YmmfbMwkw,Recommendation Item Filter,9,RestartComponent,9,34.4,16,TRUE
+7,CF2,_SFKaCecdEeet0YmmfbMwkw,Recommendation Item Filter,9,RestartComponent,9,34.4,16,7,CF2,_SFKaCecdEeet0YmmfbMwkw,Recommendation Item Filter,9,RestartComponent,9,34.4,16,TRUE
+8,CF2,_SFKaqecdEeet0YmmfbMwkw,Recommendation Item Filter,9,RestartComponent,9,34.4,16,8,CF2,_SFKaqecdEeet0YmmfbMwkw,Recommendation Item Filter,9,RestartComponent,9,34.4,16,TRUE
+9,CF1,_SFJzfecdEeet0YmmfbMwkw,Availability Item Filter,8,RestartComponent,8,34.4,16,9,CF1,_SFJzfecdEeet0YmmfbMwkw,Availability Item Filter,8,RestartComponent,8,34.4,16,TRUE
+10,CF1,_SFKZ7ecdEeet0YmmfbMwkw,Availability Item Filter,8,RestartComponent,8,34.4,16,10,CF1,_SFKZ7ecdEeet0YmmfbMwkw,Availability Item Filter,8,RestartComponent,8,34.4,16,TRUE
+11,CF1,_SFKajecdEeet0YmmfbMwkw,Availability Item Filter,8,RestartComponent,8,34.4,16,11,CF1,_SFKajecdEeet0YmmfbMwkw,Availability Item Filter,8,RestartComponent,8,34.4,16,TRUE
+12,CF2,_SFKZXecdEeet0YmmfbMwkw,Comment Item Filter,7,RestartComponent,7,34.4,16,12,CF2,_SFKZXecdEeet0YmmfbMwkw,Comment Item Filter,7,RestartComponent,7,34.4,16,TRUE
+13,CF3,_SFJzc-cdEeet0YmmfbMwkw,Past Sales Item Filter,5,HwRedeployComponent,5,34.4,16,13,CF3,_SFJzc-cdEeet0YmmfbMwkw,Past Sales Item Filter,5,HwRedeployComponent,5,34.4,16,TRUE
+14,CF1,_SFKZQ-cdEeet0YmmfbMwkw,Past Sales Item Filter,5,RestartComponent,5,34.4,16,14,CF1,_SFKZQ-cdEeet0YmmfbMwkw,Past Sales Item Filter,5,RestartComponent,5,34.4,16,TRUE
+15,CF3,_SFKZ4-cdEeet0YmmfbMwkw,Past Sales Item Filter,5,HwRedeployComponent,5,34.4,16,15,CF3,_SFKZ4-cdEeet0YmmfbMwkw,Past Sales Item Filter,5,HwRedeployComponent,5,34.4,16,TRUE
+16,CF3,_SFKag-cdEeet0YmmfbMwkw,Past Sales Item Filter,5,HwRedeployComponent,5,34.4,16,16,CF3,_SFKag-cdEeet0YmmfbMwkw,Past Sales Item Filter,5,HwRedeployComponent,5,34.4,16,TRUE
+1,CF2,_SEu7n-cdEeet0YmmfbMwkw,Persistence Service,21,RestartComponent,21,35.4,20,1,CF2,_SEu7n-cdEeet0YmmfbMwkw,Persistence Service,21,RestartComponent,21,35.4,20,TRUE
+2,CF3,_SEvinOcdEeet0YmmfbMwkw,Item Management Service,16,HwRedeployComponent,16,35.4,20,2,CF3,_SEvinOcdEeet0YmmfbMwkw,Item Management Service,16,HwRedeployComponent,16,35.4,20,TRUE
+3,CF1,_SEuUO-cdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,35.4,20,3,CF1,_SEuUO-cdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,35.4,20,TRUE
+4,CF1,_SEu7g-cdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,35.4,20,4,CF3,_SEu7mecdEeet0YmmfbMwkw,Reputation Service,16,HwRedeployComponent,16,35.4,20,FALSE
+5,CF3,_SE9lYOcdEeet0YmmfbMwkw,Item Management Service,16,HwRedeployComponent,16,35.4,20,5,CF1,_SEu7g-cdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,35.4,20,FALSE
+6,CF1,_SEz0QOcdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,35.4,20,6,CF3,_SEvisucdEeet0YmmfbMwkw,Reputation Service,16,HwRedeployComponent,16,35.4,20,FALSE
+7,CF1,_SEzM9-cdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,35.4,20,7,CF3,_SE9lYOcdEeet0YmmfbMwkw,Item Management Service,16,HwRedeployComponent,16,35.4,20,FALSE
+8,CF1,_SEwwnecdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,35.4,20,8,CF1,_SEz0QOcdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,35.4,20,FALSE
+9,CF3,_SEu7mecdEeet0YmmfbMwkw,Reputation Service,16,HwRedeployComponent,16,35.4,20,9,CF1,_SEzM9-cdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,35.4,20,FALSE
+10,CF3,_SEvisucdEeet0YmmfbMwkw,Reputation Service,16,HwRedeployComponent,16,35.4,20,10,CF1,_SEwwnecdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,35.4,20,FALSE
+11,CF3,_SEwwr-cdEeet0YmmfbMwkw,Inventory Service,13.5,HwRedeployComponent,13.5,35.4,20,11,CF3,_SEwwr-cdEeet0YmmfbMwkw,Inventory Service,13.5,HwRedeployComponent,13.5,35.4,20,TRUE
+12,CF3,_SEu7tecdEeet0YmmfbMwkw,Availability Item Filter,8,HwRedeployComponent,8,35.4,20,12,CF1,_SEuUaOcdEeet0YmmfbMwkw,Buy Now Item Filter,8,RestartComponent,8,35.4,20,FALSE
+13,CF1,_SEz0cucdEeet0YmmfbMwkw,Availability Item Filter,8,RestartComponent,8,35.4,20,13,CF3,_SEu7tecdEeet0YmmfbMwkw,Availability Item Filter,8,HwRedeployComponent,8,35.4,20,FALSE
+14,CF1,_SEuUaOcdEeet0YmmfbMwkw,Buy Now Item Filter,8,RestartComponent,8,35.4,20,14,CF1,_SEz0cucdEeet0YmmfbMwkw,Availability Item Filter,8,RestartComponent,8,35.4,20,FALSE
+15,CF2,_SEu7v-cdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,35.4,20,15,CF2,_SEu7v-cdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,35.4,20,TRUE
+16,CF1,_SE0bW-cdEeet0YmmfbMwkw,Buy Now Item Filter,8,RestartComponent,8,35.4,20,16,CF1,_SE0bW-cdEeet0YmmfbMwkw,Buy Now Item Filter,8,RestartComponent,8,35.4,20,TRUE
+17,CF2,_SEx-s-cdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,35.4,20,17,CF2,_SEx-s-cdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,35.4,20,TRUE
+18,CF2,_SEuUcucdEeet0YmmfbMwkw,Region Item Filter,6,RestartComponent,6,35.4,20,18,CF2,_SEuUcucdEeet0YmmfbMwkw,Region Item Filter,6,RestartComponent,6,35.4,20,TRUE
+19,CF3,_SEvi5OcdEeet0YmmfbMwkw,Category Item Filter,5,HwRedeployComponent,5,35.4,20,19,CF3,_SE5TwucdEeet0YmmfbMwkw,Past Sales Item Filter,5,HwRedeployComponent,5,35.4,20,FALSE
+20,CF3,_SE5TwucdEeet0YmmfbMwkw,Past Sales Item Filter,5,HwRedeployComponent,5,35.4,20,20,CF3,_SEvi5OcdEeet0YmmfbMwkw,Category Item Filter,5,HwRedeployComponent,5,35.4,20,FALSE
+1,CF1,_SEx-lecdEeet0YmmfbMwkw,Query Service,63,RestartComponent,63,36.4,17,1,CF1,_SEx-lecdEeet0YmmfbMwkw,Query Service,63,RestartComponent,63,36.4,17,TRUE
+2,CF1,_SE23oOcdEeet0YmmfbMwkw,Query Service,63,RestartComponent,63,36.4,17,2,CF1,_SE23oOcdEeet0YmmfbMwkw,Query Service,63,RestartComponent,63,36.4,17,TRUE
+3,CF1,_SEwwu-cdEeet0YmmfbMwkw,Query Service,58.5,RestartComponent,58.5,36.4,17,3,CF1,_SEwwu-cdEeet0YmmfbMwkw,Query Service,58.5,RestartComponent,58.5,36.4,17,TRUE
+4,CF1,_SE2QdecdEeet0YmmfbMwkw,Persistence Service,21,RestartComponent,21,36.4,17,4,CF1,_SE2QdecdEeet0YmmfbMwkw,Persistence Service,21,RestartComponent,21,36.4,17,TRUE
+5,CF1,_SE3ehOcdEeet0YmmfbMwkw,Persistence Service,21,RestartComponent,21,36.4,17,5,CF1,_SE3ehOcdEeet0YmmfbMwkw,Persistence Service,21,RestartComponent,21,36.4,17,TRUE
+6,CF1,_SEuUV-cdEeet0YmmfbMwkw,Persistence Service,17.5,RestartComponent,17.5,36.4,17,6,CF1,_SEuUV-cdEeet0YmmfbMwkw,Persistence Service,17.5,RestartComponent,17.5,36.4,17,TRUE
+7,CF1,_SEwJwecdEeet0YmmfbMwkw,Persistence Service,17.5,RestartComponent,17.5,36.4,17,7,CF1,_SEwJwecdEeet0YmmfbMwkw,Persistence Service,17.5,RestartComponent,17.5,36.4,17,TRUE
+8,CF1,_SExXpucdEeet0YmmfbMwkw,Persistence Service,17.5,RestartComponent,17.5,36.4,17,8,CF1,_SExXpucdEeet0YmmfbMwkw,Persistence Service,17.5,RestartComponent,17.5,36.4,17,TRUE
+9,CF1,_SEx_M-cdEeet0YmmfbMwkw,Persistence Service,17.5,RestartComponent,17.5,36.4,17,9,CF1,_SEx_M-cdEeet0YmmfbMwkw,Persistence Service,17.5,RestartComponent,17.5,36.4,17,TRUE
+10,CF1,_SEymIOcdEeet0YmmfbMwkw,Persistence Service,17.5,RestartComponent,17.5,36.4,17,10,CF1,_SEymIOcdEeet0YmmfbMwkw,Persistence Service,17.5,RestartComponent,17.5,36.4,17,TRUE
+11,CF1,_SEzNE-cdEeet0YmmfbMwkw,Persistence Service,17.5,RestartComponent,17.5,36.4,17,11,CF1,_SEzNE-cdEeet0YmmfbMwkw,Persistence Service,17.5,RestartComponent,17.5,36.4,17,TRUE
+12,CF1,_SEz0XOcdEeet0YmmfbMwkw,Persistence Service,17.5,RestartComponent,17.5,36.4,17,12,CF1,_SEz0XOcdEeet0YmmfbMwkw,Persistence Service,17.5,RestartComponent,17.5,36.4,17,TRUE
+13,CF1,_SE0bSucdEeet0YmmfbMwkw,Persistence Service,17.5,RestartComponent,17.5,36.4,17,13,CF1,_SE0bSucdEeet0YmmfbMwkw,Persistence Service,17.5,RestartComponent,17.5,36.4,17,TRUE
+14,CF1,_SE1CB-cdEeet0YmmfbMwkw,Persistence Service,17.5,RestartComponent,17.5,36.4,17,14,CF1,_SE1CB-cdEeet0YmmfbMwkw,Persistence Service,17.5,RestartComponent,17.5,36.4,17,TRUE
+15,CF1,_SE1Cp-cdEeet0YmmfbMwkw,Persistence Service,17.5,RestartComponent,17.5,36.4,17,15,CF1,_SE1Cp-cdEeet0YmmfbMwkw,Persistence Service,17.5,RestartComponent,17.5,36.4,17,TRUE
+16,CF1,_SEu7pecdEeet0YmmfbMwkw,Last Second Sales Item Filter,10,RestartComponent,10,36.4,17,16,CF1,_SEu7pecdEeet0YmmfbMwkw,Last Second Sales Item Filter,10,RestartComponent,10,36.4,17,TRUE
+17,CF1,_SEvixOcdEeet0YmmfbMwkw,Past Sales Item Filter,5,RestartComponent,5,36.4,17,17,CF1,_SEvixOcdEeet0YmmfbMwkw,Past Sales Item Filter,5,RestartComponent,5,36.4,17,TRUE
+1,CF3,_SFOFO-cdEeet0YmmfbMwkw,Authentication Service,29.75,ReplaceComponent,31.5,37.4,10,1,CF3,_SFOFO-cdEeet0YmmfbMwkw,Authentication Service,29.75,ReplaceComponent,31.5,37.4,10,TRUE
+2,CF3,_SFOEm-cdEeet0YmmfbMwkw,Authentication Service,29.75,ReplaceComponent,31.5,37.4,10,2,CF3,_SFOEm-cdEeet0YmmfbMwkw,Authentication Service,29.75,ReplaceComponent,31.5,37.4,10,TRUE
+3,CF1,_SFOD--cdEeet0YmmfbMwkw,Authentication Service,29.75,ReplaceComponent,31.5,37.4,10,3,CF1,_SFOD--cdEeet0YmmfbMwkw,Authentication Service,29.75,ReplaceComponent,31.5,37.4,10,TRUE
+4,CF1,_SFNeLecdEeet0YmmfbMwkw,Authentication Service,29.75,ReplaceComponent,31.5,37.4,10,4,CF1,_SFNeLecdEeet0YmmfbMwkw,Authentication Service,29.75,ReplaceComponent,31.5,37.4,10,TRUE
+5,CF1,_SFNdjecdEeet0YmmfbMwkw,Authentication Service,29.75,ReplaceComponent,31.5,37.4,10,5,CF1,_SFNdjecdEeet0YmmfbMwkw,Authentication Service,29.75,ReplaceComponent,31.5,37.4,10,TRUE
+6,CF3,_SFNc7ecdEeet0YmmfbMwkw,Authentication Service,29.75,ReplaceComponent,31.5,37.4,10,6,CF3,_SFNc7ecdEeet0YmmfbMwkw,Authentication Service,29.75,ReplaceComponent,31.5,37.4,10,TRUE
+7,CF1,_SFM2TOcdEeet0YmmfbMwkw,Authentication Service,29.75,ReplaceComponent,31.5,37.4,10,7,CF1,_SFM2TOcdEeet0YmmfbMwkw,Authentication Service,29.75,ReplaceComponent,31.5,37.4,10,TRUE
+8,CF3,_SFM27OcdEeet0YmmfbMwkw,Authentication Service,29.75,ReplaceComponent,31.5,37.4,10,8,CF3,_SFM27OcdEeet0YmmfbMwkw,Authentication Service,29.75,ReplaceComponent,31.5,37.4,10,TRUE
+9,CF1,_SFLBp-cdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,37.4,10,9,CF1,_SFLBp-cdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,37.4,10,TRUE
+10,CF1,_SFLB6ecdEeet0YmmfbMwkw,Comment Item Filter,7,RestartComponent,7,37.4,10,10,CF1,_SFLB6ecdEeet0YmmfbMwkw,Comment Item Filter,7,RestartComponent,7,37.4,10,TRUE
+1,CF1,_SFLohecdEeet0YmmfbMwkw,Bid and Buy Service,25,RestartComponent,25,38.4,10,1,CF1,_SFLohecdEeet0YmmfbMwkw,Bid and Buy Service,25,RestartComponent,25,38.4,10,TRUE
+2,CF3,_SFLn5ecdEeet0YmmfbMwkw,Bid and Buy Service,25,HwRedeployComponent,25,38.4,10,2,CF3,_SFLn5ecdEeet0YmmfbMwkw,Bid and Buy Service,25,HwRedeployComponent,25,38.4,10,TRUE
+3,CF1,_SFLnO-cdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,38.4,10,3,CF1,_SFLnO-cdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,38.4,10,TRUE
+4,CF1,_SFLn2-cdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,38.4,10,4,CF1,_SFLnUecdEeet0YmmfbMwkw,Reputation Service,16,RestartComponent,16,38.4,10,FALSE
+5,CF1,_SFLnUecdEeet0YmmfbMwkw,Reputation Service,16,RestartComponent,16,38.4,10,5,CF1,_SFLn2-cdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,38.4,10,FALSE
+6,CF1,_SFLn8ecdEeet0YmmfbMwkw,Reputation Service,16,RestartComponent,16,38.4,10,6,CF1,_SFLn8ecdEeet0YmmfbMwkw,Reputation Service,16,RestartComponent,16,38.4,10,TRUE
+7,CF3,_SFLBuecdEeet0YmmfbMwkw,Inventory Service,13.5,HwRedeployComponent,13.5,38.4,10,7,CF3,_SFLBuecdEeet0YmmfbMwkw,Inventory Service,13.5,HwRedeployComponent,13.5,38.4,10,TRUE
+8,CF1,_SFLoF-cdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,38.4,10,8,CF1,_SFLoF-cdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,38.4,10,TRUE
+9,CF2,_SFLnY-cdEeet0YmmfbMwkw,Past Sales Item Filter,5,RestartComponent,5,38.4,10,9,CF2,_SFLnY-cdEeet0YmmfbMwkw,Past Sales Item Filter,5,RestartComponent,5,38.4,10,TRUE
+10,CF2,_SFLoA-cdEeet0YmmfbMwkw,Past Sales Item Filter,5,RestartComponent,5,38.4,10,10,CF2,_SFLoA-cdEeet0YmmfbMwkw,Past Sales Item Filter,5,RestartComponent,5,38.4,10,TRUE
+1,CF3,_SFLn7ecdEeet0YmmfbMwkw,Inventory Service,18,HwRedeployComponent,18,39.4,3,1,CF3,_SFLn7ecdEeet0YmmfbMwkw,Inventory Service,18,HwRedeployComponent,18,39.4,3,TRUE
+2,CF1,_SFLnO-cdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,39.4,3,2,CF1,_SFLnO-cdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,39.4,3,TRUE
+3,CF3,_SFLnfecdEeet0YmmfbMwkw,Comment Item Filter,7,HwRedeployComponent,7,39.4,3,3,CF3,_SFLnfecdEeet0YmmfbMwkw,Comment Item Filter,7,HwRedeployComponent,7,39.4,3,TRUE
+1,CF2,_SFLomecdEeet0YmmfbMwkw,Query Service,49.5,RestartComponent,49.5,40.4,9,1,CF2,_SFLomecdEeet0YmmfbMwkw,Query Service,49.5,RestartComponent,49.5,40.4,9,TRUE
+2,CF3,_SFLpJecdEeet0YmmfbMwkw,Bid and Buy Service,25,HwRedeployComponent,25,40.4,9,2,CF3,_SFLpJecdEeet0YmmfbMwkw,Bid and Buy Service,25,HwRedeployComponent,25,40.4,9,TRUE
+3,CF1,_SFLpG-cdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,40.4,9,3,CF1,_SFLpG-cdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,40.4,9,TRUE
+4,CF1,_SFLoe-cdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,40.4,9,4,CF1,_SFLoe-cdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,40.4,9,TRUE
+5,CF1,_SFMOXOcdEeet0YmmfbMwkw,Buy Now Item Filter,8,RestartComponent,8,40.4,9,5,CF1,_SFMOXOcdEeet0YmmfbMwkw,Buy Now Item Filter,8,RestartComponent,8,40.4,9,TRUE
+6,CF3,_SFLoqOcdEeet0YmmfbMwkw,Buy Now Item Filter,8,HwRedeployComponent,8,40.4,9,6,CF3,_SFLoqOcdEeet0YmmfbMwkw,Buy Now Item Filter,8,HwRedeployComponent,8,40.4,9,TRUE
+7,CF3,_SFMOcecdEeet0YmmfbMwkw,Comment Item Filter,7,HwRedeployComponent,7,40.4,9,7,CF3,_SFMOcecdEeet0YmmfbMwkw,Comment Item Filter,7,HwRedeployComponent,7,40.4,9,TRUE
+8,CF2,_SFLozucdEeet0YmmfbMwkw,Future Sales Item Filter,7,RestartComponent,7,40.4,9,8,CF2,_SFLozucdEeet0YmmfbMwkw,Future Sales Item Filter,7,RestartComponent,7,40.4,9,TRUE
+9,CF2,_SFLosucdEeet0YmmfbMwkw,Region Item Filter,6,RestartComponent,6,40.4,9,9,CF2,_SFLosucdEeet0YmmfbMwkw,Region Item Filter,6,RestartComponent,6,40.4,9,TRUE
+1,CF2,_SFMO7ecdEeet0YmmfbMwkw,Query Service,49.5,RestartComponent,49.5,41.4,12,1,CF2,_SFMO7ecdEeet0YmmfbMwkw,Query Service,49.5,RestartComponent,49.5,41.4,12,TRUE
+2,CF2,_SFMPjecdEeet0YmmfbMwkw,Query Service,49.5,RestartComponent,49.5,41.4,12,2,CF2,_SFMPjecdEeet0YmmfbMwkw,Query Service,49.5,RestartComponent,49.5,41.4,12,TRUE
+3,CF2,_SFMQLecdEeet0YmmfbMwkw,Query Service,49.5,RestartComponent,49.5,41.4,12,3,CF2,_SFMQLecdEeet0YmmfbMwkw,Query Service,49.5,RestartComponent,49.5,41.4,12,TRUE
+4,CF3,_SFMPeecdEeet0YmmfbMwkw,Bid and Buy Service,25,HwRedeployComponent,25,41.4,12,4,CF3,_SFMPeecdEeet0YmmfbMwkw,Bid and Buy Service,25,HwRedeployComponent,25,41.4,12,TRUE
+5,CF3,_SFMQGecdEeet0YmmfbMwkw,Bid and Buy Service,25,HwRedeployComponent,25,41.4,12,5,CF3,_SFMQGecdEeet0YmmfbMwkw,Bid and Buy Service,25,HwRedeployComponent,25,41.4,12,TRUE
+6,CF1,_SFMPb-cdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,41.4,12,6,CF1,_SFMPb-cdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,41.4,12,TRUE
+7,CF1,_SFMQD-cdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,41.4,12,7,CF1,_SFMQD-cdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,41.4,12,TRUE
+8,CF1,_SFMOz-cdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,41.4,12,8,CF1,_SFMOz-cdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,41.4,12,TRUE
+9,CF1,_SFMPnOcdEeet0YmmfbMwkw,Buy Now Item Filter,8,RestartComponent,8,41.4,12,9,CF1,_SFMPnOcdEeet0YmmfbMwkw,Buy Now Item Filter,8,RestartComponent,8,41.4,12,TRUE
+10,CF1,_SFMQS-cdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,41.4,12,10,CF1,_SFMQS-cdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,41.4,12,TRUE
+11,CF3,_SFMPsecdEeet0YmmfbMwkw,Comment Item Filter,7,HwRedeployComponent,7,41.4,12,11,CF3,_SFMPsecdEeet0YmmfbMwkw,Comment Item Filter,7,HwRedeployComponent,7,41.4,12,TRUE
+12,CF2,_SFMPBucdEeet0YmmfbMwkw,Region Item Filter,6,RestartComponent,6,41.4,12,12,CF2,_SFMPBucdEeet0YmmfbMwkw,Region Item Filter,6,RestartComponent,6,41.4,12,TRUE
+1,CF1,_SE9lfucdEeet0YmmfbMwkw,Query Service,67.5,RestartComponent,67.5,42.4,10,1,CF1,_SE9lfucdEeet0YmmfbMwkw,Query Service,67.5,RestartComponent,67.5,42.4,10,TRUE
+2,CF1,_SEwwu-cdEeet0YmmfbMwkw,Query Service,58.5,RestartComponent,58.5,42.4,10,2,CF1,_SEwwu-cdEeet0YmmfbMwkw,Query Service,58.5,RestartComponent,58.5,42.4,10,TRUE
+3,CF2,_SFM1w-cdEeet0YmmfbMwkw,Query Service,49.5,RestartComponent,49.5,42.4,10,3,CF2,_SFM1w-cdEeet0YmmfbMwkw,Query Service,49.5,RestartComponent,49.5,42.4,10,TRUE
+4,CF3,_SFMQK-cdEeet0YmmfbMwkw,Persistence Service,21,HwRedeployComponent,21,42.4,10,4,CF3,_SFMQK-cdEeet0YmmfbMwkw,Persistence Service,21,HwRedeployComponent,21,42.4,10,TRUE
+5,CF2,_SFM2YecdEeet0YmmfbMwkw,Persistence Service,17.5,RestartComponent,17.5,42.4,10,5,CF2,_SFM2YecdEeet0YmmfbMwkw,Persistence Service,17.5,RestartComponent,17.5,42.4,10,TRUE
+6,CF1,_SFOrf-cdEeet0YmmfbMwkw,Reputation Service,16,RestartComponent,16,42.4,10,6,CF1,_SFOrf-cdEeet0YmmfbMwkw,Reputation Service,16,RestartComponent,16,42.4,10,TRUE
+7,CF3,_SEu7uucdEeet0YmmfbMwkw,Region Item Filter,9,HwRedeployComponent,9,42.4,10,7,CF3,_SEu7uucdEeet0YmmfbMwkw,Region Item Filter,9,HwRedeployComponent,9,42.4,10,TRUE
+8,CF1,_SEx_TucdEeet0YmmfbMwkw,Region Item Filter,6,RestartComponent,6,42.4,10,8,CF1,_SEx_TucdEeet0YmmfbMwkw,Region Item Filter,6,RestartComponent,6,42.4,10,TRUE
+9,CF1,_SEuUcucdEeet0YmmfbMwkw,Region Item Filter,6,RestartComponent,6,42.4,10,9,CF1,_SEuUcucdEeet0YmmfbMwkw,Region Item Filter,6,RestartComponent,6,42.4,10,TRUE
+10,CF3,_SFMQV-cdEeet0YmmfbMwkw,Category Item Filter,5,HwRedeployComponent,5,42.4,10,10,CF3,_SFMQV-cdEeet0YmmfbMwkw,Category Item Filter,5,HwRedeployComponent,5,42.4,10,TRUE
+1,CF3,_SE57RecdEeet0YmmfbMwkw,Query Service,58.5,HwRedeployComponent,58.5,43.4,7,1,CF3,_SE57RecdEeet0YmmfbMwkw,Query Service,58.5,HwRedeployComponent,58.5,43.4,7,TRUE
+2,CF3,_SE6h9-cdEeet0YmmfbMwkw,Persistence Service,21,HwRedeployComponent,21,43.4,7,2,CF3,_SE6h9-cdEeet0YmmfbMwkw,Persistence Service,21,HwRedeployComponent,21,43.4,7,TRUE
+3,CF2,_SFM2YecdEeet0YmmfbMwkw,Persistence Service,17.5,RestartComponent,17.5,43.4,7,3,CF2,_SFM2YecdEeet0YmmfbMwkw,Persistence Service,17.5,RestartComponent,17.5,43.4,7,TRUE
+4,CF3,_SFNcYucdEeet0YmmfbMwkw,Persistence Service,17.5,HwRedeployComponent,17.5,43.4,7,4,CF3,_SFNcYucdEeet0YmmfbMwkw,Persistence Service,17.5,HwRedeployComponent,17.5,43.4,7,TRUE
+5,CF3,_SE56necdEeet0YmmfbMwkw,Reputation Service,16,HwRedeployComponent,16,43.4,7,5,CF3,_SE56necdEeet0YmmfbMwkw,Reputation Service,16,HwRedeployComponent,16,43.4,7,TRUE
+6,CF3,_SEu7v-cdEeet0YmmfbMwkw,Seller Reputation Item Filter,12,HwRedeployComponent,12,43.4,7,6,CF3,_SEu7v-cdEeet0YmmfbMwkw,Seller Reputation Item Filter,12,HwRedeployComponent,12,43.4,7,TRUE
+7,CF3,_SFM2h-cdEeet0YmmfbMwkw,Comment Item Filter,7,HwRedeployComponent,7,43.4,7,7,CF3,_SFM2h-cdEeet0YmmfbMwkw,Comment Item Filter,7,HwRedeployComponent,7,43.4,7,TRUE
+1,CF3,_SFLBxecdEeet0YmmfbMwkw,Query Service,58.5,HwRedeployComponent,58.5,44.4,25,1,CF3,_SFLBxecdEeet0YmmfbMwkw,Query Service,58.5,HwRedeployComponent,58.5,44.4,25,TRUE
+2,CF3,_SFLnWecdEeet0YmmfbMwkw,Query Service,49.5,HwRedeployComponent,49.5,44.4,25,2,CF3,_SFLnWecdEeet0YmmfbMwkw,Query Service,49.5,HwRedeployComponent,49.5,44.4,25,TRUE
+3,CF1,_SFLAcecdEeet0YmmfbMwkw,Bid and Buy Service,25,RestartComponent,25,44.4,25,3,CF1,_SFLAcecdEeet0YmmfbMwkw,Bid and Buy Service,25,RestartComponent,25,44.4,25,TRUE
+4,CF1,_SFLBEecdEeet0YmmfbMwkw,Bid and Buy Service,25,RestartComponent,25,44.4,25,4,CF1,_SFLBEecdEeet0YmmfbMwkw,Bid and Buy Service,25,RestartComponent,25,44.4,25,TRUE
+5,CF3,_SFLnRecdEeet0YmmfbMwkw,Bid and Buy Service,25,HwRedeployComponent,25,44.4,25,5,CF3,_SFLnRecdEeet0YmmfbMwkw,Bid and Buy Service,25,HwRedeployComponent,25,44.4,25,TRUE
+6,CF3,_SFLAg-cdEeet0YmmfbMwkw,Persistence Service,24.5,HwRedeployComponent,24.5,44.4,25,6,CF3,_SFLAg-cdEeet0YmmfbMwkw,Persistence Service,24.5,HwRedeployComponent,24.5,44.4,25,TRUE
+7,CF1,_SFLBp-cdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,44.4,25,7,CF1,_SFKacecdEeet0YmmfbMwkw,Reputation Service,16,RestartComponent,16,44.4,25,FALSE
+8,CF1,_SFLnO-cdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,44.4,25,8,CF3,_SFLBHecdEeet0YmmfbMwkw,Reputation Service,16,HwRedeployComponent,16,44.4,25,FALSE
+9,CF1,_SFKacecdEeet0YmmfbMwkw,Reputation Service,16,RestartComponent,16,44.4,25,9,CF1,_SFLBp-cdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,44.4,25,FALSE
+10,CF3,_SFLBHecdEeet0YmmfbMwkw,Reputation Service,16,HwRedeployComponent,16,44.4,25,10,CF3,_SFLBvecdEeet0YmmfbMwkw,Reputation Service,16,HwRedeployComponent,16,44.4,25,FALSE
+11,CF3,_SFLBvecdEeet0YmmfbMwkw,Reputation Service,16,HwRedeployComponent,16,44.4,25,11,CF1,_SFLnO-cdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,44.4,25,FALSE
+12,CF3,_SFLnUecdEeet0YmmfbMwkw,Reputation Service,16,HwRedeployComponent,16,44.4,25,12,CF3,_SFLnUecdEeet0YmmfbMwkw,Reputation Service,16,HwRedeployComponent,16,44.4,25,TRUE
+13,CF3,_SFKafecdEeet0YmmfbMwkw,Last Second Sales Item Filter,15,HwRedeployComponent,15,44.4,25,13,CF3,_SFKafecdEeet0YmmfbMwkw,Last Second Sales Item Filter,15,HwRedeployComponent,15,44.4,25,TRUE
+14,CF3,_SFLBKecdEeet0YmmfbMwkw,Last Second Sales Item Filter,15,HwRedeployComponent,15,44.4,25,14,CF3,_SFLBKecdEeet0YmmfbMwkw,Last Second Sales Item Filter,15,HwRedeployComponent,15,44.4,25,TRUE
+15,CF3,_SFLB1OcdEeet0YmmfbMwkw,Buy Now Item Filter,12,HwRedeployComponent,12,44.4,25,15,CF3,_SFLB1OcdEeet0YmmfbMwkw,Buy Now Item Filter,12,HwRedeployComponent,12,44.4,25,TRUE
+16,CF3,_SFKajecdEeet0YmmfbMwkw,Availability Item Filter,8,HwRedeployComponent,8,44.4,25,16,CF3,_SFKajecdEeet0YmmfbMwkw,Availability Item Filter,8,HwRedeployComponent,8,44.4,25,TRUE
+17,CF3,_SFLAmecdEeet0YmmfbMwkw,Availability Item Filter,8,HwRedeployComponent,8,44.4,25,17,CF3,_SFKal-cdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,HwRedeployComponent,8,44.4,25,FALSE
+18,CF3,_SFKal-cdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,HwRedeployComponent,8,44.4,25,18,CF2,_SFLAo-cdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,44.4,25,FALSE
+19,CF2,_SFLAo-cdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,44.4,25,19,CF3,_SFLAmecdEeet0YmmfbMwkw,Availability Item Filter,8,HwRedeployComponent,8,44.4,25,FALSE
+20,CF3,_SFLBNOcdEeet0YmmfbMwkw,Buy Now Item Filter,8,HwRedeployComponent,8,44.4,25,20,CF3,_SFLBNOcdEeet0YmmfbMwkw,Buy Now Item Filter,8,HwRedeployComponent,8,44.4,25,TRUE
+21,CF2,_SFLBPucdEeet0YmmfbMwkw,Region Item Filter,6,RestartComponent,6,44.4,25,21,CF2,_SFLBPucdEeet0YmmfbMwkw,Region Item Filter,6,RestartComponent,6,44.4,25,TRUE
+22,CF2,_SFLB3ucdEeet0YmmfbMwkw,Region Item Filter,6,RestartComponent,6,44.4,25,22,CF2,_SFLB3ucdEeet0YmmfbMwkw,Region Item Filter,6,RestartComponent,6,44.4,25,TRUE
+23,CF2,_SFKao-cdEeet0YmmfbMwkw,Category Item Filter,5,RestartComponent,5,44.4,25,23,CF2,_SFKao-cdEeet0YmmfbMwkw,Category Item Filter,5,RestartComponent,5,44.4,25,TRUE
+24,CF3,_SFLAj-cdEeet0YmmfbMwkw,Past Sales Item Filter,5,HwRedeployComponent,5,44.4,25,24,CF3,_SFLAj-cdEeet0YmmfbMwkw,Past Sales Item Filter,5,HwRedeployComponent,5,44.4,25,TRUE
+25,CF2,_SFLnY-cdEeet0YmmfbMwkw,Past Sales Item Filter,5,RestartComponent,5,44.4,25,25,CF2,_SFLnY-cdEeet0YmmfbMwkw,Past Sales Item Filter,5,RestartComponent,5,44.4,25,TRUE
+1,CF1,_SE2QYOcdEeet0YmmfbMwkw,Authentication Service,35.7,ReplaceComponent,37.8,45.4,18,1,CF1,_SE2QYOcdEeet0YmmfbMwkw,Authentication Service,35.7,ReplaceComponent,37.8,45.4,18,TRUE
+2,CF1,_SFE6jOcdEeet0YmmfbMwkw,Persistence Service,28,RestartComponent,28,45.4,18,2,CF1,_SFE6jOcdEeet0YmmfbMwkw,Persistence Service,28,RestartComponent,28,45.4,18,TRUE
+3,CF3,_SExYNOcdEeet0YmmfbMwkw,Bid and Buy Service,25,HwRedeployComponent,25,45.4,18,3,CF3,_SExYNOcdEeet0YmmfbMwkw,Bid and Buy Service,25,HwRedeployComponent,25,45.4,18,TRUE
+4,CF1,_SEz0SucdEeet0YmmfbMwkw,Bid and Buy Service,25,RestartComponent,25,45.4,18,4,CF1,_SEz0SucdEeet0YmmfbMwkw,Bid and Buy Service,25,RestartComponent,25,45.4,18,TRUE
+5,CF1,_SE23jOcdEeet0YmmfbMwkw,Bid and Buy Service,25,RestartComponent,25,45.4,18,5,CF1,_SE23jOcdEeet0YmmfbMwkw,Bid and Buy Service,25,RestartComponent,25,45.4,18,TRUE
+6,CF1,_SE57Q-cdEeet0YmmfbMwkw,Persistence Service,21,RestartComponent,21,45.4,18,6,CF1,_SE57Q-cdEeet0YmmfbMwkw,Persistence Service,21,RestartComponent,21,45.4,18,TRUE
+7,CF2,_SE3ehOcdEeet0YmmfbMwkw,Persistence Service,21,RestartComponent,21,45.4,18,7,CF2,_SE3ehOcdEeet0YmmfbMwkw,Persistence Service,21,RestartComponent,21,45.4,18,TRUE
+8,CF3,_SEu7lecdEeet0YmmfbMwkw,Inventory Service,18,HwRedeployComponent,18,45.4,18,8,CF3,_SEu7lecdEeet0YmmfbMwkw,Inventory Service,18,HwRedeployComponent,18,45.4,18,TRUE
+9,CF3,_SE7Iq-cdEeet0YmmfbMwkw,Inventory Service,18,HwRedeployComponent,18,45.4,18,9,CF3,_SE7Iq-cdEeet0YmmfbMwkw,Inventory Service,18,HwRedeployComponent,18,45.4,18,TRUE
+10,CF3,_SE-MjecdEeet0YmmfbMwkw,Inventory Service,18,HwRedeployComponent,18,45.4,18,10,CF3,_SE-MjecdEeet0YmmfbMwkw,Inventory Service,18,HwRedeployComponent,18,45.4,18,TRUE
+11,CF1,_SE1B6-cdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,45.4,18,11,CF1,_SE1B6-cdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,45.4,18,TRUE
+12,CF1,_SE5TmucdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,45.4,18,12,CF1,_SE5TmucdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,45.4,18,TRUE
+13,CF2,_SFGvbecdEeet0YmmfbMwkw,Inventory Service,13.5,RestartComponent,13.5,45.4,18,13,CF2,_SFGvbecdEeet0YmmfbMwkw,Inventory Service,13.5,RestartComponent,13.5,45.4,18,TRUE
+14,CF3,_SFACROcdEeet0YmmfbMwkw,Comment Item Filter,7,HwRedeployComponent,7,45.4,18,14,CF3,_SFACROcdEeet0YmmfbMwkw,Comment Item Filter,7,HwRedeployComponent,7,45.4,18,TRUE
+15,CF2,_SE56vucdEeet0YmmfbMwkw,Region Item Filter,6,RestartComponent,6,45.4,18,15,CF2,_SE56vucdEeet0YmmfbMwkw,Region Item Filter,6,RestartComponent,6,45.4,18,TRUE
+16,CF2,_SE-zUecdEeet0YmmfbMwkw,Region Item Filter,6,RestartComponent,6,45.4,18,16,CF2,_SE-zUecdEeet0YmmfbMwkw,Region Item Filter,6,RestartComponent,6,45.4,18,TRUE
+17,CF1,_SFETNucdEeet0YmmfbMwkw,Region Item Filter,6,RestartComponent,6,45.4,18,17,CF1,_SFETNucdEeet0YmmfbMwkw,Region Item Filter,6,RestartComponent,6,45.4,18,TRUE
+18,CF3,_SFLB7-cdEeet0YmmfbMwkw,Category Item Filter,5,HwRedeployComponent,5,45.4,18,18,CF3,_SFLB7-cdEeet0YmmfbMwkw,Category Item Filter,5,HwRedeployComponent,5,45.4,18,TRUE
+1,CF3,_SFS8aOcdEeet0YmmfbMwkw,Bid and Buy Service,25,HwRedeployComponent,25,46.4,15,1,CF3,_SFS8aOcdEeet0YmmfbMwkw,Bid and Buy Service,25,HwRedeployComponent,25,46.4,15,TRUE
+2,CF3,_SFS9COcdEeet0YmmfbMwkw,Bid and Buy Service,25,HwRedeployComponent,25,46.4,15,2,CF3,_SFS9COcdEeet0YmmfbMwkw,Bid and Buy Service,25,HwRedeployComponent,25,46.4,15,TRUE
+3,CF3,_SFS9qOcdEeet0YmmfbMwkw,Bid and Buy Service,25,HwRedeployComponent,25,46.4,15,3,CF3,_SFS9qOcdEeet0YmmfbMwkw,Bid and Buy Service,25,HwRedeployComponent,25,46.4,15,TRUE
+4,CF1,_SFS8XucdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,46.4,15,4,CF1,_SFS8XucdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,46.4,15,TRUE
+5,CF1,_SFS8_ucdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,46.4,15,5,CF1,_SFS8_ucdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,46.4,15,TRUE
+6,CF1,_SFS9nucdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,46.4,15,6,CF1,_SFS9nucdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,46.4,15,TRUE
+7,CF2,_SFS8rOcdEeet0YmmfbMwkw,Recommendation Item Filter,9,RestartComponent,9,46.4,15,7,CF2,_SFS8rOcdEeet0YmmfbMwkw,Recommendation Item Filter,9,RestartComponent,9,46.4,15,TRUE
+8,CF2,_SFS9TOcdEeet0YmmfbMwkw,Recommendation Item Filter,9,RestartComponent,9,46.4,15,8,CF2,_SFS9TOcdEeet0YmmfbMwkw,Recommendation Item Filter,9,RestartComponent,9,46.4,15,TRUE
+9,CF2,_SFS97OcdEeet0YmmfbMwkw,Recommendation Item Filter,9,RestartComponent,9,46.4,15,9,CF2,_SFS97OcdEeet0YmmfbMwkw,Recommendation Item Filter,9,RestartComponent,9,46.4,15,TRUE
+10,CF2,_SFS8lecdEeet0YmmfbMwkw,Region Item Filter,6,RestartComponent,6,46.4,15,10,CF2,_SFS8lecdEeet0YmmfbMwkw,Region Item Filter,6,RestartComponent,6,46.4,15,TRUE
+11,CF2,_SFS9NecdEeet0YmmfbMwkw,Region Item Filter,6,RestartComponent,6,46.4,15,11,CF2,_SFS9NecdEeet0YmmfbMwkw,Region Item Filter,6,RestartComponent,6,46.4,15,TRUE
+12,CF2,_SFS91ecdEeet0YmmfbMwkw,Region Item Filter,6,RestartComponent,6,46.4,15,12,CF2,_SFS91ecdEeet0YmmfbMwkw,Region Item Filter,6,RestartComponent,6,46.4,15,TRUE
+13,CF1,_SFS8hucdEeet0YmmfbMwkw,Past Sales Item Filter,5,RestartComponent,5,46.4,15,13,CF1,_SFS8hucdEeet0YmmfbMwkw,Past Sales Item Filter,5,RestartComponent,5,46.4,15,TRUE
+14,CF1,_SFS9JucdEeet0YmmfbMwkw,Past Sales Item Filter,5,RestartComponent,5,46.4,15,14,CF1,_SFS9JucdEeet0YmmfbMwkw,Past Sales Item Filter,5,RestartComponent,5,46.4,15,TRUE
+15,CF1,_SFS9xucdEeet0YmmfbMwkw,Past Sales Item Filter,5,RestartComponent,5,46.4,15,15,CF1,_SFS9xucdEeet0YmmfbMwkw,Past Sales Item Filter,5,RestartComponent,5,46.4,15,TRUE
+1,CF1,_SFNdhucdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,47.4,12,1,CF1,_SFNdhucdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,47.4,12,TRUE
+2,CF1,_SFNeJucdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,47.4,12,2,CF1,_SFNeJucdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,47.4,12,TRUE
+3,CF3,_SFNdmOcdEeet0YmmfbMwkw,Inventory Service,13.5,HwRedeployComponent,13.5,47.4,12,3,CF3,_SFNdmOcdEeet0YmmfbMwkw,Inventory Service,13.5,HwRedeployComponent,13.5,47.4,12,TRUE
+4,CF3,_SFNeOOcdEeet0YmmfbMwkw,Inventory Service,13.5,HwRedeployComponent,13.5,47.4,12,4,CF3,_SFNeOOcdEeet0YmmfbMwkw,Inventory Service,13.5,HwRedeployComponent,13.5,47.4,12,TRUE
+5,CF1,_SFNdqOcdEeet0YmmfbMwkw,Last Second Sales Item Filter,10,RestartComponent,10,47.4,12,5,CF1,_SFNdqOcdEeet0YmmfbMwkw,Last Second Sales Item Filter,10,RestartComponent,10,47.4,12,TRUE
+6,CF1,_SFODducdEeet0YmmfbMwkw,Last Second Sales Item Filter,10,RestartComponent,10,47.4,12,6,CF1,_SFODducdEeet0YmmfbMwkw,Last Second Sales Item Filter,10,RestartComponent,10,47.4,12,TRUE
+7,CF1,_SFNds-cdEeet0YmmfbMwkw,Buy Now Item Filter,8,RestartComponent,8,47.4,12,7,CF1,_SFNds-cdEeet0YmmfbMwkw,Buy Now Item Filter,8,RestartComponent,8,47.4,12,TRUE
+8,CF2,_SFNdwucdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,47.4,12,8,CF2,_SFNdwucdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,47.4,12,TRUE
+9,CF1,_SFODgecdEeet0YmmfbMwkw,Buy Now Item Filter,8,RestartComponent,8,47.4,12,9,CF1,_SFODgecdEeet0YmmfbMwkw,Buy Now Item Filter,8,RestartComponent,8,47.4,12,TRUE
+10,CF2,_SFODkOcdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,47.4,12,10,CF2,_SFODkOcdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,47.4,12,TRUE
+11,CF2,_SFNd2ecdEeet0YmmfbMwkw,Future Sales Item Filter,7,RestartComponent,7,47.4,12,11,CF2,_SFNd2ecdEeet0YmmfbMwkw,Future Sales Item Filter,7,RestartComponent,7,47.4,12,TRUE
+12,CF2,_SFODp-cdEeet0YmmfbMwkw,Future Sales Item Filter,7,RestartComponent,7,47.4,12,12,CF2,_SFODp-cdEeet0YmmfbMwkw,Future Sales Item Filter,7,RestartComponent,7,47.4,12,TRUE
+1,CF1,_SFOD9OcdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,48.4,18,1,CF1,_SFOD9OcdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,48.4,18,TRUE
+2,CF1,_SFOElOcdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,48.4,18,2,CF1,_SFOElOcdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,48.4,18,TRUE
+3,CF1,_SFOFNOcdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,48.4,18,3,CF1,_SFOFNOcdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,48.4,18,TRUE
+4,CF1,_SFOEBucdEeet0YmmfbMwkw,Inventory Service,13.5,RestartComponent,13.5,48.4,18,4,CF1,_SFOEBucdEeet0YmmfbMwkw,Inventory Service,13.5,RestartComponent,13.5,48.4,18,TRUE
+5,CF1,_SFOEpucdEeet0YmmfbMwkw,Inventory Service,13.5,RestartComponent,13.5,48.4,18,5,CF1,_SFOEpucdEeet0YmmfbMwkw,Inventory Service,13.5,RestartComponent,13.5,48.4,18,TRUE
+6,CF1,_SFOFRucdEeet0YmmfbMwkw,Inventory Service,13.5,RestartComponent,13.5,48.4,18,6,CF1,_SFOFRucdEeet0YmmfbMwkw,Inventory Service,13.5,RestartComponent,13.5,48.4,18,TRUE
+7,CF1,_SFOEFucdEeet0YmmfbMwkw,Last Second Sales Item Filter,10,RestartComponent,10,48.4,18,7,CF1,_SFOEFucdEeet0YmmfbMwkw,Last Second Sales Item Filter,10,RestartComponent,10,48.4,18,TRUE
+8,CF1,_SFOEtucdEeet0YmmfbMwkw,Last Second Sales Item Filter,10,RestartComponent,10,48.4,18,8,CF1,_SFOEtucdEeet0YmmfbMwkw,Last Second Sales Item Filter,10,RestartComponent,10,48.4,18,TRUE
+9,CF1,_SFOFVucdEeet0YmmfbMwkw,Last Second Sales Item Filter,10,RestartComponent,10,48.4,18,9,CF1,_SFOFVucdEeet0YmmfbMwkw,Last Second Sales Item Filter,10,RestartComponent,10,48.4,18,TRUE
+10,CF1,_SFOEIecdEeet0YmmfbMwkw,Buy Now Item Filter,8,RestartComponent,8,48.4,18,10,CF1,_SFOEIecdEeet0YmmfbMwkw,Buy Now Item Filter,8,RestartComponent,8,48.4,18,TRUE
+11,CF2,_SFOEMOcdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,48.4,18,11,CF2,_SFOEMOcdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,48.4,18,TRUE
+12,CF1,_SFOEwecdEeet0YmmfbMwkw,Buy Now Item Filter,8,RestartComponent,8,48.4,18,12,CF1,_SFOEwecdEeet0YmmfbMwkw,Buy Now Item Filter,8,RestartComponent,8,48.4,18,TRUE
+13,CF2,_SFOE0OcdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,48.4,18,13,CF2,_SFOE0OcdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,48.4,18,TRUE
+14,CF1,_SFOFYecdEeet0YmmfbMwkw,Buy Now Item Filter,8,RestartComponent,8,48.4,18,14,CF1,_SFOFYecdEeet0YmmfbMwkw,Buy Now Item Filter,8,RestartComponent,8,48.4,18,TRUE
+15,CF2,_SFOFcOcdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,48.4,18,15,CF2,_SFOFcOcdEeet0YmmfbMwkw,Seller Reputation Item Filter,8,RestartComponent,8,48.4,18,TRUE
+16,CF2,_SFOER-cdEeet0YmmfbMwkw,Future Sales Item Filter,7,RestartComponent,7,48.4,18,16,CF2,_SFOER-cdEeet0YmmfbMwkw,Future Sales Item Filter,7,RestartComponent,7,48.4,18,TRUE
+17,CF2,_SFOE5-cdEeet0YmmfbMwkw,Future Sales Item Filter,7,RestartComponent,7,48.4,18,17,CF2,_SFOE5-cdEeet0YmmfbMwkw,Future Sales Item Filter,7,RestartComponent,7,48.4,18,TRUE
+18,CF2,_SFOFh-cdEeet0YmmfbMwkw,Future Sales Item Filter,7,RestartComponent,7,48.4,18,18,CF2,_SFOFh-cdEeet0YmmfbMwkw,Future Sales Item Filter,7,RestartComponent,7,48.4,18,TRUE
+1,CF1,_SFOrc-cdEeet0YmmfbMwkw,Bid and Buy Service,25,RestartComponent,25,49.4,14,1,CF1,_SFOrc-cdEeet0YmmfbMwkw,Bid and Buy Service,25,RestartComponent,25,49.4,14,TRUE
+2,CF1,_SFOsE-cdEeet0YmmfbMwkw,Bid and Buy Service,25,RestartComponent,25,49.4,14,2,CF1,_SFOsE-cdEeet0YmmfbMwkw,Bid and Buy Service,25,RestartComponent,25,49.4,14,TRUE
+3,CF1,_SFSU9ecdEeet0YmmfbMwkw,Bid and Buy Service,25,RestartComponent,25,49.4,14,3,CF1,_SFSU9ecdEeet0YmmfbMwkw,Bid and Buy Service,25,RestartComponent,25,49.4,14,TRUE
+4,CF1,_SFSVlecdEeet0YmmfbMwkw,Bid and Buy Service,25,RestartComponent,25,49.4,14,4,CF1,_SFSVlecdEeet0YmmfbMwkw,Bid and Buy Service,25,RestartComponent,25,49.4,14,TRUE
+5,CF1,_SFOraecdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,49.4,14,5,CF1,_SFOraecdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,49.4,14,TRUE
+6,CF1,_SFOsCecdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,49.4,14,6,CF1,_SFOsCecdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,49.4,14,TRUE
+7,CF1,_SFSU6-cdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,49.4,14,7,CF1,_SFSU6-cdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,49.4,14,TRUE
+8,CF1,_SFSVi-cdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,49.4,14,8,CF1,_SFSVi-cdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,49.4,14,TRUE
+9,CF3,_SFSWK-cdEeet0YmmfbMwkw,Item Management Service,16,HwRedeployComponent,16,49.4,14,9,CF3,_SFSWK-cdEeet0YmmfbMwkw,Item Management Service,16,HwRedeployComponent,16,49.4,14,TRUE
+10,CF1,_SFSWQecdEeet0YmmfbMwkw,Reputation Service,16,RestartComponent,16,49.4,14,10,CF1,_SFSWQecdEeet0YmmfbMwkw,Reputation Service,16,RestartComponent,16,49.4,14,TRUE
+11,CF2,_SFOroOcdEeet0YmmfbMwkw,Region Item Filter,6,RestartComponent,6,49.4,14,11,CF2,_SFOroOcdEeet0YmmfbMwkw,Region Item Filter,6,RestartComponent,6,49.4,14,TRUE
+12,CF2,_SFOsQOcdEeet0YmmfbMwkw,Region Item Filter,6,RestartComponent,6,49.4,14,12,CF2,_SFOsQOcdEeet0YmmfbMwkw,Region Item Filter,6,RestartComponent,6,49.4,14,TRUE
+13,CF2,_SFSVIucdEeet0YmmfbMwkw,Region Item Filter,6,RestartComponent,6,49.4,14,13,CF2,_SFSVIucdEeet0YmmfbMwkw,Region Item Filter,6,RestartComponent,6,49.4,14,TRUE
+14,CF2,_SFSVwucdEeet0YmmfbMwkw,Region Item Filter,6,RestartComponent,6,49.4,14,14,CF2,_SFSVwucdEeet0YmmfbMwkw,Region Item Filter,6,RestartComponent,6,49.4,14,TRUE
+1,CF1,_SFSWy-cdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,50.4,4,1,CF1,_SFSWy-cdEeet0YmmfbMwkw,Item Management Service,16,RestartComponent,16,50.4,4,TRUE
+2,CF3,_SFSW4ecdEeet0YmmfbMwkw,Reputation Service,16,HwRedeployComponent,16,50.4,4,2,CF3,_SFSW4ecdEeet0YmmfbMwkw,Reputation Service,16,HwRedeployComponent,16,50.4,4,TRUE
+3,CF2,_SFSW7ecdEeet0YmmfbMwkw,Last Second Sales Item Filter,10,RestartComponent,10,50.4,4,3,CF2,_SFSW7ecdEeet0YmmfbMwkw,Last Second Sales Item Filter,10,RestartComponent,10,50.4,4,TRUE
+4,CF1,_SFS8AOcdEeet0YmmfbMwkw,Comment Item Filter,7,RestartComponent,7,50.4,4,4,CF1,_SFS8AOcdEeet0YmmfbMwkw,Comment Item Filter,7,RestartComponent,7,50.4,4,TRUE
