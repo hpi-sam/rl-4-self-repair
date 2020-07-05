@@ -42,8 +42,13 @@ class DataHandler:
                     frames.append(df)
 
         # combining all df to one df
-        self.data = pd.concat(frames, sort=False)[
+        self.data = pd.concat(frames, sort=False, ignore_index=True)[
             ['Optimal_Affected_Component', 'Optimal_Affected_Component_Uid', 'Optimal_Failure', 'Optimal_Utility_Increase']].rename(columns={'Optimal_Utility_Increase': 'raw'})
+
+        # removing empty rows
+        nan_value = float("NaN")
+        self.data.replace("", nan_value, inplace=True)
+        self.data.dropna(subset=["Optimal_Failure"], inplace=True)
 
         # transform data
         self.data = du.transform_data(self.data)
