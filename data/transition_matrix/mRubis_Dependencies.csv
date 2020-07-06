@@ -1,0 +1,31 @@
+Target(Called), Source(Caller)
+Future Sales Item Filter, Recommendation Item Filter
+Recommendation Item Filter, Category Item Filter
+Category Item Filter, Comment Item Filter
+Comment Item Filter, Seller Reputation Item Filter
+Seller Reputation Item Filter, Region Item Filter
+Region Item Filter, Availability Item Filter
+Availability Item Filter, Buy Now Item Filter
+Buy Now Item Filter, Past Sales Item Filter
+Past Sales Item Filter, Last Second Sales Item Filter
+Last Second Sales Item Filter, Query Service
+Query Service, Reputation Service
+Query Service, Item Management Service
+Query Service, Authentication Service
+Query Service, User Management Service
+Query Service, Bid and Buy Service
+Query Service, Inventory Service
+Persistence Service, Reputation Service 
+Persistence Service, Item Management Service
+Persistence Service, User Management Service
+Persistence Service, Bid and Buy Service
+Persistence Service, Inventory Service
+Inventory Service, Bid and Buy Service
+Authentication Service, User Management Service
+Authentication Service, Item Management Service
+Authentication Service, Reputation Service
+Authentication Service, Bid and Buy Service
+
+
+
+
