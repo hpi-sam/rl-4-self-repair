@@ -3,7 +3,7 @@ from typing import List
 
 
 @dataclass(frozen=True)
-class Metric:
+class TabularMetric:
     episodes: int
     episode_lengths: List[int]
     rewards: List[float]

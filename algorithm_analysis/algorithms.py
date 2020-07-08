@@ -8,8 +8,8 @@ import gym
 import numpy as np
 
 from tqdm.auto import tqdm
-from algorithm_analysis.metrics import Metric
-from algorithm_analysis.plotting import plot_episode_length_over_time, plot_episode_reward_over_time
+from algorithm_analysis.metrics import TabularMetric
+from algorithm_analysis.plotting import plot_episode_length_over_time_tabular, plot_episode_reward_over_time_tabular
 from envs.broken_components import BrokenComponentsEnv
 from envs.data_handler import DataHandler
 
@@ -106,7 +106,7 @@ def run_single_estimator(alg, env, num_states, num_actions, episodes=1000,
 
     env.close()
 
-    metrics = Metric(episodes, episode_lengths, episode_rewards, episode_explore_rates, learning_rate, discount_rate, trace_decay)
+    metrics = TabularMetric(episodes, episode_lengths, episode_rewards, episode_explore_rates, learning_rate, discount_rate, trace_decay)
     return metrics
 
 
@@ -184,7 +184,7 @@ def run_double_estimator(alg, env, num_states, num_actions, episodes=1000,
 
     env.close()
 
-    metrics = Metric(episodes, episode_lengths, episode_rewards, episode_explore_rates, learning_rate, discount_rate, trace_decay)
+    metrics = TabularMetric(episodes, episode_lengths, episode_rewards, episode_explore_rates, learning_rate, discount_rate, trace_decay)
     return metrics
 
 
@@ -207,7 +207,7 @@ if __name__ == '__main__':
 
     fig, axs = plt.subplots(1, 2, figsize=(10, 5), constrained_layout=True, sharex=True,
                             sharey='col')
-    plot_episode_length_over_time(axs[0], metric, smoothing_window=5)
-    plot_episode_reward_over_time(axs[1], metric, smoothing_window=5)
+    plot_episode_length_over_time_tabular(axs[0], metric, smoothing_window=5)
+    plot_episode_reward_over_time_tabular(axs[1], metric, smoothing_window=5)
 
     plt.show()
