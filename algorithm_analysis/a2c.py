@@ -1,6 +1,7 @@
 # From http://inoryy.com/post/tensorflow2-deep-reinforcement-learning/
 import logging
 import numpy as np
+from tqdm.auto import tqdm
 import tensorflow as tf
 from tensorflow.keras.layers import Dense
 from tensorflow.keras.losses import mean_squared_error, SparseCategoricalCrossentropy, categorical_crossentropy
@@ -63,7 +64,7 @@ class A2CAgent:
         # Training loop: collect samples, send to optimizer, repeat updates times.
         ep_rewards = [0.0]
         next_obs = env.reset()
-        for update in range(updates):
+        for update in tqdm(range(updates), desc='Update Loop: '):
             for step in range(batch_sz):
                 observations[step] = next_obs.copy()
                 actions[step], values[step] = self.model.action_value(next_obs[None, :])
