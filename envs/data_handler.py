@@ -7,7 +7,7 @@ import envs.data_utils as du
 
 class DataHandler:
 
-    def __init__(self, data_generation: str = 'Linear', take_component_id: bool = True, transformation: str = 'raw'):
+    def __init__(self, data_generation: str = 'Linear', take_component_id: bool = True, transformation: str = 'raw', distinguishable: bool = False):
         '''
         Initializes the Data Handler by loading data into the environment and select between using the componenent id or name.
 
@@ -17,13 +17,15 @@ class DataHandler:
             or non_stationary_data choose model like 'ARCH'
         :param take_component_id:
             Choose compononent id or name. When take_component_id is false, you will take name.
-        :param type:
+        :param transformation:
             Choose between 'raw' (Default), 'sqt', 'cube', 'log10', 'ln', 'log2'
+        :param distinguishable:
+            Choose only distinguishable <component,failure> pairs by setting this true.
 
         For all possible combinations of environment, id and type please have a look on the file 'environments.py'.
         '''
 
-        self.environment, self.filename = check_environment(data_generation, take_component_id, transformation)
+        self.environment, self.filename = check_environment(data_generation, take_component_id, transformation, distinguishable)
         self.data: pd.DataFrame = pd.DataFrame()
         self.component_failure_pairs = []
         self.__load_data()
@@ -61,6 +63,7 @@ class DataHandler:
             self.data = pd.read_csv(self.filename, index_col=0)[[self.environment[1], 'Optimal_Failure', self.environment[2]]]
         except FileNotFoundError:
             self.__load_transform_data()
+            self.data = self.data[[self.environment[1], 'Optimal_Failure', self.environment[2]]]
 
     def __create_component_failure_pairs(self) -> None:
         combinations = self.data.groupby([self.data.columns[0], self.data.columns[1]]).size().reset_index().rename(
