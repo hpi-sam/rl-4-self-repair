@@ -1,8 +1,9 @@
 import os
-import sys
+import random
 import pandas as pd
 from envs.environments import check_environment
 import envs.data_utils as du
+from data.transition_matrix.transition import Transition
 
 
 class DataHandler:
@@ -26,6 +27,7 @@ class DataHandler:
         '''
 
         self.environment, self.filename = check_environment(data_generation, take_component_id, transformation, distinguishable)
+        self.transition = Transition()
         self.data: pd.DataFrame = pd.DataFrame()
         self.component_failure_pairs = []
         self.__load_data()
@@ -74,25 +76,41 @@ class DataHandler:
     def get_all_component_failure_pairs(self):
         return self.component_failure_pairs
 
-    def get_repair_failure_probability(self, component_failure_pair) -> float:
-        return 0.1  # static failure rate
-
     def get_sample_component_failure_pairs(self, sample_size: int, seed=None):
         if sample_size > len(self.component_failure_pairs):
             print('Error: Sample size exceeds number of (component, failure) pairs.')
         else:
-            return pd.Series(self.get_all_component_failure_pairs()).sample(sample_size, random_state=seed).tolist()
+            return list(set(pd.Series(self.get_all_component_failure_pairs()).sample(sample_size, random_state=seed).tolist()))
 
-    def get_reward(self, component_failure_pair) -> float:
+    def get_reward(self, component_failure_pair, list_of_failings) -> float:
+        '''
+        :param component_failure_pair: A tuple of component and failure to repair.
+        :param list_of_failings: A list of tuples of component and failures which are still failing.
+        :return: The reward for the component_failure_pair. A reward of 0 states that the fix fails.
+        '''
         component = component_failure_pair[0]
         failure = component_failure_pair[1]
-        filtered = self.data[
-            (self.data[self.data.columns[0]] == component) & (self.data[self.data.columns[1]] == failure)]
-        sample_value = 0
-        if self.environment[0] in ['ARCH', 'GARCH']:
-            sample_value = filtered.iloc[0][self.data.columns[2]]
-            index = filtered.index[0]
-            self.data = self.data.drop(index)
-        else:
-            sample_value = filtered.sample()[self.data.columns[2]].values[0]
-        return sample_value
+
+        # get the failing probability
+        failing_components = list(set([i[0] for i in list_of_failings]))
+        failing_probability = self.transition.return_failing_probability(component, failing_components)
+
+        # will the fixing fail?
+        if random.random() <= failing_probability:
+            # yes, it fails
+            return 0
+        else:  # no, the fixing will not fail
+            # reduce list of possible rewards to the selection
+            filtered = self.data[
+                (self.data[self.data.columns[0]] == component) & (self.data[self.data.columns[1]] == failure)]
+
+            # select a reward
+            sample_value = 0
+            if self.environment[0] in ['ARCH', 'GARCH']:
+                # in the non-stationary enviornment a already used value is removed from the list of possible reward values
+                sample_value = filtered.iloc[0][self.data.columns[2]]
+                index = filtered.index[0]
+                self.data = self.data.drop(index)
+            else:
+                sample_value = filtered.sample()[self.data.columns[2]].values[0]
+            return sample_value
