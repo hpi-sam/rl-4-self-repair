@@ -1,5 +1,6 @@
 import itertools
 import random
+import time
 
 import matplotlib.pyplot as plt
 
@@ -42,7 +43,7 @@ def run_single_estimator(alg, env, num_states, num_actions, episodes=1000,
     """
 
     # init Q-table
-    Q = np.zeros((num_states, num_actions))
+    Q = np.zeros((num_states, num_actions), dtype='float32')
     print(f'Run {alg} with {num_states} states and {num_actions} actions.')
 
     # calculate explore rate decay to hit the min_explore_rate at the last run.
@@ -55,15 +56,17 @@ def run_single_estimator(alg, env, num_states, num_actions, episodes=1000,
     episode_lengths = []
 
     for episode in tqdm(range(episodes)):
-        E = np.zeros((num_states, num_actions))
+        E = np.zeros((num_states, num_actions), dtype='float32')
         state = env.reset()
         action = epsilon_greedy(Q, explore_rate, state)
         total_reward = 0
 
+        time_for_algo_steps = []
+        time_for_partial_steps = []
         for step in itertools.count(1):
-            E[state, action] += 1
-
+            t0 = time.monotonic()
             next_state, reward, done, info = env.step(action)
+            E[state, action] += 1
 
             if alg == 'qlearning':
                 next_action = epsilon_greedy(Q, 0, next_state)
@@ -74,17 +77,25 @@ def run_single_estimator(alg, env, num_states, num_actions, episodes=1000,
 
             delta = reward + (discount_rate * Q[next_state, next_action]) - Q[state, action]
 
+            t1 = time.monotonic()
             # update Q-Table for Q(s,a)
             Q += learning_rate * delta * E
             E = E * trace_decay * discount_rate
+            time_for_partial_steps.append(time.monotonic()-t1)
 
             state = next_state
             action = next_action
             total_reward += reward
 
+            time_for_algo_steps.append(time.monotonic()-t0)
             if done:
                 break
 
+        total_time_in_algo = sum(time_for_algo_steps)
+        total_time_in_partial = sum(time_for_partial_steps)
+        # print(f'Time spent in algo episode {total_time_in_algo}')
+        # print(f'Time spent in partial episode {total_time_in_partial}')
+        # print(f'Steps taken {step}')
         # update episode metrics
         episode_explore_rates.append(explore_rate)
         episode_lengths.append(step)
