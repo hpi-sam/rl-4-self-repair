@@ -6,7 +6,7 @@ import tensorflow as tf
 from tensorflow.keras.layers import Dense
 from tensorflow.keras.losses import mean_squared_error, SparseCategoricalCrossentropy, categorical_crossentropy
 from tensorflow.keras.optimizers import RMSprop
-
+from algorithm_analysis.metrics import A2C_MetricByBatch, A2C_MetricByEpisodes
 
 class ProbabilityDistribution(tf.keras.Model):
     def call(self, logits, **kwargs):
@@ -18,8 +18,12 @@ class Model(tf.keras.Model):
     def __init__(self, num_actions):
         super().__init__('mlp_policy')
         # Note: no tf.get_variable(), just simple Keras API!
-        self.hidden1 = Dense(128, activation='relu')
-        self.hidden2 = Dense(128, activation='relu')
+        self.hidden11 = Dense(128, activation='relu')
+        #self.hidden12 = Dense(64, activation='relu')
+        #self.hidden13 = Dense(28, activation='relu')
+        self.hidden21 = Dense(128, activation='relu')
+        #self.hidden22 = Dense(64, activation='relu')
+        #self.hidden23 = Dense(28, activation='relu')
         self.value = Dense(1, name='value')
         # Logits are unnormalized log probabilities.
         self.logits = Dense(num_actions, name='policy_logits')
@@ -29,8 +33,12 @@ class Model(tf.keras.Model):
         # Inputs is a numpy array, convert to a tensor.
         x = tf.convert_to_tensor(inputs)
         # Separate hidden layers from the same input tensor.
-        hidden_logs = self.hidden1(x)
-        hidden_vals = self.hidden2(x)
+        hidden_logs = self.hidden11(x)
+        #hidden_logs = self.hidden12(hidden_logs)
+        #hidden_logs = self.hidden13(hidden_logs)
+        hidden_vals = self.hidden21(x)
+        #hidden_vals = self.hidden22(hidden_vals)
+        #hidden_vals = self.hidden23(hidden_vals)
         return self.logits(hidden_logs), self.value(hidden_vals)
 
     def action_value(self, obs):
@@ -45,14 +53,14 @@ class Model(tf.keras.Model):
 
 class A2CAgent:
     def __init__(self, model, learning_rate=7e-3, discount_rate=0.99, value_coefficient=0.5, entropy_coefficient=1e-4):
-        # `gamma` is the discount factor; coefficients are used for the loss terms.
+        self.learning_rate = learning_rate
         self.discount_rate = discount_rate
         self.value_coefficient = value_coefficient
         self.entropy_coefficient = entropy_coefficient
 
         self.model = model
         self.model.compile(
-            optimizer=RMSprop(lr=learning_rate),
+            optimizer=RMSprop(lr=self.learning_rate),
             # Define separate losses for policy logits and value estimate.
             loss=[self._logits_loss, self._value_loss])
 
@@ -63,6 +71,7 @@ class A2CAgent:
         observations = np.empty((batch_sz,) + np.array(env.masks[0]).shape)  # !!! change for our broken component env
         # Training loop: collect samples, send to optimizer, repeat updates times.
         ep_rewards = [0.0]
+        ep_lengths = [0]
         next_obs = env.reset()
         for update in tqdm(range(updates), desc='Update Loop: '):
             for step in range(batch_sz):
@@ -71,8 +80,10 @@ class A2CAgent:
                 next_obs, rewards[step], dones[step], _ = env.step(actions[step])
 
                 ep_rewards[-1] += rewards[step]
+                ep_lengths[-1] += 1
                 if dones[step]:
                     ep_rewards.append(0.0)
+                    ep_lengths.append(0)
                     next_obs = env.reset()
                     logging.info("Episode: %03d, Reward: %03d" % (len(ep_rewards) - 1, ep_rewards[-2]))
 
@@ -85,10 +96,20 @@ class A2CAgent:
             losses = self.model.train_on_batch(observations, [acts_and_advs, returns])
             logging.debug("[%d/%d] Losses: %s" % (update + 1, updates, losses))
 
-        return ep_rewards
+        metrics = A2C_MetricByBatch(batch_size=batch_sz, 
+                                updates=updates, 
+                                episode_lengths=ep_lengths, 
+                                rewards=ep_rewards,
+                                learning_rate=self.learning_rate,
+                                discount_rate=self.discount_rate,
+                                value_coefficient=self.value_coefficient,
+                                entropy_coefficient=self.entropy_coefficient)
+        return metrics
+
     
     def train_by_episodes(self, env, episodes=250):
         ep_rewards = [0.0]
+        ep_lengths = [0]
         step = 0
         for episode in tqdm(range(episodes), desc='Episode Loop: '):
             actions = np.empty((1,), dtype=np.int32)
@@ -96,13 +117,15 @@ class A2CAgent:
             observations = np.empty((1,) + np.array(env.masks[0]).shape)  # !!! change for our broken component env
             next_obs = env.reset()
             dones[step] = 0
+            ep_step = 0
             while not dones[step]:
                 observations[step] = next_obs.copy()
                 actions[step], values[step] = self.model.action_value(next_obs[None, :])
                 next_obs, rewards[step], dones[step], _ = env.step(actions[step])
-
-                ep_rewards[-1] += rewards[step]
                 
+                ep_rewards[-1] += rewards[step]
+                ep_lengths[-1] += 1
+
                 _, next_value = self.model.action_value(next_obs[None, :])
                 returns, advs = self._returns_advantages(rewards, dones, values, next_value)
                 # A trick to input actions and advantages through same API.
@@ -111,13 +134,23 @@ class A2CAgent:
                 # Note: no need to mess around with gradients, Keras API handles it.
                 losses = self.model.train_on_batch(observations, [acts_and_advs, returns])
                 logging.debug("[%d/%d] Losses: %s" % (episode + 1, episodes, losses))
-        
-                if dones[step]:
+                
+                # clear_output(wait=True)
+                # print(episode, ep_step)
+                
+                if dones[step] and (episode < episodes-1):
                     ep_rewards.append(0.0)
-                    next_obs = env.reset()
+                    ep_lengths.append(0)
                     logging.info("Episode: %03d, Reward: %03d" % (len(ep_rewards) - 1, ep_rewards[-2]))
-
-        return ep_rewards
+        
+        metrics = A2C_MetricByEpisodes(episodes=episodes,
+                                       episode_lengths=ep_lengths,
+                                       rewards=ep_rewards,
+                                       learning_rate=self.learning_rate,
+                                       discount_rate=self.discount_rate,
+                                       value_coefficient=self.value_coefficient,
+                                       entropy_coefficient=self.entropy_coefficient)
+        return metrics
 
     def test(self, env, render=False):
         obs, done, ep_reward = env.reset(), False, 0
