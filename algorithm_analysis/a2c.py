@@ -1,5 +1,6 @@
 # From http://inoryy.com/post/tensorflow2-deep-reinforcement-learning/
 import logging
+import time
 import numpy as np
 from tqdm.auto import tqdm
 import tensorflow as tf
@@ -15,7 +16,7 @@ class ProbabilityDistribution(tf.keras.Model):
 
 
 class Model(tf.keras.Model):
-    def __init__(self, num_actions):
+    def __init__(self, num_actions, units=128):
         super().__init__('mlp_policy')
         # Note: no tf.get_variable(), just simple Keras API!
         self.hidden11 = Dense(128, activation='relu')
@@ -110,6 +111,7 @@ class A2CAgent:
     def train_by_episodes(self, env, episodes=250):
         ep_rewards = [0.0]
         ep_lengths = [0]
+        ep_skips = []
         step = 0
         for episode in tqdm(range(episodes), desc='Episode Loop: '):
             actions = np.empty((1,), dtype=np.int32)
@@ -118,6 +120,7 @@ class A2CAgent:
             next_obs = env.reset()
             dones[step] = 0
             ep_step = 0
+            #step_thresh = env.action_space.n*2
             while not dones[step]:
                 observations[step] = next_obs.copy()
                 actions[step], values[step] = self.model.action_value(next_obs[None, :])
@@ -142,6 +145,12 @@ class A2CAgent:
                     ep_rewards.append(0.0)
                     ep_lengths.append(0)
                     logging.info("Episode: %03d, Reward: %03d" % (len(ep_rewards) - 1, ep_rewards[-2]))
+                    
+                #if ep_lengths[-1] > step_thresh:
+                #    ep_rewards.append(0.0)
+                #    ep_lengths.append(0)
+                #    ep_skips.append(episode)
+                #    break
         
         metrics = A2C_MetricByEpisodes(episodes=episodes,
                                        episode_lengths=ep_lengths,
@@ -149,8 +158,59 @@ class A2CAgent:
                                        learning_rate=self.learning_rate,
                                        discount_rate=self.discount_rate,
                                        value_coefficient=self.value_coefficient,
-                                       entropy_coefficient=self.entropy_coefficient)
+                                       entropy_coefficient=self.entropy_coefficient,
+                                       num_broken_components=env.action_space.n,
+                                       episode_skips=ep_skips
+                                      )
         return metrics
+    
+    
+    def train_by_episodes_batches(self, env, episodes=500, batch_sz=64, updates=250):
+        # Storage helpers for a single batch of data.
+        actions = np.empty((batch_sz,), dtype=np.int32)
+        rewards, dones, values = np.empty((3, batch_sz))
+        observations = np.empty((batch_sz,) + np.array(env.masks[0]).shape)  # !!! change for our broken component env
+        # Training loop: collect samples, send to optimizer, repeat updates times.
+        ep_rewards = [0.0]
+        ep_lengths = [0]
+        next_obs = env.reset()
+        done_counter = 0
+        while len(ep_rewards) <= episodes:
+            for update in tqdm(range(updates), desc='Episode: {}; Update Loop: '.format(len(ep_rewards))):
+                for step in range(batch_sz):
+                    observations[step] = next_obs.copy()
+                    actions[step], values[step] = self.model.action_value(next_obs[None, :])
+                    next_obs, rewards[step], dones[step], _ = env.step(actions[step])
+
+                    ep_rewards[-1] += rewards[step]
+                    ep_lengths[-1] += 1
+                    if dones[step]:
+                        ep_rewards.append(0.0)
+                        ep_lengths.append(0)
+                        next_obs = env.reset()
+                        logging.info("Episode: %03d, Reward: %03d" % (len(ep_rewards) - 1, ep_rewards[-2]))
+
+                _, next_value = self.model.action_value(next_obs[None, :])
+                returns, advs = self._returns_advantages(rewards, dones, values, next_value)
+                # A trick to input actions and advantages through same API.
+                acts_and_advs = np.concatenate([actions[:, None], advs[:, None]], axis=-1)
+                # Performs a full training step on the collected batch.
+                # Note: no need to mess around with gradients, Keras API handles it.
+                losses = self.model.train_on_batch(observations, [acts_and_advs, returns])
+                logging.debug("[%d/%d] Losses: %s" % (update + 1, updates, losses))
+
+        metrics = A2C_MetricByBatch(batch_size=batch_sz, 
+                                updates=updates, 
+                                episode_lengths=ep_lengths, 
+                                rewards=ep_rewards,
+                                learning_rate=self.learning_rate,
+                                discount_rate=self.discount_rate,
+                                value_coefficient=self.value_coefficient,
+                                entropy_coefficient=self.entropy_coefficient,
+                                num_broken_components=env.action_space.n
+                                   )
+        return metrics
+    
 
     def test(self, env, render=False):
         obs, done, ep_reward = env.reset(), False, 0
