@@ -99,7 +99,7 @@ class BrokenComponentsEnv(gym.Env):
         if self.state_as_vec:
             return self.masks[self.current_state].astype(float), reward, done, {}
         else:
-            return self.current_state, reward, done, {}
+            return self.current_state, reward, done, self.masks[self.current_state].astype(float)
 
     def __get_reward(self, action_name: Tuple, current_state_name: List[Tuple]) -> float:
         if self.reward_decrease:
