@@ -8,6 +8,8 @@ import gym
 import numpy as np
 
 from tqdm.auto import tqdm
+
+from algorithm_analysis import benchmark
 from algorithm_analysis.metrics import TabularMetric
 from algorithm_analysis.plotting import plot_episode_length_over_time_tabular, plot_episode_reward_over_time_tabular
 from envs.broken_components import BrokenComponentsEnv
@@ -65,7 +67,11 @@ def run_single_estimator(alg, env, num_states, num_actions, episodes=1000,
         time_for_partial_steps = []
         for step in itertools.count(1):
             t0 = time.monotonic()
+            if alg == 'qlearning':
+                action = epsilon_greedy(Q, explore_rate, state)
+
             next_state, reward, done, info = env.step(action)
+            # print(f'Step: {step}, Action: {action}, Next State: {next_state}, Reward: {reward}')
             E[state, action] += 1
 
             if alg == 'qlearning':
@@ -91,8 +97,8 @@ def run_single_estimator(alg, env, num_states, num_actions, episodes=1000,
             if done:
                 break
 
-        total_time_in_algo = sum(time_for_algo_steps)
-        total_time_in_partial = sum(time_for_partial_steps)
+        # total_time_in_algo = sum(time_for_algo_steps)
+        # total_time_in_partial = sum(time_for_partial_steps)
         # print(f'Time spent in algo episode {total_time_in_algo}')
         # print(f'Time spent in partial episode {total_time_in_partial}')
         # print(f'Steps taken {step}')
@@ -106,8 +112,8 @@ def run_single_estimator(alg, env, num_states, num_actions, episodes=1000,
 
     env.close()
 
-    metrics = TabularMetric(episodes, episode_lengths, episode_rewards, episode_explore_rates, learning_rate, discount_rate, trace_decay)
-    return metrics
+    metric = TabularMetric(episodes, episode_lengths, episode_rewards, episode_explore_rates, learning_rate, discount_rate, trace_decay)
+    return metric
 
 
 def run_double_estimator(alg, env, num_states, num_actions, episodes=1000,
@@ -145,6 +151,9 @@ def run_double_estimator(alg, env, num_states, num_actions, episodes=1000,
         total_reward = 0
 
         for step in itertools.count(1):
+            if alg == 'qlearning':
+                action = epsilon_greedy(Q, explore_rate, state)
+
             E[state, action] += 1
 
             next_state, reward, done, info = env.step(action)
@@ -161,7 +170,7 @@ def run_double_estimator(alg, env, num_states, num_actions, episodes=1000,
 
             # update Q-Table for Q(s,a)
             Q += learning_rate * delta * E
-            E = E * trace_decay * discount_rate
+            E = E * trace_decay
 
             state = next_state
             action = next_action
@@ -189,16 +198,15 @@ def run_double_estimator(alg, env, num_states, num_actions, episodes=1000,
 
 
 if __name__ == '__main__':
-    random.seed(1)
     dataHandler = DataHandler()
-    broken_components = dataHandler.get_sample_component_failure_pairs(13)
-    env = BrokenComponentsEnv(broken_components, reward_modus='raw')
+    components_list = benchmark.BROKEN_COMPONENTS[6]
+    env = BrokenComponentsEnv(components_list, reward_modus='raw')
     # env = gym.make('Taxi-v3')
 
-    learning_rate = 0.2
+    learning_rate = 0.1
     discount_rate = 0.9
 
-    metric = run_single_estimator('sarsa', env, env.observation_space.n, env.action_space.n, episodes=200,
+    metric = run_single_estimator('sarsa', env, env.observation_space.n, env.action_space.n, episodes=400,
                                   learning_rate=learning_rate, discount_rate=discount_rate, trace_decay=0.9)
 
     for r in metric.rewards:
@@ -209,5 +217,4 @@ if __name__ == '__main__':
                             sharey='col')
     plot_episode_length_over_time_tabular(axs[0], metric, smoothing_window=5)
     plot_episode_reward_over_time_tabular(axs[1], metric, smoothing_window=5)
-
     plt.show()
