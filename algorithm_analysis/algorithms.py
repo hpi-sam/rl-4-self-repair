@@ -36,7 +36,7 @@ def epsilon_greedy(Q, epsilon, state):
 
 
 def run_single_estimator(alg, env, num_states, num_actions, episodes=1000,
-                         min_explore_rate=0.0001, max_explore_rate=1,
+                         min_explore_rate=0.1, max_explore_rate=1,
                          learning_rate=0.2, discount_rate=0.90, trace_decay=0.9):
     """
 
@@ -109,6 +109,9 @@ def run_single_estimator(alg, env, num_states, num_actions, episodes=1000,
 
         # model exploration rate decay.
         explore_rate = (max_explore_rate - min_explore_rate) * np.exp(-explore_rate_decay * episode)
+        if episode / episodes > 0.9:
+            explore_rate = 0
+
 
     env.close()
 
@@ -117,7 +120,7 @@ def run_single_estimator(alg, env, num_states, num_actions, episodes=1000,
 
 
 def run_double_estimator(alg, env, num_states, num_actions, episodes=1000,
-                         min_explore_rate=0.0001, max_explore_rate=1,
+                         min_explore_rate=0.05, max_explore_rate=1,
                          learning_rate=0.2, discount_rate=0.90, trace_decay=0.9):
     """
 
@@ -189,6 +192,8 @@ def run_double_estimator(alg, env, num_states, num_actions, episodes=1000,
 
         # model exploration rate decay.
         explore_rate = (max_explore_rate - min_explore_rate) * np.exp(-explore_rate_decay * episode)
+        if episode / episodes > 0.9:
+            explore_rate = 0
 
 
     env.close()
@@ -199,22 +204,28 @@ def run_double_estimator(alg, env, num_states, num_actions, episodes=1000,
 
 if __name__ == '__main__':
     dataHandler = DataHandler()
-    components_list = benchmark.BROKEN_COMPONENTS[6]
+    components_list = benchmark.BROKEN_COMPONENTS[4]
     env = BrokenComponentsEnv(components_list, reward_modus='raw')
     # env = gym.make('Taxi-v3')
 
     learning_rate = 0.1
     discount_rate = 0.9
 
-    metric = run_single_estimator('sarsa', env, env.observation_space.n, env.action_space.n, episodes=400,
+    metric = run_single_estimator('sarsa', env, env.observation_space.n, env.action_space.n, episodes=300,
                                   learning_rate=learning_rate, discount_rate=discount_rate, trace_decay=0.9)
 
     for r in metric.rewards:
         print(r)
 
-
     fig, axs = plt.subplots(1, 2, figsize=(10, 5), constrained_layout=True, sharex=True,
                             sharey='col')
     plot_episode_length_over_time_tabular(axs[0], metric, smoothing_window=5)
     plot_episode_reward_over_time_tabular(axs[1], metric, smoothing_window=5)
+    plt.show()
+    plt.plot(metric.explore_rates)
+    plt.xlabel('Episode')
+    plt.ylabel(f'Explore Rate')
+    plt.title(f'Explore rate over time')
+    plt.savefig(f'tabularplots/explorerates.png', dpi=300,
+                bbox_inches='tight')
     plt.show()
