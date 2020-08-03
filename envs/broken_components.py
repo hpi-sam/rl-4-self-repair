@@ -15,11 +15,14 @@ class BrokenComponentsEnv(gym.Env):
                  reward_decrease_factor: float = 0.99, state_as_vec=False,
                  dh_data_generation: str = 'Linear', dh_take_component_id: bool = True, dh_distinguishable: bool = False):
         super(BrokenComponentsEnv, self).__init__()
-        self.data_handler = DataHandler(data_generation=dh_data_generation,
-                                        take_component_id=dh_take_component_id,
-                                        transformation=reward_modus,
-                                        distinguishable=dh_distinguishable)
+        self.dh_data_generation = dh_data_generation
+        self.dh_take_component_id = dh_take_component_id
         self.reward_modus = reward_modus
+        self.dh_distinguishable = dh_distinguishable
+        self.data_handler = DataHandler(data_generation=self.dh_data_generation,
+                                        take_component_id=self.dh_take_component_id,
+                                        transformation=self.reward_modus,
+                                        distinguishable=self.dh_distinguishable)
         self.reward_decrease = reward_decrease
         self.reward_decrease_factor = reward_decrease_factor
         self.punishment = self.data_handler.data.max()*-1
@@ -53,13 +56,16 @@ class BrokenComponentsEnv(gym.Env):
         return observation_name_dict
 
     def reset(self, reward_modus: str = 'raw'):
+        self.data_handler = DataHandler(data_generation=self.dh_data_generation,
+                                        take_component_id=self.dh_take_component_id,
+                                        transformation=self.reward_modus,
+                                        distinguishable=self.dh_distinguishable)
         self.current_state = 0
         self.current_state_name = list(self.observation_space_names[self.current_state])
         self.last_action = None
         self.last_action_name = None
         self.successful_action = None
         self.steps = 0
-        self.reward_modus = reward_modus
         
         if self.state_as_vec:
             return self.masks[self.current_state].astype(float)
