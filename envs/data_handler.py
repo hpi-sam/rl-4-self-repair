@@ -106,9 +106,9 @@ class DataHandler:
 
             # select a reward
             sample_value = 0
-            if self.environment[0] in ['ARCH', 'GARCH']:
+            if self.environment[0] in ['ARol', 'GARCH']:
                 # in the non-stationary enviornment a already used value is removed from the list of possible reward values
-                sample_value = filtered.loc[0][self.data.columns[2]]
+                sample_value = filtered.iloc[0][filtered.columns[2]]
                 index = filtered.index[0]
                 self.data = self.data.drop(index)
             else:
