@@ -13,20 +13,25 @@ class BrokenComponentsEnv(gym.Env):
 
     def __init__(self, broken_components: List[Tuple], reward_modus: str = 'raw', reward_decrease: bool = False,
                  reward_decrease_factor: float = 0.99, state_as_vec=False,
-                 dh_data_generation: str = 'Linear', dh_take_component_id: bool = True, dh_distinguishable: bool = False):
+                 dh_data_generation: str = 'Linear', dh_take_component_id: bool = True, dh_distinguishable: bool = False, transition_matrix_path: str='data/transition_matrix/transition_matrix.csv', hidden_states: bool = False):
         super(BrokenComponentsEnv, self).__init__()
         self.dh_data_generation = dh_data_generation
         self.dh_take_component_id = dh_take_component_id
         self.reward_modus = reward_modus
         self.dh_distinguishable = dh_distinguishable
+        self.transition_matrix_path = transition_matrix_path
         self.data_handler = DataHandler(data_generation=self.dh_data_generation,
                                         take_component_id=self.dh_take_component_id,
                                         transformation=self.reward_modus,
-                                        distinguishable=self.dh_distinguishable)
+                                        distinguishable=self.dh_distinguishable,
+                                        transition_matrix_path=self.transition_matrix_path)
         self.reward_decrease = reward_decrease
         self.reward_decrease_factor = reward_decrease_factor
         self.punishment = self.data_handler.data.max()*-1
         self.action_space, self.action_space_names = self.__create_action_space(broken_components)
+        self.hidden_states = hidden_states
+        if self.hidden_states:
+            self.hidden_space_dict = self.__create_hidden_states(broken_components)
         self.observation_space, self.observation_space_names = self.__create_observation_space(broken_components)
         self.observation_name_dict = self.__create_map(self.observation_space_names)
         self.state_as_vec = state_as_vec
@@ -39,6 +44,13 @@ class BrokenComponentsEnv(gym.Env):
         action_space_names = np.empty(len(broken_components), dtype=object)
         action_space_names[:] = broken_components
         return action_space, action_space_names
+
+    def __create_hidden_states(self, broken_components: List[Tuple]) -> Dict[str, str]:
+        hidden_space = self.data_handler.initialize_hidden_states(broken_components)
+        hidden_space_dict = {}
+        for i in range(len(broken_components)):
+            hidden_space_dict[broken_components[i][0]] = hidden_space[i]
+        return hidden_space_dict
 
     def __create_observation_space(self, broken_components: List[Tuple]) -> Tuple[gym.spaces.Discrete, np.array]:
         broken_components_names = np.empty(len(broken_components), dtype=object)
@@ -59,7 +71,8 @@ class BrokenComponentsEnv(gym.Env):
         self.data_handler = DataHandler(data_generation=self.dh_data_generation,
                                         take_component_id=self.dh_take_component_id,
                                         transformation=self.reward_modus,
-                                        distinguishable=self.dh_distinguishable)
+                                        distinguishable=self.dh_distinguishable,
+                                        transition_matrix_path=self.transition_matrix_path)
         self.current_state = 0
         self.current_state_name = list(self.observation_space_names[self.current_state])
         self.last_action = None
@@ -108,11 +121,11 @@ class BrokenComponentsEnv(gym.Env):
             return self.current_state, reward, done, self.masks[self.current_state].astype(float)
 
     def __get_reward(self, action_name: Tuple, current_state_name: List[Tuple]) -> float:
+        reward = self.data_handler.get_hidden_reward(action_name, current_state_name, self.hidden_space_dict) if self.hidden_states else self.data_handler.get_reward(action_name, current_state_name)
         if self.reward_decrease:
-            return np.power(self.reward_decrease_factor, self.steps)*\
-                   self.data_handler.get_reward(action_name, current_state_name)
+            return np.power(self.reward_decrease_factor, self.steps) * reward
         else:
-            return self.data_handler.get_reward(action_name, current_state_name)
+            return reward
 
     def render(self) -> None:
         print('Steps: ', self.steps)

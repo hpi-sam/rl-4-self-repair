@@ -4,11 +4,12 @@ import pandas as pd
 from envs.environments import check_environment
 import envs.data_utils as du
 from data.transition_matrix.transition import Transition
+from numpy.random import choice
 
 
 class DataHandler:
 
-    def __init__(self, data_generation: str = 'Linear', take_component_id: bool = True, transformation: str = 'raw', distinguishable: bool = False):
+    def __init__(self, data_generation: str = 'Linear', take_component_id: bool = True, transformation: str = 'raw', distinguishable: bool = False, transition_matrix_path: str = 'data/transition_matrix/transition_matrix.csv'):
         '''
         Initializes the Data Handler by loading data into the environment and select between using the componenent id or name.
 
@@ -27,7 +28,7 @@ class DataHandler:
         '''
 
         self.environment, self.filename = check_environment(data_generation, take_component_id, transformation, distinguishable)
-        self.transition = Transition()
+        self.transition = Transition(transition_matrix_path)
         self.data: pd.DataFrame = pd.DataFrame()
         self.component_failure_pairs = []
         self.__load_data()
@@ -73,27 +74,9 @@ class DataHandler:
         del combinations['count']
         self.component_failure_pairs = [tuple(val) for val in combinations.values]
 
-    def get_all_component_failure_pairs(self):
-        return self.component_failure_pairs
-
-    def get_sample_component_failure_pairs(self, sample_size: int, seed=None):
-        if sample_size > len(self.component_failure_pairs):
-            print('Error: Sample size exceeds number of (component, failure) pairs.')
-        else:
-            return list(set(pd.Series(self.get_all_component_failure_pairs()).sample(sample_size, random_state=seed).tolist()))
-
-    def get_reward(self, component_failure_pair, list_of_failings) -> float:
-        '''
-        :param component_failure_pair: A tuple of component and failure to repair.
-        :param list_of_failings: A list of tuples of component and failures which are still failing.
-        :return: The reward for the component_failure_pair. A reward of 0 states that the fix fails.
-        '''
+    def __get_reward_from_probability(self, component_failure_pair, failing_probability):
         component = component_failure_pair[0]
         failure = component_failure_pair[1]
-
-        # get the failing probability
-        failing_components = list(set([i[0] for i in list_of_failings]))
-        failing_probability = self.transition.return_failing_probability(component, failing_components)
 
         # will the fixing fail?
         if random.random() <= failing_probability:
@@ -114,3 +97,41 @@ class DataHandler:
             else:
                 sample_value = filtered.sample()[self.data.columns[2]].values[0]
             return sample_value
+
+    def get_all_component_failure_pairs(self):
+        return self.component_failure_pairs
+
+    def get_sample_component_failure_pairs(self, sample_size: int, seed=None):
+        if sample_size > len(self.component_failure_pairs):
+            print('Error: Sample size exceeds number of (component, failure) pairs.')
+        else:
+            return list(set(pd.Series(self.get_all_component_failure_pairs()).sample(sample_size, random_state=seed).tolist()))
+
+    def get_reward(self, component_failure_pair, list_of_failings) -> float:
+        '''
+        :param component_failure_pair: A tuple of component and failure to repair.
+        :param list_of_failings: A list of tuples of component and failures which are still failing.
+        :return: The reward for the component_failure_pair. A reward of 0 states that the fix fails.
+        '''
+        # get the failing probability
+        failing_components = list(set([i[0] for i in list_of_failings]))
+        failing_probability = self.transition.return_failing_probability(component_failure_pair[0], failing_components)
+
+        return self.__get_reward_from_probability(component_failure_pair, failing_probability)
+
+    def get_hidden_reward(self, component_failure_pair, list_of_failings, hidden_space_dict) -> float:
+        # get the failing probability
+        failing_components = list(set([i[0] for i in list_of_failings]))
+        failing_probability = self.transition.return_hidden_failing_probability(component_failure_pair[0], failing_components, hidden_space_dict)
+        
+        return self.__get_reward_from_probability(component_failure_pair, failing_probability)
+
+
+    def initialize_hidden_states(self, list_of_states) -> list:
+        hidden_states = []
+        hidden_state_names = ['operational', 'degraded', 'unresponsive']
+        for state in list_of_states:
+            probs = self.transition.get_initial_probabilities(state[0])
+            chosen = choice(len(hidden_state_names), 1, p=probs)[0]
+            hidden_states.append(hidden_state_names[chosen])
+        return hidden_states
