@@ -37,7 +37,7 @@ def epsilon_greedy(Q, epsilon, state):
 
 def run_single_estimator(alg, env, num_states, num_actions, episodes=1000,
                          min_explore_rate=0.1, max_explore_rate=1,
-                         learning_rate=0.2, discount_rate=0.90, trace_decay=0.9):
+                         learning_rate=0.2, discount_rate=0.90, trace_decay=0.9, env_type="normal"):
     """
 
     :param alg: Choose from 'qlearning' and 'sarsa'
@@ -46,7 +46,7 @@ def run_single_estimator(alg, env, num_states, num_actions, episodes=1000,
 
     # init Q-table
     Q = np.zeros((num_states, num_actions), dtype='float32')
-    print(f'Run {alg} with {num_states} states and {num_actions} actions.')
+    print(f'Run {alg} on {env_type} environment with {num_states} states and {num_actions} actions.')
 
     # calculate explore rate decay to hit the min_explore_rate at the last run.
     explore_rate_decay = (np.log(max_explore_rate - min_explore_rate) - np.log(min_explore_rate)) / episodes
@@ -115,13 +115,13 @@ def run_single_estimator(alg, env, num_states, num_actions, episodes=1000,
 
     env.close()
 
-    metric = TabularMetric(episodes, episode_lengths, episode_rewards, episode_explore_rates, learning_rate, discount_rate, trace_decay)
+    metric = TabularMetric(episodes, episode_lengths, episode_rewards, episode_explore_rates, learning_rate, discount_rate, trace_decay, env_type)
     return metric
 
 
 def run_double_estimator(alg, env, num_states, num_actions, episodes=1000,
                          min_explore_rate=0.05, max_explore_rate=1,
-                         learning_rate=0.2, discount_rate=0.90, trace_decay=0.9):
+                         learning_rate=0.2, discount_rate=0.90, trace_decay=0.9, env_type="normal"):
     """
 
     :param alg: Choose from 'qlearning' and 'sarsa'
@@ -198,7 +198,7 @@ def run_double_estimator(alg, env, num_states, num_actions, episodes=1000,
 
     env.close()
 
-    metrics = TabularMetric(episodes, episode_lengths, episode_rewards, episode_explore_rates, learning_rate, discount_rate, trace_decay)
+    metrics = TabularMetric(episodes, episode_lengths, episode_rewards, episode_explore_rates, learning_rate, discount_rate, trace_decay, env_type)
     return metrics
 
 

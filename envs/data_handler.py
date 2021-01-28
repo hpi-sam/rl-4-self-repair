@@ -28,11 +28,14 @@ class DataHandler:
         '''
 
         self.environment, self.filename = check_environment(data_generation, take_component_id, transformation, distinguishable)
-        self.transition = Transition(transition_matrix_path)
+        self.transition = self.create_transition(transition_matrix_path)
         self.data: pd.DataFrame = pd.DataFrame()
         self.component_failure_pairs = []
         self.__load_data()
         self.__create_component_failure_pairs()
+
+    def create_transition(self, path: str):
+        return Transition(path)
 
     def __load_transform_data(self) -> None:
         frames = []

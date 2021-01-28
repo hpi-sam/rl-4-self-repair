@@ -8,7 +8,7 @@ def plot_episode_length_over_time_tabular(ax, metric, smoothing_window=10):
     ax.plot(lengths_smoothed)
     ax.set_xlabel('Episode')
     # ax.set_ylabel('Episode Length')
-    ax.set_title(f'Length over Time LR:{metric.learning_rate} DR:{metric.discount_rate} TD:{metric.trace_decay}')
+    ax.set_title(f'Length over Time LR:{metric.learning_rate} DR:{metric.discount_rate} TD:{metric.trace_decay} Env: {metric.env_type}')
 
 
 def plot_episode_reward_over_time_tabular(ax, metric, smoothing_window=10):
@@ -17,7 +17,7 @@ def plot_episode_reward_over_time_tabular(ax, metric, smoothing_window=10):
     ax.plot(rewards_smoothed)
     ax.set_xlabel('Episode')
     # ax.set_ylabel(f'Episode Reward (Smoothed {smoothing_window})')
-    ax.set_title(f'Reward over Time LR:{metric.learning_rate} DR:{metric.discount_rate} TD:{metric.trace_decay}')
+    ax.set_title(f'Reward over Time LR:{metric.learning_rate} DR:{metric.discount_rate} TD:{metric.trace_decay} Env: {metric.env_type}')
 
     
 def scatter_episode_length_over_time_tabular(ax, metric):
@@ -26,7 +26,7 @@ def scatter_episode_length_over_time_tabular(ax, metric):
     ax.scatter(range(metric.episodes), metric.episode_lengths, alpha=1)
     ax.set_xlabel('Episode')
     ax.set_ylabel('Episode Length')
-    ax.set_title(f'Length over Time LR:{metric.learning_rate} DR:{metric.discount_rate} TD:{metric.trace_decay}')
+    ax.set_title(f'Length over Time LR:{metric.learning_rate} DR:{metric.discount_rate} TD:{metric.trace_decay} Env: {metric.env_type}')
 
 
 def scatter_episode_reward_over_time_tabular(ax, metric):
@@ -35,7 +35,7 @@ def scatter_episode_reward_over_time_tabular(ax, metric):
     #ax.scatter(range(metric.episodes), metric.rewards, alpha=0.3)
     ax.set_xlabel('Episode')
     ax.set_ylabel(f'Episode Reward')
-    ax.set_title(f'Reward over Time LR:{metric.learning_rate} DR:{metric.discount_rate} TD:{metric.trace_decay}')
+    ax.set_title(f'Reward over Time LR:{metric.learning_rate} DR:{metric.discount_rate} TD:{metric.trace_decay} Env: {metric.env_type}')
 
 
 def plot_episode_length_over_time_A2C(ax, metric, smoothing_window=10):

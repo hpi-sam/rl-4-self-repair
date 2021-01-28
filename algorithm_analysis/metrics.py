@@ -25,6 +25,7 @@ class TabularMetric:
     learning_rate: float
     discount_rate: float
     trace_decay: float
+    env_type: str
         
         
 @dataclass(frozen=True)

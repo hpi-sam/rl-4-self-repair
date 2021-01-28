@@ -2,7 +2,8 @@ import numpy as np
 from hmmlearn import hmm
 from matplotlib import pyplot as plt
 import pandas as pd
-
+from datetime import datetime
+from scipy.optimize import curve_fit as curve_fit
 class HMMTrace:
 
     def __init__(self, iterations: int=5, sample_length: int=10000):
@@ -117,11 +118,13 @@ class HMMTrace:
         self.model.startprob_ = np.array(startprob)
         self.model.transmat_ = T_complete
         self.model.features = 19 * 3
+        self.model.n_features = 19 * 3
 
         self.model.means_ = O_complete
         covar = 0.1 ** 323
-        self.model.covars_ = np.tile([covar], 3 * 19)
+        self.model.covars_ = np.tile([covar], 3 * 19)        
 
+    def create_approx_transmat(self):
         self.trace, self.probs = self.model.sample(self.sample_length)
         self.trace = np.round(self.trace, 8)
         self.discrete_trace = self.create_discrete_trace()
@@ -166,4 +169,78 @@ class HMMTrace:
 
     def write_transition_matrix(self, path: str='transition_approx.csv'):
         df = pd.DataFrame(self.approx_transmat, index=self.names, columns=self.names)
+        df.to_csv(path, index_label="Sources")
+
+    def time_samples(self, n_samples):
+        startprob_cdf = np.cumsum(self.model.startprob_)
+        transmat_cdf = np.cumsum(self.model.transmat_, axis = 1)
+
+        now = datetime.now()
+        timestamp = datetime.timestamp(now)
+
+        currstate = (startprob_cdf > np.random.rand()).argmax()
+        state_sequence = [currstate]
+        timestamp_sequence = []
+        X = [self.model._generate_sample_from_state(currstate)]
+
+        for t in range(n_samples - 1):
+            oldstate = currstate
+            currstate = (transmat_cdf[currstate] > np.random.rand()).argmax()
+            state_sequence.append(currstate)
+            X.append(self.model._generate_sample_from_state(currstate))
+
+            old_timestamp = timestamp      
+            now = datetime.now()
+            timestamp = datetime.timestamp(now)
+
+            timestamp_sequence.append((oldstate, currstate, timestamp - old_timestamp))
+
+        return timestamp_sequence
+
+    def get_time_samples(self, n_traces, length):
+        time_samples = [[[] for col in range(19 * 3)] for row in range(19 * 3)]
+        for i in range(n_traces):
+            samples = self.time_samples(length)
+            for orig, dest, time in samples:
+                time_samples[orig][dest].append(time)
+        return time_samples
+
+    def create_transition_rate_matrix(self, n_traces, length):
+        time_samples = self.get_time_samples(n_traces, length)
+        rates = [[-1 for col in range(19 * 3)] for row in range(19 * 3)]
+        for i in range(len(time_samples)):
+            for j in range(len(time_samples[i])):
+                    samples = sorted(time_samples[i][j])
+                    length = len(samples)
+                    if length == 0:
+                        rates[i][j] = 0
+                        continue
+                    if length == 1:
+                        rates[i][j] = samples[0]
+                        continue            
+                    num_range = [samples[0], samples[-1]]
+                    x = np.array([])
+                    y = np.array([])
+                    for k in range(length):
+                        x = np.append(x, samples[k])
+                        y = np.append(y, k / length)
+                    opt = curve_fit(lambda t, a: 1.0 - np.exp(-a * t), x, y)
+                    lam = opt[0][0]
+                    compare_x = np.array([])
+                    compare_y = np.array([])
+                    num_samples = 100
+                    for k in range(num_samples):
+                        x_sample = num_range[0] + (num_range[1] - num_range[0]) * k / (num_samples - 1)
+                        y_sample = 1.0 - np.exp(-lam * x_sample)
+                        compare_x = np.append(compare_x, x_sample)
+                        compare_y = np.append(compare_y, y_sample)
+                    if i == 0 and j == 36:
+                        print(lam)
+                        plt.plot(x, y)
+                        plt.plot(compare_x, compare_y)
+                    rates[i][j] = lam
+        self.transition_rate_matrix = rates        
+
+    def write_transition_rate_matrix(self, path: str='transition_rates_approx.csv'):
+        df = pd.DataFrame(self.transition_rate_matrix, index=self.names, columns=self.names)
         df.to_csv(path, index_label="Sources")
